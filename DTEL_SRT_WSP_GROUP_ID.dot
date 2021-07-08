@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_WSP_GROUP_ID" [shape=box,color=yellow];
-  "DOMA-SRT_WSP_GROUP_ID" [shape=box,color=yellow,URL="./DOMA_SRT_WSP_GROUP_ID.html"];
-  "DTEL-SRT_WSP_GROUP_ID" -> "DOMA-SRT_WSP_GROUP_ID";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MAINPACK" [shape=box,color=yellow];
-  "DOMA-MAINPACK" [shape=box,color=yellow,URL="./DOMA_MAINPACK.html"];
-  "DTEL-MAINPACK" -> "DOMA-MAINPACK";
-}

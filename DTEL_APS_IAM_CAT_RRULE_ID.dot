@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_CAT_RRULE_ID" [shape=box,color=yellow];
-  "DOMA-APS_IAM_CAT_RRULE_ID" [shape=box,color=yellow,URL="./DOMA_APS_IAM_CAT_RRULE_ID.html"];
-  "DTEL-APS_IAM_CAT_RRULE_ID" -> "DOMA-APS_IAM_CAT_RRULE_ID";
-}

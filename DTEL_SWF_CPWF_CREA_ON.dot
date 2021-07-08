@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_CPWF_CREA_ON" [shape=box,color=yellow];
-  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
-  "DTEL-SWF_CPWF_CREA_ON" -> "DOMA-TZNTSTMPL";
-}

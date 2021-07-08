@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XUNCODE" [shape=box,color=yellow];
-  "DOMA-XUBCODE" [shape=box,color=yellow,URL="./DOMA_XUBCODE.html"];
-  "DTEL-XUNCODE" -> "DOMA-XUBCODE";
-}

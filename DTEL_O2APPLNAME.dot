@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-O2APPLNAME" [shape=box,color=yellow];
-  "DOMA-O2APPLNAME" [shape=box,color=yellow,URL="./DOMA_O2APPLNAME.html"];
-  "DTEL-O2APPLNAME" -> "DOMA-O2APPLNAME";
-}

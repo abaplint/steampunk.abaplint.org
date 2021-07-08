@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_VALTO" [shape=box,color=yellow];
-  "DOMA-TIMESTAMP" [shape=box,color=yellow,URL="./DOMA_TIMESTAMP.html"];
-  "DTEL-AD_VALTO" -> "DOMA-TIMESTAMP";
-}

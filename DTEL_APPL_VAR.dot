@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APPL_VAR" [shape=box,color=green];
-  "DOMA-SWC_VALUE" [shape=box,color=yellow,URL="./DOMA_SWC_VALUE.html"];
-  "DTEL-APPL_VAR" -> "DOMA-SWC_VALUE";
-}

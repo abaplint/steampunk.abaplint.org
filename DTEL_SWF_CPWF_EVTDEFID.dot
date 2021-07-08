@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_CPWF_EVTDEFID" [shape=box,color=yellow];
-  "DOMA-TEXT64" [shape=box,color=yellow,URL="./DOMA_TEXT64.html"];
-  "DTEL-SWF_CPWF_EVTDEFID" -> "DOMA-TEXT64";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_CPWF_RUNID" [shape=box,color=yellow];
-  "DOMA-SWF_CPWF_RUNID" [shape=box,color=yellow,URL="./DOMA_SWF_CPWF_RUNID.html"];
-  "DTEL-SWF_CPWF_RUNID" -> "DOMA-SWF_CPWF_RUNID";
-}

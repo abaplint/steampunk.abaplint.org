@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CA_INBOUND_STATUS" [shape=box,color=yellow];
-  "DOMA-APS_CA_INBOUND_STATUS" [shape=box,color=yellow,URL="./DOMA_APS_CA_INBOUND_STATUS.html"];
-  "DTEL-APS_CA_INBOUND_STATUS" -> "DOMA-APS_CA_INBOUND_STATUS";
-}

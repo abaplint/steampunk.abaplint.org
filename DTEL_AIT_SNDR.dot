@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AIT_SNDR" [shape=box,color=yellow];
-  "DOMA-AIT_SYSTEM" [shape=box,color=yellow,URL="./DOMA_AIT_SYSTEM.html"];
-  "DTEL-AIT_SNDR" -> "DOMA-AIT_SYSTEM";
-}

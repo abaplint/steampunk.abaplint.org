@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CLS_ATTRIBUTE_VALUE" [shape=box,color=yellow];
-  "DOMA-CLS_ATTRIBUTE_VALUE" [shape=box,color=yellow,URL="./DOMA_CLS_ATTRIBUTE_VALUE.html"];
-  "DTEL-CLS_ATTRIBUTE_VALUE" -> "DOMA-CLS_ATTRIBUTE_VALUE";
-}

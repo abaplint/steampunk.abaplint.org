@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_CDS_SHORT_DESCRIPTION" [shape=box,color=yellow];
-  "DOMA-DDTEXT" [shape=box,color=yellow,URL="./DOMA_DDTEXT.html"];
-  "DTEL-SXCO_CDS_SHORT_DESCRIPTION" -> "DOMA-DDTEXT";
-}

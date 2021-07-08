@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DBCON_NAME" [shape=box,color=yellow];
-  "DOMA-DBCON_NAME" [shape=box,color=yellow,URL="./DOMA_DBCON_NAME.html"];
-  "DTEL-DBCON_NAME" -> "DOMA-DBCON_NAME";
-}

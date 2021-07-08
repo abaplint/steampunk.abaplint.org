@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-KABBR" [shape=box,color=yellow];
-  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
-  "DTEL-KABBR" -> "DOMA-CHAR1";
-}

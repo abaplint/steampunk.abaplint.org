@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYMSGNO" [shape=box,color=green];
-  "DOMA-SYMSGNO" [shape=box,color=yellow,URL="./DOMA_SYMSGNO.html"];
-  "DTEL-SYMSGNO" -> "DOMA-SYMSGNO";
-}

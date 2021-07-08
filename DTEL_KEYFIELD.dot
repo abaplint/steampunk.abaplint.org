@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-KEYFIELD" [shape=box,color=yellow];
-  "DOMA-KEYFDNAME" [shape=box,color=yellow,URL="./DOMA_KEYFDNAME.html"];
-  "DTEL-KEYFIELD" -> "DOMA-KEYFDNAME";
-}

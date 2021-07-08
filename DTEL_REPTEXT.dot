@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-REPTEXT" [shape=box,color=yellow];
-  "DOMA-REPTEXT" [shape=box,color=yellow,URL="./DOMA_REPTEXT.html"];
-  "DTEL-REPTEXT" -> "DOMA-REPTEXT";
-}

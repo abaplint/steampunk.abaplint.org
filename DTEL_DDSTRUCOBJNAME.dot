@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDSTRUCOBJNAME" [shape=box,color=yellow];
-  "DOMA-DDSTRUCOBJNAME" [shape=box,color=yellow,URL="./DOMA_DDSTRUCOBJNAME.html"];
-  "DTEL-DDSTRUCOBJNAME" -> "DOMA-DDSTRUCOBJNAME";
-}

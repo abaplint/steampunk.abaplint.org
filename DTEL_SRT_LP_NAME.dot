@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_LP_NAME" [shape=box,color=yellow];
-  "DOMA-SRT_LP_CHAR60" [shape=box,color=yellow,URL="./DOMA_SRT_LP_CHAR60.html"];
-  "DTEL-SRT_LP_NAME" -> "DOMA-SRT_LP_CHAR60";
-}

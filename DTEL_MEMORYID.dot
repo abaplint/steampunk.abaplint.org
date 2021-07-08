@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MEMORYID" [shape=box,color=yellow];
-  "DOMA-MEMORYID" [shape=box,color=yellow,URL="./DOMA_MEMORYID.html"];
-  "DTEL-MEMORYID" -> "DOMA-MEMORYID";
-}

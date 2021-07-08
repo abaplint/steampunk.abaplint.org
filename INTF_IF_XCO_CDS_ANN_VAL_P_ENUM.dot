@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_XCO_CDS_ANN_VAL_P_ENUM" [shape=box,color=green];
-  "INTF-IF_XCO_CDS_ANN_VAL_PRIMITIVE" [shape=box,color=green,URL="./INTF_IF_XCO_CDS_ANN_VAL_PRIMITIVE.html"];
-  "INTF-IF_XCO_CDS_ANN_VAL_P_ENUM" -> "INTF-IF_XCO_CDS_ANN_VAL_PRIMITIVE";
-}

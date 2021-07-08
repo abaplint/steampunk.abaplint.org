@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_XCO_CP_GEN_FUGR_S_DELETE" [shape=box,color=green];
-  "DTEL-SXCO_FM_NAME" [shape=box,color=green,URL="./DTEL_SXCO_FM_NAME.html"];
-  "INTF-IF_XCO_CP_GEN_FUGR_S_DELETE" -> "DTEL-SXCO_FM_NAME";
-}

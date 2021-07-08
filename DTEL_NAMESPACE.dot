@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NAMESPACE" [shape=box,color=yellow];
-  "DOMA-NAMESPACE" [shape=box,color=yellow,URL="./DOMA_NAMESPACE.html"];
-  "DTEL-NAMESPACE" -> "DOMA-NAMESPACE";
-}

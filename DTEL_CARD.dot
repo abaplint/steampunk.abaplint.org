@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CARD" [shape=box,color=yellow];
-  "DOMA-CARD" [shape=box,color=yellow,URL="./DOMA_CARD.html"];
-  "DTEL-CARD" -> "DOMA-CARD";
-}

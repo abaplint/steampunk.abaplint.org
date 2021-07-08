@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/UI2/ADMIN_MODIFIED_ON" [shape=box,color=yellow];
-  "DOMA-TZNTSTMPS" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPS.html"];
-  "DTEL-/UI2/ADMIN_MODIFIED_ON" -> "DOMA-TZNTSTMPS";
-}

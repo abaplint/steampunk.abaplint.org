@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SEOVALUE" [shape=box,color=yellow];
-  "DOMA-TEXT132" [shape=box,color=yellow,URL="./DOMA_TEXT132.html"];
-  "DTEL-SEOVALUE" -> "DOMA-TEXT132";
-}

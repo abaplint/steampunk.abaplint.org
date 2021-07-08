@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-RAP_CP_ODATA_V2_EDM_DATETIME" [shape=box,color=green];
-  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
-  "DTEL-RAP_CP_ODATA_V2_EDM_DATETIME" -> "DOMA-TZNTSTMPL";
-}

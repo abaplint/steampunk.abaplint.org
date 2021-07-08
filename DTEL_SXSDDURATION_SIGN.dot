@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXSDDURATION_SIGN" [shape=box,color=yellow];
-  "DOMA-SXSDDURATION_SIGN" [shape=box,color=yellow,URL="./DOMA_SXSDDURATION_SIGN.html"];
-  "DTEL-SXSDDURATION_SIGN" -> "DOMA-SXSDDURATION_SIGN";
-}

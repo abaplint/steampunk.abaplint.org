@@ -1,5 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_FM_NAMES" [shape=box,color=green];
-  "DTEL-SXCO_FM_NAME" [shape=box,color=green,URL="./DTEL_SXCO_FM_NAME.html"];
-  "TTYP-SXCO_T_FM_NAMES" -> "DTEL-SXCO_FM_NAME";
-}

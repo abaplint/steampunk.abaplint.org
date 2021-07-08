@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYST_LANGU" [shape=box,color=yellow];
-  "DOMA-SYLANGU" [shape=box,color=yellow,URL="./DOMA_SYLANGU.html"];
-  "DTEL-SYST_LANGU" -> "DOMA-SYLANGU";
-}

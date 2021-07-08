@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_SEQUENCE_ID" [shape=box,color=yellow];
-  "DOMA-SRT_SEQUENCE_QUEUE_IDENT" [shape=box,color=yellow,URL="./DOMA_SRT_SEQUENCE_QUEUE_IDENT.html"];
-  "DTEL-SRT_SEQUENCE_ID" -> "DOMA-SRT_SEQUENCE_QUEUE_IDENT";
-}

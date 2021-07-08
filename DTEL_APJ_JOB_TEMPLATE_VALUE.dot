@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APJ_JOB_TEMPLATE_VALUE" [shape=box,color=yellow];
-  "DOMA-APJ_JOB_TEMPLATE_VALUE" [shape=box,color=yellow,URL="./DOMA_APJ_JOB_TEMPLATE_VALUE.html"];
-  "DTEL-APJ_JOB_TEMPLATE_VALUE" -> "DOMA-APJ_JOB_TEMPLATE_VALUE";
-}

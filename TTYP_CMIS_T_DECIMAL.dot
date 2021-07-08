@@ -1,5 +1,0 @@
-digraph G {
-  "TTYP-CMIS_T_DECIMAL" [shape=box,color=green];
-  "DTEL-CMIS_DECIMAL" [shape=box,color=green,URL="./DTEL_CMIS_DECIMAL.html"];
-  "TTYP-CMIS_T_DECIMAL" -> "DTEL-CMIS_DECIMAL";
-}

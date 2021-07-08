@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-OA2C_GRANTTYPE" [shape=box,color=yellow];
-  "DOMA-OA2C_GRANTTYPE" [shape=box,color=yellow,URL="./DOMA_OA2C_GRANTTYPE.html"];
-  "DTEL-OA2C_GRANTTYPE" -> "DOMA-OA2C_GRANTTYPE";
-}

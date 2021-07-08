@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-COMPTYPE" [shape=box,color=yellow];
-  "DOMA-COMPTYPE" [shape=box,color=yellow,URL="./DOMA_COMPTYPE.html"];
-  "DTEL-COMPTYPE" -> "DOMA-COMPTYPE";
-}

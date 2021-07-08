@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_IS_UNIQUE" [shape=box,color=yellow];
-  "DOMA-X" [shape=box,color=yellow,URL="./DOMA_X.html"];
-  "DTEL-APS_COM_CSCN_IS_UNIQUE" -> "DOMA-X";
-}

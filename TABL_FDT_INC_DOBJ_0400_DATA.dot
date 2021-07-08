@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-FDT_INC_DOBJ_0400_DATA" [shape=box,color=yellow];
-  "DTEL-FDT_GDT_TYPE" [shape=box,color=yellow,URL="./DTEL_FDT_GDT_TYPE.html"];
-  "DOMA-FDT_GDT_TYPE" [shape=box,color=yellow,URL="./DOMA_FDT_GDT_TYPE.html"];
-  "TABL-FDT_INC_DOBJ_0400_DATA" -> "DTEL-FDT_GDT_TYPE";
-  "DTEL-FDT_GDT_TYPE" -> "DOMA-FDT_GDT_TYPE";
-}

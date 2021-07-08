@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AKTBJAHR" [shape=box,color=yellow];
-  "DOMA-GJAHR" [shape=box,color=yellow,URL="./DOMA_GJAHR.html"];
-  "DTEL-AKTBJAHR" -> "DOMA-GJAHR";
-}

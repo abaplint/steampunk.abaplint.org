@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SAML2_BINDING_STRING" [shape=box,color=yellow];
-  "DOMA-SAML2_BINDING_STRING" [shape=box,color=yellow,URL="./DOMA_SAML2_BINDING_STRING.html"];
-  "DTEL-SAML2_BINDING_STRING" -> "DOMA-SAML2_BINDING_STRING";
-}

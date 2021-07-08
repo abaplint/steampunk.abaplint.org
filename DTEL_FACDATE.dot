@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FACDATE" [shape=box,color=yellow];
-  "DOMA-HFDATE" [shape=box,color=yellow,URL="./DOMA_HFDATE.html"];
-  "DTEL-FACDATE" -> "DOMA-HFDATE";
-}

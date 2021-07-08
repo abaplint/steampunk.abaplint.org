@@ -1,5 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_AMDP_DB_ENTITIES" [shape=box,color=green];
-  "DTEL-SXCO_AMDP_DB_ENTITY" [shape=box,color=green,URL="./DTEL_SXCO_AMDP_DB_ENTITY.html"];
-  "TTYP-SXCO_T_AMDP_DB_ENTITIES" -> "DTEL-SXCO_AMDP_DB_ENTITY";
-}

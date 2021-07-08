@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_APLO_OBJECT_NAME" [shape=box,color=green];
-  "DOMA-BALOBJ" [shape=box,color=yellow,URL="./DOMA_BALOBJ.html"];
-  "DTEL-SXCO_APLO_OBJECT_NAME" -> "DOMA-BALOBJ";
-}

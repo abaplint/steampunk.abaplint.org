@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_CPWF_CONSUMER" [shape=box,color=green];
-  "DOMA-SWF_CPWF_CONSUMER" [shape=box,color=yellow,URL="./DOMA_SWF_CPWF_CONSUMER.html"];
-  "DTEL-SWF_CPWF_CONSUMER" -> "DOMA-SWF_CPWF_CONSUMER";
-}

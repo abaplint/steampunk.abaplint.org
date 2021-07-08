@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_NAMTEXT" [shape=box,color=yellow];
-  "DOMA-TEXT80" [shape=box,color=yellow,URL="./DOMA_TEXT80.html"];
-  "DTEL-AD_NAMTEXT" -> "DOMA-TEXT80";
-}

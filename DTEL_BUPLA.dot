@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BUPLA" [shape=box,color=green];
-  "DOMA-J_1BBRANCH" [shape=box,color=yellow,URL="./DOMA_J_1BBRANCH.html"];
-  "DTEL-BUPLA" -> "DOMA-J_1BBRANCH";
-}

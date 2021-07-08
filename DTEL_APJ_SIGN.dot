@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APJ_SIGN" [shape=box,color=yellow];
-  "DOMA-APJ_SIGN" [shape=box,color=yellow,URL="./DOMA_APJ_SIGN.html"];
-  "DTEL-APJ_SIGN" -> "DOMA-APJ_SIGN";
-}

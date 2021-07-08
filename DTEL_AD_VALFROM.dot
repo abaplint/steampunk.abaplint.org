@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_VALFROM" [shape=box,color=yellow];
-  "DOMA-TIMESTMP" [shape=box,color=yellow,URL="./DOMA_TIMESTMP.html"];
-  "DTEL-AD_VALFROM" -> "DOMA-TIMESTMP";
-}

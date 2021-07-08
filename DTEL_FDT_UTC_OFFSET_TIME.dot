@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_UTC_OFFSET_TIME" [shape=box,color=yellow];
-  "DOMA-FDT_UTC_OFFSET_TIME" [shape=box,color=yellow,URL="./DOMA_FDT_UTC_OFFSET_TIME.html"];
-  "DTEL-FDT_UTC_OFFSET_TIME" -> "DOMA-FDT_UTC_OFFSET_TIME";
-}

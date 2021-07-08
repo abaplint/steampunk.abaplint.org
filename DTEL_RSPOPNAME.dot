@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-RSPOPNAME" [shape=box,color=yellow];
-  "DOMA-RSPOPNAME" [shape=box,color=yellow,URL="./DOMA_RSPOPNAME.html"];
-  "DTEL-RSPOPNAME" -> "DOMA-RSPOPNAME";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXMSPMSTAT" [shape=box,color=yellow];
-  "DOMA-SXMSPMSTAT" [shape=box,color=yellow,URL="./DOMA_SXMSPMSTAT.html"];
-  "DTEL-SXMSPMSTAT" -> "DOMA-SXMSPMSTAT";
-}

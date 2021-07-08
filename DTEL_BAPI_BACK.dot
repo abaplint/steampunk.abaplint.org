@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_BACK" [shape=box,color=green];
-  "DOMA-SWC_BOOL" [shape=box,color=yellow,URL="./DOMA_SWC_BOOL.html"];
-  "DTEL-BAPI_BACK" -> "DOMA-SWC_BOOL";
-}

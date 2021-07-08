@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_PROPERTY_NAME" [shape=box,color=yellow];
-  "DOMA-CHAR30" [shape=box,color=green,URL="./DOMA_CHAR30.html"];
-  "DTEL-APS_COM_CSCN_PROPERTY_NAME" -> "DOMA-CHAR30";
-}

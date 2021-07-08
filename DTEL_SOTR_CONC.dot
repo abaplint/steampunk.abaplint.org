@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SOTR_CONC" [shape=box,color=yellow];
-  "DOMA-SYSUUID_C" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C.html"];
-  "DTEL-SOTR_CONC" -> "DOMA-SYSUUID_C";
-}

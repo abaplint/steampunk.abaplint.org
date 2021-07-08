@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-KURZT" [shape=box,color=yellow];
-  "DOMA-TEXT2" [shape=box,color=yellow,URL="./DOMA_TEXT2.html"];
-  "DTEL-KURZT" -> "DOMA-TEXT2";
-}

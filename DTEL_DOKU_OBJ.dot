@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DOKU_OBJ" [shape=box,color=yellow];
-  "DOMA-DOKU_OBJ" [shape=box,color=yellow,URL="./DOMA_DOKU_OBJ.html"];
-  "DTEL-DOKU_OBJ" -> "DOMA-DOKU_OBJ";
-}

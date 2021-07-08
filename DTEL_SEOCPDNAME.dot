@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SEOCPDNAME" [shape=box,color=yellow];
-  "DOMA-CHAR61" [shape=box,color=yellow,URL="./DOMA_CHAR61.html"];
-  "DTEL-SEOCPDNAME" -> "DOMA-CHAR61";
-}

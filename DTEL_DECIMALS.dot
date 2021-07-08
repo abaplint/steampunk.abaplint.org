@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DECIMALS" [shape=box,color=yellow];
-  "DOMA-DDLENG" [shape=box,color=yellow,URL="./DOMA_DDLENG.html"];
-  "DTEL-DECIMALS" -> "DOMA-DDLENG";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_SERIAL_VERS" [shape=box,color=yellow];
-  "DOMA-SRT_SERIAL_VERS" [shape=box,color=yellow,URL="./DOMA_SRT_SERIAL_VERS.html"];
-  "DTEL-SRT_SERIAL_VERS" -> "DOMA-SRT_SERIAL_VERS";
-}

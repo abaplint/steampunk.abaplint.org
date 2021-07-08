@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-USOBTYPE" [shape=box,color=yellow];
-  "DOMA-USOBTYPE" [shape=box,color=yellow,URL="./DOMA_USOBTYPE.html"];
-  "DTEL-USOBTYPE" -> "DOMA-USOBTYPE";
-}

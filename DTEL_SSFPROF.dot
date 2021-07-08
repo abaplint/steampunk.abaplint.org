@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SSFPROF" [shape=box,color=yellow];
-  "DOMA-TEXT132" [shape=box,color=yellow,URL="./DOMA_TEXT132.html"];
-  "DTEL-SSFPROF" -> "DOMA-TEXT132";
-}

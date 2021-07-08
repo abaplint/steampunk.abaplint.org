@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDTABTYPE" [shape=box,color=yellow];
-  "DOMA-DDFLAG" [shape=box,color=yellow,URL="./DOMA_DDFLAG.html"];
-  "DTEL-DDTABTYPE" -> "DOMA-DDFLAG";
-}

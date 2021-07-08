@@ -1,5 +1,0 @@
-digraph G {
-  "TABL-APS_COM_S_CSCNSI" [shape=box,color=yellow];
-  "DTEL-APS_COM_CSCN_SERVICE_INTERFACE" [shape=box,color=yellow,URL="./DTEL_APS_COM_CSCN_SERVICE_INTERFACE.html"];
-  "TABL-APS_COM_S_CSCNSI" -> "DTEL-APS_COM_CSCN_SERVICE_INTERFACE";
-}

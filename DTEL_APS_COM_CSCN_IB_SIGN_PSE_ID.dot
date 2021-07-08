@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_IB_SIGN_PSE_ID" [shape=box,color=yellow];
-  "DOMA-SSF_PSE_ID" [shape=box,color=yellow,URL="./DOMA_SSF_PSE_ID.html"];
-  "DTEL-APS_COM_CSCN_IB_SIGN_PSE_ID" -> "DOMA-SSF_PSE_ID";
-}

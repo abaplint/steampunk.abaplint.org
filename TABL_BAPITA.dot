@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-BAPITA" [shape=box,color=green];
-  "DTEL-BAPIWAIT" [shape=box,color=green,URL="./DTEL_BAPIWAIT.html"];
-  "DOMA-BAPIFLAG" [shape=box,color=green,URL="./DOMA_BAPIFLAG.html"];
-  "TABL-BAPITA" -> "DTEL-BAPIWAIT";
-  "DTEL-BAPIWAIT" -> "DOMA-BAPIFLAG";
-}

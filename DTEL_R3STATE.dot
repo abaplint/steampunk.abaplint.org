@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-R3STATE" [shape=box,color=yellow];
-  "DOMA-R3STATE" [shape=box,color=yellow,URL="./DOMA_R3STATE.html"];
-  "DTEL-R3STATE" -> "DOMA-R3STATE";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_BROLE_FIORI_SPACE_PFCG" [shape=box,color=yellow];
-  "DOMA-AGR_NAME" [shape=box,color=yellow,URL="./DOMA_AGR_NAME.html"];
-  "DTEL-APS_IAM_BROLE_FIORI_SPACE_PFCG" -> "DOMA-AGR_NAME";
-}

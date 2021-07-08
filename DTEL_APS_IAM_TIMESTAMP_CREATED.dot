@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_TIMESTAMP_CREATED" [shape=box,color=yellow];
-  "DOMA-TZNTSTMPS" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPS.html"];
-  "DTEL-APS_IAM_TIMESTAMP_CREATED" -> "DOMA-TZNTSTMPS";
-}

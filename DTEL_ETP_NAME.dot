@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ETP_NAME" [shape=box,color=yellow];
-  "DOMA-CHAR30" [shape=box,color=green,URL="./DOMA_CHAR30.html"];
-  "DTEL-ETP_NAME" -> "DOMA-CHAR30";
-}

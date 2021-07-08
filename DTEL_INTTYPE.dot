@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-INTTYPE" [shape=box,color=yellow];
-  "DOMA-INTTYPE" [shape=box,color=yellow,URL="./DOMA_INTTYPE.html"];
-  "DTEL-INTTYPE" -> "DOMA-INTTYPE";
-}

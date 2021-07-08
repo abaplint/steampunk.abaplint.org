@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SAML2_NAMEID_KEY" [shape=box,color=yellow];
-  "DOMA-SAML2_NAMEID_KEY" [shape=box,color=yellow,URL="./DOMA_SAML2_NAMEID_KEY.html"];
-  "DTEL-SAML2_NAMEID_KEY" -> "DOMA-SAML2_NAMEID_KEY";
-}

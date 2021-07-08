@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AUFTYP" [shape=box,color=green];
-  "DOMA-AUFTYP" [shape=box,color=yellow,URL="./DOMA_AUFTYP.html"];
-  "DTEL-AUFTYP" -> "DOMA-AUFTYP";
-}

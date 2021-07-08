@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_ALL_USERS" [shape=box,color=green];
-  "DOMA-ABAP_BOOLEAN" [shape=box,color=green,URL="./DOMA_ABAP_BOOLEAN.html"];
-  "DTEL-SWF_ALL_USERS" -> "DOMA-ABAP_BOOLEAN";
-}

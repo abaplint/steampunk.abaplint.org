@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MAINTFLAG" [shape=box,color=yellow];
-  "DOMA-MAINTFLAG" [shape=box,color=yellow,URL="./DOMA_MAINTFLAG.html"];
-  "DTEL-MAINTFLAG" -> "DOMA-MAINTFLAG";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CS_OUTBOUND_CTF_TEXT" [shape=box,color=yellow];
-  "DOMA-STRUSTAPPL" [shape=box,color=yellow,URL="./DOMA_STRUSTAPPL.html"];
-  "DTEL-APS_CS_OUTBOUND_CTF_TEXT" -> "DOMA-STRUSTAPPL";
-}

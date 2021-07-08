@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-MATCH_RESULT" [shape=box,color=green];
-  "TTYP-SUBMATCH_RESULT_TAB" [shape=box,color=green,URL="./TTYP_SUBMATCH_RESULT_TAB.html"];
-  "TABL-SUBMATCH_RESULT" [shape=box,color=green,URL="./TABL_SUBMATCH_RESULT.html"];
-  "TABL-MATCH_RESULT" -> "TTYP-SUBMATCH_RESULT_TAB";
-  "TTYP-SUBMATCH_RESULT_TAB" -> "TABL-SUBMATCH_RESULT";
-}

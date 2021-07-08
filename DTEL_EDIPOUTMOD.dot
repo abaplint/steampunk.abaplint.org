@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-EDIPOUTMOD" [shape=box,color=yellow];
-  "DOMA-EDI_OUTMOD" [shape=box,color=yellow,URL="./DOMA_EDI_OUTMOD.html"];
-  "DTEL-EDIPOUTMOD" -> "DOMA-EDI_OUTMOD";
-}

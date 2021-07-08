@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDOBTEXT" [shape=box,color=yellow];
-  "DOMA-TEXT60" [shape=box,color=yellow,URL="./DOMA_TEXT60.html"];
-  "DTEL-CDOBTEXT" -> "DOMA-TEXT60";
-}

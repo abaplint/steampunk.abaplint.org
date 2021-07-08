@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-/IWBEP/IF_CP_REQUEST_DELETE" [shape=box,color=green];
-  "INTF-/IWBEP/IF_CP_REQUEST_BATCH_OP" [shape=box,color=green,URL="./INTF_%23IWBEP%23IF_CP_REQUEST_BATCH_OP.html"];
-  "INTF-/IWBEP/IF_CP_REQUEST_DELETE" -> "INTF-/IWBEP/IF_CP_REQUEST_BATCH_OP";
-}

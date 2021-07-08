@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-SUID_ST_NODE_PERSON" [shape=box,color=yellow];
-  "DTEL-BU_PARTNER_GUID" [shape=box,color=yellow,URL="./DTEL_BU_PARTNER_GUID.html"];
-  "DOMA-SYSUUID" [shape=box,color=yellow,URL="./DOMA_SYSUUID.html"];
-  "TABL-SUID_ST_NODE_PERSON" -> "DTEL-BU_PARTNER_GUID";
-  "DTEL-BU_PARTNER_GUID" -> "DOMA-SYSUUID";
-}

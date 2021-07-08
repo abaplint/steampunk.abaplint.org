@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SBO_BO_TYPE" [shape=box,color=yellow];
-  "DOMA-SBO_BO_TYPE" [shape=box,color=yellow,URL="./DOMA_SBO_BO_TYPE.html"];
-  "DTEL-SBO_BO_TYPE" -> "DOMA-SBO_BO_TYPE";
-}

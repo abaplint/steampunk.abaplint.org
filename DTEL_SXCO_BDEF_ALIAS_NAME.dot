@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_BDEF_ALIAS_NAME" [shape=box,color=green];
-  "DOMA-CHAR20" [shape=box,color=yellow,URL="./DOMA_CHAR20.html"];
-  "DTEL-SXCO_BDEF_ALIAS_NAME" -> "DOMA-CHAR20";
-}

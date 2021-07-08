@@ -1,8 +1,0 @@
-digraph G {
-  "INTF-IF_ABAP_X_WRITER" [shape=box,color=green];
-  "INTF-IF_ABAP_WRITER" [shape=box,color=green,URL="./INTF_IF_ABAP_WRITER.html"];
-  "INTF-IF_ABAP_CLOSE_RESOURCE" [shape=box,color=green,URL="./INTF_IF_ABAP_CLOSE_RESOURCE.html"];
-  "INTF-IF_ABAP_X_WRITER" -> "INTF-IF_ABAP_CLOSE_RESOURCE";
-  "INTF-IF_ABAP_X_WRITER" -> "INTF-IF_ABAP_WRITER";
-  "INTF-IF_ABAP_WRITER" -> "INTF-IF_ABAP_CLOSE_RESOURCE";
-}

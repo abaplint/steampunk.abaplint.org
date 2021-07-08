@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_SADL_EXIT_CALC_ELEMENT_READ" [shape=box,color=green];
-  "INTF-IF_SADL_EXIT" [shape=box,color=yellow,URL="./INTF_IF_SADL_EXIT.html"];
-  "INTF-IF_SADL_EXIT_CALC_ELEMENT_READ" -> "INTF-IF_SADL_EXIT";
-}

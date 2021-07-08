@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPIRELSTA" [shape=box,color=green];
-  "DOMA-SWC_BOOL" [shape=box,color=yellow,URL="./DOMA_SWC_BOOL.html"];
-  "DTEL-BAPIRELSTA" -> "DOMA-SWC_BOOL";
-}

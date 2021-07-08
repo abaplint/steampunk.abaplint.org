@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABP_BEHV_OP_MODIFY" [shape=box,color=green];
-  "DOMA-ABP_BEHV_OP_MODIFY" [shape=box,color=yellow,URL="./DOMA_ABP_BEHV_OP_MODIFY.html"];
-  "DTEL-ABP_BEHV_OP_MODIFY" -> "DOMA-ABP_BEHV_OP_MODIFY";
-}

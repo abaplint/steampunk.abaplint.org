@@ -1,7 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_TT_KEY_COMPONENTS" [shape=box,color=green];
-  "DTEL-KEYFIELD" [shape=box,color=yellow,URL="./DTEL_KEYFIELD.html"];
-  "DOMA-KEYFDNAME" [shape=box,color=yellow,URL="./DOMA_KEYFDNAME.html"];
-  "TTYP-SXCO_T_TT_KEY_COMPONENTS" -> "DTEL-KEYFIELD";
-  "DTEL-KEYFIELD" -> "DOMA-KEYFDNAME";
-}

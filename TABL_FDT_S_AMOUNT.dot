@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-FDT_S_AMOUNT" [shape=box,color=yellow];
-  "DTEL-FDT_CURRENCY" [shape=box,color=yellow,URL="./DTEL_FDT_CURRENCY.html"];
-  "DTEL-FDT_NUMBER_DECFLOAT" [shape=box,color=yellow,URL="./DTEL_FDT_NUMBER_DECFLOAT.html"];
-  "TABL-FDT_S_AMOUNT" -> "DTEL-FDT_NUMBER_DECFLOAT";
-  "TABL-FDT_S_AMOUNT" -> "DTEL-FDT_CURRENCY";
-}

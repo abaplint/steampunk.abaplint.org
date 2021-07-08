@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-KWEEK" [shape=box,color=yellow];
-  "DOMA-KWEEK" [shape=box,color=yellow,URL="./DOMA_KWEEK.html"];
-  "DTEL-KWEEK" -> "DOMA-KWEEK";
-}

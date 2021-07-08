@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWO_VMODEL" [shape=box,color=yellow];
-  "DOMA-SWO_FLGMOD" [shape=box,color=yellow,URL="./DOMA_SWO_FLGMOD.html"];
-  "DTEL-SWO_VMODEL" -> "DOMA-SWO_FLGMOD";
-}

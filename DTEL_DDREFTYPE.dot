@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDREFTYPE" [shape=box,color=yellow];
-  "DOMA-DDREFTYPE" [shape=box,color=yellow,URL="./DOMA_DDREFTYPE.html"];
-  "DTEL-DDREFTYPE" -> "DOMA-DDREFTYPE";
-}

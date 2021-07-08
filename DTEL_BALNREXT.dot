@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BALNREXT" [shape=box,color=yellow];
-  "DOMA-BALNREXT" [shape=box,color=yellow,URL="./DOMA_BALNREXT.html"];
-  "DTEL-BALNREXT" -> "DOMA-BALNREXT";
-}

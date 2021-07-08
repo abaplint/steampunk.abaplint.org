@@ -1,7 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_AO_OBJECT_NAMES" [shape=box,color=green];
-  "DTEL-SXCO_AO_OBJECT_NAME" [shape=box,color=green,URL="./DTEL_SXCO_AO_OBJECT_NAME.html"];
-  "DOMA-CHAR30" [shape=box,color=green,URL="./DOMA_CHAR30.html"];
-  "TTYP-SXCO_T_AO_OBJECT_NAMES" -> "DTEL-SXCO_AO_OBJECT_NAME";
-  "DTEL-SXCO_AO_OBJECT_NAME" -> "DOMA-CHAR30";
-}

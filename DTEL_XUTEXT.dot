@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XUTEXT" [shape=box,color=yellow];
-  "DOMA-XUTEXT" [shape=box,color=yellow,URL="./DOMA_XUTEXT.html"];
-  "DTEL-XUTEXT" -> "DOMA-XUTEXT";
-}

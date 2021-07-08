@@ -1,9 +1,0 @@
-digraph G {
-  "TTYP-CMIS_T_KEY_VALUES" [shape=box,color=green];
-  "TABL-CMIS_S_KEY_VALUES" [shape=box,color=green,URL="./TABL_CMIS_S_KEY_VALUES.html"];
-  "TTYP-CMIS_T_STRING" [shape=box,color=green,URL="./TTYP_CMIS_T_STRING.html"];
-  "DTEL-CMIS_STRING" [shape=box,color=green,URL="./DTEL_CMIS_STRING.html"];
-  "TTYP-CMIS_T_KEY_VALUES" -> "TABL-CMIS_S_KEY_VALUES";
-  "TABL-CMIS_S_KEY_VALUES" -> "DTEL-CMIS_STRING";
-  "TABL-CMIS_S_KEY_VALUES" -> "TTYP-CMIS_T_STRING";
-}

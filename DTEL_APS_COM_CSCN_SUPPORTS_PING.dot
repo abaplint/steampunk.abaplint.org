@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_SUPPORTS_PING" [shape=box,color=yellow];
-  "DOMA-XSDBOOLEAN" [shape=box,color=green,URL="./DOMA_XSDBOOLEAN.html"];
-  "DTEL-APS_COM_CSCN_SUPPORTS_PING" -> "DOMA-XSDBOOLEAN";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TRMSG_KEYW" [shape=box,color=yellow];
-  "DOMA-SYCHAR20" [shape=box,color=yellow,URL="./DOMA_SYCHAR20.html"];
-  "DTEL-TRMSG_KEYW" -> "DOMA-SYCHAR20";
-}

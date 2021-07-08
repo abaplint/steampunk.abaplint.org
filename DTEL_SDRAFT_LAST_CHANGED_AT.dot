@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SDRAFT_LAST_CHANGED_AT" [shape=box,color=yellow];
-  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
-  "DTEL-SDRAFT_LAST_CHANGED_AT" -> "DOMA-TZNTSTMPL";
-}

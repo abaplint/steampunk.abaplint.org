@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SNC_PNAME" [shape=box,color=yellow];
-  "DOMA-SNC_PNAME" [shape=box,color=yellow,URL="./DOMA_SNC_PNAME.html"];
-  "DTEL-SNC_PNAME" -> "DOMA-SNC_PNAME";
-}

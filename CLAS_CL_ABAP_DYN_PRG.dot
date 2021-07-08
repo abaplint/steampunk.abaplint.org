@@ -1,7 +1,0 @@
-digraph G {
-  "CLAS-CL_ABAP_DYN_PRG" [shape=box,color=green];
-  "TTYP-STRING_TABLE" [shape=box,color=green,URL="./TTYP_STRING_TABLE.html"];
-  "TTYP-STRING_HASHED_TABLE" [shape=box,color=green,URL="./TTYP_STRING_HASHED_TABLE.html"];
-  "CLAS-CL_ABAP_DYN_PRG" -> "TTYP-STRING_HASHED_TABLE";
-  "CLAS-CL_ABAP_DYN_PRG" -> "TTYP-STRING_TABLE";
-}

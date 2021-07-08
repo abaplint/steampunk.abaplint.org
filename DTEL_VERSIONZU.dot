@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-VERSIONZU" [shape=box,color=yellow];
-  "DOMA-VERSIONZU" [shape=box,color=yellow,URL="./DOMA_VERSIONZU.html"];
-  "DTEL-VERSIONZU" -> "DOMA-VERSIONZU";
-}

@@ -1,7 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_BAL_LOG_HANDLES" [shape=box,color=green];
-  "DTEL-SXCO_BAL_LOG_HANDLE" [shape=box,color=green,URL="./DTEL_SXCO_BAL_LOG_HANDLE.html"];
-  "DOMA-SYSUUID_22" [shape=box,color=yellow,URL="./DOMA_SYSUUID_22.html"];
-  "TTYP-SXCO_T_BAL_LOG_HANDLES" -> "DTEL-SXCO_BAL_LOG_HANDLE";
-  "DTEL-SXCO_BAL_LOG_HANDLE" -> "DOMA-SYSUUID_22";
-}

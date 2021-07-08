@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/IWBEP/CP_MPC_NAME" [shape=box,color=yellow];
-  "DOMA-SEOCLSNAME" [shape=box,color=yellow,URL="./DOMA_SEOCLSNAME.html"];
-  "DTEL-/IWBEP/CP_MPC_NAME" -> "DOMA-SEOCLSNAME";
-}

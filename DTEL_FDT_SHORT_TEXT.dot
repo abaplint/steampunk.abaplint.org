@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_SHORT_TEXT" [shape=box,color=yellow];
-  "DOMA-FDT_SHORT_TEXT" [shape=box,color=yellow,URL="./DOMA_FDT_SHORT_TEXT.html"];
-  "DTEL-FDT_SHORT_TEXT" -> "DOMA-FDT_SHORT_TEXT";
-}

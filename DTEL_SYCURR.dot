@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYCURR" [shape=box,color=green];
-  "DOMA-SYCURR" [shape=box,color=yellow,URL="./DOMA_SYCURR.html"];
-  "DTEL-SYCURR" -> "DOMA-SYCURR";
-}

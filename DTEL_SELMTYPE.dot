@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SELMTYPE" [shape=box,color=yellow];
-  "DOMA-SELMTYPE" [shape=box,color=yellow,URL="./DOMA_SELMTYPE.html"];
-  "DTEL-SELMTYPE" -> "DOMA-SELMTYPE";
-}

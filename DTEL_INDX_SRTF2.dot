@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-INDX_SRTF2" [shape=box,color=yellow];
-  "DOMA-SYBIN4" [shape=box,color=yellow,URL="./DOMA_SYBIN4.html"];
-  "DTEL-INDX_SRTF2" -> "DOMA-SYBIN4";
-}

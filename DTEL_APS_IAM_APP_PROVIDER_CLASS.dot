@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_APP_PROVIDER_CLASS" [shape=box,color=yellow];
-  "DOMA-CLASSNAME" [shape=box,color=yellow,URL="./DOMA_CLASSNAME.html"];
-  "DTEL-APS_IAM_APP_PROVIDER_CLASS" -> "DOMA-CLASSNAME";
-}

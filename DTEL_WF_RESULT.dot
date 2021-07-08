@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-WF_RESULT" [shape=box,color=green];
-  "DOMA-CHAR5" [shape=box,color=yellow,URL="./DOMA_CHAR5.html"];
-  "DTEL-WF_RESULT" -> "DOMA-CHAR5";
-}

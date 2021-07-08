@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/UI2/SPACE_TITLE" [shape=box,color=yellow];
-  "DOMA-/UI2/SPACE_TITLE" [shape=box,color=yellow,URL="./DOMA_%23UI2%23SPACE_TITLE.html"];
-  "DTEL-/UI2/SPACE_TITLE" -> "DOMA-/UI2/SPACE_TITLE";
-}

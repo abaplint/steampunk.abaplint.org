@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TDLTIME" [shape=box,color=yellow];
-  "DOMA-UZEIT" [shape=box,color=yellow,URL="./DOMA_UZEIT.html"];
-  "DTEL-TDLTIME" -> "DOMA-UZEIT";
-}

@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-CTS_CHECK_RESULT" [shape=box,color=yellow];
-  "DTEL-CTS_RESULT" [shape=box,color=yellow,URL="./DTEL_CTS_RESULT.html"];
-  "DOMA-CTS_RESULT" [shape=box,color=yellow,URL="./DOMA_CTS_RESULT.html"];
-  "TABL-CTS_CHECK_RESULT" -> "DTEL-CTS_RESULT";
-  "DTEL-CTS_RESULT" -> "DOMA-CTS_RESULT";
-}

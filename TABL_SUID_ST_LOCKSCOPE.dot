@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-SUID_ST_LOCKSCOPE" [shape=box,color=yellow];
-  "DTEL-CHAR01" [shape=box,color=yellow,URL="./DTEL_CHAR01.html"];
-  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
-  "TABL-SUID_ST_LOCKSCOPE" -> "DTEL-CHAR01";
-  "DTEL-CHAR01" -> "DOMA-CHAR1";
-}

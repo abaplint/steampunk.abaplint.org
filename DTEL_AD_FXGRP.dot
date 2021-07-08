@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_FXGRP" [shape=box,color=yellow];
-  "DOMA-AD_FXGRP" [shape=box,color=yellow,URL="./DOMA_AD_FXGRP.html"];
-  "DTEL-AD_FXGRP" -> "DOMA-AD_FXGRP";
-}

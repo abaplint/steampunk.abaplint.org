@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SSFFORM" [shape=box,color=yellow];
-  "DOMA-SSFFORMD" [shape=box,color=yellow,URL="./DOMA_SSFFORMD.html"];
-  "DTEL-SSFFORM" -> "DOMA-SSFFORMD";
-}

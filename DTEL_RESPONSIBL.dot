@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-RESPONSIBL" [shape=box,color=yellow];
-  "DOMA-AS4USER" [shape=box,color=yellow,URL="./DOMA_AS4USER.html"];
-  "DTEL-RESPONSIBL" -> "DOMA-AS4USER";
-}

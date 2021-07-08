@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_CAT_RTYPE_ACC_READ" [shape=box,color=yellow];
-  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
-  "DTEL-APS_IAM_CAT_RTYPE_ACC_READ" -> "DOMA-XFELD";
-}

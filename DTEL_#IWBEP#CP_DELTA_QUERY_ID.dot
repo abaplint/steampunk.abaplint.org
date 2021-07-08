@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/IWBEP/CP_DELTA_QUERY_ID" [shape=box,color=yellow];
-  "DOMA-/IWBEP/L_CP_DLTA" [shape=box,color=yellow,URL="./DOMA_%23IWBEP%23L_CP_DLTA.html"];
-  "DTEL-/IWBEP/CP_DELTA_QUERY_ID" -> "DOMA-/IWBEP/L_CP_DLTA";
-}

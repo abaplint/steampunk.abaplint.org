@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABP_BEHV_TYPEKIND" [shape=box,color=green];
-  "DOMA-ABP_BEHV_TYPEKIND" [shape=box,color=yellow,URL="./DOMA_ABP_BEHV_TYPEKIND.html"];
-  "DTEL-ABP_BEHV_TYPEKIND" -> "DOMA-ABP_BEHV_TYPEKIND";
-}

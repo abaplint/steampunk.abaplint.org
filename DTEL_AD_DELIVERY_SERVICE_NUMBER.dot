@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_DELIVERY_SERVICE_NUMBER" [shape=box,color=yellow];
-  "DOMA-CHAR10" [shape=box,color=yellow,URL="./DOMA_CHAR10.html"];
-  "DTEL-AD_DELIVERY_SERVICE_NUMBER" -> "DOMA-CHAR10";
-}

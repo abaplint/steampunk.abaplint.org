@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-RALDB_OPTI" [shape=box,color=yellow];
-  "DOMA-RALDB_OPTI" [shape=box,color=yellow,URL="./DOMA_RALDB_OPTI.html"];
-  "DTEL-RALDB_OPTI" -> "DOMA-RALDB_OPTI";
-}

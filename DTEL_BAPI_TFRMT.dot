@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_TFRMT" [shape=box,color=green];
-  "DOMA-BAPI_TFRMT" [shape=box,color=yellow,URL="./DOMA_BAPI_TFRMT.html"];
-  "DTEL-BAPI_TFRMT" -> "DOMA-BAPI_TFRMT";
-}

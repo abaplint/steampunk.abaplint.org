@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_DBMS_USER" [shape=box,color=yellow];
-  "DOMA-SUID_DBMS_USER" [shape=box,color=yellow,URL="./DOMA_SUID_DBMS_USER.html"];
-  "DTEL-SUID_DBMS_USER" -> "DOMA-SUID_DBMS_USER";
-}

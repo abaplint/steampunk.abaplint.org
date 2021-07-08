@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_IXML_PARSE_ERROR" [shape=box,color=yellow];
-  "INTF-IF_IXML_UNKNOWN" [shape=box,color=green,URL="./INTF_IF_IXML_UNKNOWN.html"];
-  "INTF-IF_IXML_PARSE_ERROR" -> "INTF-IF_IXML_UNKNOWN";
-}

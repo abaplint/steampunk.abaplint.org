@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDDATETIME_OFFSET" [shape=box,color=green];
-  "DOMA-XSDDATETIME_OFFSET" [shape=box,color=green,URL="./DOMA_XSDDATETIME_OFFSET.html"];
-  "DTEL-XSDDATETIME_OFFSET" -> "DOMA-XSDDATETIME_OFFSET";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SAML2_ID_MAPPING_UNSPECIFIED" [shape=box,color=yellow];
-  "DOMA-SAML2_USR_LOGON_TYPE" [shape=box,color=yellow,URL="./DOMA_SAML2_USR_LOGON_TYPE.html"];
-  "DTEL-SAML2_ID_MAPPING_UNSPECIFIED" -> "DOMA-SAML2_USR_LOGON_TYPE";
-}

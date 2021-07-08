@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/BOBF/FRW_PROCESSING_MODE" [shape=box,color=yellow];
-  "DOMA-/BOBF/FRW_PROCESSING_MODE" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23FRW_PROCESSING_MODE.html"];
-  "DTEL-/BOBF/FRW_PROCESSING_MODE" -> "DOMA-/BOBF/FRW_PROCESSING_MODE";
-}

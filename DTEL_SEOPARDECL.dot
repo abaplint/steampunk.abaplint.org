@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SEOPARDECL" [shape=box,color=yellow];
-  "DOMA-SEOPARDECL" [shape=box,color=yellow,URL="./DOMA_SEOPARDECL.html"];
-  "DTEL-SEOPARDECL" -> "DOMA-SEOPARDECL";
-}

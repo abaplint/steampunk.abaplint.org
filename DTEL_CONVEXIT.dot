@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CONVEXIT" [shape=box,color=yellow];
-  "DOMA-CONVEXIT" [shape=box,color=yellow,URL="./DOMA_CONVEXIT.html"];
-  "DTEL-CONVEXIT" -> "DOMA-CONVEXIT";
-}

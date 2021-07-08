@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-BAPIHTML" [shape=box,color=green];
-  "DTEL-FORM_HTML" [shape=box,color=yellow,URL="./DTEL_FORM_HTML.html"];
-  "DOMA-W3_HTML" [shape=box,color=yellow,URL="./DOMA_W3_HTML.html"];
-  "TABL-BAPIHTML" -> "DTEL-FORM_HTML";
-  "DTEL-FORM_HTML" -> "DOMA-W3_HTML";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABAP_BOOLEAN" [shape=box,color=green];
-  "DOMA-ABAP_BOOLEAN" [shape=box,color=green,URL="./DOMA_ABAP_BOOLEAN.html"];
-  "DTEL-ABAP_BOOLEAN" -> "DOMA-ABAP_BOOLEAN";
-}

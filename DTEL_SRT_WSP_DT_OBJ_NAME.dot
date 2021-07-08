@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_WSP_DT_OBJ_NAME" [shape=box,color=yellow];
-  "DOMA-SRT_WSP_DT_OBJ_NAME" [shape=box,color=yellow,URL="./DOMA_SRT_WSP_DT_OBJ_NAME.html"];
-  "DTEL-SRT_WSP_DT_OBJ_NAME" -> "DOMA-SRT_WSP_DT_OBJ_NAME";
-}

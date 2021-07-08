@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MENU_SPRAS" [shape=box,color=yellow];
-  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
-  "DTEL-MENU_SPRAS" -> "DOMA-SPRAS";
-}

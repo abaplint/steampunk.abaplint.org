@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-OBJSTATE" [shape=box,color=yellow];
-  "DOMA-OBJSTATE" [shape=box,color=yellow,URL="./DOMA_OBJSTATE.html"];
-  "DTEL-OBJSTATE" -> "DOMA-OBJSTATE";
-}

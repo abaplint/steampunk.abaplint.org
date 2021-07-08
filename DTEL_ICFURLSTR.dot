@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ICFURLSTR" [shape=box,color=yellow];
-  "DOMA-ICFURLSTR" [shape=box,color=yellow,URL="./DOMA_ICFURLSTR.html"];
-  "DTEL-ICFURLSTR" -> "DOMA-ICFURLSTR";
-}

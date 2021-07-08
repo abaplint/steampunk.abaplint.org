@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_UI_MODE" [shape=box,color=yellow];
-  "DOMA-FDT_UI_MODE" [shape=box,color=yellow,URL="./DOMA_FDT_UI_MODE.html"];
-  "DTEL-FDT_UI_MODE" -> "DOMA-FDT_UI_MODE";
-}

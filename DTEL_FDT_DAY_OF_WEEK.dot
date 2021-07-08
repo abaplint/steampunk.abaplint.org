@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_DAY_OF_WEEK" [shape=box,color=green];
-  "DOMA-FDT_DAY_OF_WEEK" [shape=box,color=yellow,URL="./DOMA_FDT_DAY_OF_WEEK.html"];
-  "DTEL-FDT_DAY_OF_WEEK" -> "DOMA-FDT_DAY_OF_WEEK";
-}

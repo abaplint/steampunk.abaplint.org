@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-UKURS_CURR" [shape=box,color=green];
-  "DOMA-UKURS" [shape=box,color=yellow,URL="./DOMA_UKURS.html"];
-  "DTEL-UKURS_CURR" -> "DOMA-UKURS";
-}

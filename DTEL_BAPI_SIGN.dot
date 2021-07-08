@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_SIGN" [shape=box,color=green];
-  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
-  "DTEL-BAPI_SIGN" -> "DOMA-CHAR1";
-}

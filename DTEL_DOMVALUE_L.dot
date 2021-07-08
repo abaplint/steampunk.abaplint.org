@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DOMVALUE_L" [shape=box,color=yellow];
-  "DOMA-DOMVAL" [shape=box,color=yellow,URL="./DOMA_DOMVAL.html"];
-  "DTEL-DOMVALUE_L" -> "DOMA-DOMVAL";
-}

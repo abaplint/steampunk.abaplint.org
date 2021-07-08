@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TVARV_SIGN" [shape=box,color=yellow];
-  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
-  "DTEL-TVARV_SIGN" -> "DOMA-SYCHAR01";
-}

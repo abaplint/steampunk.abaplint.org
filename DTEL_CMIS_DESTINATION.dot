@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CMIS_DESTINATION" [shape=box,color=green];
-  "DOMA-RFCDEST" [shape=box,color=yellow,URL="./DOMA_RFCDEST.html"];
-  "DTEL-CMIS_DESTINATION" -> "DOMA-RFCDEST";
-}

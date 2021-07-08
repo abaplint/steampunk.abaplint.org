@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CA_RECURRENCEVALUE" [shape=box,color=yellow];
-  "DOMA-NUM02" [shape=box,color=yellow,URL="./DOMA_NUM02.html"];
-  "DTEL-APS_CA_RECURRENCEVALUE" -> "DOMA-NUM02";
-}

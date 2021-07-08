@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PCF_UNIT" [shape=box,color=green];
-  "DOMA-MEINS" [shape=box,color=green,URL="./DOMA_MEINS.html"];
-  "DTEL-PCF_UNIT" -> "DOMA-MEINS";
-}

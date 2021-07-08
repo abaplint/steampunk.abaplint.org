@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_NO_USES" [shape=box,color=yellow];
-  "DOMA-AD_NO_USE" [shape=box,color=yellow,URL="./DOMA_AD_NO_USE.html"];
-  "DTEL-AD_NO_USES" -> "DOMA-AD_NO_USE";
-}

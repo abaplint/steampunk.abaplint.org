@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-WPINDEX" [shape=box,color=yellow];
-  "DOMA-WPINDEX" [shape=box,color=yellow,URL="./DOMA_WPINDEX.html"];
-  "DTEL-WPINDEX" -> "DOMA-WPINDEX";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SAML_VERSION" [shape=box,color=yellow];
-  "DOMA-SAML_VERSION" [shape=box,color=yellow,URL="./DOMA_SAML_VERSION.html"];
-  "DTEL-SAML_VERSION" -> "DOMA-SAML_VERSION";
-}

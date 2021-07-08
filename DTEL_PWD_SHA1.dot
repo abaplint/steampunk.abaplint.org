@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PWD_SHA1" [shape=box,color=yellow];
-  "DOMA-SHA1_HASH" [shape=box,color=yellow,URL="./DOMA_SHA1_HASH.html"];
-  "DTEL-PWD_SHA1" -> "DOMA-SHA1_HASH";
-}

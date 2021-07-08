@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CA_COMMSYS_INBUSR" [shape=box,color=yellow];
-  "DOMA-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23CONF_KEY.html"];
-  "DTEL-APS_CA_COMMSYS_INBUSR" -> "DOMA-/BOBF/CONF_KEY";
-}

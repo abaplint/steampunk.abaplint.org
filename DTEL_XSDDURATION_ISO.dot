@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDDURATION_ISO" [shape=box,color=green];
-  "DOMA-XSDDURATION_ISO" [shape=box,color=green,URL="./DOMA_XSDDURATION_ISO.html"];
-  "DTEL-XSDDURATION_ISO" -> "DOMA-XSDDURATION_ISO";
-}

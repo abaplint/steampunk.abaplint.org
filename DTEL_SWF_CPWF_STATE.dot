@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_CPWF_STATE" [shape=box,color=yellow];
-  "DOMA-SWF_CPWF_STATE" [shape=box,color=yellow,URL="./DOMA_SWF_CPWF_STATE.html"];
-  "DTEL-SWF_CPWF_STATE" -> "DOMA-SWF_CPWF_STATE";
-}

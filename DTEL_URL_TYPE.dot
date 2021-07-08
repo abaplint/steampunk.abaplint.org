@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-URL_TYPE" [shape=box,color=yellow];
-  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
-  "DTEL-URL_TYPE" -> "DOMA-CHAR1";
-}

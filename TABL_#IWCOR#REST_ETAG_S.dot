@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-/IWCOR/REST_ETAG_S" [shape=box,color=yellow];
-  "DTEL-BOOLE_D" [shape=box,color=yellow,URL="./DTEL_BOOLE_D.html"];
-  "DOMA-BOOLE" [shape=box,color=yellow,URL="./DOMA_BOOLE.html"];
-  "TABL-/IWCOR/REST_ETAG_S" -> "DTEL-BOOLE_D";
-  "DTEL-BOOLE_D" -> "DOMA-BOOLE";
-}

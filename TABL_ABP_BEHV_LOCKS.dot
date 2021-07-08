@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-ABP_BEHV_LOCKS" [shape=box,color=green];
-  "DTEL-ABP_ENTITY_NAME" [shape=box,color=green,URL="./DTEL_ABP_ENTITY_NAME.html"];
-  "DOMA-ABP_ENTITY_NAME" [shape=box,color=yellow,URL="./DOMA_ABP_ENTITY_NAME.html"];
-  "TABL-ABP_BEHV_LOCKS" -> "DTEL-ABP_ENTITY_NAME";
-  "DTEL-ABP_ENTITY_NAME" -> "DOMA-ABP_ENTITY_NAME";
-}

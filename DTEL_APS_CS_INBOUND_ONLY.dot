@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CS_INBOUND_ONLY" [shape=box,color=yellow];
-  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
-  "DTEL-APS_CS_INBOUND_ONLY" -> "DOMA-BOOLEAN";
-}

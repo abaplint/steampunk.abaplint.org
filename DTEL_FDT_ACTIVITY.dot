@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_ACTIVITY" [shape=box,color=yellow];
-  "DOMA-FDT_ACTIVITY" [shape=box,color=yellow,URL="./DOMA_FDT_ACTIVITY.html"];
-  "DTEL-FDT_ACTIVITY" -> "DOMA-FDT_ACTIVITY";
-}

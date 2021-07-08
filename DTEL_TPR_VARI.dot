@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TPR_VARI" [shape=box,color=yellow];
-  "DOMA-TPR_VARI" [shape=box,color=yellow,URL="./DOMA_TPR_VARI.html"];
-  "DTEL-TPR_VARI" -> "DOMA-TPR_VARI";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDAMPMFORMAT" [shape=box,color=yellow];
-  "DOMA-DDAMPMFORMAT" [shape=box,color=yellow,URL="./DOMA_DDAMPMFORMAT.html"];
-  "DTEL-DDAMPMFORMAT" -> "DOMA-DDAMPMFORMAT";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CS_OAUTH2_AUDIENCE" [shape=box,color=yellow];
-  "DOMA-TEXT256" [shape=box,color=yellow,URL="./DOMA_TEXT256.html"];
-  "DTEL-APS_CS_OAUTH2_AUDIENCE" -> "DOMA-TEXT256";
-}

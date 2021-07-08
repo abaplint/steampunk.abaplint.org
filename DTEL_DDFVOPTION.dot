@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDFVOPTION" [shape=box,color=yellow];
-  "DOMA-DDFVOPTION" [shape=box,color=yellow,URL="./DOMA_DDFVOPTION.html"];
-  "DTEL-DDFVOPTION" -> "DOMA-DDFVOPTION";
-}

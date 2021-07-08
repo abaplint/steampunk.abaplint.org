@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_XCO_STRING_RULE" [shape=box,color=yellow];
-  "INTF-IF_XCO_DP_CONSTRAINT" [shape=box,color=yellow,URL="./INTF_IF_XCO_DP_CONSTRAINT.html"];
-  "INTF-IF_XCO_STRING_RULE" -> "INTF-IF_XCO_DP_CONSTRAINT";
-}

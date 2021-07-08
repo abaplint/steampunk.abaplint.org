@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PACKPARENT" [shape=box,color=yellow];
-  "DOMA-DEVCLASS" [shape=box,color=yellow,URL="./DOMA_DEVCLASS.html"];
-  "DTEL-PACKPARENT" -> "DOMA-DEVCLASS";
-}

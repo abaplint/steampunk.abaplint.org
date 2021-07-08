@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_BROLE_STATUS_LC" [shape=box,color=yellow];
-  "DOMA-APS_IAM_BROLE_STATUS_LC" [shape=box,color=yellow,URL="./DOMA_APS_IAM_BROLE_STATUS_LC.html"];
-  "DTEL-APS_IAM_BROLE_STATUS_LC" -> "DOMA-APS_IAM_BROLE_STATUS_LC";
-}

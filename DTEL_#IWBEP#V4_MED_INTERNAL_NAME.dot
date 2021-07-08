@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/IWBEP/V4_MED_INTERNAL_NAME" [shape=box,color=yellow];
-  "DOMA-/IWBEP/V4_MED_INTERNAL_NAME" [shape=box,color=yellow,URL="./DOMA_%23IWBEP%23V4_MED_INTERNAL_NAME.html"];
-  "DTEL-/IWBEP/V4_MED_INTERNAL_NAME" -> "DOMA-/IWBEP/V4_MED_INTERNAL_NAME";
-}

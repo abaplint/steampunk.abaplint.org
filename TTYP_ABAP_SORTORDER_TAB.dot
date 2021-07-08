@@ -1,5 +1,0 @@
-digraph G {
-  "TTYP-ABAP_SORTORDER_TAB" [shape=box,color=green];
-  "TABL-ABAP_SORTORDER" [shape=box,color=green,URL="./TABL_ABAP_SORTORDER.html"];
-  "TTYP-ABAP_SORTORDER_TAB" -> "TABL-ABAP_SORTORDER";
-}

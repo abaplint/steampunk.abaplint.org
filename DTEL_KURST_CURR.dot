@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-KURST_CURR" [shape=box,color=green];
-  "DOMA-KURST" [shape=box,color=yellow,URL="./DOMA_KURST.html"];
-  "DTEL-KURST_CURR" -> "DOMA-KURST";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TZNUTCSIGN" [shape=box,color=yellow];
-  "DOMA-TZNSIGN" [shape=box,color=yellow,URL="./DOMA_TZNSIGN.html"];
-  "DTEL-TZNUTCSIGN" -> "DOMA-TZNSIGN";
-}

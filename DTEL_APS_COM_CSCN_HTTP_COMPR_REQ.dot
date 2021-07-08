@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_HTTP_COMPR_REQ" [shape=box,color=yellow];
-  "DOMA-APS_COM_CSCN_HTTP_COMPR_REQ" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_HTTP_COMPR_REQ.html"];
-  "DTEL-APS_COM_CSCN_HTTP_COMPR_REQ" -> "DOMA-APS_COM_CSCN_HTTP_COMPR_REQ";
-}

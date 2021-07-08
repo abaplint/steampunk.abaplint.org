@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DEFAULT__3" [shape=box,color=yellow];
-  "DOMA-DEFAULT__3" [shape=box,color=yellow,URL="./DOMA_DEFAULT__3.html"];
-  "DTEL-DEFAULT__3" -> "DOMA-DEFAULT__3";
-}

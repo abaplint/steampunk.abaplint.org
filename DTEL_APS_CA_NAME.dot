@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CA_NAME" [shape=box,color=yellow];
-  "DOMA-TEXT80" [shape=box,color=yellow,URL="./DOMA_TEXT80.html"];
-  "DTEL-APS_CA_NAME" -> "DOMA-TEXT80";
-}

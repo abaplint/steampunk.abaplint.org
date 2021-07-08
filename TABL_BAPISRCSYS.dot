@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-BAPISRCSYS" [shape=box,color=green];
-  "DTEL-SYSYSID" [shape=box,color=yellow,URL="./DTEL_SYSYSID.html"];
-  "DOMA-SYCHAR08" [shape=box,color=yellow,URL="./DOMA_SYCHAR08.html"];
-  "TABL-BAPISRCSYS" -> "DTEL-SYSYSID";
-  "DTEL-SYSYSID" -> "DOMA-SYCHAR08";
-}

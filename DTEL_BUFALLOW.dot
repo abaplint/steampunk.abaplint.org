@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BUFALLOW" [shape=box,color=yellow];
-  "DOMA-BUFALLOW" [shape=box,color=yellow,URL="./DOMA_BUFALLOW.html"];
-  "DTEL-BUFALLOW" -> "DOMA-BUFALLOW";
-}

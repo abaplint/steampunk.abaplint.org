@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_OB_OAUTH2_AUTH" [shape=box,color=yellow];
-  "DOMA-X" [shape=box,color=yellow,URL="./DOMA_X.html"];
-  "DTEL-APS_COM_CSCN_OB_OAUTH2_AUTH" -> "DOMA-X";
-}

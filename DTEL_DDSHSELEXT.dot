@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDSHSELEXT" [shape=box,color=yellow];
-  "DOMA-FUNCNAME" [shape=box,color=yellow,URL="./DOMA_FUNCNAME.html"];
-  "DTEL-DDSHSELEXT" -> "DOMA-FUNCNAME";
-}

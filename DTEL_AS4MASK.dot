@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AS4MASK" [shape=box,color=yellow];
-  "DOMA-AS4MASK" [shape=box,color=yellow,URL="./DOMA_AS4MASK.html"];
-  "DTEL-AS4MASK" -> "DOMA-AS4MASK";
-}

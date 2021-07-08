@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-W3CONTTYPE" [shape=box,color=yellow];
-  "DOMA-W3_CONTTYP" [shape=box,color=yellow,URL="./DOMA_W3_CONTTYP.html"];
-  "DTEL-W3CONTTYPE" -> "DOMA-W3_CONTTYP";
-}

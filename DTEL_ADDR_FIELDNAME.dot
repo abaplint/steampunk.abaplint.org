@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ADDR_FIELDNAME" [shape=box,color=yellow];
-  "DOMA-ADDR_FIELDNAME" [shape=box,color=yellow,URL="./DOMA_ADDR_FIELDNAME.html"];
-  "DTEL-ADDR_FIELDNAME" -> "DOMA-ADDR_FIELDNAME";
-}

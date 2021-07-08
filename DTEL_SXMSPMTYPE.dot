@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXMSPMTYPE" [shape=box,color=yellow];
-  "DOMA-SXMSPMTYPE" [shape=box,color=yellow,URL="./DOMA_SXMSPMTYPE.html"];
-  "DTEL-SXMSPMTYPE" -> "DOMA-SXMSPMTYPE";
-}

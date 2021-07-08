@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CS_SCC_LOCATION_ID" [shape=box,color=yellow];
-  "DOMA-SCC_LOCATION_ID" [shape=box,color=yellow,URL="./DOMA_SCC_LOCATION_ID.html"];
-  "DTEL-APS_CS_SCC_LOCATION_ID" -> "DOMA-SCC_LOCATION_ID";
-}

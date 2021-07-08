@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-RDIR_UDATE" [shape=box,color=yellow];
-  "DOMA-SYDATS" [shape=box,color=yellow,URL="./DOMA_SYDATS.html"];
-  "DTEL-RDIR_UDATE" -> "DOMA-SYDATS";
-}

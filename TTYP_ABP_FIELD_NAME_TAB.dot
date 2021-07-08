@@ -1,7 +1,0 @@
-digraph G {
-  "TTYP-ABP_FIELD_NAME_TAB" [shape=box,color=green];
-  "DTEL-ABP_FIELD_NAME" [shape=box,color=green,URL="./DTEL_ABP_FIELD_NAME.html"];
-  "DOMA-ABP_FIELD_NAME" [shape=box,color=yellow,URL="./DOMA_ABP_FIELD_NAME.html"];
-  "TTYP-ABP_FIELD_NAME_TAB" -> "DTEL-ABP_FIELD_NAME";
-  "DTEL-ABP_FIELD_NAME" -> "DOMA-ABP_FIELD_NAME";
-}

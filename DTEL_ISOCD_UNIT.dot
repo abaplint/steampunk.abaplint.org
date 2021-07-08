@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ISOCD_UNIT" [shape=box,color=green];
-  "DOMA-ISOCD_UNIT" [shape=box,color=green,URL="./DOMA_ISOCD_UNIT.html"];
-  "DTEL-ISOCD_UNIT" -> "DOMA-ISOCD_UNIT";
-}

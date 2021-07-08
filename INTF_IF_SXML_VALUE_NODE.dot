@@ -1,7 +1,0 @@
-digraph G {
-  "INTF-IF_SXML_VALUE_NODE" [shape=box,color=green];
-  "INTF-IF_SXML_VALUE" [shape=box,color=green,URL="./INTF_IF_SXML_VALUE.html"];
-  "INTF-IF_SXML_NODE" [shape=box,color=green,URL="./INTF_IF_SXML_NODE.html"];
-  "INTF-IF_SXML_VALUE_NODE" -> "INTF-IF_SXML_NODE";
-  "INTF-IF_SXML_VALUE_NODE" -> "INTF-IF_SXML_VALUE";
-}

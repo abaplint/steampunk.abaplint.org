@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BDS_OBJID" [shape=box,color=yellow];
-  "DOMA-CHAR70" [shape=box,color=yellow,URL="./DOMA_CHAR70.html"];
-  "DTEL-BDS_OBJID" -> "DOMA-CHAR70";
-}

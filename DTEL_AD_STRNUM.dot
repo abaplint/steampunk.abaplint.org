@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_STRNUM" [shape=box,color=yellow];
-  "DOMA-STRT_CODE" [shape=box,color=yellow,URL="./DOMA_STRT_CODE.html"];
-  "DTEL-AD_STRNUM" -> "DOMA-STRT_CODE";
-}

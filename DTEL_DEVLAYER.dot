@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DEVLAYER" [shape=box,color=yellow];
-  "DOMA-DEVLAYER" [shape=box,color=yellow,URL="./DOMA_DEVLAYER.html"];
-  "DTEL-DEVLAYER" -> "DOMA-DEVLAYER";
-}

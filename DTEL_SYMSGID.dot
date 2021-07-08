@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYMSGID" [shape=box,color=green];
-  "DOMA-ARBGB" [shape=box,color=yellow,URL="./DOMA_ARBGB.html"];
-  "DTEL-SYMSGID" -> "DOMA-ARBGB";
-}

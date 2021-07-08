@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BALTCODE" [shape=box,color=yellow];
-  "DOMA-TCODE" [shape=box,color=yellow,URL="./DOMA_TCODE.html"];
-  "DTEL-BALTCODE" -> "DOMA-TCODE";
-}

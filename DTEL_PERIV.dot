@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PERIV" [shape=box,color=green];
-  "DOMA-PERIV" [shape=box,color=yellow,URL="./DOMA_PERIV.html"];
-  "DTEL-PERIV" -> "DOMA-PERIV";
-}

@@ -1,7 +1,0 @@
-digraph G {
-  "CLAS-CL_CLMS_TENANT_API" [shape=box,color=yellow];
-  "DTEL-MANDT" [shape=box,color=green,URL="./DTEL_MANDT.html"];
-  "DOMA-MANDT" [shape=box,color=yellow,URL="./DOMA_MANDT.html"];
-  "CLAS-CL_CLMS_TENANT_API" -> "DTEL-MANDT";
-  "DTEL-MANDT" -> "DOMA-MANDT";
-}

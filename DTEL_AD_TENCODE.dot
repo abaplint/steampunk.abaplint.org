@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_TENCODE" [shape=box,color=yellow];
-  "DOMA-AD_TENCODE" [shape=box,color=yellow,URL="./DOMA_AD_TENCODE.html"];
-  "DTEL-AD_TENCODE" -> "DOMA-AD_TENCODE";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TPR_ST_NEW" [shape=box,color=yellow];
-  "DOMA-TPR_ST_NEW" [shape=box,color=yellow,URL="./DOMA_TPR_ST_NEW.html"];
-  "DTEL-TPR_ST_NEW" -> "DOMA-TPR_ST_NEW";
-}

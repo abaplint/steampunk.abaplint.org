@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PGMID" [shape=box,color=yellow];
-  "DOMA-PGMID" [shape=box,color=yellow,URL="./DOMA_PGMID.html"];
-  "DTEL-PGMID" -> "DOMA-PGMID";
-}

@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-CMIS_S_IMPL_CAP" [shape=box,color=green];
-  "DTEL-CMIS_LONG" [shape=box,color=green,URL="./DTEL_CMIS_LONG.html"];
-  "DTEL-CMIS_ENUM" [shape=box,color=green,URL="./DTEL_CMIS_ENUM.html"];
-  "TABL-CMIS_S_IMPL_CAP" -> "DTEL-CMIS_ENUM";
-  "TABL-CMIS_S_IMPL_CAP" -> "DTEL-CMIS_LONG";
-}

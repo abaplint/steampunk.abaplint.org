@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_X4DDAT3" [shape=box,color=yellow];
-  "DOMA-TEXT8" [shape=box,color=yellow,URL="./DOMA_TEXT8.html"];
-  "DTEL-AD_X4DDAT3" -> "DOMA-TEXT8";
-}

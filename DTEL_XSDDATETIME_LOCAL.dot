@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDDATETIME_LOCAL" [shape=box,color=green];
-  "DOMA-XSDDATETIME_LOCAL" [shape=box,color=green,URL="./DOMA_XSDDATETIME_LOCAL.html"];
-  "DTEL-XSDDATETIME_LOCAL" -> "DOMA-XSDDATETIME_LOCAL";
-}

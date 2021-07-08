@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_FLD" [shape=box,color=green];
-  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
-  "DTEL-BAPI_FLD" -> "DOMA-FDNAME";
-}

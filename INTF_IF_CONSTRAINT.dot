@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_CONSTRAINT" [shape=box,color=green];
-  "TTYP-STRING_TABLE" [shape=box,color=green,URL="./TTYP_STRING_TABLE.html"];
-  "INTF-IF_CONSTRAINT" -> "TTYP-STRING_TABLE";
-}

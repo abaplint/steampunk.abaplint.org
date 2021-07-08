@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_SRV_PUBLISH_API_HUB" [shape=box,color=yellow];
-  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
-  "DTEL-APS_COM_SRV_PUBLISH_API_HUB" -> "DOMA-XFELD";
-}

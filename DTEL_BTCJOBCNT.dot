@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BTCJOBCNT" [shape=box,color=yellow];
-  "DOMA-TEXT8" [shape=box,color=yellow,URL="./DOMA_TEXT8.html"];
-  "DTEL-BTCJOBCNT" -> "DOMA-TEXT8";
-}

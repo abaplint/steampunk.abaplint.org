@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDOBJECTCL" [shape=box,color=yellow];
-  "DOMA-OBJECTCL" [shape=box,color=yellow,URL="./DOMA_OBJECTCL.html"];
-  "DTEL-CDOBJECTCL" -> "DOMA-OBJECTCL";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_APP_TYPE" [shape=box,color=yellow];
-  "DOMA-APS_IAM_APP_TYPE" [shape=box,color=yellow,URL="./DOMA_APS_IAM_APP_TYPE.html"];
-  "DTEL-APS_IAM_APP_TYPE" -> "DOMA-APS_IAM_APP_TYPE";
-}

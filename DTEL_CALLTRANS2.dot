@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CALLTRANS2" [shape=box,color=green];
-  "DOMA-CHOICE" [shape=box,color=yellow,URL="./DOMA_CHOICE.html"];
-  "DTEL-CALLTRANS2" -> "DOMA-CHOICE";
-}

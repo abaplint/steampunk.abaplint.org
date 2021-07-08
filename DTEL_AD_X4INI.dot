@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_X4INI" [shape=box,color=yellow];
-  "DOMA-CHAR5" [shape=box,color=yellow,URL="./DOMA_CHAR5.html"];
-  "DTEL-AD_X4INI" -> "DOMA-CHAR5";
-}

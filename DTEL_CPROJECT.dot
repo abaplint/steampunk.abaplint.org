@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CPROJECT" [shape=box,color=yellow];
-  "DOMA-CPROJECT" [shape=box,color=yellow,URL="./DOMA_CPROJECT.html"];
-  "DTEL-CPROJECT" -> "DOMA-CPROJECT";
-}

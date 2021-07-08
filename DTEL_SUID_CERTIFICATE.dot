@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_CERTIFICATE" [shape=box,color=yellow];
-  "DOMA-SUID_CERTIFICATE" [shape=box,color=yellow,URL="./DOMA_SUID_CERTIFICATE.html"];
-  "DTEL-SUID_CERTIFICATE" -> "DOMA-SUID_CERTIFICATE";
-}

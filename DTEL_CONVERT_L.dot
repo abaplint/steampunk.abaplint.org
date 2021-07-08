@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CONVERT_L" [shape=box,color=yellow];
-  "DOMA-CNV_LENGTH" [shape=box,color=yellow,URL="./DOMA_CNV_LENGTH.html"];
-  "DTEL-CONVERT_L" -> "DOMA-CNV_LENGTH";
-}

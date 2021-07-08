@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-RS38L_FTXT" [shape=box,color=yellow];
-  "DOMA-FUNCTEXT" [shape=box,color=yellow,URL="./DOMA_FUNCTEXT.html"];
-  "DTEL-RS38L_FTXT" -> "DOMA-FUNCTEXT";
-}

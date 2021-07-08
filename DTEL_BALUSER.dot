@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BALUSER" [shape=box,color=yellow];
-  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
-  "DTEL-BALUSER" -> "DOMA-XUBNAME";
-}

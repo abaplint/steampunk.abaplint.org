@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUIDADTYPE" [shape=box,color=yellow];
-  "DOMA-SUIDADTYPE" [shape=box,color=yellow,URL="./DOMA_SUIDADTYPE.html"];
-  "DTEL-SUIDADTYPE" -> "DOMA-SUIDADTYPE";
-}

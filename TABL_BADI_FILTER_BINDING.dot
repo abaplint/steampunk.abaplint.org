@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-BADI_FILTER_BINDING" [shape=box,color=green];
-  "DTEL-BADI_FILTER_NAME" [shape=box,color=green,URL="./DTEL_BADI_FILTER_NAME.html"];
-  "DOMA-BADI_FILTER_NAME" [shape=box,color=yellow,URL="./DOMA_BADI_FILTER_NAME.html"];
-  "TABL-BADI_FILTER_BINDING" -> "DTEL-BADI_FILTER_NAME";
-  "DTEL-BADI_FILTER_NAME" -> "DOMA-BADI_FILTER_NAME";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-KUSER" [shape=box,color=yellow];
-  "DOMA-USERNAME" [shape=box,color=yellow,URL="./DOMA_USERNAME.html"];
-  "DTEL-KUSER" -> "DOMA-USERNAME";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDOBJECTV" [shape=box,color=yellow];
-  "DOMA-CHAR90" [shape=box,color=yellow,URL="./DOMA_CHAR90.html"];
-  "DTEL-CDOBJECTV" -> "DOMA-CHAR90";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "TABL-SADT_PACKAGE_REFERENCE" [shape=box,color=yellow];
-  "TABL-SADT_OBJECT_REFERENCE" [shape=box,color=yellow,URL="./TABL_SADT_OBJECT_REFERENCE.html"];
-  "TABL-SADT_PACKAGE_REFERENCE" -> "TABL-SADT_OBJECT_REFERENCE";
-}

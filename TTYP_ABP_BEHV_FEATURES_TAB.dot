@@ -1,9 +1,0 @@
-digraph G {
-  "TTYP-ABP_BEHV_FEATURES_TAB" [shape=box,color=green];
-  "TABL-ABP_BEHV_FEATURES" [shape=box,color=green,URL="./TABL_ABP_BEHV_FEATURES.html"];
-  "DTEL-ABP_ENTITY_NAME" [shape=box,color=green,URL="./DTEL_ABP_ENTITY_NAME.html"];
-  "DOMA-ABP_ENTITY_NAME" [shape=box,color=yellow,URL="./DOMA_ABP_ENTITY_NAME.html"];
-  "TTYP-ABP_BEHV_FEATURES_TAB" -> "TABL-ABP_BEHV_FEATURES";
-  "TABL-ABP_BEHV_FEATURES" -> "DTEL-ABP_ENTITY_NAME";
-  "DTEL-ABP_ENTITY_NAME" -> "DOMA-ABP_ENTITY_NAME";
-}

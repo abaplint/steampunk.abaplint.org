@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_WSP_ENDPOINT_TYPE" [shape=box,color=yellow];
-  "DOMA-SRT_WSP_ENDPOINT_TYPE" [shape=box,color=yellow,URL="./DOMA_SRT_WSP_ENDPOINT_TYPE.html"];
-  "DTEL-SRT_WSP_ENDPOINT_TYPE" -> "DOMA-SRT_WSP_ENDPOINT_TYPE";
-}

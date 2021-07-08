@@ -1,3 +1,0 @@
-digraph G {
-  "INTF-IF_BYTE_STREAM" [shape=box,color=yellow];
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NATXT" [shape=box,color=yellow];
-  "DOMA-NATXT" [shape=box,color=yellow,URL="./DOMA_NATXT.html"];
-  "DTEL-NATXT" -> "DOMA-NATXT";
-}

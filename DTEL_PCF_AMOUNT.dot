@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PCF_AMOUNT" [shape=box,color=green];
-  "DOMA-PCF_AMOUNT" [shape=box,color=yellow,URL="./DOMA_PCF_AMOUNT.html"];
-  "DTEL-PCF_AMOUNT" -> "DOMA-PCF_AMOUNT";
-}

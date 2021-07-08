@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_MOBILE" [shape=box,color=yellow];
-  "DOMA-AD_MOBILE" [shape=box,color=yellow,URL="./DOMA_AD_MOBILE.html"];
-  "DTEL-AD_MOBILE" -> "DOMA-AD_MOBILE";
-}

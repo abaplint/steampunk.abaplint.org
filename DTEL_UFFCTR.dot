@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-UFFCTR" [shape=box,color=yellow];
-  "DOMA-UFFCTR" [shape=box,color=yellow,URL="./DOMA_UFFCTR.html"];
-  "DTEL-UFFCTR" -> "DOMA-UFFCTR";
-}

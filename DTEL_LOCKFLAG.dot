@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-LOCKFLAG" [shape=box,color=yellow];
-  "DOMA-TR_IMPORT_STATUS" [shape=box,color=yellow,URL="./DOMA_TR_IMPORT_STATUS.html"];
-  "DTEL-LOCKFLAG" -> "DOMA-TR_IMPORT_STATUS";
-}

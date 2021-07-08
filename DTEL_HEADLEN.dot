@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-HEADLEN" [shape=box,color=yellow];
-  "DOMA-SCRLEN" [shape=box,color=yellow,URL="./DOMA_SCRLEN.html"];
-  "DTEL-HEADLEN" -> "DOMA-SCRLEN";
-}

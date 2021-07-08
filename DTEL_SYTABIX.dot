@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYTABIX" [shape=box,color=yellow];
-  "DOMA-SYST_LONG" [shape=box,color=yellow,URL="./DOMA_SYST_LONG.html"];
-  "DTEL-SYTABIX" -> "DOMA-SYST_LONG";
-}

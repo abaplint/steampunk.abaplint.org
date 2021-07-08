@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDDOCUINS_IF" [shape=box,color=yellow];
-  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
-  "DTEL-CDDOCUINS_IF" -> "DOMA-XFELD";
-}

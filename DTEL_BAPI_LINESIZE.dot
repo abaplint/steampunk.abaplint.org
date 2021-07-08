@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_LINESIZE" [shape=box,color=green];
-  "DOMA-NUMC3" [shape=box,color=yellow,URL="./DOMA_NUMC3.html"];
-  "DTEL-BAPI_LINESIZE" -> "DOMA-NUMC3";
-}

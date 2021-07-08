@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_FAXNRCL" [shape=box,color=yellow];
-  "DOMA-CHAR30" [shape=box,color=green,URL="./DOMA_CHAR30.html"];
-  "DTEL-AD_FAXNRCL" -> "DOMA-CHAR30";
-}

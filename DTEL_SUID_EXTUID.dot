@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_EXTUID" [shape=box,color=yellow];
-  "DOMA-SUID_EXTUID" [shape=box,color=yellow,URL="./DOMA_SUID_EXTUID.html"];
-  "DTEL-SUID_EXTUID" -> "DOMA-SUID_EXTUID";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-UFPS_POSID" [shape=box,color=yellow];
-  "DOMA-UFPS_POSID" [shape=box,color=yellow,URL="./DOMA_UFPS_POSID.html"];
-  "DTEL-UFPS_POSID" -> "DOMA-UFPS_POSID";
-}

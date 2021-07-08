@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_CUSAGE" [shape=box,color=yellow];
-  "DOMA-AD_CUSAGE" [shape=box,color=yellow,URL="./DOMA_AD_CUSAGE.html"];
-  "DTEL-AD_CUSAGE" -> "DOMA-AD_CUSAGE";
-}

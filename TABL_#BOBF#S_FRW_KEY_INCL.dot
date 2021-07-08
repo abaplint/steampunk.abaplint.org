@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-/BOBF/S_FRW_KEY_INCL" [shape=box,color=yellow];
-  "DTEL-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DTEL_%23BOBF%23CONF_KEY.html"];
-  "DOMA-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23CONF_KEY.html"];
-  "TABL-/BOBF/S_FRW_KEY_INCL" -> "DTEL-/BOBF/CONF_KEY";
-  "DTEL-/BOBF/CONF_KEY" -> "DOMA-/BOBF/CONF_KEY";
-}

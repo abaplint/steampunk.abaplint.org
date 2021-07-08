@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-INTEGER" [shape=box,color=yellow];
-  "DOMA-INTEGER" [shape=box,color=yellow,URL="./DOMA_INTEGER.html"];
-  "DTEL-INTEGER" -> "DOMA-INTEGER";
-}

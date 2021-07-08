@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ENQU_NAME" [shape=box,color=yellow];
-  "DOMA-VIEWNAME" [shape=box,color=yellow,URL="./DOMA_VIEWNAME.html"];
-  "DTEL-ENQU_NAME" -> "DOMA-VIEWNAME";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-JR_FREQUENCY" [shape=box,color=yellow];
-  "DOMA-JR_O_FREQUENCY" [shape=box,color=yellow,URL="./DOMA_JR_O_FREQUENCY.html"];
-  "DTEL-JR_FREQUENCY" -> "DOMA-JR_O_FREQUENCY";
-}

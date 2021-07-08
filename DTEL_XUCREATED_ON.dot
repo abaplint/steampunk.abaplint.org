@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XUCREATED_ON" [shape=box,color=yellow];
-  "DOMA-TZNTSTMPS" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPS.html"];
-  "DTEL-XUCREATED_ON" -> "DOMA-TZNTSTMPS";
-}

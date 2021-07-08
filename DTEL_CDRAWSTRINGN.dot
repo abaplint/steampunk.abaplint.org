@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDRAWSTRINGN" [shape=box,color=yellow];
-  "DOMA-CDRAWSTRING" [shape=box,color=yellow,URL="./DOMA_CDRAWSTRING.html"];
-  "DTEL-CDRAWSTRINGN" -> "DOMA-CDRAWSTRING";
-}

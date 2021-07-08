@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_SORT2" [shape=box,color=yellow];
-  "DOMA-CHAR20" [shape=box,color=yellow,URL="./DOMA_CHAR20.html"];
-  "DTEL-AD_SORT2" -> "DOMA-CHAR20";
-}

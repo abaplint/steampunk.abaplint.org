@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_FLGSMS" [shape=box,color=yellow];
-  "DOMA-AD_FLGSMS" [shape=box,color=yellow,URL="./DOMA_AD_FLGSMS.html"];
-  "DTEL-AD_FLGSMS" -> "DOMA-AD_FLGSMS";
-}

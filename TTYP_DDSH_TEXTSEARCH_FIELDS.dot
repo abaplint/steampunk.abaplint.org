@@ -1,7 +1,0 @@
-digraph G {
-  "TTYP-DDSH_TEXTSEARCH_FIELDS" [shape=box,color=yellow];
-  "DTEL-SHLPFIELD" [shape=box,color=yellow,URL="./DTEL_SHLPFIELD.html"];
-  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
-  "TTYP-DDSH_TEXTSEARCH_FIELDS" -> "DTEL-SHLPFIELD";
-  "DTEL-SHLPFIELD" -> "DOMA-FDNAME";
-}

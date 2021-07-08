@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_TLINE" [shape=box,color=green];
-  "DOMA-BAPI_STRNG" [shape=box,color=yellow,URL="./DOMA_BAPI_STRNG.html"];
-  "DTEL-BAPI_TLINE" -> "DOMA-BAPI_STRNG";
-}

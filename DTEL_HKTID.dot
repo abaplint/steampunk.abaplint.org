@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-HKTID" [shape=box,color=green];
-  "DOMA-HKTID" [shape=box,color=yellow,URL="./DOMA_HKTID.html"];
-  "DTEL-HKTID" -> "DOMA-HKTID";
-}

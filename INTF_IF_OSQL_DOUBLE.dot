@@ -1,7 +1,0 @@
-digraph G {
-  "INTF-IF_OSQL_DOUBLE" [shape=box,color=green];
-  "DTEL-TABTYPE" [shape=box,color=yellow,URL="./DTEL_TABTYPE.html"];
-  "DOMA-TABTYPE" [shape=box,color=yellow,URL="./DOMA_TABTYPE.html"];
-  "INTF-IF_OSQL_DOUBLE" -> "DTEL-TABTYPE";
-  "DTEL-TABTYPE" -> "DOMA-TABTYPE";
-}

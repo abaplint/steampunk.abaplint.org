@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_SEQUENCE_DOMAIN" [shape=box,color=yellow];
-  "DOMA-SRT_SEQUENCE_DOMAIN" [shape=box,color=yellow,URL="./DOMA_SRT_SEQUENCE_DOMAIN.html"];
-  "DTEL-SRT_SEQUENCE_DOMAIN" -> "DOMA-SRT_SEQUENCE_DOMAIN";
-}

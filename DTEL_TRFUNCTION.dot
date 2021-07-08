@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TRFUNCTION" [shape=box,color=yellow];
-  "DOMA-TRFUNCTION" [shape=box,color=yellow,URL="./DOMA_TRFUNCTION.html"];
-  "DTEL-TRFUNCTION" -> "DOMA-TRFUNCTION";
-}

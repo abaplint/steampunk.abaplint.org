@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SELMETHOD" [shape=box,color=yellow];
-  "DOMA-REFSHLP" [shape=box,color=yellow,URL="./DOMA_REFSHLP.html"];
-  "DTEL-SELMETHOD" -> "DOMA-REFSHLP";
-}

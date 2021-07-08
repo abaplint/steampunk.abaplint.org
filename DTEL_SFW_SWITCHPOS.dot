@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SFW_SWITCHPOS" [shape=box,color=yellow];
-  "DOMA-SFW_SETTING" [shape=box,color=yellow,URL="./DOMA_SFW_SETTING.html"];
-  "DTEL-SFW_SWITCHPOS" -> "DOMA-SFW_SETTING";
-}

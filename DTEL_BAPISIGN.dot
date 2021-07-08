@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPISIGN" [shape=box,color=green];
-  "DOMA-BAPISIGN" [shape=box,color=yellow,URL="./DOMA_BAPISIGN.html"];
-  "DTEL-BAPISIGN" -> "DOMA-BAPISIGN";
-}

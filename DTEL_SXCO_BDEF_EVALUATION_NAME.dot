@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_BDEF_EVALUATION_NAME" [shape=box,color=green];
-  "DOMA-CHAR30" [shape=box,color=green,URL="./DOMA_CHAR30.html"];
-  "DTEL-SXCO_BDEF_EVALUATION_NAME" -> "DOMA-CHAR30";
-}

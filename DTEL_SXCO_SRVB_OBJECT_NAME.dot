@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_SRVB_OBJECT_NAME" [shape=box,color=green];
-  "DOMA-CHAR26" [shape=box,color=yellow,URL="./DOMA_CHAR26.html"];
-  "DTEL-SXCO_SRVB_OBJECT_NAME" -> "DOMA-CHAR26";
-}

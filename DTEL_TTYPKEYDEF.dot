@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TTYPKEYDEF" [shape=box,color=yellow];
-  "DOMA-TTYPKEYDEF" [shape=box,color=yellow,URL="./DOMA_TTYPKEYDEF.html"];
-  "DTEL-TTYPKEYDEF" -> "DOMA-TTYPKEYDEF";
-}

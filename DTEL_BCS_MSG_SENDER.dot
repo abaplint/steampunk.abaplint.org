@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BCS_MSG_SENDER" [shape=box,color=yellow];
-  "DOMA-BCS_MSG_ADDRESS" [shape=box,color=yellow,URL="./DOMA_BCS_MSG_ADDRESS.html"];
-  "DTEL-BCS_MSG_SENDER" -> "DOMA-BCS_MSG_ADDRESS";
-}

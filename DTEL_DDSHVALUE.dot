@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDSHVALUE" [shape=box,color=yellow];
-  "DOMA-F4CHAR132" [shape=box,color=yellow,URL="./DOMA_F4CHAR132.html"];
-  "DTEL-DDSHVALUE" -> "DOMA-F4CHAR132";
-}

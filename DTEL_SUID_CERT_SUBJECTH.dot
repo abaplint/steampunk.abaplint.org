@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_CERT_SUBJECTH" [shape=box,color=yellow];
-  "DOMA-SUID_SHA1_HASH_CHAR" [shape=box,color=yellow,URL="./DOMA_SUID_SHA1_HASH_CHAR.html"];
-  "DTEL-SUID_CERT_SUBJECTH" -> "DOMA-SUID_SHA1_HASH_CHAR";
-}

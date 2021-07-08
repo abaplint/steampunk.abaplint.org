@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDKEYGUID_STR" [shape=box,color=yellow];
-  "DOMA-SYSUUID_C" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C.html"];
-  "DTEL-CDKEYGUID_STR" -> "DOMA-SYSUUID_C";
-}

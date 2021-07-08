@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MENU_LONGTEXT" [shape=box,color=yellow];
-  "DOMA-CHAR255_CASE" [shape=box,color=yellow,URL="./DOMA_CHAR255_CASE.html"];
-  "DTEL-MENU_LONGTEXT" -> "DOMA-CHAR255_CASE";
-}

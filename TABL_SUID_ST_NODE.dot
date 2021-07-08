@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-SUID_ST_NODE" [shape=box,color=yellow];
-  "DTEL-SUID_NODE_NAME" [shape=box,color=yellow,URL="./DTEL_SUID_NODE_NAME.html"];
-  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
-  "TABL-SUID_ST_NODE" -> "DTEL-SUID_NODE_NAME";
-  "DTEL-SUID_NODE_NAME" -> "DOMA-AS4TAB";
-}

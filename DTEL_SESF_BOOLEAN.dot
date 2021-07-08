@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SESF_BOOLEAN" [shape=box,color=yellow];
-  "DOMA-SESF_BOOLEAN" [shape=box,color=yellow,URL="./DOMA_SESF_BOOLEAN.html"];
-  "DTEL-SESF_BOOLEAN" -> "DOMA-SESF_BOOLEAN";
-}

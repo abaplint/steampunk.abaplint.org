@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CA_SOAP_WSRM_VERSION" [shape=box,color=yellow];
-  "DOMA-APS_CA_SOAP_WSRM_VERSION" [shape=box,color=yellow,URL="./DOMA_APS_CA_SOAP_WSRM_VERSION.html"];
-  "DTEL-APS_CA_SOAP_WSRM_VERSION" -> "DOMA-APS_CA_SOAP_WSRM_VERSION";
-}

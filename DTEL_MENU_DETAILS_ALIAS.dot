@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MENU_DETAILS_ALIAS" [shape=box,color=yellow];
-  "DOMA-TEXT60" [shape=box,color=yellow,URL="./DOMA_TEXT60.html"];
-  "DTEL-MENU_DETAILS_ALIAS" -> "DOMA-TEXT60";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/IWBEP/CP_PROXY_MODEL_DESCR" [shape=box,color=yellow];
-  "DOMA-/IWBEP/CP_PROXY_MODEL_DESCR" [shape=box,color=yellow,URL="./DOMA_%23IWBEP%23CP_PROXY_MODEL_DESCR.html"];
-  "DTEL-/IWBEP/CP_PROXY_MODEL_DESCR" -> "DOMA-/IWBEP/CP_PROXY_MODEL_DESCR";
-}

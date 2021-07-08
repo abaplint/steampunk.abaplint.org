@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-BAPIEXTC" [shape=box,color=green];
-  "DTEL-STRNG250" [shape=box,color=yellow,URL="./DTEL_STRNG250.html"];
-  "DOMA-CHAR250" [shape=box,color=yellow,URL="./DOMA_CHAR250.html"];
-  "TABL-BAPIEXTC" -> "DTEL-STRNG250";
-  "DTEL-STRNG250" -> "DOMA-CHAR250";
-}

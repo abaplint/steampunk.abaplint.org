@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-BUP_S_COMMDATA_READ_API" [shape=box,color=yellow];
-  "DTEL-ADDR_READ_COMMUNICATION_TYPE" [shape=box,color=yellow,URL="./DTEL_ADDR_READ_COMMUNICATION_TYPE.html"];
-  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
-  "TABL-BUP_S_COMMDATA_READ_API" -> "DTEL-ADDR_READ_COMMUNICATION_TYPE";
-  "DTEL-ADDR_READ_COMMUNICATION_TYPE" -> "DOMA-XFELD";
-}

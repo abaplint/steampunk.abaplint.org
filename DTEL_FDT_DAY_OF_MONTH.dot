@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_DAY_OF_MONTH" [shape=box,color=green];
-  "DOMA-FDT_DAY_OF_MONTH" [shape=box,color=yellow,URL="./DOMA_FDT_DAY_OF_MONTH.html"];
-  "DTEL-FDT_DAY_OF_MONTH" -> "DOMA-FDT_DAY_OF_MONTH";
-}

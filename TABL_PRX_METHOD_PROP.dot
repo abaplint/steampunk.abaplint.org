@@ -1,7 +1,0 @@
-digraph G {
-  "TABL-PRX_METHOD_PROP" [shape=box,color=yellow];
-  "DTEL-PRX_R3NAME" [shape=box,color=yellow,URL="./DTEL_PRX_R3NAME.html"];
-  "DOMA-PRX_R3NAME" [shape=box,color=yellow,URL="./DOMA_PRX_R3NAME.html"];
-  "TABL-PRX_METHOD_PROP" -> "DTEL-PRX_R3NAME";
-  "DTEL-PRX_R3NAME" -> "DOMA-PRX_R3NAME";
-}

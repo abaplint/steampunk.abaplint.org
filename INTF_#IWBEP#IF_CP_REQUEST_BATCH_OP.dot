@@ -1,3 +1,0 @@
-digraph G {
-  "INTF-/IWBEP/IF_CP_REQUEST_BATCH_OP" [shape=box,color=green];
-}

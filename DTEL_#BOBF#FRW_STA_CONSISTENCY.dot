@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/BOBF/FRW_STA_CONSISTENCY" [shape=box,color=yellow];
-  "DOMA-/BOBF/FRW_STA_CONSISTENCY" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23FRW_STA_CONSISTENCY.html"];
-  "DTEL-/BOBF/FRW_STA_CONSISTENCY" -> "DOMA-/BOBF/FRW_STA_CONSISTENCY";
-}

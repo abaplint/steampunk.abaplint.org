@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PRX_WORKFLOW_TRIGGERED" [shape=box,color=green];
-  "DOMA-PRX_BOOLEAN" [shape=box,color=yellow,URL="./DOMA_PRX_BOOLEAN.html"];
-  "DTEL-PRX_WORKFLOW_TRIGGERED" -> "DOMA-PRX_BOOLEAN";
-}

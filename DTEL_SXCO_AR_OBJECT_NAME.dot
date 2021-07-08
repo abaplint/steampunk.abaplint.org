@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_AR_OBJECT_NAME" [shape=box,color=green];
-  "DOMA-SOBJ_NAME" [shape=box,color=yellow,URL="./DOMA_SOBJ_NAME.html"];
-  "DTEL-SXCO_AR_OBJECT_NAME" -> "DOMA-SOBJ_NAME";
-}

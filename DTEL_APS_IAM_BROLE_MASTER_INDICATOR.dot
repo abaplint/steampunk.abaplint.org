@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_BROLE_MASTER_INDICATOR" [shape=box,color=yellow];
-  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
-  "DTEL-APS_IAM_BROLE_MASTER_INDICATOR" -> "DOMA-XFELD";
-}

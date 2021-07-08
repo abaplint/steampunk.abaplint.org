@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FORM_HTML" [shape=box,color=yellow];
-  "DOMA-W3_HTML" [shape=box,color=yellow,URL="./DOMA_W3_HTML.html"];
-  "DTEL-FORM_HTML" -> "DOMA-W3_HTML";
-}

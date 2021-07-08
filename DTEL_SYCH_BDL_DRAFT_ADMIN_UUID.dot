@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYCH_BDL_DRAFT_ADMIN_UUID" [shape=box,color=yellow];
-  "DOMA-SYSUUID" [shape=box,color=yellow,URL="./DOMA_SYSUUID.html"];
-  "DTEL-SYCH_BDL_DRAFT_ADMIN_UUID" -> "DOMA-SYSUUID";
-}

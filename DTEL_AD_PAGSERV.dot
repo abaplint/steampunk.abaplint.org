@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_PAGSERV" [shape=box,color=yellow];
-  "DOMA-CHAR4" [shape=box,color=yellow,URL="./DOMA_CHAR4.html"];
-  "DTEL-AD_PAGSERV" -> "DOMA-CHAR4";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PUFFERUNG" [shape=box,color=yellow];
-  "DOMA-PUFFERUNG" [shape=box,color=yellow,URL="./DOMA_PUFFERUNG.html"];
-  "DTEL-PUFFERUNG" -> "DOMA-PUFFERUNG";
-}

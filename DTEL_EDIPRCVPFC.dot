@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-EDIPRCVPFC" [shape=box,color=yellow];
-  "DOMA-EDI_PARVW" [shape=box,color=yellow,URL="./DOMA_EDI_PARVW.html"];
-  "DTEL-EDIPRCVPFC" -> "DOMA-EDI_PARVW";
-}

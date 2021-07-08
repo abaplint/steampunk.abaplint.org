@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PCF_TIME" [shape=box,color=green];
-  "DOMA-PCF_TIME" [shape=box,color=yellow,URL="./DOMA_PCF_TIME.html"];
-  "DTEL-PCF_TIME" -> "DOMA-PCF_TIME";
-}

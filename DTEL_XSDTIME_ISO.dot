@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDTIME_ISO" [shape=box,color=green];
-  "DOMA-XSDTIME_ISO" [shape=box,color=green,URL="./DOMA_XSDTIME_ISO.html"];
-  "DTEL-XSDTIME_ISO" -> "DOMA-XSDTIME_ISO";
-}

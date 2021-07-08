@@ -1,7 +1,0 @@
-digraph G {
-  "INTF-IF_XCO_CP_GEN_FUGR_S_FORM" [shape=box,color=green];
-  "DTEL-SXCO_AR_SHORT_DESCRIPTION" [shape=box,color=green,URL="./DTEL_SXCO_AR_SHORT_DESCRIPTION.html"];
-  "DOMA-AS4TEXT" [shape=box,color=yellow,URL="./DOMA_AS4TEXT.html"];
-  "INTF-IF_XCO_CP_GEN_FUGR_S_FORM" -> "DTEL-SXCO_AR_SHORT_DESCRIPTION";
-  "DTEL-SXCO_AR_SHORT_DESCRIPTION" -> "DOMA-AS4TEXT";
-}

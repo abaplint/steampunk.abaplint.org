@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDENQSYNC" [shape=box,color=yellow];
-  "DOMA-DDFLAG" [shape=box,color=yellow,URL="./DOMA_DDFLAG.html"];
-  "DTEL-DDENQSYNC" -> "DOMA-DDFLAG";
-}

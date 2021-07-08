@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDOBJECTTXT" [shape=box,color=yellow];
-  "DOMA-CDOBJECTTXT" [shape=box,color=yellow,URL="./DOMA_CDOBJECTTXT.html"];
-  "DTEL-CDOBJECTTXT" -> "DOMA-CDOBJECTTXT";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CS_BP_UUID" [shape=box,color=yellow];
-  "DOMA-SYSUUID" [shape=box,color=yellow,URL="./DOMA_SYSUUID.html"];
-  "DTEL-APS_CS_BP_UUID" -> "DOMA-SYSUUID";
-}

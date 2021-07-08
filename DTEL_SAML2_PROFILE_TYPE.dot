@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SAML2_PROFILE_TYPE" [shape=box,color=yellow];
-  "DOMA-SAML2_PROFILE_TYPE" [shape=box,color=yellow,URL="./DOMA_SAML2_PROFILE_TYPE.html"];
-  "DTEL-SAML2_PROFILE_TYPE" -> "DOMA-SAML2_PROFILE_TYPE";
-}

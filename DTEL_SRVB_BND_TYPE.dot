@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRVB_BND_TYPE" [shape=box,color=yellow];
-  "DOMA-SRVB_BND_TYPE" [shape=box,color=yellow,URL="./DOMA_SRVB_BND_TYPE.html"];
-  "DTEL-SRVB_BND_TYPE" -> "DOMA-SRVB_BND_TYPE";
-}

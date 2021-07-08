@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XUDCPFM" [shape=box,color=yellow];
-  "DOMA-XUDCPFM" [shape=box,color=yellow,URL="./DOMA_XUDCPFM.html"];
-  "DTEL-XUDCPFM" -> "DOMA-XUDCPFM";
-}

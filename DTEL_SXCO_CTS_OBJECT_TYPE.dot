@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_CTS_OBJECT_TYPE" [shape=box,color=green];
-  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
-  "DTEL-SXCO_CTS_OBJECT_TYPE" -> "DOMA-OBJECT";
-}

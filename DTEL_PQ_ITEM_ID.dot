@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PQ_ITEM_ID" [shape=box,color=yellow];
-  "DOMA-PQ_ID" [shape=box,color=yellow,URL="./DOMA_PQ_ID.html"];
-  "DTEL-PQ_ITEM_ID" -> "DOMA-PQ_ID";
-}

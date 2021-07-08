@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SXCO_TRANSPORT" [shape=box,color=green];
-  "DOMA-TRKORR" [shape=box,color=yellow,URL="./DOMA_TRKORR.html"];
-  "DTEL-SXCO_TRANSPORT" -> "DOMA-TRKORR";
-}

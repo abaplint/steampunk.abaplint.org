@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TDSTYLE" [shape=box,color=yellow];
-  "DOMA-TDSTYLE" [shape=box,color=yellow,URL="./DOMA_TDSTYLE.html"];
-  "DTEL-TDSTYLE" -> "DOMA-TDSTYLE";
-}

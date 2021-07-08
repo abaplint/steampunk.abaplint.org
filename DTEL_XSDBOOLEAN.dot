@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDBOOLEAN" [shape=box,color=green];
-  "DOMA-XSDBOOLEAN" [shape=box,color=green,URL="./DOMA_XSDBOOLEAN.html"];
-  "DTEL-XSDBOOLEAN" -> "DOMA-XSDBOOLEAN";
-}

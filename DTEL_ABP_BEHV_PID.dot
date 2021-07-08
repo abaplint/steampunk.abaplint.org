@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABP_BEHV_PID" [shape=box,color=green];
-  "DOMA-XSDUUID_RAW" [shape=box,color=green,URL="./DOMA_XSDUUID_RAW.html"];
-  "DTEL-ABP_BEHV_PID" -> "DOMA-XSDUUID_RAW";
-}

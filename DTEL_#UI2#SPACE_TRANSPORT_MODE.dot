@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/UI2/SPACE_TRANSPORT_MODE" [shape=box,color=yellow];
-  "DOMA-/UI2/SPACE_TRANSPORT_MODE" [shape=box,color=yellow,URL="./DOMA_%23UI2%23SPACE_TRANSPORT_MODE.html"];
-  "DTEL-/UI2/SPACE_TRANSPORT_MODE" -> "DOMA-/UI2/SPACE_TRANSPORT_MODE";
-}

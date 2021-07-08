@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TRANSLTTXT" [shape=box,color=yellow];
-  "DOMA-TRANSLTTXT" [shape=box,color=yellow,URL="./DOMA_TRANSLTTXT.html"];
-  "DTEL-TRANSLTTXT" -> "DOMA-TRANSLTTXT";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CONTFLAG" [shape=box,color=yellow];
-  "DOMA-CONTFLAG" [shape=box,color=yellow,URL="./DOMA_CONTFLAG.html"];
-  "DTEL-CONTFLAG" -> "DOMA-CONTFLAG";
-}

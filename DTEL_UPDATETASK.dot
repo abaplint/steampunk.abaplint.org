@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-UPDATETASK" [shape=box,color=yellow];
-  "DOMA-CHOICE" [shape=box,color=yellow,URL="./DOMA_CHOICE.html"];
-  "DTEL-UPDATETASK" -> "DOMA-CHOICE";
-}

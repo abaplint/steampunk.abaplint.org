@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_HIGH" [shape=box,color=green];
-  "DOMA-TEXT30" [shape=box,color=yellow,URL="./DOMA_TEXT30.html"];
-  "DTEL-BAPI_HIGH" -> "DOMA-TEXT30";
-}

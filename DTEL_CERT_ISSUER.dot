@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CERT_ISSUER" [shape=box,color=yellow];
-  "DOMA-CERT_STRING" [shape=box,color=yellow,URL="./DOMA_CERT_STRING.html"];
-  "DTEL-CERT_ISSUER" -> "DOMA-CERT_STRING";
-}

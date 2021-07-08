@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PRX_R3OBJ" [shape=box,color=yellow];
-  "DOMA-PRX_R3OBJ" [shape=box,color=yellow,URL="./DOMA_PRX_R3OBJ.html"];
-  "DTEL-PRX_R3OBJ" -> "DOMA-PRX_R3OBJ";
-}

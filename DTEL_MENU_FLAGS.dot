@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-MENU_FLAGS" [shape=box,color=yellow];
-  "DOMA-CHAR16" [shape=box,color=yellow,URL="./DOMA_CHAR16.html"];
-  "DTEL-MENU_FLAGS" -> "DOMA-CHAR16";
-}

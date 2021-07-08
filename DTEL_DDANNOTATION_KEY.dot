@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDANNOTATION_KEY" [shape=box,color=yellow];
-  "DOMA-DDANNOTATION_KEY" [shape=box,color=yellow,URL="./DOMA_DDANNOTATION_KEY.html"];
-  "DTEL-DDANNOTATION_KEY" -> "DOMA-DDANNOTATION_KEY";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/UI2/FDM_CATALOG_TYPE" [shape=box,color=yellow];
-  "DOMA-/UI2/FDM_CATALOG_TYPE" [shape=box,color=yellow,URL="./DOMA_%23UI2%23FDM_CATALOG_TYPE.html"];
-  "DTEL-/UI2/FDM_CATALOG_TYPE" -> "DOMA-/UI2/FDM_CATALOG_TYPE";
-}

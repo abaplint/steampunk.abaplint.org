@@ -1,7 +1,0 @@
-digraph G {
-  "CLAS-CL_AUNIT_CONSTRAINTS" [shape=box,color=green];
-  "INTF-IF_CONSTRAINT" [shape=box,color=green,URL="./INTF_IF_CONSTRAINT.html"];
-  "TTYP-STRING_TABLE" [shape=box,color=green,URL="./TTYP_STRING_TABLE.html"];
-  "CLAS-CL_AUNIT_CONSTRAINTS" -> "INTF-IF_CONSTRAINT";
-  "INTF-IF_CONSTRAINT" -> "TTYP-STRING_TABLE";
-}

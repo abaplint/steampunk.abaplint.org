@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NUMTP" [shape=box,color=green];
-  "DOMA-NUMTP" [shape=box,color=yellow,URL="./DOMA_NUMTP.html"];
-  "DTEL-NUMTP" -> "DOMA-NUMTP";
-}

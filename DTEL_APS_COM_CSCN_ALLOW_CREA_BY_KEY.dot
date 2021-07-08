@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_CSCN_ALLOW_CREA_BY_KEY" [shape=box,color=yellow];
-  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
-  "DTEL-APS_COM_CSCN_ALLOW_CREA_BY_KEY" -> "DOMA-XFELD";
-}

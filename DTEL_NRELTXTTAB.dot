@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NRELTXTTAB" [shape=box,color=yellow];
-  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
-  "DTEL-NRELTXTTAB" -> "DOMA-AS4TAB";
-}

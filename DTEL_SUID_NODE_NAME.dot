@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_NODE_NAME" [shape=box,color=yellow];
-  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
-  "DTEL-SUID_NODE_NAME" -> "DOMA-AS4TAB";
-}

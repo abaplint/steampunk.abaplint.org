@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SCBO_BUSINESS_OBJECT_ID" [shape=box,color=yellow];
-  "DOMA-SCBO_ENTITY_ID" [shape=box,color=yellow,URL="./DOMA_SCBO_ENTITY_ID.html"];
-  "DTEL-SCBO_BUSINESS_OBJECT_ID" -> "DOMA-SCBO_ENTITY_ID";
-}

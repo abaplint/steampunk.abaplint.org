@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_IAM_AUTH_FIELD_NAME" [shape=box,color=yellow];
-  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
-  "DTEL-APS_IAM_AUTH_FIELD_NAME" -> "DOMA-FDNAME";
-}

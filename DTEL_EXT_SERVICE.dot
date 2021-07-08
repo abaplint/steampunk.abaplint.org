@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-EXT_SERVICE" [shape=box,color=yellow];
-  "DOMA-EXT_SERVICE" [shape=box,color=yellow,URL="./DOMA_EXT_SERVICE.html"];
-  "DTEL-EXT_SERVICE" -> "DOMA-EXT_SERVICE";
-}

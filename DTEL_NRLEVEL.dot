@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NRLEVEL" [shape=box,color=yellow];
-  "DOMA-NUMC20" [shape=box,color=yellow,URL="./DOMA_NUMC20.html"];
-  "DTEL-NRLEVEL" -> "DOMA-NUMC20";
-}

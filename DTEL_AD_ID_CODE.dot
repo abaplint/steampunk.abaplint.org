@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_ID_CODE" [shape=box,color=yellow];
-  "DOMA-TEXT10" [shape=box,color=yellow,URL="./DOMA_TEXT10.html"];
-  "DTEL-AD_ID_CODE" -> "DOMA-TEXT10";
-}

@@ -1,9 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_TR_SELECTION_ENTRY" [shape=box,color=yellow];
-  "TABL-SXCO_S_TR_SELECTION_ENTRY" [shape=box,color=yellow,URL="./TABL_SXCO_S_TR_SELECTION_ENTRY.html"];
-  "DTEL-SXCO_TRANSPORT" [shape=box,color=green,URL="./DTEL_SXCO_TRANSPORT.html"];
-  "DOMA-TRKORR" [shape=box,color=yellow,URL="./DOMA_TRKORR.html"];
-  "TTYP-SXCO_T_TR_SELECTION_ENTRY" -> "TABL-SXCO_S_TR_SELECTION_ENTRY";
-  "TABL-SXCO_S_TR_SELECTION_ENTRY" -> "DTEL-SXCO_TRANSPORT";
-  "DTEL-SXCO_TRANSPORT" -> "DOMA-TRKORR";
-}

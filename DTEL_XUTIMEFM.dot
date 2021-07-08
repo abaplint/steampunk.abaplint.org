@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XUTIMEFM" [shape=box,color=yellow];
-  "DOMA-XUTIMEFM" [shape=box,color=yellow,URL="./DOMA_XUTIMEFM.html"];
-  "DTEL-XUTIMEFM" -> "DOMA-XUTIMEFM";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDDATETIME_LONG_Z" [shape=box,color=green];
-  "DOMA-XSDDATETIME_LONG_Z" [shape=box,color=green,URL="./DOMA_XSDDATETIME_LONG_Z.html"];
-  "DTEL-XSDDATETIME_LONG_Z" -> "DOMA-XSDDATETIME_LONG_Z";
-}

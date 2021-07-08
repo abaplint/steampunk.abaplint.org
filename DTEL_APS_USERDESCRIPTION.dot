@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_USERDESCRIPTION" [shape=box,color=yellow];
-  "DOMA-SUIDTECHDESC" [shape=box,color=yellow,URL="./DOMA_SUIDTECHDESC.html"];
-  "DTEL-APS_USERDESCRIPTION" -> "DOMA-SUIDTECHDESC";
-}

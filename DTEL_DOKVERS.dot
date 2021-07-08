@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DOKVERS" [shape=box,color=yellow];
-  "DOMA-AS4VERS" [shape=box,color=yellow,URL="./DOMA_AS4VERS.html"];
-  "DTEL-DOKVERS" -> "DOMA-AS4VERS";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-A4C_CP_SVC_LPORT" [shape=box,color=yellow];
-  "DOMA-RFCDEST" [shape=box,color=yellow,URL="./DOMA_RFCDEST.html"];
-  "DTEL-A4C_CP_SVC_LPORT" -> "DOMA-RFCDEST";
-}

@@ -1,3 +1,0 @@
-digraph G {
-  "INTF-IF_PROXY_CLIENT" [shape=box,color=green];
-}

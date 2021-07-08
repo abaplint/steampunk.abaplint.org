@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CONVERT_I" [shape=box,color=yellow];
-  "DOMA-CNV_FIELD" [shape=box,color=yellow,URL="./DOMA_CNV_FIELD.html"];
-  "DTEL-CONVERT_I" -> "DOMA-CNV_FIELD";
-}

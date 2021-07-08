@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SEOEXPOSE" [shape=box,color=yellow];
-  "DOMA-SEOEXPOSE" [shape=box,color=yellow,URL="./DOMA_SEOEXPOSE.html"];
-  "DTEL-SEOEXPOSE" -> "DOMA-SEOEXPOSE";
-}

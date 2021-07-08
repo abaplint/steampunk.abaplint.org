@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_COMP" [shape=box,color=green];
-  "DOMA-CHAR255" [shape=box,color=yellow,URL="./DOMA_CHAR255.html"];
-  "DTEL-BAPI_COMP" -> "DOMA-CHAR255";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XUSPDB" [shape=box,color=yellow];
-  "DOMA-XUSPDB" [shape=box,color=yellow,URL="./DOMA_XUSPDB.html"];
-  "DTEL-XUSPDB" -> "DOMA-XUSPDB";
-}

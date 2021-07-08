@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BUZEI" [shape=box,color=green];
-  "DOMA-BUZEI" [shape=box,color=yellow,URL="./DOMA_BUZEI.html"];
-  "DTEL-BUZEI" -> "DOMA-BUZEI";
-}

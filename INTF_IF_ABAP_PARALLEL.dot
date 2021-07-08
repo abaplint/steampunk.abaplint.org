@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_ABAP_PARALLEL" [shape=box,color=green];
-  "INTF-IF_SERIALIZABLE_OBJECT" [shape=box,color=green,URL="./INTF_IF_SERIALIZABLE_OBJECT.html"];
-  "INTF-IF_ABAP_PARALLEL" -> "INTF-IF_SERIALIZABLE_OBJECT";
-}

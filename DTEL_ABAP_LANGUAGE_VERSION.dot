@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABAP_LANGUAGE_VERSION" [shape=box,color=yellow];
-  "DOMA-ABAP_LANGUAGE_VERSION" [shape=box,color=yellow,URL="./DOMA_ABAP_LANGUAGE_VERSION.html"];
-  "DTEL-ABAP_LANGUAGE_VERSION" -> "DOMA-ABAP_LANGUAGE_VERSION";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-REGEX_STANDARD" [shape=box,color=green];
-  "DOMA-REGEX_STANDARD" [shape=box,color=green,URL="./DOMA_REGEX_STANDARD.html"];
-  "DTEL-REGEX_STANDARD" -> "DOMA-REGEX_STANDARD";
-}

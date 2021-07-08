@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_LMASK" [shape=box,color=green];
-  "DOMA-W3_HTML" [shape=box,color=yellow,URL="./DOMA_W3_HTML.html"];
-  "DTEL-BAPI_LMASK" -> "DOMA-W3_HTML";
-}

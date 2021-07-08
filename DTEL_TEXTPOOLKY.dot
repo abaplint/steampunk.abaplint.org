@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-TEXTPOOLKY" [shape=box,color=yellow];
-  "DOMA-SYCHAR08" [shape=box,color=yellow,URL="./DOMA_SYCHAR08.html"];
-  "DTEL-TEXTPOOLKY" -> "DOMA-SYCHAR08";
-}

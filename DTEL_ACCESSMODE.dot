@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ACCESSMODE" [shape=box,color=yellow];
-  "DOMA-ACCESSMODE" [shape=box,color=yellow,URL="./DOMA_ACCESSMODE.html"];
-  "DTEL-ACCESSMODE" -> "DOMA-ACCESSMODE";
-}

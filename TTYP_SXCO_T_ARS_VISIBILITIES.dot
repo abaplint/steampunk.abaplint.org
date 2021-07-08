@@ -1,5 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_ARS_VISIBILITIES" [shape=box,color=green];
-  "CLAS-CL_XCO_ARS_VISIBILITY" [shape=box,color=green,URL="./CLAS_CL_XCO_ARS_VISIBILITY.html"];
-  "TTYP-SXCO_T_ARS_VISIBILITIES" -> "CLAS-CL_XCO_ARS_VISIBILITY";
-}

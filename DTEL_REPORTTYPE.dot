@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-REPORTTYPE" [shape=box,color=yellow];
-  "DOMA-CHAR2REP" [shape=box,color=yellow,URL="./DOMA_CHAR2REP.html"];
-  "DTEL-REPORTTYPE" -> "DOMA-CHAR2REP";
-}

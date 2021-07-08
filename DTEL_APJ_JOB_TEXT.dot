@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APJ_JOB_TEXT" [shape=box,color=yellow];
-  "DOMA-APJ_TEXT" [shape=box,color=yellow,URL="./DOMA_APJ_TEXT.html"];
-  "DTEL-APJ_JOB_TEXT" -> "DOMA-APJ_TEXT";
-}

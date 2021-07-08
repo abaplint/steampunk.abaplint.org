@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDDEVCLASS" [shape=box,color=yellow];
-  "DOMA-DEVCLASS" [shape=box,color=yellow,URL="./DOMA_DEVCLASS.html"];
-  "DTEL-CDDEVCLASS" -> "DOMA-DEVCLASS";
-}

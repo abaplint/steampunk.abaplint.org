@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_CHANGE_FROM_DAT" [shape=box,color=yellow];
-  "DOMA-DATS" [shape=box,color=yellow,URL="./DOMA_DATS.html"];
-  "DTEL-SUID_CHANGE_FROM_DAT" -> "DOMA-DATS";
-}

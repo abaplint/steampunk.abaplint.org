@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SVC_INSTANCE_NAME" [shape=box,color=green];
-  "DOMA-TEXT80" [shape=box,color=yellow,URL="./DOMA_TEXT80.html"];
-  "DTEL-SVC_INSTANCE_NAME" -> "DOMA-TEXT80";
-}

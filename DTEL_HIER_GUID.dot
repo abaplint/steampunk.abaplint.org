@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-HIER_GUID" [shape=box,color=yellow];
-  "DOMA-SYCHAR32" [shape=box,color=yellow,URL="./DOMA_SYCHAR32.html"];
-  "DTEL-HIER_GUID" -> "DOMA-SYCHAR32";
-}

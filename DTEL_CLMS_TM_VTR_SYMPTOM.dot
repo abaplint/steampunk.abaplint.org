@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CLMS_TM_VTR_SYMPTOM" [shape=box,color=yellow];
-  "DOMA-CLMS_TM_VTR_SYMPTOM" [shape=box,color=yellow,URL="./DOMA_CLMS_TM_VTR_SYMPTOM.html"];
-  "DTEL-CLMS_TM_VTR_SYMPTOM" -> "DOMA-CLMS_TM_VTR_SYMPTOM";
-}

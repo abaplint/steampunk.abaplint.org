@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_COM_IBS_ID" [shape=box,color=yellow];
-  "DOMA-APS_COM_IBS_ID" [shape=box,color=yellow,URL="./DOMA_APS_COM_IBS_ID.html"];
-  "DTEL-APS_COM_IBS_ID" -> "DOMA-APS_COM_IBS_ID";
-}

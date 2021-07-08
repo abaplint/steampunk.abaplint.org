@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FCO_SRVDOC_ID" [shape=box,color=green];
-  "DOMA-CRM_OBJECT_ID" [shape=box,color=yellow,URL="./DOMA_CRM_OBJECT_ID.html"];
-  "DTEL-FCO_SRVDOC_ID" -> "DOMA-CRM_OBJECT_ID";
-}

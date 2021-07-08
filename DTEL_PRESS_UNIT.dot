@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PRESS_UNIT" [shape=box,color=yellow];
-  "DOMA-MEINS" [shape=box,color=green,URL="./DOMA_MEINS.html"];
-  "DTEL-PRESS_UNIT" -> "DOMA-MEINS";
-}

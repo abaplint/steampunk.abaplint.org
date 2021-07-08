@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SCRTEXT_M" [shape=box,color=yellow];
-  "DOMA-SCRTEXT_M" [shape=box,color=yellow,URL="./DOMA_SCRTEXT_M.html"];
-  "DTEL-SCRTEXT_M" -> "DOMA-SCRTEXT_M";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_TABL" [shape=box,color=green];
-  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
-  "DTEL-BAPI_TABL" -> "DOMA-INT4";
-}

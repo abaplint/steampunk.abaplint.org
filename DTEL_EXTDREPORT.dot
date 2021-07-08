@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-EXTDREPORT" [shape=box,color=yellow];
-  "DOMA-EXTDREPORT" [shape=box,color=yellow,URL="./DOMA_EXTDREPORT.html"];
-  "DTEL-EXTDREPORT" -> "DOMA-EXTDREPORT";
-}

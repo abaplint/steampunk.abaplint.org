@@ -1,9 +1,0 @@
-digraph G {
-  "CLAS-CL_ABAP_GZIP" [shape=box,color=green];
-  "DTEL-TIMESTAMP" [shape=box,color=green,URL="./DTEL_TIMESTAMP.html"];
-  "DOMA-TZNTSTMPS" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPS.html"];
-  "DTEL-ABAP_ENCOD" [shape=box,color=green,URL="./DTEL_ABAP_ENCOD.html"];
-  "CLAS-CL_ABAP_GZIP" -> "DTEL-ABAP_ENCOD";
-  "CLAS-CL_ABAP_GZIP" -> "DTEL-TIMESTAMP";
-  "DTEL-TIMESTAMP" -> "DOMA-TZNTSTMPS";
-}

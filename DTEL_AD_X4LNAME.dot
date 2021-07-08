@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_X4LNAME" [shape=box,color=yellow];
-  "DOMA-CHAR40" [shape=box,color=yellow,URL="./DOMA_CHAR40.html"];
-  "DTEL-AD_X4LNAME" -> "DOMA-CHAR40";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SELMETHTXT" [shape=box,color=yellow];
-  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
-  "DTEL-SELMETHTXT" -> "DOMA-AS4TAB";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SBF_METHOD" [shape=box,color=yellow];
-  "DOMA-SWC_EDITEL" [shape=box,color=yellow,URL="./DOMA_SWC_EDITEL.html"];
-  "DTEL-SBF_METHOD" -> "DOMA-SWC_EDITEL";
-}

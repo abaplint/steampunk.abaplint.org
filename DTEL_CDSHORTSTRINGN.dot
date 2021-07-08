@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDSHORTSTRINGN" [shape=box,color=yellow];
-  "DOMA-CDSHORTSTRING" [shape=box,color=yellow,URL="./DOMA_CDSHORTSTRING.html"];
-  "DTEL-CDSHORTSTRINGN" -> "DOMA-CDSHORTSTRING";
-}

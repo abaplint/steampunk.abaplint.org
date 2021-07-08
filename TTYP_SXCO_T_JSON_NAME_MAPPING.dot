@@ -1,5 +1,0 @@
-digraph G {
-  "TTYP-SXCO_T_JSON_NAME_MAPPING" [shape=box,color=green];
-  "TABL-SXCO_S_JSON_NAME_MAPPING" [shape=box,color=green,URL="./TABL_SXCO_S_JSON_NAME_MAPPING.html"];
-  "TTYP-SXCO_T_JSON_NAME_MAPPING" -> "TABL-SXCO_S_JSON_NAME_MAPPING";
-}

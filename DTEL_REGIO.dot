@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-REGIO" [shape=box,color=green];
-  "DOMA-REGIO" [shape=box,color=yellow,URL="./DOMA_REGIO.html"];
-  "DTEL-REGIO" -> "DOMA-REGIO";
-}

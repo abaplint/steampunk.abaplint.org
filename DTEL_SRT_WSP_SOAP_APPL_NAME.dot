@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_WSP_SOAP_APPL_NAME" [shape=box,color=yellow];
-  "DOMA-SRT_WSP_SOAP_APPL_NAME" [shape=box,color=yellow,URL="./DOMA_SRT_WSP_SOAP_APPL_NAME.html"];
-  "DTEL-SRT_WSP_SOAP_APPL_NAME" -> "DOMA-SRT_WSP_SOAP_APPL_NAME";
-}

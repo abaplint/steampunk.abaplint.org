@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-/UI2/ADMIN_CREATED_BY" [shape=box,color=yellow];
-  "DOMA-UNAME" [shape=box,color=yellow,URL="./DOMA_UNAME.html"];
-  "DTEL-/UI2/ADMIN_CREATED_BY" -> "DOMA-UNAME";
-}

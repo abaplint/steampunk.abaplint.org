@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-CDPREFIX" [shape=box,color=yellow];
-  "DOMA-CDPREFIX" [shape=box,color=yellow,URL="./DOMA_CDPREFIX.html"];
-  "DTEL-CDPREFIX" -> "DOMA-CDPREFIX";
-}

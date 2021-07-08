@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_CS_SAPSYS_ID" [shape=box,color=yellow];
-  "DOMA-SYCHAR08" [shape=box,color=yellow,URL="./DOMA_SYCHAR08.html"];
-  "DTEL-APS_CS_SAPSYS_ID" -> "DOMA-SYCHAR08";
-}

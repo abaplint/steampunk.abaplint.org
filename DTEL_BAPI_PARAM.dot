@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BAPI_PARAM" [shape=box,color=green];
-  "DOMA-SWC_ELEM" [shape=box,color=yellow,URL="./DOMA_SWC_ELEM.html"];
-  "DTEL-BAPI_PARAM" -> "DOMA-SWC_ELEM";
-}

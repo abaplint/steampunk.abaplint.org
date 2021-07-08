@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDUUID_CHAR" [shape=box,color=green];
-  "DOMA-XSDUUID_CHAR" [shape=box,color=green,URL="./DOMA_XSDUUID_CHAR.html"];
-  "DTEL-XSDUUID_CHAR" -> "DOMA-XSDUUID_CHAR";
-}

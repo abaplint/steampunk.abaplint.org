@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABP_ASSOCIATION_NAME" [shape=box,color=green];
-  "DOMA-ABP_ASSOCIATION_NAME" [shape=box,color=yellow,URL="./DOMA_ABP_ASSOCIATION_NAME.html"];
-  "DTEL-ABP_ASSOCIATION_NAME" -> "DOMA-ABP_ASSOCIATION_NAME";
-}

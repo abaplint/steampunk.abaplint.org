@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PRX_CONTR" [shape=box,color=yellow];
-  "DOMA-PRX_CONTR" [shape=box,color=yellow,URL="./DOMA_PRX_CONTR.html"];
-  "DTEL-PRX_CONTR" -> "DOMA-PRX_CONTR";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-BALPROG" [shape=box,color=yellow];
-  "DOMA-PROGNAME" [shape=box,color=yellow,URL="./DOMA_PROGNAME.html"];
-  "DTEL-BALPROG" -> "DOMA-PROGNAME";
-}

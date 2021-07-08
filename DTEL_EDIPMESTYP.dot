@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-EDIPMESTYP" [shape=box,color=yellow];
-  "DOMA-EDI_MESTYP" [shape=box,color=yellow,URL="./DOMA_EDI_MESTYP.html"];
-  "DTEL-EDIPMESTYP" -> "DOMA-EDI_MESTYP";
-}

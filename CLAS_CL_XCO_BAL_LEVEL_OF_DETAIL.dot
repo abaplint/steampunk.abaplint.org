@@ -1,7 +1,0 @@
-digraph G {
-  "CLAS-CL_XCO_BAL_LEVEL_OF_DETAIL" [shape=box,color=green];
-  "DTEL-BALLEVEL" [shape=box,color=green,URL="./DTEL_BALLEVEL.html"];
-  "DOMA-BALLEVEL" [shape=box,color=yellow,URL="./DOMA_BALLEVEL.html"];
-  "CLAS-CL_XCO_BAL_LEVEL_OF_DETAIL" -> "DTEL-BALLEVEL";
-  "DTEL-BALLEVEL" -> "DOMA-BALLEVEL";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SRT_PERSISTENCY_PERSIST_ID" [shape=box,color=yellow];
-  "DOMA-SYSUUID" [shape=box,color=yellow,URL="./DOMA_SYSUUID.html"];
-  "DTEL-SRT_PERSISTENCY_PERSIST_ID" -> "DOMA-SYSUUID";
-}

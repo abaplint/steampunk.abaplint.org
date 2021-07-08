@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SWF_CPWF_RETENTION" [shape=box,color=yellow];
-  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
-  "DTEL-SWF_CPWF_RETENTION" -> "DOMA-INT4";
-}

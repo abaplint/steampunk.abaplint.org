@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-XSDQNAME" [shape=box,color=green];
-  "DOMA-XSDQNAME" [shape=box,color=green,URL="./DOMA_XSDQNAME.html"];
-  "DTEL-XSDQNAME" -> "DOMA-XSDQNAME";
-}

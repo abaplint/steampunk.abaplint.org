@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AD_PREFIX" [shape=box,color=yellow];
-  "DOMA-AD_PREFIX" [shape=box,color=yellow,URL="./DOMA_AD_PREFIX.html"];
-  "DTEL-AD_PREFIX" -> "DOMA-AD_PREFIX";
-}

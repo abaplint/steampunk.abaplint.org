@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_QUARTER_OF_YEAR" [shape=box,color=green];
-  "DOMA-FDT_QUARTER_OF_YEAR" [shape=box,color=yellow,URL="./DOMA_FDT_QUARTER_OF_YEAR.html"];
-  "DTEL-FDT_QUARTER_OF_YEAR" -> "DOMA-FDT_QUARTER_OF_YEAR";
-}

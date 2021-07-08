@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SUID_SNC_KSTAT" [shape=box,color=yellow];
-  "DOMA-SUID_SNC_KSTAT" [shape=box,color=yellow,URL="./DOMA_SUID_SNC_KSTAT.html"];
-  "DTEL-SUID_SNC_KSTAT" -> "DOMA-SUID_SNC_KSTAT";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NRBUFFER" [shape=box,color=yellow];
-  "DOMA-NRBUFFERTYPE" [shape=box,color=yellow,URL="./DOMA_NRBUFFERTYPE.html"];
-  "DTEL-NRBUFFER" -> "DOMA-NRBUFFERTYPE";
-}

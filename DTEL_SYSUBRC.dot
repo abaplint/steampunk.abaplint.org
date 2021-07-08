@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SYSUBRC" [shape=box,color=green];
-  "DOMA-SYST_SHORT" [shape=box,color=yellow,URL="./DOMA_SYST_SHORT.html"];
-  "DTEL-SYSUBRC" -> "DOMA-SYST_SHORT";
-}

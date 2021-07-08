@@ -1,5 +1,0 @@
-digraph G {
-  "INTF-IF_XCO_TR_FILTER" [shape=box,color=green];
-  "CLAS-CL_XCO_TR_SELECTION_BUILDER" [shape=box,color=green,URL="./CLAS_CL_XCO_TR_SELECTION_BUILDER.html"];
-  "INTF-IF_XCO_TR_FILTER" -> "CLAS-CL_XCO_TR_SELECTION_BUILDER";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-ABP_FIELD_NAME" [shape=box,color=green];
-  "DOMA-ABP_FIELD_NAME" [shape=box,color=yellow,URL="./DOMA_ABP_FIELD_NAME.html"];
-  "DTEL-ABP_FIELD_NAME" -> "DOMA-ABP_FIELD_NAME";
-}

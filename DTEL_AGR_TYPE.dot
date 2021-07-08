@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-AGR_TYPE" [shape=box,color=yellow];
-  "DOMA-AGR_TYPE" [shape=box,color=yellow,URL="./DOMA_AGR_TYPE.html"];
-  "DTEL-AGR_TYPE" -> "DOMA-AGR_TYPE";
-}

@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-SFTGL_FT_ID" [shape=box,color=yellow];
-  "DOMA-FTGL_ID" [shape=box,color=yellow,URL="./DOMA_FTGL_ID.html"];
-  "DTEL-SFTGL_FT_ID" -> "DOMA-FTGL_ID";
-}

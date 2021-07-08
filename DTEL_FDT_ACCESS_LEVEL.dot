@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-FDT_ACCESS_LEVEL" [shape=box,color=yellow];
-  "DOMA-FDT_ACCESS_LEVEL" [shape=box,color=yellow,URL="./DOMA_FDT_ACCESS_LEVEL.html"];
-  "DTEL-FDT_ACCESS_LEVEL" -> "DOMA-FDT_ACCESS_LEVEL";
-}

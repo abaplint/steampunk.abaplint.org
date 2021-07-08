@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PWD_HASH_STRING" [shape=box,color=yellow];
-  "DOMA-PWD_HASH_STRING" [shape=box,color=yellow,URL="./DOMA_PWD_HASH_STRING.html"];
-  "DTEL-PWD_HASH_STRING" -> "DOMA-PWD_HASH_STRING";
-}

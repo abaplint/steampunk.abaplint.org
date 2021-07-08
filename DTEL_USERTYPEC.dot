@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-USERTYPEC" [shape=box,color=yellow];
-  "DOMA-USERTYPC" [shape=box,color=yellow,URL="./DOMA_USERTYPC.html"];
-  "DTEL-USERTYPEC" -> "DOMA-USERTYPC";
-}

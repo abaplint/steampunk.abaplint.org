@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-NOTNULL" [shape=box,color=yellow];
-  "DOMA-NOTNULL" [shape=box,color=yellow,URL="./DOMA_NOTNULL.html"];
-  "DTEL-NOTNULL" -> "DOMA-NOTNULL";
-}

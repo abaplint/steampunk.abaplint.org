@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-APS_BC_SCOPE_DEPENDENT" [shape=box,color=yellow];
-  "DOMA-FLAG" [shape=box,color=yellow,URL="./DOMA_FLAG.html"];
-  "DTEL-APS_BC_SCOPE_DEPENDENT" -> "DOMA-FLAG";
-}

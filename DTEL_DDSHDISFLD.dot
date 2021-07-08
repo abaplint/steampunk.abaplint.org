@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DDSHDISFLD" [shape=box,color=yellow];
-  "DOMA-DDFLAG" [shape=box,color=yellow,URL="./DOMA_DDFLAG.html"];
-  "DTEL-DDSHDISFLD" -> "DOMA-DDFLAG";
-}

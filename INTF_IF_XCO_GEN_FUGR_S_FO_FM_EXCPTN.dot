@@ -1,9 +1,0 @@
-digraph G {
-  "INTF-IF_XCO_GEN_FUGR_S_FO_FM_EXCPTN" [shape=box,color=green];
-  "DTEL-SXCO_FM_EXCEPTION_NAME" [shape=box,color=green,URL="./DTEL_SXCO_FM_EXCEPTION_NAME.html"];
-  "DTEL-PARAMTEXT" [shape=box,color=yellow,URL="./DTEL_PARAMTEXT.html"];
-  "DOMA-TEXT79" [shape=box,color=yellow,URL="./DOMA_TEXT79.html"];
-  "INTF-IF_XCO_GEN_FUGR_S_FO_FM_EXCPTN" -> "DTEL-PARAMTEXT";
-  "INTF-IF_XCO_GEN_FUGR_S_FO_FM_EXCPTN" -> "DTEL-SXCO_FM_EXCEPTION_NAME";
-  "DTEL-PARAMTEXT" -> "DOMA-TEXT79";
-}

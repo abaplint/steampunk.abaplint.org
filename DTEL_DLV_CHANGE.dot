@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-DLV_CHANGE" [shape=box,color=yellow];
-  "DOMA-DLV_CHANGE" [shape=box,color=yellow,URL="./DOMA_DLV_CHANGE.html"];
-  "DTEL-DLV_CHANGE" -> "DOMA-DLV_CHANGE";
-}

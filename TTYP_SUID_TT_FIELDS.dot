@@ -1,7 +1,0 @@
-digraph G {
-  "TTYP-SUID_TT_FIELDS" [shape=box,color=yellow];
-  "DTEL-SUID_NODE_FIELD" [shape=box,color=yellow,URL="./DTEL_SUID_NODE_FIELD.html"];
-  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
-  "TTYP-SUID_TT_FIELDS" -> "DTEL-SUID_NODE_FIELD";
-  "DTEL-SUID_NODE_FIELD" -> "DOMA-FDNAME";
-}

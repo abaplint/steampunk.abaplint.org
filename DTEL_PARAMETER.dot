@@ -1,5 +1,0 @@
-digraph G {
-  "DTEL-PARAMETER" [shape=box,color=yellow];
-  "DOMA-LPARAMETER" [shape=box,color=yellow,URL="./DOMA_LPARAMETER.html"];
-  "DTEL-PARAMETER" -> "DOMA-LPARAMETER";
-}
