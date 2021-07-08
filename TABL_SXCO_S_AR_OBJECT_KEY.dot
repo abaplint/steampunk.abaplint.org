@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-SXCO_S_AR_OBJECT_KEY" [shape=box,color=green];
+  "DTEL-SXCO_AR_OBJECT_NAME" [shape=box,color=green,URL="./DTEL_SXCO_AR_OBJECT_NAME.html"];
+  "DOMA-SOBJ_NAME" [shape=box,color=yellow,URL="./DOMA_SOBJ_NAME.html"];
+  "DTEL-SXCO_AR_OBJECT_TYPE" [shape=box,color=green,URL="./DTEL_SXCO_AR_OBJECT_TYPE.html"];
+  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
+  "TABL-SXCO_S_AR_OBJECT_KEY" -> "DTEL-SXCO_AR_OBJECT_TYPE";
+  "TABL-SXCO_S_AR_OBJECT_KEY" -> "DTEL-SXCO_AR_OBJECT_NAME";
+  "DTEL-SXCO_AR_OBJECT_NAME" -> "DOMA-SOBJ_NAME";
+  "DTEL-SXCO_AR_OBJECT_TYPE" -> "DOMA-OBJECT";
+}

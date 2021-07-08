@@ -1,0 +1,13 @@
+digraph G {
+  "TABL-APS_IAM_W_AUACTM" [shape=box,color=yellow];
+  "DTEL-APS_IAM_CAT_RTYPE_ACC_CAT_CODE" [shape=box,color=yellow,URL="./DTEL_APS_IAM_CAT_RTYPE_ACC_CAT_CODE.html"];
+  "DOMA-APS_IAM_CAT_RTYPE_ACC_CAT_CODE" [shape=box,color=yellow,URL="./DOMA_APS_IAM_CAT_RTYPE_ACC_CAT_CODE.html"];
+  "DTEL-AGVAL" [shape=box,color=yellow,URL="./DTEL_AGVAL.html"];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "DTEL-APS_IAM_AUTH_OBJECT_ID" [shape=box,color=yellow,URL="./DTEL_APS_IAM_AUTH_OBJECT_ID.html"];
+  "TABL-APS_IAM_W_AUACTM" -> "DTEL-APS_IAM_AUTH_OBJECT_ID";
+  "TABL-APS_IAM_W_AUACTM" -> "DTEL-AGVAL";
+  "TABL-APS_IAM_W_AUACTM" -> "DTEL-APS_IAM_CAT_RTYPE_ACC_CAT_CODE";
+  "DTEL-APS_IAM_CAT_RTYPE_ACC_CAT_CODE" -> "DOMA-APS_IAM_CAT_RTYPE_ACC_CAT_CODE";
+  "DTEL-AGVAL" -> "DOMA-XUVALUE";
+}

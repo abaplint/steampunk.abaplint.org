@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BADI_FILTER_NAME" [shape=box,color=green];
+  "DOMA-BADI_FILTER_NAME" [shape=box,color=yellow,URL="./DOMA_BADI_FILTER_NAME.html"];
+  "DTEL-BADI_FILTER_NAME" -> "DOMA-BADI_FILTER_NAME";
+}

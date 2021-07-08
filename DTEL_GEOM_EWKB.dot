@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-GEOM_EWKB" [shape=box,color=green];
+  "DOMA-GGM1" [shape=box,color=yellow,URL="./DOMA_GGM1.html"];
+  "DTEL-GEOM_EWKB" -> "DOMA-GGM1";
+}

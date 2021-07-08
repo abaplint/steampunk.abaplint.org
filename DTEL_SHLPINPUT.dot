@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SHLPINPUT" [shape=box,color=yellow];
+  "DOMA-AS4FLAG" [shape=box,color=yellow,URL="./DOMA_AS4FLAG.html"];
+  "DTEL-SHLPINPUT" -> "DOMA-AS4FLAG";
+}

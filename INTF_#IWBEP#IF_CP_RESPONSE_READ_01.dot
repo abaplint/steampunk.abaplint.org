@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-/IWBEP/IF_CP_RESPONSE_READ_01" [shape=box,color=green];
+}

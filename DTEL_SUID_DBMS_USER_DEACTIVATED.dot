@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SUID_DBMS_USER_DEACTIVATED" [shape=box,color=yellow];
+  "DOMA-BOOLE" [shape=box,color=yellow,URL="./DOMA_BOOLE.html"];
+  "DTEL-SUID_DBMS_USER_DEACTIVATED" -> "DOMA-BOOLE";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SRT_MSG_ACTION" [shape=box,color=yellow];
+  "DOMA-SRT_MSG_ACTION" [shape=box,color=yellow,URL="./DOMA_SRT_MSG_ACTION.html"];
+  "DTEL-SRT_MSG_ACTION" -> "DOMA-SRT_MSG_ACTION";
+}

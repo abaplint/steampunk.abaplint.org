@@ -1,0 +1,21 @@
+digraph G {
+  "TABL-SUID_ST_NODE_PARAMETER" [shape=box,color=yellow];
+  "DTEL-SUID_NODE_KEY_HANDLE" [shape=box,color=yellow,URL="./DTEL_SUID_NODE_KEY_HANDLE.html"];
+  "DTEL-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DTEL_SUID_CHANGE_MODE.html"];
+  "DOMA-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DOMA_SUID_CHANGE_MODE.html"];
+  "DTEL-AS4TEXT" [shape=box,color=yellow,URL="./DTEL_AS4TEXT.html"];
+  "DOMA-AS4TEXT" [shape=box,color=yellow,URL="./DOMA_AS4TEXT.html"];
+  "DTEL-XUVALUE" [shape=box,color=yellow,URL="./DTEL_XUVALUE.html"];
+  "DOMA-XUPARVAL" [shape=box,color=yellow,URL="./DOMA_XUPARVAL.html"];
+  "DTEL-MEMORYID" [shape=box,color=yellow,URL="./DTEL_MEMORYID.html"];
+  "DOMA-MEMORYID" [shape=box,color=yellow,URL="./DOMA_MEMORYID.html"];
+  "TABL-SUID_ST_NODE_PARAMETER" -> "DTEL-MEMORYID";
+  "TABL-SUID_ST_NODE_PARAMETER" -> "DTEL-XUVALUE";
+  "TABL-SUID_ST_NODE_PARAMETER" -> "DTEL-AS4TEXT";
+  "TABL-SUID_ST_NODE_PARAMETER" -> "DTEL-SUID_CHANGE_MODE";
+  "TABL-SUID_ST_NODE_PARAMETER" -> "DTEL-SUID_NODE_KEY_HANDLE";
+  "DTEL-SUID_CHANGE_MODE" -> "DOMA-SUID_CHANGE_MODE";
+  "DTEL-AS4TEXT" -> "DOMA-AS4TEXT";
+  "DTEL-XUVALUE" -> "DOMA-XUPARVAL";
+  "DTEL-MEMORYID" -> "DOMA-MEMORYID";
+}

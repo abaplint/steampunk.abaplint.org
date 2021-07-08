@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-F_AGR_NAME" [shape=box,color=yellow];
+  "DOMA-F_AGR_NAME" [shape=box,color=yellow,URL="./DOMA_F_AGR_NAME.html"];
+  "DTEL-F_AGR_NAME" -> "DOMA-F_AGR_NAME";
+}

@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-BALSUB" [shape=box,color=yellow];
+  "DTEL-BALSUBOBJ" [shape=box,color=green,URL="./DTEL_BALSUBOBJ.html"];
+  "DOMA-BALSUBOBJ" [shape=box,color=yellow,URL="./DOMA_BALSUBOBJ.html"];
+  "DTEL-BALOBJ_D" [shape=box,color=green,URL="./DTEL_BALOBJ_D.html"];
+  "DOMA-BALOBJ" [shape=box,color=yellow,URL="./DOMA_BALOBJ.html"];
+  "TABL-BALSUB" -> "DTEL-BALOBJ_D";
+  "TABL-BALSUB" -> "DTEL-BALSUBOBJ";
+  "DTEL-BALSUBOBJ" -> "DOMA-BALSUBOBJ";
+  "DTEL-BALOBJ_D" -> "DOMA-BALOBJ";
+}

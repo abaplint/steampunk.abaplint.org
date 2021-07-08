@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RALDB_REPO" [shape=box,color=yellow];
+  "DOMA-RALDB_REPO" [shape=box,color=yellow,URL="./DOMA_RALDB_REPO.html"];
+  "DTEL-RALDB_REPO" -> "DOMA-RALDB_REPO";
+}

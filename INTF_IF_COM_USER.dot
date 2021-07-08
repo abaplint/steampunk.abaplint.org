@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_COM_USER" [shape=box,color=green];
+  "DTEL-XUUFLAG" [shape=box,color=yellow,URL="./DTEL_XUUFLAG.html"];
+  "DOMA-XUUFLAG" [shape=box,color=yellow,URL="./DOMA_XUUFLAG.html"];
+  "INTF-IF_COM_USER" -> "DTEL-XUUFLAG";
+  "DTEL-XUUFLAG" -> "DOMA-XUUFLAG";
+}

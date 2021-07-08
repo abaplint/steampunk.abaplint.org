@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TROBJTYPE" [shape=box,color=yellow];
+  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
+  "DTEL-TROBJTYPE" -> "DOMA-OBJECT";
+}

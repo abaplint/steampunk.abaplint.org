@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-VAL_TEXT" [shape=box,color=yellow];
+  "DOMA-DDTEXT" [shape=box,color=yellow,URL="./DOMA_DDTEXT.html"];
+  "DTEL-VAL_TEXT" -> "DOMA-DDTEXT";
+}

@@ -1,0 +1,21 @@
+digraph G {
+  "TTYP-SUID_TT_NODE_CUA_ROLE_DETAILS" [shape=box,color=yellow];
+  "TABL-SUID_ST_NODE_CUA_ROLE_DETAIL" [shape=box,color=yellow,URL="./TABL_SUID_ST_NODE_CUA_ROLE_DETAIL.html"];
+  "DTEL-AGR_TYPE" [shape=box,color=yellow,URL="./DTEL_AGR_TYPE.html"];
+  "DOMA-AGR_TYPE" [shape=box,color=yellow,URL="./DOMA_AGR_TYPE.html"];
+  "DTEL-AGR_TITLE" [shape=box,color=yellow,URL="./DTEL_AGR_TITLE.html"];
+  "DOMA-TEXT80" [shape=box,color=yellow,URL="./DOMA_TEXT80.html"];
+  "DTEL-F_AGR_NAME" [shape=box,color=yellow,URL="./DTEL_F_AGR_NAME.html"];
+  "DOMA-F_AGR_NAME" [shape=box,color=yellow,URL="./DOMA_F_AGR_NAME.html"];
+  "DTEL-RFCRCVSYS" [shape=box,color=yellow,URL="./DTEL_RFCRCVSYS.html"];
+  "DOMA-LOGSYS" [shape=box,color=yellow,URL="./DOMA_LOGSYS.html"];
+  "TTYP-SUID_TT_NODE_CUA_ROLE_DETAILS" -> "TABL-SUID_ST_NODE_CUA_ROLE_DETAIL";
+  "TABL-SUID_ST_NODE_CUA_ROLE_DETAIL" -> "DTEL-RFCRCVSYS";
+  "TABL-SUID_ST_NODE_CUA_ROLE_DETAIL" -> "DTEL-F_AGR_NAME";
+  "TABL-SUID_ST_NODE_CUA_ROLE_DETAIL" -> "DTEL-AGR_TITLE";
+  "TABL-SUID_ST_NODE_CUA_ROLE_DETAIL" -> "DTEL-AGR_TYPE";
+  "DTEL-AGR_TYPE" -> "DOMA-AGR_TYPE";
+  "DTEL-AGR_TITLE" -> "DOMA-TEXT80";
+  "DTEL-F_AGR_NAME" -> "DOMA-F_AGR_NAME";
+  "DTEL-RFCRCVSYS" -> "DOMA-LOGSYS";
+}

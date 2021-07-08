@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_C_O" [shape=box,color=yellow];
+  "DOMA-FLAG" [shape=box,color=yellow,URL="./DOMA_FLAG.html"];
+  "DTEL-APS_COM_CSCN_C_O" -> "DOMA-FLAG";
+}

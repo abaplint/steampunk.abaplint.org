@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TR_TARGET" [shape=box,color=yellow];
+  "DOMA-TR_TARGET" [shape=box,color=yellow,URL="./DOMA_TR_TARGET.html"];
+  "DTEL-TR_TARGET" -> "DOMA-TR_TARGET";
+}

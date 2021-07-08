@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CA_PACKAGESIZE" [shape=box,color=yellow];
+  "DOMA-NUMC08" [shape=box,color=yellow,URL="./DOMA_NUMC08.html"];
+  "DTEL-APS_CA_PACKAGESIZE" -> "DOMA-NUMC08";
+}

@@ -1,0 +1,23 @@
+digraph G {
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" [shape=box,color=yellow];
+  "INTF-IF_MESSAGE" [shape=box,color=green,URL="./INTF_IF_MESSAGE.html"];
+  "TTYP-/IWBEP/T_TARGET" [shape=box,color=yellow,URL="./TTYP_%23IWBEP%23T_TARGET.html"];
+  "DTEL-SYMSGV" [shape=box,color=green,URL="./DTEL_SYMSGV.html"];
+  "DOMA-SYCHAR50" [shape=box,color=yellow,URL="./DOMA_SYCHAR50.html"];
+  "DTEL-SYMSGNO" [shape=box,color=green,URL="./DTEL_SYMSGNO.html"];
+  "DOMA-SYMSGNO" [shape=box,color=yellow,URL="./DOMA_SYMSGNO.html"];
+  "DTEL-SYMSGID" [shape=box,color=green,URL="./DTEL_SYMSGID.html"];
+  "DOMA-ARBGB" [shape=box,color=yellow,URL="./DOMA_ARBGB.html"];
+  "DTEL-SYMSGTY" [shape=box,color=green,URL="./DTEL_SYMSGTY.html"];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" -> "DTEL-SYMSGTY";
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" -> "DTEL-SYMSGID";
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" -> "DTEL-SYMSGNO";
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" -> "DTEL-SYMSGV";
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" -> "TTYP-/IWBEP/T_TARGET";
+  "INTF-/IWBEP/IF_V4_MESSAGE_CONTAINER" -> "INTF-IF_MESSAGE";
+  "DTEL-SYMSGV" -> "DOMA-SYCHAR50";
+  "DTEL-SYMSGNO" -> "DOMA-SYMSGNO";
+  "DTEL-SYMSGID" -> "DOMA-ARBGB";
+  "DTEL-SYMSGTY" -> "DOMA-SYCHAR01";
+}

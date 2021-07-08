@@ -1,0 +1,34 @@
+digraph G {
+  "INTF-IF_BALI_HEADER_GETTER" [shape=box,color=green];
+  "DTEL-DEL_BEFORE" [shape=box,color=yellow,URL="./DTEL_DEL_BEFORE.html"];
+  "DOMA-BALDELBEF" [shape=box,color=yellow,URL="./DOMA_BALDELBEF.html"];
+  "DTEL-ALDATE_DEL" [shape=box,color=yellow,URL="./DTEL_ALDATE_DEL.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "DTEL-BALUSER" [shape=box,color=yellow,URL="./DTEL_BALUSER.html"];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "DTEL-BALNREXT" [shape=box,color=yellow,URL="./DTEL_BALNREXT.html"];
+  "DOMA-BALNREXT" [shape=box,color=yellow,URL="./DOMA_BALNREXT.html"];
+  "DTEL-BALSUBOBJ" [shape=box,color=green,URL="./DTEL_BALSUBOBJ.html"];
+  "DOMA-BALSUBOBJ" [shape=box,color=yellow,URL="./DOMA_BALSUBOBJ.html"];
+  "DTEL-BALOBJ_D" [shape=box,color=green,URL="./DTEL_BALOBJ_D.html"];
+  "DOMA-BALOBJ" [shape=box,color=yellow,URL="./DOMA_BALOBJ.html"];
+  "DTEL-BALSUBOBJT" [shape=box,color=yellow,URL="./DTEL_BALSUBOBJT.html"];
+  "DOMA-TEXT60" [shape=box,color=yellow,URL="./DOMA_TEXT60.html"];
+  "DTEL-BALOBJT_D" [shape=box,color=yellow,URL="./DTEL_BALOBJT_D.html"];
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-BALOBJT_D";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-BALSUBOBJT";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-BALOBJ_D";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-BALSUBOBJ";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-BALNREXT";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-BALUSER";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-ALDATE_DEL";
+  "INTF-IF_BALI_HEADER_GETTER" -> "DTEL-DEL_BEFORE";
+  "DTEL-DEL_BEFORE" -> "DOMA-BALDELBEF";
+  "DTEL-ALDATE_DEL" -> "DOMA-DATUM";
+  "DTEL-BALUSER" -> "DOMA-XUBNAME";
+  "DTEL-BALNREXT" -> "DOMA-BALNREXT";
+  "DTEL-BALSUBOBJ" -> "DOMA-BALSUBOBJ";
+  "DTEL-BALOBJ_D" -> "DOMA-BALOBJ";
+  "DTEL-BALSUBOBJT" -> "DOMA-TEXT60";
+  "DTEL-BALOBJT_D" -> "DOMA-TEXT60";
+}

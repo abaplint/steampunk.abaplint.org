@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-BAPIRANGES" [shape=box,color=green];
+  "DTEL-BAPIOPTION" [shape=box,color=green,URL="./DTEL_BAPIOPTION.html"];
+  "DOMA-BAPIOPTION" [shape=box,color=yellow,URL="./DOMA_BAPIOPTION.html"];
+  "DTEL-BAPISIGN" [shape=box,color=green,URL="./DTEL_BAPISIGN.html"];
+  "DOMA-BAPISIGN" [shape=box,color=yellow,URL="./DOMA_BAPISIGN.html"];
+  "TABL-BAPIRANGES" -> "DTEL-BAPISIGN";
+  "TABL-BAPIRANGES" -> "DTEL-BAPIOPTION";
+  "DTEL-BAPIOPTION" -> "DOMA-BAPIOPTION";
+  "DTEL-BAPISIGN" -> "DOMA-BAPISIGN";
+}

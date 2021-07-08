@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-OA2C_PROFILE" [shape=box,color=yellow];
+  "DOMA-OA2C_PROFILE" [shape=box,color=yellow,URL="./DOMA_OA2C_PROFILE.html"];
+  "DTEL-OA2C_PROFILE" -> "DOMA-OA2C_PROFILE";
+}

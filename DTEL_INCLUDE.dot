@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-INCLUDE" [shape=box,color=yellow];
+  "DOMA-PROGNAME" [shape=box,color=yellow,URL="./DOMA_PROGNAME.html"];
+  "DTEL-INCLUDE" -> "DOMA-PROGNAME";
+}

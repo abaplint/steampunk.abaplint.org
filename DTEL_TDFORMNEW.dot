@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TDFORMNEW" [shape=box,color=yellow];
+  "DOMA-TDFORMNEW" [shape=box,color=yellow,URL="./DOMA_TDFORMNEW.html"];
+  "DTEL-TDFORMNEW" -> "DOMA-TDFORMNEW";
+}

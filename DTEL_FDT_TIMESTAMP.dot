@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_TIMESTAMP" [shape=box,color=yellow];
+  "DOMA-TZNTSTMPS" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPS.html"];
+  "DTEL-FDT_TIMESTAMP" -> "DOMA-TZNTSTMPS";
+}

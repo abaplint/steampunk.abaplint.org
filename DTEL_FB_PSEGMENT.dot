@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FB_PSEGMENT" [shape=box,color=green];
+  "DOMA-FB_SEGMENT" [shape=box,color=yellow,URL="./DOMA_FB_SEGMENT.html"];
+  "DTEL-FB_PSEGMENT" -> "DOMA-FB_SEGMENT";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XSDLANGUAGE" [shape=box,color=green];
+  "DOMA-XSDLANGUAGE" [shape=box,color=green,URL="./DOMA_XSDLANGUAGE.html"];
+  "DTEL-XSDLANGUAGE" -> "DOMA-XSDLANGUAGE";
+}

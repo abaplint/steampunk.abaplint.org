@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/IWBEP/V4_MED_GROUP_ID" [shape=box,color=yellow];
+  "DOMA-/IWBEP/V4_MED_GROUP_ID" [shape=box,color=yellow,URL="./DOMA_%23IWBEP%23V4_MED_GROUP_ID.html"];
+  "DTEL-/IWBEP/V4_MED_GROUP_ID" -> "DOMA-/IWBEP/V4_MED_GROUP_ID";
+}

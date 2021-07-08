@@ -1,0 +1,34 @@
+digraph G {
+  "TABL-SUID_ST_NODE_CUA_ROLE" [shape=box,color=yellow];
+  "DTEL-SUID_CHANGE_TO_DAT" [shape=box,color=yellow,URL="./DTEL_SUID_CHANGE_TO_DAT.html"];
+  "DOMA-DATS" [shape=box,color=yellow,URL="./DOMA_DATS.html"];
+  "DTEL-SUID_CHANGE_FROM_DAT" [shape=box,color=yellow,URL="./DTEL_SUID_CHANGE_FROM_DAT.html"];
+  "DTEL-SUID_NODE_KEY_HANDLE" [shape=box,color=yellow,URL="./DTEL_SUID_NODE_KEY_HANDLE.html"];
+  "DTEL-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DTEL_SUID_CHANGE_MODE.html"];
+  "DOMA-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DOMA_SUID_CHANGE_MODE.html"];
+  "DTEL-AGR_ORGCOL" [shape=box,color=yellow,URL="./DTEL_AGR_ORGCOL.html"];
+  "DOMA-AGR_ORGCOL" [shape=box,color=yellow,URL="./DOMA_AGR_ORGCOL.html"];
+  "DTEL-AGR_TDATE" [shape=box,color=yellow,URL="./DTEL_AGR_TDATE.html"];
+  "DTEL-AGR_FDATE" [shape=box,color=yellow,URL="./DTEL_AGR_FDATE.html"];
+  "DTEL-F_AGR_NAME" [shape=box,color=yellow,URL="./DTEL_F_AGR_NAME.html"];
+  "DOMA-F_AGR_NAME" [shape=box,color=yellow,URL="./DOMA_F_AGR_NAME.html"];
+  "DTEL-RFCRCVSYS" [shape=box,color=yellow,URL="./DTEL_RFCRCVSYS.html"];
+  "DOMA-LOGSYS" [shape=box,color=yellow,URL="./DOMA_LOGSYS.html"];
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-RFCRCVSYS";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-F_AGR_NAME";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-AGR_FDATE";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-AGR_TDATE";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-AGR_ORGCOL";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-SUID_CHANGE_MODE";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-SUID_NODE_KEY_HANDLE";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-SUID_CHANGE_FROM_DAT";
+  "TABL-SUID_ST_NODE_CUA_ROLE" -> "DTEL-SUID_CHANGE_TO_DAT";
+  "DTEL-SUID_CHANGE_TO_DAT" -> "DOMA-DATS";
+  "DTEL-SUID_CHANGE_FROM_DAT" -> "DOMA-DATS";
+  "DTEL-SUID_CHANGE_MODE" -> "DOMA-SUID_CHANGE_MODE";
+  "DTEL-AGR_ORGCOL" -> "DOMA-AGR_ORGCOL";
+  "DTEL-AGR_TDATE" -> "DOMA-DATS";
+  "DTEL-AGR_FDATE" -> "DOMA-DATS";
+  "DTEL-F_AGR_NAME" -> "DOMA-F_AGR_NAME";
+  "DTEL-RFCRCVSYS" -> "DOMA-LOGSYS";
+}

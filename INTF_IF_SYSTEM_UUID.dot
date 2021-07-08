@@ -1,0 +1,19 @@
+digraph G {
+  "INTF-IF_SYSTEM_UUID" [shape=box,color=green];
+  "DTEL-SYSUUID_C32" [shape=box,color=green,URL="./DTEL_SYSUUID_C32.html"];
+  "DOMA-SYSUUID_C32" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C32.html"];
+  "DTEL-SYSUUID_C26" [shape=box,color=green,URL="./DTEL_SYSUUID_C26.html"];
+  "DOMA-SYSUUID_C26" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C26.html"];
+  "DTEL-SYSUUID_C22" [shape=box,color=green,URL="./DTEL_SYSUUID_C22.html"];
+  "DOMA-SYSUUID_C22" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C22.html"];
+  "DTEL-SYSUUID_X16" [shape=box,color=green,URL="./DTEL_SYSUUID_X16.html"];
+  "DOMA-SYSUUID_X16" [shape=box,color=yellow,URL="./DOMA_SYSUUID_X16.html"];
+  "INTF-IF_SYSTEM_UUID" -> "DTEL-SYSUUID_X16";
+  "INTF-IF_SYSTEM_UUID" -> "DTEL-SYSUUID_C22";
+  "INTF-IF_SYSTEM_UUID" -> "DTEL-SYSUUID_C26";
+  "INTF-IF_SYSTEM_UUID" -> "DTEL-SYSUUID_C32";
+  "DTEL-SYSUUID_C32" -> "DOMA-SYSUUID_C32";
+  "DTEL-SYSUUID_C26" -> "DOMA-SYSUUID_C26";
+  "DTEL-SYSUUID_C22" -> "DOMA-SYSUUID_C22";
+  "DTEL-SYSUUID_X16" -> "DOMA-SYSUUID_X16";
+}

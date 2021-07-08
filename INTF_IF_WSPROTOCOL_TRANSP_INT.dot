@@ -1,0 +1,15 @@
+digraph G {
+  "INTF-IF_WSPROTOCOL_TRANSP_INT" [shape=box,color=yellow];
+  "TTYP-TIHTTPNVP" [shape=box,color=green,URL="./TTYP_TIHTTPNVP.html"];
+  "TABL-IHTTPNVP" [shape=box,color=yellow,URL="./TABL_IHTTPNVP.html"];
+  "DTEL-IHTTPVAL" [shape=box,color=yellow,URL="./DTEL_IHTTPVAL.html"];
+  "DTEL-IHTTPNAM" [shape=box,color=yellow,URL="./DTEL_IHTTPNAM.html"];
+  "DTEL-BOOLEAN" [shape=box,color=yellow,URL="./DTEL_BOOLEAN.html"];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "INTF-IF_WSPROTOCOL_TRANSP_INT" -> "DTEL-BOOLEAN";
+  "INTF-IF_WSPROTOCOL_TRANSP_INT" -> "TTYP-TIHTTPNVP";
+  "TTYP-TIHTTPNVP" -> "TABL-IHTTPNVP";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPNAM";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPVAL";
+  "DTEL-BOOLEAN" -> "DOMA-BOOLEAN";
+}

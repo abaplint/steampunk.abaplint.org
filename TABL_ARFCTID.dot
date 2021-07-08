@@ -1,0 +1,19 @@
+digraph G {
+  "TABL-ARFCTID" [shape=box,color=green];
+  "DTEL-ARFCTIDCNT" [shape=box,color=yellow,URL="./DTEL_ARFCTIDCNT.html"];
+  "DOMA-ARFCTIDCNT" [shape=box,color=yellow,URL="./DOMA_ARFCTIDCNT.html"];
+  "DTEL-ARFCTIME" [shape=box,color=yellow,URL="./DTEL_ARFCTIME.html"];
+  "DOMA-ARFCTIME" [shape=box,color=yellow,URL="./DOMA_ARFCTIME.html"];
+  "DTEL-ARFCPID" [shape=box,color=yellow,URL="./DTEL_ARFCPID.html"];
+  "DOMA-ARFCPID" [shape=box,color=yellow,URL="./DOMA_ARFCPID.html"];
+  "DTEL-ARFCIPID" [shape=box,color=yellow,URL="./DTEL_ARFCIPID.html"];
+  "DOMA-ARFCIPID" [shape=box,color=yellow,URL="./DOMA_ARFCIPID.html"];
+  "TABL-ARFCTID" -> "DTEL-ARFCIPID";
+  "TABL-ARFCTID" -> "DTEL-ARFCPID";
+  "TABL-ARFCTID" -> "DTEL-ARFCTIME";
+  "TABL-ARFCTID" -> "DTEL-ARFCTIDCNT";
+  "DTEL-ARFCTIDCNT" -> "DOMA-ARFCTIDCNT";
+  "DTEL-ARFCTIME" -> "DOMA-ARFCTIME";
+  "DTEL-ARFCPID" -> "DOMA-ARFCPID";
+  "DTEL-ARFCIPID" -> "DOMA-ARFCIPID";
+}

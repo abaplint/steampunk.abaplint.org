@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DDSHDEFVAL" [shape=box,color=yellow];
+  "DOMA-DEFAULT__3" [shape=box,color=yellow,URL="./DOMA_DEFAULT__3.html"];
+  "DTEL-DDSHDEFVAL" -> "DOMA-DEFAULT__3";
+}

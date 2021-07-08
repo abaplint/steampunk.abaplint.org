@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DLV_EXTENDABLE" [shape=box,color=yellow];
+  "DOMA-AS4FLAG" [shape=box,color=yellow,URL="./DOMA_AS4FLAG.html"];
+  "DTEL-DLV_EXTENDABLE" -> "DOMA-AS4FLAG";
+}

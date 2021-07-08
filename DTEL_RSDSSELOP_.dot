@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RSDSSELOP_" [shape=box,color=yellow];
+  "DOMA-RSDSSELOPT" [shape=box,color=yellow,URL="./DOMA_RSDSSELOPT.html"];
+  "DTEL-RSDSSELOP_" -> "DOMA-RSDSSELOPT";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_CHECKST" [shape=box,color=yellow];
+  "DOMA-AD_CHECKST" [shape=box,color=yellow,URL="./DOMA_AD_CHECKST.html"];
+  "DTEL-AD_CHECKST" -> "DOMA-AD_CHECKST";
+}

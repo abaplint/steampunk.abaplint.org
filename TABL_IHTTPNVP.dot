@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-IHTTPNVP" [shape=box,color=yellow];
+  "DTEL-IHTTPVAL" [shape=box,color=yellow,URL="./DTEL_IHTTPVAL.html"];
+  "DTEL-IHTTPNAM" [shape=box,color=yellow,URL="./DTEL_IHTTPNAM.html"];
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPNAM";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPVAL";
+}

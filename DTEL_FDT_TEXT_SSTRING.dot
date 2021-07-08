@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_TEXT_SSTRING" [shape=box,color=yellow];
+  "DOMA-FDT_TEXT_SSTRING" [shape=box,color=yellow,URL="./DOMA_FDT_TEXT_SSTRING.html"];
+  "DTEL-FDT_TEXT_SSTRING" -> "DOMA-FDT_TEXT_SSTRING";
+}

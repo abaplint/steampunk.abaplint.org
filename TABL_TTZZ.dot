@@ -1,0 +1,23 @@
+digraph G {
+  "TABL-TTZZ" [shape=box,color=yellow];
+  "DTEL-TZNFLACTIV" [shape=box,color=yellow,URL="./DTEL_TZNFLACTIV.html"];
+  "DOMA-FLAG" [shape=box,color=yellow,URL="./DOMA_FLAG.html"];
+  "DTEL-TZNDSTRUL" [shape=box,color=yellow,URL="./DTEL_TZNDSTRUL.html"];
+  "DOMA-TZNDSTRUL" [shape=box,color=yellow,URL="./DOMA_TZNDSTRUL.html"];
+  "DTEL-TZNZONERUL" [shape=box,color=yellow,URL="./DTEL_TZNZONERUL.html"];
+  "DOMA-TZNZONERUL" [shape=box,color=yellow,URL="./DOMA_TZNZONERUL.html"];
+  "DTEL-TZNZONE" [shape=box,color=green,URL="./DTEL_TZNZONE.html"];
+  "DOMA-TZNZONE" [shape=box,color=yellow,URL="./DOMA_TZNZONE.html"];
+  "DTEL-MANDT" [shape=box,color=green,URL="./DTEL_MANDT.html"];
+  "DOMA-MANDT" [shape=box,color=yellow,URL="./DOMA_MANDT.html"];
+  "TABL-TTZZ" -> "DTEL-MANDT";
+  "TABL-TTZZ" -> "DTEL-TZNZONE";
+  "TABL-TTZZ" -> "DTEL-TZNZONERUL";
+  "TABL-TTZZ" -> "DTEL-TZNDSTRUL";
+  "TABL-TTZZ" -> "DTEL-TZNFLACTIV";
+  "DTEL-TZNFLACTIV" -> "DOMA-FLAG";
+  "DTEL-TZNDSTRUL" -> "DOMA-TZNDSTRUL";
+  "DTEL-TZNZONERUL" -> "DOMA-TZNZONERUL";
+  "DTEL-TZNZONE" -> "DOMA-TZNZONE";
+  "DTEL-MANDT" -> "DOMA-MANDT";
+}

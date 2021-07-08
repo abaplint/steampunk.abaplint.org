@@ -1,0 +1,37 @@
+digraph G {
+  "TABL-BAPICONVRS" [shape=box,color=green];
+  "DTEL-CONVERT_L" [shape=box,color=yellow,URL="./DTEL_CONVERT_L.html"];
+  "DOMA-CNV_LENGTH" [shape=box,color=yellow,URL="./DOMA_CNV_LENGTH.html"];
+  "DTEL-CONVERT_O" [shape=box,color=yellow,URL="./DTEL_CONVERT_O.html"];
+  "DOMA-CNV_FIELD" [shape=box,color=yellow,URL="./DOMA_CNV_FIELD.html"];
+  "DTEL-CONVERT_I" [shape=box,color=yellow,URL="./DTEL_CONVERT_I.html"];
+  "DTEL-BAPI_TABL" [shape=box,color=green,URL="./DTEL_BAPI_TABL.html"];
+  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
+  "DTEL-NAME_FELD" [shape=box,color=yellow,URL="./DTEL_NAME_FELD.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-SWC_ELEM" [shape=box,color=yellow,URL="./DTEL_SWC_ELEM.html"];
+  "DOMA-SWC_ELEM" [shape=box,color=yellow,URL="./DOMA_SWC_ELEM.html"];
+  "DTEL-SWO_VERB" [shape=box,color=yellow,URL="./DTEL_SWO_VERB.html"];
+  "DTEL-SWC_OBJEDE" [shape=box,color=yellow,URL="./DTEL_SWC_OBJEDE.html"];
+  "DOMA-SWC_EDITEL" [shape=box,color=yellow,URL="./DOMA_SWC_EDITEL.html"];
+  "DTEL-SWO_OBJTYP" [shape=box,color=yellow,URL="./DTEL_SWO_OBJTYP.html"];
+  "DOMA-OJ_NAME" [shape=box,color=yellow,URL="./DOMA_OJ_NAME.html"];
+  "TABL-BAPICONVRS" -> "DTEL-SWO_OBJTYP";
+  "TABL-BAPICONVRS" -> "DTEL-SWC_OBJEDE";
+  "TABL-BAPICONVRS" -> "DTEL-SWO_VERB";
+  "TABL-BAPICONVRS" -> "DTEL-SWC_ELEM";
+  "TABL-BAPICONVRS" -> "DTEL-NAME_FELD";
+  "TABL-BAPICONVRS" -> "DTEL-BAPI_TABL";
+  "TABL-BAPICONVRS" -> "DTEL-CONVERT_I";
+  "TABL-BAPICONVRS" -> "DTEL-CONVERT_O";
+  "TABL-BAPICONVRS" -> "DTEL-CONVERT_L";
+  "DTEL-CONVERT_L" -> "DOMA-CNV_LENGTH";
+  "DTEL-CONVERT_O" -> "DOMA-CNV_FIELD";
+  "DTEL-CONVERT_I" -> "DOMA-CNV_FIELD";
+  "DTEL-BAPI_TABL" -> "DOMA-INT4";
+  "DTEL-NAME_FELD" -> "DOMA-FDNAME";
+  "DTEL-SWC_ELEM" -> "DOMA-SWC_ELEM";
+  "DTEL-SWO_VERB" -> "DOMA-SWC_ELEM";
+  "DTEL-SWC_OBJEDE" -> "DOMA-SWC_EDITEL";
+  "DTEL-SWO_OBJTYP" -> "DOMA-OJ_NAME";
+}

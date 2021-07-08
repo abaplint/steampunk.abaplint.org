@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PCF_TIMESTAMP" [shape=box,color=green];
+  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
+  "DTEL-PCF_TIMESTAMP" -> "DOMA-TZNTSTMPL";
+}

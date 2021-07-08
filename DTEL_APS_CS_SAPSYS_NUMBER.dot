@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CS_SAPSYS_NUMBER" [shape=box,color=yellow];
+  "DOMA-RFCSERVICE" [shape=box,color=yellow,URL="./DOMA_RFCSERVICE.html"];
+  "DTEL-APS_CS_SAPSYS_NUMBER" -> "DOMA-RFCSERVICE";
+}

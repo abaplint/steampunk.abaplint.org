@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_OBS_TYPE" [shape=box,color=yellow];
+  "DOMA-APS_COM_OBS_TYPE" [shape=box,color=yellow,URL="./DOMA_APS_COM_OBS_TYPE.html"];
+  "DTEL-APS_COM_OBS_TYPE" -> "DOMA-APS_COM_OBS_TYPE";
+}

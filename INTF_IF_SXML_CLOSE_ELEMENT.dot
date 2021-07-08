@@ -1,0 +1,9 @@
+digraph G {
+  "INTF-IF_SXML_CLOSE_ELEMENT" [shape=box,color=green];
+  "INTF-IF_SXML_NODE" [shape=box,color=green,URL="./INTF_IF_SXML_NODE.html"];
+  "INTF-IF_SXML_NAMED" [shape=box,color=green,URL="./INTF_IF_SXML_NAMED.html"];
+  "TABL-QNAME" [shape=box,color=green,URL="./TABL_QNAME.html"];
+  "INTF-IF_SXML_CLOSE_ELEMENT" -> "INTF-IF_SXML_NAMED";
+  "INTF-IF_SXML_CLOSE_ELEMENT" -> "INTF-IF_SXML_NODE";
+  "INTF-IF_SXML_NAMED" -> "TABL-QNAME";
+}

@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-FDT_S_QUANTITY" [shape=box,color=yellow];
+  "DTEL-FDT_UNIT" [shape=box,color=yellow,URL="./DTEL_FDT_UNIT.html"];
+  "DTEL-FDT_NUMBER_DECFLOAT" [shape=box,color=yellow,URL="./DTEL_FDT_NUMBER_DECFLOAT.html"];
+  "TABL-FDT_S_QUANTITY" -> "DTEL-FDT_NUMBER_DECFLOAT";
+  "TABL-FDT_S_QUANTITY" -> "DTEL-FDT_UNIT";
+}

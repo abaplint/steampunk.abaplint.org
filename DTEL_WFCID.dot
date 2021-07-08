@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-WFCID" [shape=box,color=yellow];
+  "DOMA-WFCID" [shape=box,color=yellow,URL="./DOMA_WFCID.html"];
+  "DTEL-WFCID" -> "DOMA-WFCID";
+}

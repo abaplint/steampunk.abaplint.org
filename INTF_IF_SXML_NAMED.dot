@@ -1,0 +1,5 @@
+digraph G {
+  "INTF-IF_SXML_NAMED" [shape=box,color=green];
+  "TABL-QNAME" [shape=box,color=green,URL="./TABL_QNAME.html"];
+  "INTF-IF_SXML_NAMED" -> "TABL-QNAME";
+}

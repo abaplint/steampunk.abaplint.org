@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-NRTEXTIND" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-NRTEXTIND" -> "DOMA-XFELD";
+}

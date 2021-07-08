@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_BADI_INTERFACE" [shape=box,color=green];
+}

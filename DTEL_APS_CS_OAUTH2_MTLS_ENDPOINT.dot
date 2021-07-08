@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CS_OAUTH2_MTLS_ENDPOINT" [shape=box,color=yellow];
+  "DOMA-TEXT256" [shape=box,color=yellow,URL="./DOMA_TEXT256.html"];
+  "DTEL-APS_CS_OAUTH2_MTLS_ENDPOINT" -> "DOMA-TEXT256";
+}

@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-TCDOBT" [shape=box,color=yellow];
+  "DTEL-CDOBTEXT" [shape=box,color=yellow,URL="./DTEL_CDOBTEXT.html"];
+  "DOMA-TEXT60" [shape=box,color=yellow,URL="./DOMA_TEXT60.html"];
+  "DTEL-CDOBJECTCL" [shape=box,color=yellow,URL="./DTEL_CDOBJECTCL.html"];
+  "DOMA-OBJECTCL" [shape=box,color=yellow,URL="./DOMA_OBJECTCL.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-TCDOBT" -> "DTEL-SPRAS";
+  "TABL-TCDOBT" -> "DTEL-CDOBJECTCL";
+  "TABL-TCDOBT" -> "DTEL-CDOBTEXT";
+  "DTEL-CDOBTEXT" -> "DOMA-TEXT60";
+  "DTEL-CDOBJECTCL" -> "DOMA-OBJECTCL";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+}

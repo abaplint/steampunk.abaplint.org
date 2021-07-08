@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AUTHOR" [shape=box,color=yellow];
+  "DOMA-AS4USER" [shape=box,color=yellow,URL="./DOMA_AS4USER.html"];
+  "DTEL-AUTHOR" -> "DOMA-AS4USER";
+}

@@ -1,0 +1,22 @@
+digraph G {
+  "TABL-SUID_ST_NODE_ORGANIZATION" [shape=box,color=yellow];
+  "DTEL-SUID_ORGTYPE" [shape=box,color=yellow,URL="./DTEL_SUID_ORGTYPE.html"];
+  "DOMA-SUID_ORGTYPE" [shape=box,color=yellow,URL="./DOMA_SUID_ORGTYPE.html"];
+  "DTEL-BU_ADDRESS_GUID" [shape=box,color=yellow,URL="./DTEL_BU_ADDRESS_GUID.html"];
+  "DOMA-SYSUUID" [shape=box,color=yellow,URL="./DOMA_SYSUUID.html"];
+  "DTEL-AD_ADDRNUM" [shape=box,color=yellow,URL="./DTEL_AD_ADDRNUM.html"];
+  "DOMA-AD_ADDRNUM" [shape=box,color=yellow,URL="./DOMA_AD_ADDRNUM.html"];
+  "DTEL-BU_PARTNER_GUID" [shape=box,color=yellow,URL="./DTEL_BU_PARTNER_GUID.html"];
+  "DTEL-USCOMP" [shape=box,color=yellow,URL="./DTEL_USCOMP.html"];
+  "DOMA-USCOMP" [shape=box,color=yellow,URL="./DOMA_USCOMP.html"];
+  "TABL-SUID_ST_NODE_ORGANIZATION" -> "DTEL-USCOMP";
+  "TABL-SUID_ST_NODE_ORGANIZATION" -> "DTEL-BU_PARTNER_GUID";
+  "TABL-SUID_ST_NODE_ORGANIZATION" -> "DTEL-AD_ADDRNUM";
+  "TABL-SUID_ST_NODE_ORGANIZATION" -> "DTEL-BU_ADDRESS_GUID";
+  "TABL-SUID_ST_NODE_ORGANIZATION" -> "DTEL-SUID_ORGTYPE";
+  "DTEL-SUID_ORGTYPE" -> "DOMA-SUID_ORGTYPE";
+  "DTEL-BU_ADDRESS_GUID" -> "DOMA-SYSUUID";
+  "DTEL-AD_ADDRNUM" -> "DOMA-AD_ADDRNUM";
+  "DTEL-BU_PARTNER_GUID" -> "DOMA-SYSUUID";
+  "DTEL-USCOMP" -> "DOMA-USCOMP";
+}

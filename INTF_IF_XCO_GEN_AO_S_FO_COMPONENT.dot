@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_XCO_GEN_AO_S_FO_COMPONENT" [shape=box,color=green];
+  "DTEL-SEOCPDNAME" [shape=box,color=yellow,URL="./DTEL_SEOCPDNAME.html"];
+  "DOMA-CHAR61" [shape=box,color=yellow,URL="./DOMA_CHAR61.html"];
+  "INTF-IF_XCO_GEN_AO_S_FO_COMPONENT" -> "DTEL-SEOCPDNAME";
+  "DTEL-SEOCPDNAME" -> "DOMA-CHAR61";
+}

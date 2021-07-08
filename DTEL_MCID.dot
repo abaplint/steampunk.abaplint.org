@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-MCID" [shape=box,color=yellow];
+  "DOMA-MCID" [shape=box,color=yellow,URL="./DOMA_MCID.html"];
+  "DTEL-MCID" -> "DOMA-MCID";
+}

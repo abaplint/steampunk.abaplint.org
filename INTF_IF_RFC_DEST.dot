@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_RFC_DEST" [shape=box,color=green];
+  "DTEL-RFCDEST" [shape=box,color=green,URL="./DTEL_RFCDEST.html"];
+  "DOMA-RFCDEST" [shape=box,color=yellow,URL="./DOMA_RFCDEST.html"];
+  "INTF-IF_RFC_DEST" -> "DTEL-RFCDEST";
+  "DTEL-RFCDEST" -> "DOMA-RFCDEST";
+}

@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-BAPICURX31" [shape=box,color=green];
+  "DTEL-BAPICUREXT31" [shape=box,color=green,URL="./DTEL_BAPICUREXT31.html"];
+  "DOMA-BAPICUREXT31" [shape=box,color=yellow,URL="./DOMA_BAPICUREXT31.html"];
+  "TABL-BAPICURX31" -> "DTEL-BAPICUREXT31";
+  "DTEL-BAPICUREXT31" -> "DOMA-BAPICUREXT31";
+}

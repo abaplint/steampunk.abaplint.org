@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PAKNOCHECK" [shape=box,color=yellow];
+  "DOMA-PAKNOCHECK" [shape=box,color=yellow,URL="./DOMA_PAKNOCHECK.html"];
+  "DTEL-PAKNOCHECK" -> "DOMA-PAKNOCHECK";
+}

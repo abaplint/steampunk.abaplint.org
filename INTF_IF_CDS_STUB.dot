@@ -1,0 +1,19 @@
+digraph G {
+  "INTF-IF_CDS_STUB" [shape=box,color=green];
+  "INTF-IF_CDS_TEST_DATA" [shape=box,color=green,URL="./INTF_IF_CDS_TEST_DATA.html"];
+  "INTF-IF_CDS_NULL_VALUES_CONFIG" [shape=box,color=green,URL="./INTF_IF_CDS_NULL_VALUES_CONFIG.html"];
+  "INTF-IF_CDS_PARAMETER_VALUES_CONFIG" [shape=box,color=green,URL="./INTF_IF_CDS_PARAMETER_VALUES_CONFIG.html"];
+  "DTEL-MANDT" [shape=box,color=green,URL="./DTEL_MANDT.html"];
+  "DOMA-MANDT" [shape=box,color=yellow,URL="./DOMA_MANDT.html"];
+  "INTF-IF_CDS_DOUBLE" [shape=box,color=yellow,URL="./INTF_IF_CDS_DOUBLE.html"];
+  "DTEL-TABTYPE" [shape=box,color=yellow,URL="./DTEL_TABTYPE.html"];
+  "DOMA-TABTYPE" [shape=box,color=yellow,URL="./DOMA_TABTYPE.html"];
+  "INTF-IF_CDS_STUB" -> "INTF-IF_CDS_DOUBLE";
+  "INTF-IF_CDS_STUB" -> "INTF-IF_CDS_TEST_DATA";
+  "INTF-IF_CDS_TEST_DATA" -> "DTEL-MANDT";
+  "INTF-IF_CDS_TEST_DATA" -> "INTF-IF_CDS_PARAMETER_VALUES_CONFIG";
+  "INTF-IF_CDS_TEST_DATA" -> "INTF-IF_CDS_NULL_VALUES_CONFIG";
+  "DTEL-MANDT" -> "DOMA-MANDT";
+  "INTF-IF_CDS_DOUBLE" -> "DTEL-TABTYPE";
+  "DTEL-TABTYPE" -> "DOMA-TABTYPE";
+}

@@ -1,0 +1,12 @@
+digraph G {
+  "CLAS-CL_ABAP_PARALLEL" [shape=box,color=green];
+  "INTF-IF_ABAP_PARALLEL" [shape=box,color=green,URL="./INTF_IF_ABAP_PARALLEL.html"];
+  "INTF-IF_SERIALIZABLE_OBJECT" [shape=box,color=green,URL="./INTF_IF_SERIALIZABLE_OBJECT.html"];
+  "DTEL-INT4" [shape=box,color=green,URL="./DTEL_INT4.html"];
+  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
+  "CLAS-CL_ABAP_PARALLEL" -> "DTEL-INT4";
+  "CLAS-CL_ABAP_PARALLEL" -> "INTF-IF_SERIALIZABLE_OBJECT";
+  "CLAS-CL_ABAP_PARALLEL" -> "INTF-IF_ABAP_PARALLEL";
+  "INTF-IF_ABAP_PARALLEL" -> "INTF-IF_SERIALIZABLE_OBJECT";
+  "DTEL-INT4" -> "DOMA-INT4";
+}

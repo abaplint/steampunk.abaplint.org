@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PLANCHNGNR" [shape=box,color=yellow];
+  "DOMA-PLANCHNGNR" [shape=box,color=yellow,URL="./DOMA_PLANCHNGNR.html"];
+  "DTEL-PLANCHNGNR" -> "DOMA-PLANCHNGNR";
+}

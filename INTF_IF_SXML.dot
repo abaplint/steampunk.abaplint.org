@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_SXML" [shape=box,color=green];
+}

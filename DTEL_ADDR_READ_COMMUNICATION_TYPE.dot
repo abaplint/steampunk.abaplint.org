@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ADDR_READ_COMMUNICATION_TYPE" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-ADDR_READ_COMMUNICATION_TYPE" -> "DOMA-XFELD";
+}

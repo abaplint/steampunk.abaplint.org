@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CA_IDOC_BASICTYPE" [shape=box,color=yellow];
+  "DOMA-EDI_IDOCTP" [shape=box,color=yellow,URL="./DOMA_EDI_IDOCTP.html"];
+  "DTEL-APS_CA_IDOC_BASICTYPE" -> "DOMA-EDI_IDOCTP";
+}

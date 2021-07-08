@@ -1,0 +1,23 @@
+digraph G {
+  "TTYP-SOAP_FEATURE_LIST" [shape=box,color=yellow];
+  "INTF-IF_SOAP_FEATURE" [shape=box,color=yellow,URL="./INTF_IF_SOAP_FEATURE.html"];
+  "INTF-IF_SOAP_PROPERTY" [shape=box,color=yellow,URL="./INTF_IF_SOAP_PROPERTY.html"];
+  "TTYP-SOAP_VALUE_LIST" [shape=box,color=yellow,URL="./TTYP_SOAP_VALUE_LIST.html"];
+  "DTEL-BOOLEAN" [shape=box,color=yellow,URL="./DTEL_BOOLEAN.html"];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "TTYP-SOAP_PROPERTY_LIST" [shape=box,color=yellow,URL="./TTYP_SOAP_PROPERTY_LIST.html"];
+  "TABL-QNAME" [shape=box,color=green,URL="./TABL_QNAME.html"];
+  "DTEL-ANYURI" [shape=box,color=yellow,URL="./DTEL_ANYURI.html"];
+  "DOMA-ANYURI" [shape=box,color=yellow,URL="./DOMA_ANYURI.html"];
+  "TTYP-SOAP_FEATURE_LIST" -> "INTF-IF_SOAP_FEATURE";
+  "INTF-IF_SOAP_FEATURE" -> "DTEL-ANYURI";
+  "INTF-IF_SOAP_FEATURE" -> "TABL-QNAME";
+  "INTF-IF_SOAP_FEATURE" -> "DTEL-BOOLEAN";
+  "INTF-IF_SOAP_FEATURE" -> "TTYP-SOAP_PROPERTY_LIST";
+  "INTF-IF_SOAP_FEATURE" -> "INTF-IF_SOAP_PROPERTY";
+  "INTF-IF_SOAP_PROPERTY" -> "DTEL-BOOLEAN";
+  "INTF-IF_SOAP_PROPERTY" -> "TTYP-SOAP_VALUE_LIST";
+  "DTEL-BOOLEAN" -> "DOMA-BOOLEAN";
+  "TTYP-SOAP_PROPERTY_LIST" -> "INTF-IF_SOAP_PROPERTY";
+  "DTEL-ANYURI" -> "DOMA-ANYURI";
+}

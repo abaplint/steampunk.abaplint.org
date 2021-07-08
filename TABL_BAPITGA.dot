@@ -1,0 +1,33 @@
+digraph G {
+  "TABL-BAPITGA" [shape=box,color=green];
+  "DTEL-BAPI_LMASK" [shape=box,color=green,URL="./DTEL_BAPI_LMASK.html"];
+  "DOMA-W3_HTML" [shape=box,color=yellow,URL="./DOMA_W3_HTML.html"];
+  "DTEL-BAPI_BACK" [shape=box,color=green,URL="./DTEL_BAPI_BACK.html"];
+  "DOMA-SWC_BOOL" [shape=box,color=yellow,URL="./DOMA_SWC_BOOL.html"];
+  "DTEL-BAPI_CONV" [shape=box,color=green,URL="./DTEL_BAPI_CONV.html"];
+  "DTEL-BAPI_STXT" [shape=box,color=green,URL="./DTEL_BAPI_STXT.html"];
+  "DOMA-TEXT80" [shape=box,color=yellow,URL="./DOMA_TEXT80.html"];
+  "DTEL-BAPI_LISTR" [shape=box,color=green,URL="./DTEL_BAPI_LISTR.html"];
+  "DOMA-BAPI_STRNG" [shape=box,color=yellow,URL="./DOMA_BAPI_STRNG.html"];
+  "DTEL-BAPI_LFRMT" [shape=box,color=green,URL="./DTEL_BAPI_LFRMT.html"];
+  "DOMA-BAPI_TFRMT" [shape=box,color=yellow,URL="./DOMA_BAPI_TFRMT.html"];
+  "DTEL-BAPI_TFRMT" [shape=box,color=green,URL="./DTEL_BAPI_TFRMT.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-BAPITGA" -> "DTEL-LANGU";
+  "TABL-BAPITGA" -> "DTEL-BAPI_TFRMT";
+  "TABL-BAPITGA" -> "DTEL-BAPI_LFRMT";
+  "TABL-BAPITGA" -> "DTEL-BAPI_LISTR";
+  "TABL-BAPITGA" -> "DTEL-BAPI_STXT";
+  "TABL-BAPITGA" -> "DTEL-BAPI_CONV";
+  "TABL-BAPITGA" -> "DTEL-BAPI_BACK";
+  "TABL-BAPITGA" -> "DTEL-BAPI_LMASK";
+  "DTEL-BAPI_LMASK" -> "DOMA-W3_HTML";
+  "DTEL-BAPI_BACK" -> "DOMA-SWC_BOOL";
+  "DTEL-BAPI_CONV" -> "DOMA-SWC_BOOL";
+  "DTEL-BAPI_STXT" -> "DOMA-TEXT80";
+  "DTEL-BAPI_LISTR" -> "DOMA-BAPI_STRNG";
+  "DTEL-BAPI_LFRMT" -> "DOMA-BAPI_TFRMT";
+  "DTEL-BAPI_TFRMT" -> "DOMA-BAPI_TFRMT";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+}

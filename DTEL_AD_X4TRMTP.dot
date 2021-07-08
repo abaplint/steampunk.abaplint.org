@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_X4TRMTP" [shape=box,color=yellow];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "DTEL-AD_X4TRMTP" -> "DOMA-CHAR1";
+}

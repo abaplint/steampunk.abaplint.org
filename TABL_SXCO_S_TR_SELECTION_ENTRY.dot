@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-SXCO_S_TR_SELECTION_ENTRY" [shape=box,color=yellow];
+  "DTEL-SXCO_TRANSPORT" [shape=box,color=green,URL="./DTEL_SXCO_TRANSPORT.html"];
+  "DOMA-TRKORR" [shape=box,color=yellow,URL="./DOMA_TRKORR.html"];
+  "TABL-SXCO_S_TR_SELECTION_ENTRY" -> "DTEL-SXCO_TRANSPORT";
+  "DTEL-SXCO_TRANSPORT" -> "DOMA-TRKORR";
+}

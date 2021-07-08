@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_POBXREG" [shape=box,color=yellow];
+  "DOMA-REGIO" [shape=box,color=yellow,URL="./DOMA_REGIO.html"];
+  "DTEL-AD_POBXREG" -> "DOMA-REGIO";
+}

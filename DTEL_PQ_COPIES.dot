@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PQ_COPIES" [shape=box,color=yellow];
+  "DOMA-INT2" [shape=box,color=yellow,URL="./DOMA_INT2.html"];
+  "DTEL-PQ_COPIES" -> "DOMA-INT2";
+}

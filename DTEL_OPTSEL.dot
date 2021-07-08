@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-OPTSEL" [shape=box,color=yellow];
+  "DOMA-SWC_BOOL" [shape=box,color=yellow,URL="./DOMA_SWC_BOOL.html"];
+  "DTEL-OPTSEL" -> "DOMA-SWC_BOOL";
+}

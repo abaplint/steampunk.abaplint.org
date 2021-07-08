@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/BOBF/OBM_NODE_KEY" [shape=box,color=yellow];
+  "DOMA-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23CONF_KEY.html"];
+  "DTEL-/BOBF/OBM_NODE_KEY" -> "DOMA-/BOBF/CONF_KEY";
+}

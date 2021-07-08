@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-CMIS_S_CONTENT_RAW" [shape=box,color=green];
+  "DTEL-CMIS_LONG" [shape=box,color=green,URL="./DTEL_CMIS_LONG.html"];
+  "DTEL-CMIS_STRING" [shape=box,color=green,URL="./DTEL_CMIS_STRING.html"];
+  "TABL-CMIS_S_CONTENT_RAW" -> "DTEL-CMIS_STRING";
+  "TABL-CMIS_S_CONTENT_RAW" -> "DTEL-CMIS_LONG";
+}

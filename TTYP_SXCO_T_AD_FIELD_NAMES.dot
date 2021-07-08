@@ -1,0 +1,7 @@
+digraph G {
+  "TTYP-SXCO_T_AD_FIELD_NAMES" [shape=box,color=green];
+  "DTEL-SXCO_AD_FIELD_NAME" [shape=box,color=green,URL="./DTEL_SXCO_AD_FIELD_NAME.html"];
+  "DOMA-CHAR30" [shape=box,color=green,URL="./DOMA_CHAR30.html"];
+  "TTYP-SXCO_T_AD_FIELD_NAMES" -> "DTEL-SXCO_AD_FIELD_NAME";
+  "DTEL-SXCO_AD_FIELD_NAME" -> "DOMA-CHAR30";
+}

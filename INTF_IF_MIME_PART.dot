@@ -1,0 +1,5 @@
+digraph G {
+  "INTF-IF_MIME_PART" [shape=box,color=yellow];
+  "INTF-IF_BYTE_STREAM" [shape=box,color=yellow,URL="./INTF_IF_BYTE_STREAM.html"];
+  "INTF-IF_MIME_PART" -> "INTF-IF_BYTE_STREAM";
+}

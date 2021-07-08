@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-NAME_FELD" [shape=box,color=yellow];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-NAME_FELD" -> "DOMA-FDNAME";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DDSHLPTYP" [shape=box,color=yellow];
+  "DOMA-DDSHLPTYP" [shape=box,color=yellow,URL="./DOMA_DDSHLPTYP.html"];
+  "DTEL-DDSHLPTYP" -> "DOMA-DDSHLPTYP";
+}

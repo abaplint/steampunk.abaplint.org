@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SYREPID" [shape=box,color=green];
+  "DOMA-PROGRAMM" [shape=box,color=yellow,URL="./DOMA_PROGRAMM.html"];
+  "DTEL-SYREPID" -> "DOMA-PROGRAMM";
+}

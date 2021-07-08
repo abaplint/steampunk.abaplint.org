@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_URITYPE" [shape=box,color=yellow];
+  "DOMA-AD_URITYPE" [shape=box,color=yellow,URL="./DOMA_AD_URITYPE.html"];
+  "DTEL-AD_URITYPE" -> "DOMA-AD_URITYPE";
+}

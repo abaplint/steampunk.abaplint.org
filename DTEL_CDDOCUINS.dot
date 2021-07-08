@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDDOCUINS" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-CDDOCUINS" -> "DOMA-XFELD";
+}

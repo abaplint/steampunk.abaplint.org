@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_MONTH" [shape=box,color=green];
+  "DOMA-FDT_MONTH" [shape=box,color=yellow,URL="./DOMA_FDT_MONTH.html"];
+  "DTEL-FDT_MONTH" -> "DOMA-FDT_MONTH";
+}

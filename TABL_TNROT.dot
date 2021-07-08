@@ -1,0 +1,34 @@
+digraph G {
+  "TABL-TNROT" [shape=box,color=yellow];
+  "DTEL-AUTHOR" [shape=box,color=yellow,URL="./DTEL_AUTHOR.html"];
+  "DOMA-AS4USER" [shape=box,color=yellow,URL="./DOMA_AS4USER.html"];
+  "DTEL-AS4TIME" [shape=box,color=yellow,URL="./DTEL_AS4TIME.html"];
+  "DOMA-AS4TIME" [shape=box,color=yellow,URL="./DOMA_AS4TIME.html"];
+  "DTEL-AS4DATE" [shape=box,color=yellow,URL="./DTEL_AS4DATE.html"];
+  "DOMA-AS4DATE" [shape=box,color=yellow,URL="./DOMA_AS4DATE.html"];
+  "DTEL-AS4USER" [shape=box,color=yellow,URL="./DTEL_AS4USER.html"];
+  "DTEL-NROBJSTXT" [shape=box,color=yellow,URL="./DTEL_NROBJSTXT.html"];
+  "DOMA-TEXT20" [shape=box,color=yellow,URL="./DOMA_TEXT20.html"];
+  "DTEL-NROBJTXT" [shape=box,color=yellow,URL="./DTEL_NROBJTXT.html"];
+  "DOMA-TEXT60" [shape=box,color=yellow,URL="./DOMA_TEXT60.html"];
+  "DTEL-NROBJ" [shape=box,color=yellow,URL="./DTEL_NROBJ.html"];
+  "DOMA-NROBJ" [shape=box,color=yellow,URL="./DOMA_NROBJ.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-TNROT" -> "DTEL-SPRAS";
+  "TABL-TNROT" -> "DTEL-NROBJ";
+  "TABL-TNROT" -> "DTEL-NROBJTXT";
+  "TABL-TNROT" -> "DTEL-NROBJSTXT";
+  "TABL-TNROT" -> "DTEL-AS4USER";
+  "TABL-TNROT" -> "DTEL-AS4DATE";
+  "TABL-TNROT" -> "DTEL-AS4TIME";
+  "TABL-TNROT" -> "DTEL-AUTHOR";
+  "DTEL-AUTHOR" -> "DOMA-AS4USER";
+  "DTEL-AS4TIME" -> "DOMA-AS4TIME";
+  "DTEL-AS4DATE" -> "DOMA-AS4DATE";
+  "DTEL-AS4USER" -> "DOMA-AS4USER";
+  "DTEL-NROBJSTXT" -> "DOMA-TEXT20";
+  "DTEL-NROBJTXT" -> "DOMA-TEXT60";
+  "DTEL-NROBJ" -> "DOMA-NROBJ";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+}

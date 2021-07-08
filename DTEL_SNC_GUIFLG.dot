@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SNC_GUIFLG" [shape=box,color=yellow];
+  "DOMA-CHAR1_X" [shape=box,color=yellow,URL="./DOMA_CHAR1_X.html"];
+  "DTEL-SNC_GUIFLG" -> "DOMA-CHAR1_X";
+}

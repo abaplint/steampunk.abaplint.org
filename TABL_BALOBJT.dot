@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-BALOBJT" [shape=box,color=yellow];
+  "DTEL-BALOBJT_D" [shape=box,color=yellow,URL="./DTEL_BALOBJT_D.html"];
+  "DOMA-TEXT60" [shape=box,color=yellow,URL="./DOMA_TEXT60.html"];
+  "DTEL-BALOBJ_D" [shape=box,color=green,URL="./DTEL_BALOBJ_D.html"];
+  "DOMA-BALOBJ" [shape=box,color=yellow,URL="./DOMA_BALOBJ.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-BALOBJT" -> "DTEL-SPRAS";
+  "TABL-BALOBJT" -> "DTEL-BALOBJ_D";
+  "TABL-BALOBJT" -> "DTEL-BALOBJT_D";
+  "DTEL-BALOBJT_D" -> "DOMA-TEXT60";
+  "DTEL-BALOBJ_D" -> "DOMA-BALOBJ";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+}

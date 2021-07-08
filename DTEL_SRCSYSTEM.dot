@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SRCSYSTEM" [shape=box,color=yellow];
+  "DOMA-SYSNAME" [shape=box,color=yellow,URL="./DOMA_SYSNAME.html"];
+  "DTEL-SRCSYSTEM" -> "DOMA-SYSNAME";
+}

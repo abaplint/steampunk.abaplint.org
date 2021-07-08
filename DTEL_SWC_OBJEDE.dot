@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SWC_OBJEDE" [shape=box,color=yellow];
+  "DOMA-SWC_EDITEL" [shape=box,color=yellow,URL="./DOMA_SWC_EDITEL.html"];
+  "DTEL-SWC_OBJEDE" -> "DOMA-SWC_EDITEL";
+}

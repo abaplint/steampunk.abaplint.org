@@ -1,0 +1,32 @@
+digraph G {
+  "TABL-APS_IAM_D_BRCRV" [shape=box,color=yellow];
+  "TABL-APS_IAM_BR_BRCRV_DATA" [shape=box,color=yellow,URL="./TABL_APS_IAM_BR_BRCRV_DATA.html"];
+  "DTEL-APS_IAM_BROLE_CMN_INDICATOR" [shape=box,color=yellow,URL="./DTEL_APS_IAM_BROLE_CMN_INDICATOR.html"];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-APS_IAM_BROLE_RESTR_VALUE_SEQ" [shape=box,color=yellow,URL="./DTEL_APS_IAM_BROLE_RESTR_VALUE_SEQ.html"];
+  "DTEL-APS_IAM_CAT_RRULE_ID" [shape=box,color=yellow,URL="./DTEL_APS_IAM_CAT_RRULE_ID.html"];
+  "DOMA-APS_IAM_CAT_RRULE_ID" [shape=box,color=yellow,URL="./DOMA_APS_IAM_CAT_RRULE_ID.html"];
+  "DTEL-AGVAL" [shape=box,color=yellow,URL="./DTEL_AGVAL.html"];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "DTEL-APS_IAM_CAT_RTYPE_FIELD_NAME" [shape=box,color=yellow,URL="./DTEL_APS_IAM_CAT_RTYPE_FIELD_NAME.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-UUID" [shape=box,color=yellow,URL="./DTEL_UUID.html"];
+  "DOMA-UUID" [shape=box,color=yellow,URL="./DOMA_UUID.html"];
+  "DTEL-MANDT" [shape=box,color=green,URL="./DTEL_MANDT.html"];
+  "DOMA-MANDT" [shape=box,color=yellow,URL="./DOMA_MANDT.html"];
+  "TABL-APS_IAM_D_BRCRV" -> "DTEL-MANDT";
+  "TABL-APS_IAM_D_BRCRV" -> "DTEL-UUID";
+  "TABL-APS_IAM_D_BRCRV" -> "TABL-APS_IAM_BR_BRCRV_DATA";
+  "TABL-APS_IAM_BR_BRCRV_DATA" -> "DTEL-UUID";
+  "TABL-APS_IAM_BR_BRCRV_DATA" -> "DTEL-APS_IAM_CAT_RTYPE_FIELD_NAME";
+  "TABL-APS_IAM_BR_BRCRV_DATA" -> "DTEL-AGVAL";
+  "TABL-APS_IAM_BR_BRCRV_DATA" -> "DTEL-APS_IAM_CAT_RRULE_ID";
+  "TABL-APS_IAM_BR_BRCRV_DATA" -> "DTEL-APS_IAM_BROLE_RESTR_VALUE_SEQ";
+  "TABL-APS_IAM_BR_BRCRV_DATA" -> "DTEL-APS_IAM_BROLE_CMN_INDICATOR";
+  "DTEL-APS_IAM_BROLE_CMN_INDICATOR" -> "DOMA-XFELD";
+  "DTEL-APS_IAM_CAT_RRULE_ID" -> "DOMA-APS_IAM_CAT_RRULE_ID";
+  "DTEL-AGVAL" -> "DOMA-XUVALUE";
+  "DTEL-APS_IAM_CAT_RTYPE_FIELD_NAME" -> "DOMA-FDNAME";
+  "DTEL-UUID" -> "DOMA-UUID";
+  "DTEL-MANDT" -> "DOMA-MANDT";
+}

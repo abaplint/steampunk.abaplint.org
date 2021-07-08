@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/BOBF/FRW_LOAD_SUBTREE" [shape=box,color=yellow];
+  "DOMA-/BOBF/FRW_LOAD_SUBTREE" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23FRW_LOAD_SUBTREE.html"];
+  "DTEL-/BOBF/FRW_LOAD_SUBTREE" -> "DOMA-/BOBF/FRW_LOAD_SUBTREE";
+}

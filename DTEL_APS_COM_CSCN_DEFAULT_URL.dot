@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_DEFAULT_URL" [shape=box,color=yellow];
+  "DOMA-APS_COM_CSCN_DEFAULT_URL" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_DEFAULT_URL.html"];
+  "DTEL-APS_COM_CSCN_DEFAULT_URL" -> "DOMA-APS_COM_CSCN_DEFAULT_URL";
+}

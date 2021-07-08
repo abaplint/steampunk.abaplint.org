@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SYST_UZEIT" [shape=box,color=yellow];
+  "DOMA-SYTIME" [shape=box,color=yellow,URL="./DOMA_SYTIME.html"];
+  "DTEL-SYST_UZEIT" -> "DOMA-SYTIME";
+}

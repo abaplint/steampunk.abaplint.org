@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-US_REFUS" [shape=box,color=yellow];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "DTEL-US_REFUS" -> "DOMA-XUBNAME";
+}

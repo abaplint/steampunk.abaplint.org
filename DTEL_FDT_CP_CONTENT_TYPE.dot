@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_CP_CONTENT_TYPE" [shape=box,color=yellow];
+  "DOMA-FDT_CP_CONTENT_TYPE" [shape=box,color=yellow,URL="./DOMA_FDT_CP_CONTENT_TYPE.html"];
+  "DTEL-FDT_CP_CONTENT_TYPE" -> "DOMA-FDT_CP_CONTENT_TYPE";
+}

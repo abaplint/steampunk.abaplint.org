@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_PSTCD2" [shape=box,color=yellow];
+  "DOMA-CHAR10" [shape=box,color=yellow,URL="./DOMA_CHAR10.html"];
+  "DTEL-AD_PSTCD2" -> "DOMA-CHAR10";
+}

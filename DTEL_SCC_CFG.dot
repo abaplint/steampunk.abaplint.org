@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SCC_CFG" [shape=box,color=yellow];
+  "DOMA-SCC_CONFIG_ID" [shape=box,color=yellow,URL="./DOMA_SCC_CONFIG_ID.html"];
+  "DTEL-SCC_CFG" -> "DOMA-SCC_CONFIG_ID";
+}

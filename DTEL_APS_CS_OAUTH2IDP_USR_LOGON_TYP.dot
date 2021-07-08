@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CS_OAUTH2IDP_USR_LOGON_TYP" [shape=box,color=yellow];
+  "DOMA-SAML2_USR_LOGON_TYPE" [shape=box,color=yellow,URL="./DOMA_SAML2_USR_LOGON_TYPE.html"];
+  "DTEL-APS_CS_OAUTH2IDP_USR_LOGON_TYP" -> "DOMA-SAML2_USR_LOGON_TYPE";
+}

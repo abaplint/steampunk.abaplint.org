@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SXCO_AR_SHORT_DESCRIPTION" [shape=box,color=green];
+  "DOMA-AS4TEXT" [shape=box,color=yellow,URL="./DOMA_AS4TEXT.html"];
+  "DTEL-SXCO_AR_SHORT_DESCRIPTION" -> "DOMA-AS4TEXT";
+}

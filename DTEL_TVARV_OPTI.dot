@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TVARV_OPTI" [shape=box,color=yellow];
+  "DOMA-SYCHAR02" [shape=box,color=yellow,URL="./DOMA_SYCHAR02.html"];
+  "DTEL-TVARV_OPTI" -> "DOMA-SYCHAR02";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_IAM_CAT_RTYPE_ACC_CAT_CODE" [shape=box,color=yellow];
+  "DOMA-APS_IAM_CAT_RTYPE_ACC_CAT_CODE" [shape=box,color=yellow,URL="./DOMA_APS_IAM_CAT_RTYPE_ACC_CAT_CODE.html"];
+  "DTEL-APS_IAM_CAT_RTYPE_ACC_CAT_CODE" -> "DOMA-APS_IAM_CAT_RTYPE_ACC_CAT_CODE";
+}

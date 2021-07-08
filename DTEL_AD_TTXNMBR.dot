@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_TTXNMBR" [shape=box,color=yellow];
+  "DOMA-TEXT30" [shape=box,color=yellow,URL="./DOMA_TEXT30.html"];
+  "DTEL-AD_TTXNMBR" -> "DOMA-TEXT30";
+}

@@ -1,0 +1,33 @@
+digraph G {
+  "TABL-APS_COM_CS_S_BP_ODATA_API" [shape=box,color=yellow];
+  "DTEL-CHAR80" [shape=box,color=yellow,URL="./DTEL_CHAR80.html"];
+  "DOMA-CHAR80" [shape=box,color=yellow,URL="./DOMA_CHAR80.html"];
+  "DTEL-BU_PARTNER" [shape=box,color=yellow,URL="./DTEL_BU_PARTNER.html"];
+  "DOMA-BU_PARTNER" [shape=box,color=yellow,URL="./DOMA_BU_PARTNER.html"];
+  "DTEL-SUIDTECHDESC" [shape=box,color=yellow,URL="./DTEL_SUIDTECHDESC.html"];
+  "DOMA-SUIDTECHDESC" [shape=box,color=yellow,URL="./DOMA_SUIDTECHDESC.html"];
+  "TABL-APS_CS_S_BUSINESS_PARTNER_D" [shape=box,color=yellow,URL="./TABL_APS_CS_S_BUSINESS_PARTNER_D.html"];
+  "TABL-APS_S_LIB_ADMIN_DATA" [shape=box,color=yellow,URL="./TABL_APS_S_LIB_ADMIN_DATA.html"];
+  "DTEL-UNAME" [shape=box,color=yellow,URL="./DTEL_UNAME.html"];
+  "DOMA-UNAME" [shape=box,color=yellow,URL="./DOMA_UNAME.html"];
+  "DTEL-TIMESTAMPL" [shape=box,color=green,URL="./DTEL_TIMESTAMPL.html"];
+  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
+  "DTEL-APS_CS_BP_UUID" [shape=box,color=yellow,URL="./DTEL_APS_CS_BP_UUID.html"];
+  "DOMA-SYSUUID" [shape=box,color=yellow,URL="./DOMA_SYSUUID.html"];
+  "DTEL-APS_CS_ID" [shape=box,color=yellow,URL="./DTEL_APS_CS_ID.html"];
+  "TABL-APS_COM_CS_S_BP_ODATA_API" -> "DTEL-APS_CS_ID";
+  "TABL-APS_COM_CS_S_BP_ODATA_API" -> "TABL-APS_CS_S_BUSINESS_PARTNER_D";
+  "TABL-APS_COM_CS_S_BP_ODATA_API" -> "DTEL-SUIDTECHDESC";
+  "TABL-APS_COM_CS_S_BP_ODATA_API" -> "DTEL-BU_PARTNER";
+  "TABL-APS_COM_CS_S_BP_ODATA_API" -> "DTEL-CHAR80";
+  "DTEL-CHAR80" -> "DOMA-CHAR80";
+  "DTEL-BU_PARTNER" -> "DOMA-BU_PARTNER";
+  "DTEL-SUIDTECHDESC" -> "DOMA-SUIDTECHDESC";
+  "TABL-APS_CS_S_BUSINESS_PARTNER_D" -> "DTEL-APS_CS_BP_UUID";
+  "TABL-APS_CS_S_BUSINESS_PARTNER_D" -> "TABL-APS_S_LIB_ADMIN_DATA";
+  "TABL-APS_S_LIB_ADMIN_DATA" -> "DTEL-TIMESTAMPL";
+  "TABL-APS_S_LIB_ADMIN_DATA" -> "DTEL-UNAME";
+  "DTEL-UNAME" -> "DOMA-UNAME";
+  "DTEL-TIMESTAMPL" -> "DOMA-TZNTSTMPL";
+  "DTEL-APS_CS_BP_UUID" -> "DOMA-SYSUUID";
+}

@@ -1,0 +1,11 @@
+digraph G {
+  "CLAS-CL_ABAP_SQL_STATEMENT_HANDLE" [shape=box,color=green];
+  "DTEL-ABAP_MSIZE" [shape=box,color=green,URL="./DTEL_ABAP_MSIZE.html"];
+  "DOMA-ABAP_MSIZE" [shape=box,color=yellow,URL="./DOMA_ABAP_MSIZE.html"];
+  "DTEL-DBCON_NAME" [shape=box,color=yellow,URL="./DTEL_DBCON_NAME.html"];
+  "DOMA-DBCON_NAME" [shape=box,color=yellow,URL="./DOMA_DBCON_NAME.html"];
+  "CLAS-CL_ABAP_SQL_STATEMENT_HANDLE" -> "DTEL-DBCON_NAME";
+  "CLAS-CL_ABAP_SQL_STATEMENT_HANDLE" -> "DTEL-ABAP_MSIZE";
+  "DTEL-ABAP_MSIZE" -> "DOMA-ABAP_MSIZE";
+  "DTEL-DBCON_NAME" -> "DOMA-DBCON_NAME";
+}

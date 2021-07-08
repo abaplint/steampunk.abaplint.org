@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-ICDIND" [shape=box,color=yellow];
+  "DTEL-CDCHNGIND" [shape=box,color=yellow,URL="./DTEL_CDCHNGIND.html"];
+  "DOMA-CDCHNGIND" [shape=box,color=yellow,URL="./DOMA_CDCHNGIND.html"];
+  "TABL-ICDIND" -> "DTEL-CDCHNGIND";
+  "DTEL-CDCHNGIND" -> "DOMA-CDCHNGIND";
+}

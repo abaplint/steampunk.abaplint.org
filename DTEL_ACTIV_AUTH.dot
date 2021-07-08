@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ACTIV_AUTH" [shape=box,color=green];
+  "DOMA-ACTIV_AUTH" [shape=box,color=green,URL="./DOMA_ACTIV_AUTH.html"];
+  "DTEL-ACTIV_AUTH" -> "DOMA-ACTIV_AUTH";
+}

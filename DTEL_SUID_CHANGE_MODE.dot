@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SUID_CHANGE_MODE" [shape=box,color=yellow];
+  "DOMA-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DOMA_SUID_CHANGE_MODE.html"];
+  "DTEL-SUID_CHANGE_MODE" -> "DOMA-SUID_CHANGE_MODE";
+}

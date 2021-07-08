@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SUID_LOCKSCOPE" [shape=box,color=yellow];
+  "DOMA-SUID_LOCKSCOPE" [shape=box,color=yellow,URL="./DOMA_SUID_LOCKSCOPE.html"];
+  "DTEL-SUID_LOCKSCOPE" -> "DOMA-SUID_LOCKSCOPE";
+}

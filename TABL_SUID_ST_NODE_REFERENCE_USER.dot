@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-SUID_ST_NODE_REFERENCE_USER" [shape=box,color=yellow];
+  "DTEL-US_REFUS" [shape=box,color=yellow,URL="./DTEL_US_REFUS.html"];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "TABL-SUID_ST_NODE_REFERENCE_USER" -> "DTEL-US_REFUS";
+  "DTEL-US_REFUS" -> "DOMA-XUBNAME";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PRCTR" [shape=box,color=green];
+  "DOMA-PRCTR" [shape=box,color=yellow,URL="./DOMA_PRCTR.html"];
+  "DTEL-PRCTR" -> "DOMA-PRCTR";
+}

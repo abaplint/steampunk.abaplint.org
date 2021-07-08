@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FCLTX" [shape=box,color=yellow];
+  "DOMA-TEXT10" [shape=box,color=yellow,URL="./DOMA_TEXT10.html"];
+  "DTEL-FCLTX" -> "DOMA-TEXT10";
+}

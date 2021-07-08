@@ -1,0 +1,29 @@
+digraph G {
+  "TABL-BAPI1093_2" [shape=box,color=yellow];
+  "DTEL-DTYP" [shape=box,color=yellow,URL="./DTEL_DTYP.html"];
+  "DOMA-DTYPE" [shape=box,color=yellow,URL="./DOMA_DTYPE.html"];
+  "DTEL-LOGSYS" [shape=box,color=yellow,URL="./DTEL_LOGSYS.html"];
+  "DOMA-LOGSYS" [shape=box,color=yellow,URL="./DOMA_LOGSYS.html"];
+  "DTEL-CHGFX" [shape=box,color=yellow,URL="./DTEL_CHGFX.html"];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-PROZD" [shape=box,color=yellow,URL="./DTEL_PROZD.html"];
+  "DOMA-NUM3" [shape=box,color=yellow,URL="./DOMA_NUM3.html"];
+  "DTEL-XFELD" [shape=box,color=yellow,URL="./DTEL_XFELD.html"];
+  "DTEL-XSPRT" [shape=box,color=yellow,URL="./DTEL_XSPRT.html"];
+  "DTEL-DATUM" [shape=box,color=yellow,URL="./DTEL_DATUM.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "TABL-BAPI1093_2" -> "DTEL-DATUM";
+  "TABL-BAPI1093_2" -> "DTEL-XSPRT";
+  "TABL-BAPI1093_2" -> "DTEL-XFELD";
+  "TABL-BAPI1093_2" -> "DTEL-PROZD";
+  "TABL-BAPI1093_2" -> "DTEL-CHGFX";
+  "TABL-BAPI1093_2" -> "DTEL-LOGSYS";
+  "TABL-BAPI1093_2" -> "DTEL-DTYP";
+  "DTEL-DTYP" -> "DOMA-DTYPE";
+  "DTEL-LOGSYS" -> "DOMA-LOGSYS";
+  "DTEL-CHGFX" -> "DOMA-XFELD";
+  "DTEL-PROZD" -> "DOMA-NUM3";
+  "DTEL-XFELD" -> "DOMA-XFELD";
+  "DTEL-XSPRT" -> "DOMA-XFELD";
+  "DTEL-DATUM" -> "DOMA-DATUM";
+}

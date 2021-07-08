@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CPCODEPAGE" [shape=box,color=yellow];
+  "DOMA-CPCODEPAGE" [shape=box,color=yellow,URL="./DOMA_CPCODEPAGE.html"];
+  "DTEL-CPCODEPAGE" -> "DOMA-CPCODEPAGE";
+}

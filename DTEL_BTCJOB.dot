@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BTCJOB" [shape=box,color=yellow];
+  "DOMA-CHAR32" [shape=box,color=yellow,URL="./DOMA_CHAR32.html"];
+  "DTEL-BTCJOB" -> "DOMA-CHAR32";
+}

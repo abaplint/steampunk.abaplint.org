@@ -1,0 +1,19 @@
+digraph G {
+  "TABL-CLMS_S_TM_OBJECT_LIST" [shape=box,color=yellow];
+  "DTEL-TROBJ_NAME" [shape=box,color=yellow,URL="./DTEL_TROBJ_NAME.html"];
+  "DOMA-TROBJ_NAME" [shape=box,color=yellow,URL="./DOMA_TROBJ_NAME.html"];
+  "DTEL-TROBJTYPE" [shape=box,color=yellow,URL="./DTEL_TROBJTYPE.html"];
+  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
+  "DTEL-PGMID" [shape=box,color=yellow,URL="./DTEL_PGMID.html"];
+  "DOMA-PGMID" [shape=box,color=yellow,URL="./DOMA_PGMID.html"];
+  "DTEL-TRKORR" [shape=box,color=yellow,URL="./DTEL_TRKORR.html"];
+  "DOMA-TRKORR" [shape=box,color=yellow,URL="./DOMA_TRKORR.html"];
+  "TABL-CLMS_S_TM_OBJECT_LIST" -> "DTEL-TRKORR";
+  "TABL-CLMS_S_TM_OBJECT_LIST" -> "DTEL-PGMID";
+  "TABL-CLMS_S_TM_OBJECT_LIST" -> "DTEL-TROBJTYPE";
+  "TABL-CLMS_S_TM_OBJECT_LIST" -> "DTEL-TROBJ_NAME";
+  "DTEL-TROBJ_NAME" -> "DOMA-TROBJ_NAME";
+  "DTEL-TROBJTYPE" -> "DOMA-OBJECT";
+  "DTEL-PGMID" -> "DOMA-PGMID";
+  "DTEL-TRKORR" -> "DOMA-TRKORR";
+}

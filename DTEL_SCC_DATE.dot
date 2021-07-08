@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SCC_DATE" [shape=box,color=yellow];
+  "DOMA-SCC_DATE" [shape=box,color=yellow,URL="./DOMA_SCC_DATE.html"];
+  "DTEL-SCC_DATE" -> "DOMA-SCC_DATE";
+}

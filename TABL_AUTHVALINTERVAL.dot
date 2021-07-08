@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-AUTHVALINTERVAL" [shape=box,color=green];
+  "DTEL-XUVAL" [shape=box,color=yellow,URL="./DTEL_XUVAL.html"];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "TABL-AUTHVALINTERVAL" -> "DTEL-XUVAL";
+  "DTEL-XUVAL" -> "DOMA-XUVALUE";
+}

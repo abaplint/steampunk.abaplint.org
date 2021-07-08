@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XUNCOD2" [shape=box,color=yellow];
+  "DOMA-XUBCODE" [shape=box,color=yellow,URL="./DOMA_XUBCODE.html"];
+  "DTEL-XUNCOD2" -> "DOMA-XUBCODE";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SADT_SRVC_GRP_NAME" [shape=box,color=yellow];
+  "DOMA-SADT_SRVC_GRP_NAME" [shape=box,color=yellow,URL="./DOMA_SADT_SRVC_GRP_NAME.html"];
+  "DTEL-SADT_SRVC_GRP_NAME" -> "DOMA-SADT_SRVC_GRP_NAME";
+}

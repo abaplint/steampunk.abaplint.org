@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DOFFSET" [shape=box,color=yellow];
+  "DOMA-DOFFSET" [shape=box,color=yellow,URL="./DOMA_DOFFSET.html"];
+  "DTEL-DOFFSET" -> "DOMA-DOFFSET";
+}

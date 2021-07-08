@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-CTS_VARIABLE" [shape=box,color=yellow];
+  "DTEL-SYMSGV" [shape=box,color=green,URL="./DTEL_SYMSGV.html"];
+  "DOMA-SYCHAR50" [shape=box,color=yellow,URL="./DOMA_SYCHAR50.html"];
+  "TABL-CTS_VARIABLE" -> "DTEL-SYMSGV";
+  "DTEL-SYMSGV" -> "DOMA-SYCHAR50";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDTABNAME" [shape=box,color=yellow];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "DTEL-CDTABNAME" -> "DOMA-AS4TAB";
+}

@@ -1,0 +1,31 @@
+digraph G {
+  "TABL-T006A" [shape=box,color=yellow];
+  "DTEL-MSEHL" [shape=box,color=yellow,URL="./DTEL_MSEHL.html"];
+  "DOMA-TEXT30" [shape=box,color=yellow,URL="./DOMA_TEXT30.html"];
+  "DTEL-MSEHT" [shape=box,color=yellow,URL="./DTEL_MSEHT.html"];
+  "DOMA-TEXT10" [shape=box,color=yellow,URL="./DOMA_TEXT10.html"];
+  "DTEL-MSEH6" [shape=box,color=yellow,URL="./DTEL_MSEH6.html"];
+  "DOMA-MSEH6" [shape=box,color=yellow,URL="./DOMA_MSEH6.html"];
+  "DTEL-MSEH3" [shape=box,color=yellow,URL="./DTEL_MSEH3.html"];
+  "DOMA-MSEH3" [shape=box,color=yellow,URL="./DOMA_MSEH3.html"];
+  "DTEL-MSEHI" [shape=box,color=green,URL="./DTEL_MSEHI.html"];
+  "DOMA-MEINS" [shape=box,color=green,URL="./DOMA_MEINS.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "DTEL-MANDT" [shape=box,color=green,URL="./DTEL_MANDT.html"];
+  "DOMA-MANDT" [shape=box,color=yellow,URL="./DOMA_MANDT.html"];
+  "TABL-T006A" -> "DTEL-MANDT";
+  "TABL-T006A" -> "DTEL-SPRAS";
+  "TABL-T006A" -> "DTEL-MSEHI";
+  "TABL-T006A" -> "DTEL-MSEH3";
+  "TABL-T006A" -> "DTEL-MSEH6";
+  "TABL-T006A" -> "DTEL-MSEHT";
+  "TABL-T006A" -> "DTEL-MSEHL";
+  "DTEL-MSEHL" -> "DOMA-TEXT30";
+  "DTEL-MSEHT" -> "DOMA-TEXT10";
+  "DTEL-MSEH6" -> "DOMA-MSEH6";
+  "DTEL-MSEH3" -> "DOMA-MSEH3";
+  "DTEL-MSEHI" -> "DOMA-MEINS";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+  "DTEL-MANDT" -> "DOMA-MANDT";
+}

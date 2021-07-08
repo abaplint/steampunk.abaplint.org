@@ -1,0 +1,13 @@
+digraph G {
+  "TTYP-TLINE_TAB" [shape=box,color=yellow];
+  "TABL-TLINE" [shape=box,color=yellow,URL="./TABL_TLINE.html"];
+  "DTEL-TDLINE" [shape=box,color=yellow,URL="./DTEL_TDLINE.html"];
+  "DOMA-TDSTXLLINE" [shape=box,color=yellow,URL="./DOMA_TDSTXLLINE.html"];
+  "DTEL-TDFORMAT" [shape=box,color=yellow,URL="./DTEL_TDFORMAT.html"];
+  "DOMA-TDELEMSTYL" [shape=box,color=yellow,URL="./DOMA_TDELEMSTYL.html"];
+  "TTYP-TLINE_TAB" -> "TABL-TLINE";
+  "TABL-TLINE" -> "DTEL-TDFORMAT";
+  "TABL-TLINE" -> "DTEL-TDLINE";
+  "DTEL-TDLINE" -> "DOMA-TDSTXLLINE";
+  "DTEL-TDFORMAT" -> "DOMA-TDELEMSTYL";
+}

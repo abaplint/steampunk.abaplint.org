@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-CMIS_S_CONTENT_STREAM" [shape=box,color=green];
+  "DTEL-BOOLEAN" [shape=box,color=yellow,URL="./DTEL_BOOLEAN.html"];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "DTEL-CMIS_LONG" [shape=box,color=green,URL="./DTEL_CMIS_LONG.html"];
+  "DTEL-CMIS_STRING" [shape=box,color=green,URL="./DTEL_CMIS_STRING.html"];
+  "TABL-CMIS_S_CONTENT_STREAM" -> "DTEL-CMIS_STRING";
+  "TABL-CMIS_S_CONTENT_STREAM" -> "DTEL-CMIS_LONG";
+  "TABL-CMIS_S_CONTENT_STREAM" -> "DTEL-BOOLEAN";
+  "DTEL-BOOLEAN" -> "DOMA-BOOLEAN";
+}

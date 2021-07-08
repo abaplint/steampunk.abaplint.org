@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_IAM_VERSION" [shape=box,color=yellow];
+  "DOMA-INT2" [shape=box,color=yellow,URL="./DOMA_INT2.html"];
+  "DTEL-APS_IAM_VERSION" -> "DOMA-INT2";
+}

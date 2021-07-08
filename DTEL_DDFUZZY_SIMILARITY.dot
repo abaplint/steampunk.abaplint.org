@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DDFUZZY_SIMILARITY" [shape=box,color=yellow];
+  "DOMA-DDFUZZY_SIMILARITY" [shape=box,color=yellow,URL="./DOMA_DDFUZZY_SIMILARITY.html"];
+  "DTEL-DDFUZZY_SIMILARITY" -> "DOMA-DDFUZZY_SIMILARITY";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ENQMODE" [shape=box,color=yellow];
+  "DOMA-ENQMODE" [shape=box,color=yellow,URL="./DOMA_ENQMODE.html"];
+  "DTEL-ENQMODE" -> "DOMA-ENQMODE";
+}

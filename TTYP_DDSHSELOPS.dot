@@ -1,0 +1,25 @@
+digraph G {
+  "TTYP-DDSHSELOPS" [shape=box,color=yellow];
+  "TABL-DDSHSELOPT" [shape=box,color=yellow,URL="./TABL_DDSHSELOPT.html"];
+  "DTEL-RSDSSELOP_" [shape=box,color=yellow,URL="./DTEL_RSDSSELOP_.html"];
+  "DOMA-RSDSSELOPT" [shape=box,color=yellow,URL="./DOMA_RSDSSELOPT.html"];
+  "DTEL-TVARV_OPTI" [shape=box,color=yellow,URL="./DTEL_TVARV_OPTI.html"];
+  "DOMA-SYCHAR02" [shape=box,color=yellow,URL="./DOMA_SYCHAR02.html"];
+  "DTEL-TVARV_SIGN" [shape=box,color=yellow,URL="./DTEL_TVARV_SIGN.html"];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "DTEL-SHLPFIELD" [shape=box,color=yellow,URL="./DTEL_SHLPFIELD.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-SHLPNAME" [shape=box,color=yellow,URL="./DTEL_SHLPNAME.html"];
+  "DOMA-SHLPNAME" [shape=box,color=yellow,URL="./DOMA_SHLPNAME.html"];
+  "TTYP-DDSHSELOPS" -> "TABL-DDSHSELOPT";
+  "TABL-DDSHSELOPT" -> "DTEL-SHLPNAME";
+  "TABL-DDSHSELOPT" -> "DTEL-SHLPFIELD";
+  "TABL-DDSHSELOPT" -> "DTEL-TVARV_SIGN";
+  "TABL-DDSHSELOPT" -> "DTEL-TVARV_OPTI";
+  "TABL-DDSHSELOPT" -> "DTEL-RSDSSELOP_";
+  "DTEL-RSDSSELOP_" -> "DOMA-RSDSSELOPT";
+  "DTEL-TVARV_OPTI" -> "DOMA-SYCHAR02";
+  "DTEL-TVARV_SIGN" -> "DOMA-SYCHAR01";
+  "DTEL-SHLPFIELD" -> "DOMA-FDNAME";
+  "DTEL-SHLPNAME" -> "DOMA-SHLPNAME";
+}

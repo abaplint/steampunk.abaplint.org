@@ -1,0 +1,7 @@
+digraph G {
+  "CLAS-CL_ABAP_CORRESPONDING" [shape=box,color=green];
+  "DTEL-SYCHAR01" [shape=box,color=green,URL="./DTEL_SYCHAR01.html"];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "CLAS-CL_ABAP_CORRESPONDING" -> "DTEL-SYCHAR01";
+  "DTEL-SYCHAR01" -> "DOMA-SYCHAR01";
+}

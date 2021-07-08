@@ -1,0 +1,30 @@
+digraph G {
+  "TABL-SUID_ST_NODE_PWDHASH" [shape=box,color=yellow];
+  "DTEL-PWD_HASH_STRING" [shape=box,color=yellow,URL="./DTEL_PWD_HASH_STRING.html"];
+  "DOMA-PWD_HASH_STRING" [shape=box,color=yellow,URL="./DOMA_PWD_HASH_STRING.html"];
+  "DTEL-XUPWDINIT" [shape=box,color=yellow,URL="./DTEL_XUPWDINIT.html"];
+  "DOMA-IBOOLEAN3" [shape=box,color=yellow,URL="./DOMA_IBOOLEAN3.html"];
+  "DTEL-XULPDAT" [shape=box,color=yellow,URL="./DTEL_XULPDAT.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "DTEL-XUBCDAT" [shape=box,color=yellow,URL="./DTEL_XUBCDAT.html"];
+  "DTEL-PWD_SHA1" [shape=box,color=yellow,URL="./DTEL_PWD_SHA1.html"];
+  "DOMA-SHA1_HASH" [shape=box,color=yellow,URL="./DOMA_SHA1_HASH.html"];
+  "DTEL-XUCODEVER2" [shape=box,color=yellow,URL="./DTEL_XUCODEVER2.html"];
+  "DOMA-XUCODEVER2" [shape=box,color=yellow,URL="./DOMA_XUCODEVER2.html"];
+  "DTEL-XUCODE" [shape=box,color=yellow,URL="./DTEL_XUCODE.html"];
+  "DOMA-XUCODE" [shape=box,color=yellow,URL="./DOMA_XUCODE.html"];
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-XUCODE";
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-XUCODEVER2";
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-PWD_SHA1";
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-XUBCDAT";
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-XULPDAT";
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-XUPWDINIT";
+  "TABL-SUID_ST_NODE_PWDHASH" -> "DTEL-PWD_HASH_STRING";
+  "DTEL-PWD_HASH_STRING" -> "DOMA-PWD_HASH_STRING";
+  "DTEL-XUPWDINIT" -> "DOMA-IBOOLEAN3";
+  "DTEL-XULPDAT" -> "DOMA-DATUM";
+  "DTEL-XUBCDAT" -> "DOMA-DATUM";
+  "DTEL-PWD_SHA1" -> "DOMA-SHA1_HASH";
+  "DTEL-XUCODEVER2" -> "DOMA-XUCODEVER2";
+  "DTEL-XUCODE" -> "DOMA-XUCODE";
+}

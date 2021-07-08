@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_X4UANID" [shape=box,color=yellow];
+  "DOMA-CHAR32" [shape=box,color=yellow,URL="./DOMA_CHAR32.html"];
+  "DTEL-AD_X4UANID" -> "DOMA-CHAR32";
+}

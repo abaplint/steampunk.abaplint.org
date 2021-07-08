@@ -1,0 +1,5 @@
+digraph G {
+  "TABL-TPFYVALUE" [shape=box,color=yellow];
+  "DTEL-PFEVALUE" [shape=box,color=yellow,URL="./DTEL_PFEVALUE.html"];
+  "TABL-TPFYVALUE" -> "DTEL-PFEVALUE";
+}

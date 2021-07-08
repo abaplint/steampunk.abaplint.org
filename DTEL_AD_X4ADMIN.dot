@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_X4ADMIN" [shape=box,color=yellow];
+  "DOMA-CHAR16" [shape=box,color=yellow,URL="./DOMA_CHAR16.html"];
+  "DTEL-AD_X4ADMIN" -> "DOMA-CHAR16";
+}

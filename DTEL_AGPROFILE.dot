@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AGPROFILE" [shape=box,color=yellow];
+  "DOMA-XUPROFILE" [shape=box,color=yellow,URL="./DOMA_XUPROFILE.html"];
+  "DTEL-AGPROFILE" -> "DOMA-XUPROFILE";
+}

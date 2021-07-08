@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RFCRCVSYS" [shape=box,color=yellow];
+  "DOMA-LOGSYS" [shape=box,color=yellow,URL="./DOMA_LOGSYS.html"];
+  "DTEL-RFCRCVSYS" -> "DOMA-LOGSYS";
+}

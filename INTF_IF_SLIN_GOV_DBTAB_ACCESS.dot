@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_SLIN_GOV_DBTAB_ACCESS" [shape=box,color=green];
+  "DTEL-TABNAME" [shape=box,color=green,URL="./DTEL_TABNAME.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "INTF-IF_SLIN_GOV_DBTAB_ACCESS" -> "DTEL-TABNAME";
+  "DTEL-TABNAME" -> "DOMA-AS4TAB";
+}

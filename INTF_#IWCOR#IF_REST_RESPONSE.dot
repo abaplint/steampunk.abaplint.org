@@ -1,0 +1,36 @@
+digraph G {
+  "INTF-/IWCOR/IF_REST_RESPONSE" [shape=box,color=yellow];
+  "INTF-/IWCOR/IF_REST_ENTITY" [shape=box,color=yellow,URL="./INTF_%23IWCOR%23IF_REST_ENTITY.html"];
+  "DTEL-VSCAN_PROFILE" [shape=box,color=yellow,URL="./DTEL_VSCAN_PROFILE.html"];
+  "DOMA-VSCAN_PROFILE" [shape=box,color=yellow,URL="./DOMA_VSCAN_PROFILE.html"];
+  "DTEL-TIMESTAMP" [shape=box,color=green,URL="./DTEL_TIMESTAMP.html"];
+  "DOMA-TZNTSTMPS" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPS.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TTYP-TIHTTPNVP" [shape=box,color=green,URL="./TTYP_TIHTTPNVP.html"];
+  "TABL-IHTTPNVP" [shape=box,color=yellow,URL="./TABL_IHTTPNVP.html"];
+  "DTEL-IHTTPVAL" [shape=box,color=yellow,URL="./DTEL_IHTTPVAL.html"];
+  "DTEL-IHTTPNAM" [shape=box,color=yellow,URL="./DTEL_IHTTPNAM.html"];
+  "INTF-/IWCOR/IF_REST_MESSAGE" [shape=box,color=yellow,URL="./INTF_%23IWCOR%23IF_REST_MESSAGE.html"];
+  "TABL-/IWCOR/REST_ETAG_S" [shape=box,color=yellow,URL="./TABL_%23IWCOR%23REST_ETAG_S.html"];
+  "DTEL-BOOLE_D" [shape=box,color=yellow,URL="./DTEL_BOOLE_D.html"];
+  "DOMA-BOOLE" [shape=box,color=yellow,URL="./DOMA_BOOLE.html"];
+  "INTF-/IWCOR/IF_REST_RESPONSE" -> "TABL-/IWCOR/REST_ETAG_S";
+  "INTF-/IWCOR/IF_REST_RESPONSE" -> "TTYP-TIHTTPNVP";
+  "INTF-/IWCOR/IF_REST_RESPONSE" -> "INTF-/IWCOR/IF_REST_MESSAGE";
+  "INTF-/IWCOR/IF_REST_RESPONSE" -> "INTF-/IWCOR/IF_REST_ENTITY";
+  "INTF-/IWCOR/IF_REST_ENTITY" -> "TTYP-TIHTTPNVP";
+  "INTF-/IWCOR/IF_REST_ENTITY" -> "DTEL-LANGU";
+  "INTF-/IWCOR/IF_REST_ENTITY" -> "DTEL-TIMESTAMP";
+  "INTF-/IWCOR/IF_REST_ENTITY" -> "DTEL-VSCAN_PROFILE";
+  "DTEL-VSCAN_PROFILE" -> "DOMA-VSCAN_PROFILE";
+  "DTEL-TIMESTAMP" -> "DOMA-TZNTSTMPS";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+  "TTYP-TIHTTPNVP" -> "TABL-IHTTPNVP";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPNAM";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPVAL";
+  "INTF-/IWCOR/IF_REST_MESSAGE" -> "TTYP-TIHTTPNVP";
+  "INTF-/IWCOR/IF_REST_MESSAGE" -> "INTF-/IWCOR/IF_REST_ENTITY";
+  "TABL-/IWCOR/REST_ETAG_S" -> "DTEL-BOOLE_D";
+  "DTEL-BOOLE_D" -> "DOMA-BOOLE";
+}

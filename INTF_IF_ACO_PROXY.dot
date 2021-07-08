@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_ACO_PROXY" [shape=box,color=green];
+}

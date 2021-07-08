@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_BC_SCOPE_STATE" [shape=box,color=yellow];
+  "DOMA-APS_BC_SCOPE_STATE" [shape=box,color=yellow,URL="./DOMA_APS_BC_SCOPE_STATE.html"];
+  "DTEL-APS_BC_SCOPE_STATE" -> "DOMA-APS_BC_SCOPE_STATE";
+}

@@ -1,0 +1,7 @@
+digraph G {
+  "CLAS-CL_ABAP_UTCLONG" [shape=box,color=green];
+  "DTEL-TIMEZONE" [shape=box,color=green,URL="./DTEL_TIMEZONE.html"];
+  "DOMA-TZNZONE" [shape=box,color=yellow,URL="./DOMA_TZNZONE.html"];
+  "CLAS-CL_ABAP_UTCLONG" -> "DTEL-TIMEZONE";
+  "DTEL-TIMEZONE" -> "DOMA-TZNZONE";
+}

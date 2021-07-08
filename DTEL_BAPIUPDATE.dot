@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BAPIUPDATE" [shape=box,color=green];
+  "DOMA-BAPIUPDATE" [shape=box,color=yellow,URL="./DOMA_BAPIUPDATE.html"];
+  "DTEL-BAPIUPDATE" -> "DOMA-BAPIUPDATE";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_URISCR" [shape=box,color=yellow];
+  "DOMA-AD_URISCR" [shape=box,color=yellow,URL="./DOMA_AD_URISCR.html"];
+  "DTEL-AD_URISCR" -> "DOMA-AD_URISCR";
+}

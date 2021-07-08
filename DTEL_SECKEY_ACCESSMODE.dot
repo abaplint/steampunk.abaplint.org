@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SECKEY_ACCESSMODE" [shape=box,color=yellow];
+  "DOMA-SECKEY_ACCESSMODE" [shape=box,color=yellow,URL="./DOMA_SECKEY_ACCESSMODE.html"];
+  "DTEL-SECKEY_ACCESSMODE" -> "DOMA-SECKEY_ACCESSMODE";
+}

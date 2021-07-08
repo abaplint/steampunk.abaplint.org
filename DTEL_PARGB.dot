@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PARGB" [shape=box,color=green];
+  "DOMA-GSBER" [shape=box,color=yellow,URL="./DOMA_GSBER.html"];
+  "DTEL-PARGB" -> "DOMA-GSBER";
+}

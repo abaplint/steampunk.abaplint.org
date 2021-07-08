@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_BADI_CONTEXT" [shape=box,color=green];
+  "DTEL-CLASSNAME" [shape=box,color=yellow,URL="./DTEL_CLASSNAME.html"];
+  "DOMA-CLASSNAME" [shape=box,color=yellow,URL="./DOMA_CLASSNAME.html"];
+  "INTF-IF_BADI_CONTEXT" -> "DTEL-CLASSNAME";
+  "DTEL-CLASSNAME" -> "DOMA-CLASSNAME";
+}

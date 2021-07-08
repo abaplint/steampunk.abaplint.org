@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDFLDVALO" [shape=box,color=yellow];
+  "DOMA-FIELDVAL" [shape=box,color=yellow,URL="./DOMA_FIELDVAL.html"];
+  "DTEL-CDFLDVALO" -> "DOMA-FIELDVAL";
+}

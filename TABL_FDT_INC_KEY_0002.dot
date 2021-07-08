@@ -1,0 +1,9 @@
+digraph G {
+  "TABL-FDT_INC_KEY_0002" [shape=box,color=yellow];
+  "DTEL-FDT_VERSION" [shape=box,color=yellow,URL="./DTEL_FDT_VERSION.html"];
+  "DTEL-FDT_UUID" [shape=box,color=yellow,URL="./DTEL_FDT_UUID.html"];
+  "DOMA-SYSUUID_C" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C.html"];
+  "TABL-FDT_INC_KEY_0002" -> "DTEL-FDT_UUID";
+  "TABL-FDT_INC_KEY_0002" -> "DTEL-FDT_VERSION";
+  "DTEL-FDT_UUID" -> "DOMA-SYSUUID_C";
+}

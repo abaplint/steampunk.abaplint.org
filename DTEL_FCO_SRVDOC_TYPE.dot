@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FCO_SRVDOC_TYPE" [shape=box,color=green];
+  "DOMA-CRM_PROCESS_TYPE" [shape=box,color=yellow,URL="./DOMA_CRM_PROCESS_TYPE.html"];
+  "DTEL-FCO_SRVDOC_TYPE" -> "DOMA-CRM_PROCESS_TYPE";
+}

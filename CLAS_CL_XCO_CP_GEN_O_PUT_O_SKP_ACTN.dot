@@ -1,0 +1,7 @@
+digraph G {
+  "CLAS-CL_XCO_CP_GEN_O_PUT_O_SKP_ACTN" [shape=box,color=green];
+  "INTF-IF_XCO_CP_GEN_D_O_PUT_OPTION" [shape=box,color=green,URL="./INTF_IF_XCO_CP_GEN_D_O_PUT_OPTION.html"];
+  "CLAS-CL_XCO_CP_GEN_D_O_PUT_OPTION" [shape=box,color=green,URL="./CLAS_CL_XCO_CP_GEN_D_O_PUT_OPTION.html"];
+  "CLAS-CL_XCO_CP_GEN_O_PUT_O_SKP_ACTN" -> "INTF-IF_XCO_CP_GEN_D_O_PUT_OPTION";
+  "INTF-IF_XCO_CP_GEN_D_O_PUT_OPTION" -> "CLAS-CL_XCO_CP_GEN_D_O_PUT_OPTION";
+}

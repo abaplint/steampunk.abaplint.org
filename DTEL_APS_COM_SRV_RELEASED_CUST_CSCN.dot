@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_SRV_RELEASED_CUST_CSCN" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-APS_COM_SRV_RELEASED_CUST_CSCN" -> "DOMA-XFELD";
+}

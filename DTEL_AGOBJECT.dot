@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AGOBJECT" [shape=box,color=yellow];
+  "DOMA-XUOBJECT" [shape=box,color=yellow,URL="./DOMA_XUOBJECT.html"];
+  "DTEL-AGOBJECT" -> "DOMA-XUOBJECT";
+}

@@ -1,0 +1,15 @@
+digraph G {
+  "INTF-IF_BALI_CONSTANTS" [shape=box,color=green];
+  "DTEL-SYMSGTY" [shape=box,color=green,URL="./DTEL_SYMSGTY.html"];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "DTEL-BALLEVEL" [shape=box,color=green,URL="./DTEL_BALLEVEL.html"];
+  "DOMA-BALLEVEL" [shape=box,color=yellow,URL="./DOMA_BALLEVEL.html"];
+  "DTEL-CHAR1" [shape=box,color=yellow,URL="./DTEL_CHAR1.html"];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "INTF-IF_BALI_CONSTANTS" -> "DTEL-CHAR1";
+  "INTF-IF_BALI_CONSTANTS" -> "DTEL-BALLEVEL";
+  "INTF-IF_BALI_CONSTANTS" -> "DTEL-SYMSGTY";
+  "DTEL-SYMSGTY" -> "DOMA-SYCHAR01";
+  "DTEL-BALLEVEL" -> "DOMA-BALLEVEL";
+  "DTEL-CHAR1" -> "DOMA-CHAR1";
+}

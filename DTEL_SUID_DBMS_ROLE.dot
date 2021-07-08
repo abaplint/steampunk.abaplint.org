@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SUID_DBMS_ROLE" [shape=box,color=yellow];
+  "DOMA-SUID_DBMS_ROLE" [shape=box,color=yellow,URL="./DOMA_SUID_DBMS_ROLE.html"];
+  "DTEL-SUID_DBMS_ROLE" -> "DOMA-SUID_DBMS_ROLE";
+}

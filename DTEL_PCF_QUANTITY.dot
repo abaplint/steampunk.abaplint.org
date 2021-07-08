@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PCF_QUANTITY" [shape=box,color=green];
+  "DOMA-PCF_QUANTITY" [shape=box,color=yellow,URL="./DOMA_PCF_QUANTITY.html"];
+  "DTEL-PCF_QUANTITY" -> "DOMA-PCF_QUANTITY";
+}

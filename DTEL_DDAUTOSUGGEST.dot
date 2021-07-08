@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DDAUTOSUGGEST" [shape=box,color=yellow];
+  "DOMA-DDAUTOSUGGEST" [shape=box,color=yellow,URL="./DOMA_DDAUTOSUGGEST.html"];
+  "DTEL-DDAUTOSUGGEST" -> "DOMA-DDAUTOSUGGEST";
+}

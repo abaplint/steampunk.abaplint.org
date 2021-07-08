@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SQL1_NAME" [shape=box,color=yellow];
+  "DOMA-SQL1_NAME" [shape=box,color=yellow,URL="./DOMA_SQL1_NAME.html"];
+  "DTEL-SQL1_NAME" -> "DOMA-SQL1_NAME";
+}

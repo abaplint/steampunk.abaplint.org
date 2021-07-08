@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-COLOR_INFO" [shape=box,color=yellow];
+  "DOMA-COLOR_INFO" [shape=box,color=yellow,URL="./DOMA_COLOR_INFO.html"];
+  "DTEL-COLOR_INFO" -> "DOMA-COLOR_INFO";
+}

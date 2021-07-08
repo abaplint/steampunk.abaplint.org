@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DESCRIP" [shape=box,color=yellow];
+  "DOMA-FLAG" [shape=box,color=yellow,URL="./DOMA_FLAG.html"];
+  "DTEL-DESCRIP" -> "DOMA-FLAG";
+}

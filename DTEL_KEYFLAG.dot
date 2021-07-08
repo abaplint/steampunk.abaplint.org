@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-KEYFLAG" [shape=box,color=yellow];
+  "DOMA-KEYFLAG" [shape=box,color=yellow,URL="./DOMA_KEYFLAG.html"];
+  "DTEL-KEYFLAG" -> "DOMA-KEYFLAG";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-S380ERRID" [shape=box,color=yellow];
+  "DOMA-SYCHAR30" [shape=box,color=yellow,URL="./DOMA_SYCHAR30.html"];
+  "DTEL-S380ERRID" -> "DOMA-SYCHAR30";
+}

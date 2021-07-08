@@ -1,0 +1,3 @@
+digraph G {
+  "DTEL-EDI_REGELNAME" [shape=box,color=yellow];
+}

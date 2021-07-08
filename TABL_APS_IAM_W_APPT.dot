@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-APS_IAM_W_APPT" [shape=box,color=yellow];
+  "DTEL-APS_IAM_TEXT80" [shape=box,color=yellow,URL="./DTEL_APS_IAM_TEXT80.html"];
+  "DOMA-TEXT80" [shape=box,color=yellow,URL="./DOMA_TEXT80.html"];
+  "DTEL-APS_IAM_APP_ID" [shape=box,color=yellow,URL="./DTEL_APS_IAM_APP_ID.html"];
+  "DOMA-APS_IAM_APP_ID" [shape=box,color=yellow,URL="./DOMA_APS_IAM_APP_ID.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-APS_IAM_W_APPT" -> "DTEL-LANGU";
+  "TABL-APS_IAM_W_APPT" -> "DTEL-APS_IAM_APP_ID";
+  "TABL-APS_IAM_W_APPT" -> "DTEL-APS_IAM_TEXT80";
+  "DTEL-APS_IAM_TEXT80" -> "DOMA-TEXT80";
+  "DTEL-APS_IAM_APP_ID" -> "DOMA-APS_IAM_APP_ID";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+}

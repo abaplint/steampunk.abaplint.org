@@ -1,0 +1,7 @@
+digraph G {
+  "TTYP-SXCO_T_TR_FILTERS" [shape=box,color=green];
+  "INTF-IF_XCO_TR_FILTER" [shape=box,color=green,URL="./INTF_IF_XCO_TR_FILTER.html"];
+  "CLAS-CL_XCO_TR_SELECTION_BUILDER" [shape=box,color=green,URL="./CLAS_CL_XCO_TR_SELECTION_BUILDER.html"];
+  "TTYP-SXCO_T_TR_FILTERS" -> "INTF-IF_XCO_TR_FILTER";
+  "INTF-IF_XCO_TR_FILTER" -> "CLAS-CL_XCO_TR_SELECTION_BUILDER";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-VSCAN_PROFILE" [shape=box,color=yellow];
+  "DOMA-VSCAN_PROFILE" [shape=box,color=yellow,URL="./DOMA_VSCAN_PROFILE.html"];
+  "DTEL-VSCAN_PROFILE" -> "DOMA-VSCAN_PROFILE";
+}

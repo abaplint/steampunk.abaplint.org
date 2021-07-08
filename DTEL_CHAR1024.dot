@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CHAR1024" [shape=box,color=yellow];
+  "DOMA-CHARA1024" [shape=box,color=yellow,URL="./DOMA_CHARA1024.html"];
+  "DTEL-CHAR1024" -> "DOMA-CHARA1024";
+}

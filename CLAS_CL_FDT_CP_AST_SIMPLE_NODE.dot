@@ -1,0 +1,7 @@
+digraph G {
+  "CLAS-CL_FDT_CP_AST_SIMPLE_NODE" [shape=box,color=green];
+  "DTEL-CHAR1" [shape=box,color=yellow,URL="./DTEL_CHAR1.html"];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "CLAS-CL_FDT_CP_AST_SIMPLE_NODE" -> "DTEL-CHAR1";
+  "DTEL-CHAR1" -> "DOMA-CHAR1";
+}

@@ -1,0 +1,9 @@
+digraph G {
+  "TTYP-TIHTTPNVP" [shape=box,color=green];
+  "TABL-IHTTPNVP" [shape=box,color=yellow,URL="./TABL_IHTTPNVP.html"];
+  "DTEL-IHTTPVAL" [shape=box,color=yellow,URL="./DTEL_IHTTPVAL.html"];
+  "DTEL-IHTTPNAM" [shape=box,color=yellow,URL="./DTEL_IHTTPNAM.html"];
+  "TTYP-TIHTTPNVP" -> "TABL-IHTTPNVP";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPNAM";
+  "TABL-IHTTPNVP" -> "DTEL-IHTTPVAL";
+}

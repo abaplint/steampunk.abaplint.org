@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XSDDATETIME_Z" [shape=box,color=green];
+  "DOMA-XSDDATETIME_Z" [shape=box,color=green,URL="./DOMA_XSDDATETIME_Z.html"];
+  "DTEL-XSDDATETIME_Z" -> "DOMA-XSDDATETIME_Z";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RSSCR_KIND" [shape=box,color=yellow];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "DTEL-RSSCR_KIND" -> "DOMA-SYCHAR01";
+}

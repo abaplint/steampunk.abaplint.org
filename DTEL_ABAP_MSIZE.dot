@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ABAP_MSIZE" [shape=box,color=green];
+  "DOMA-ABAP_MSIZE" [shape=box,color=yellow,URL="./DOMA_ABAP_MSIZE.html"];
+  "DTEL-ABAP_MSIZE" -> "DOMA-ABAP_MSIZE";
+}

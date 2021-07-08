@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-ADDRS_CREATED_ID" [shape=box,color=yellow];
+  "DTEL-ADDR_NODE_ID" [shape=box,color=yellow,URL="./DTEL_ADDR_NODE_ID.html"];
+  "DOMA-ADDR_NODE_ID" [shape=box,color=yellow,URL="./DOMA_ADDR_NODE_ID.html"];
+  "TABL-ADDRS_CREATED_ID" -> "DTEL-ADDR_NODE_ID";
+  "DTEL-ADDR_NODE_ID" -> "DOMA-ADDR_NODE_ID";
+}

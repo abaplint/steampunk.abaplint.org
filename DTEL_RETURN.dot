@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RETURN" [shape=box,color=yellow];
+  "DOMA-SYST_FLAG" [shape=box,color=yellow,URL="./DOMA_SYST_FLAG.html"];
+  "DTEL-RETURN" -> "DOMA-SYST_FLAG";
+}

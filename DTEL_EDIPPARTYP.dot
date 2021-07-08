@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-EDIPPARTYP" [shape=box,color=yellow];
+  "DOMA-EDI_RCVPRT" [shape=box,color=yellow,URL="./DOMA_EDI_RCVPRT.html"];
+  "DTEL-EDIPPARTYP" -> "DOMA-EDI_RCVPRT";
+}

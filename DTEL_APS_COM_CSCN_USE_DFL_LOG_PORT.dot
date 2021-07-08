@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_USE_DFL_LOG_PORT" [shape=box,color=yellow];
+  "DOMA-XSDBOOLEAN" [shape=box,color=green,URL="./DOMA_XSDBOOLEAN.html"];
+  "DTEL-APS_COM_CSCN_USE_DFL_LOG_PORT" -> "DOMA-XSDBOOLEAN";
+}

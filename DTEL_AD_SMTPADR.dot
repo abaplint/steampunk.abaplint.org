@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_SMTPADR" [shape=box,color=yellow];
+  "DOMA-AD_SMTPADR" [shape=box,color=yellow,URL="./DOMA_AD_SMTPADR.html"];
+  "DTEL-AD_SMTPADR" -> "DOMA-AD_SMTPADR";
+}

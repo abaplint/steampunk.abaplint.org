@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/BOBF/OBM_ASSOC_KIND" [shape=box,color=yellow];
+  "DOMA-/BOBF/OBM_ASSOC_KIND" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23OBM_ASSOC_KIND.html"];
+  "DTEL-/BOBF/OBM_ASSOC_KIND" -> "DOMA-/BOBF/OBM_ASSOC_KIND";
+}

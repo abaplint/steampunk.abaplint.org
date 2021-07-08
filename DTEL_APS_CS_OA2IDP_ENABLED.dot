@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CS_OA2IDP_ENABLED" [shape=box,color=yellow];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "DTEL-APS_CS_OA2IDP_ENABLED" -> "DOMA-BOOLEAN";
+}

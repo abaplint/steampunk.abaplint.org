@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SESF_EDIT_MODE" [shape=box,color=yellow];
+  "DOMA-SESF_EDIT_MODE" [shape=box,color=yellow,URL="./DOMA_SESF_EDIT_MODE.html"];
+  "DTEL-SESF_EDIT_MODE" -> "DOMA-SESF_EDIT_MODE";
+}

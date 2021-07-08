@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_HSNM2" [shape=box,color=yellow];
+  "DOMA-TEXT10" [shape=box,color=yellow,URL="./DOMA_TEXT10.html"];
+  "DTEL-AD_HSNM2" -> "DOMA-TEXT10";
+}

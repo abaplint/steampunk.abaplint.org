@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BTCSDLTIME" [shape=box,color=yellow];
+  "DOMA-SYTIME" [shape=box,color=yellow,URL="./DOMA_SYTIME.html"];
+  "DTEL-BTCSDLTIME" -> "DOMA-SYTIME";
+}

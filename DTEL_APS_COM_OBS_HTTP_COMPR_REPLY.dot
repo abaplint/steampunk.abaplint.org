@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_OBS_HTTP_COMPR_REPLY" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-APS_COM_OBS_HTTP_COMPR_REPLY" -> "DOMA-XFELD";
+}

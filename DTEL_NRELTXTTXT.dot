@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-NRELTXTTXT" [shape=box,color=yellow];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-NRELTXTTXT" -> "DOMA-FDNAME";
+}

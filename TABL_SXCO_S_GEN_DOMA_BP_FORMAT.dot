@@ -1,0 +1,14 @@
+digraph G {
+  "TABL-SXCO_S_GEN_DOMA_BP_FORMAT" [shape=box,color=yellow];
+  "DTEL-DECIMALS" [shape=box,color=yellow,URL="./DTEL_DECIMALS.html"];
+  "DOMA-DDLENG" [shape=box,color=yellow,URL="./DOMA_DDLENG.html"];
+  "DTEL-DDLENG" [shape=box,color=yellow,URL="./DTEL_DDLENG.html"];
+  "DTEL-DATATYPE_D" [shape=box,color=yellow,URL="./DTEL_DATATYPE_D.html"];
+  "DOMA-DATATYPE" [shape=box,color=yellow,URL="./DOMA_DATATYPE.html"];
+  "TABL-SXCO_S_GEN_DOMA_BP_FORMAT" -> "DTEL-DATATYPE_D";
+  "TABL-SXCO_S_GEN_DOMA_BP_FORMAT" -> "DTEL-DDLENG";
+  "TABL-SXCO_S_GEN_DOMA_BP_FORMAT" -> "DTEL-DECIMALS";
+  "DTEL-DECIMALS" -> "DOMA-DDLENG";
+  "DTEL-DDLENG" -> "DOMA-DDLENG";
+  "DTEL-DATATYPE_D" -> "DOMA-DATATYPE";
+}

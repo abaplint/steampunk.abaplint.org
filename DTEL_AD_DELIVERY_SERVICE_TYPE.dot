@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_DELIVERY_SERVICE_TYPE" [shape=box,color=yellow];
+  "DOMA-AD_DELIVERY_SERVICE_TYPE" [shape=box,color=yellow,URL="./DOMA_AD_DELIVERY_SERVICE_TYPE.html"];
+  "DTEL-AD_DELIVERY_SERVICE_TYPE" -> "DOMA-AD_DELIVERY_SERVICE_TYPE";
+}

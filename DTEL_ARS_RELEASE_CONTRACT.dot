@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ARS_RELEASE_CONTRACT" [shape=box,color=yellow];
+  "DOMA-ARS_RELEASE_CONTRACT" [shape=box,color=yellow,URL="./DOMA_ARS_RELEASE_CONTRACT.html"];
+  "DTEL-ARS_RELEASE_CONTRACT" -> "DOMA-ARS_RELEASE_CONTRACT";
+}

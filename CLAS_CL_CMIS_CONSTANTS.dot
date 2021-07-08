@@ -1,0 +1,5 @@
+digraph G {
+  "CLAS-CL_CMIS_CONSTANTS" [shape=box,color=green];
+  "DTEL-CMIS_ENUM" [shape=box,color=green,URL="./DTEL_CMIS_ENUM.html"];
+  "CLAS-CL_CMIS_CONSTANTS" -> "DTEL-CMIS_ENUM";
+}

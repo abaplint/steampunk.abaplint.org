@@ -1,0 +1,19 @@
+digraph G {
+  "TABL-BAPIALA" [shape=box,color=green];
+  "DTEL-BAPI_TFRMT" [shape=box,color=green,URL="./DTEL_BAPI_TFRMT.html"];
+  "DOMA-BAPI_TFRMT" [shape=box,color=yellow,URL="./DOMA_BAPI_TFRMT.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "DTEL-BALMNR" [shape=box,color=green,URL="./DTEL_BALMNR.html"];
+  "DOMA-BALMNR" [shape=box,color=yellow,URL="./DOMA_BALMNR.html"];
+  "DTEL-BALOGNR" [shape=box,color=green,URL="./DTEL_BALOGNR.html"];
+  "DOMA-BALOGNR" [shape=box,color=yellow,URL="./DOMA_BALOGNR.html"];
+  "TABL-BAPIALA" -> "DTEL-BALOGNR";
+  "TABL-BAPIALA" -> "DTEL-BALMNR";
+  "TABL-BAPIALA" -> "DTEL-LANGU";
+  "TABL-BAPIALA" -> "DTEL-BAPI_TFRMT";
+  "DTEL-BAPI_TFRMT" -> "DOMA-BAPI_TFRMT";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+  "DTEL-BALMNR" -> "DOMA-BALMNR";
+  "DTEL-BALOGNR" -> "DOMA-BALOGNR";
+}

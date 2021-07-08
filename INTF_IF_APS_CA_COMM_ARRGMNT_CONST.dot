@@ -1,0 +1,23 @@
+digraph G {
+  "INTF-IF_APS_CA_COMM_ARRGMNT_CONST" [shape=box,color=yellow];
+  "DTEL-CHAR20" [shape=box,color=yellow,URL="./DTEL_CHAR20.html"];
+  "DOMA-CHAR20" [shape=box,color=yellow,URL="./DOMA_CHAR20.html"];
+  "DTEL-NUMC5" [shape=box,color=yellow,URL="./DTEL_NUMC5.html"];
+  "DOMA-NUM5" [shape=box,color=yellow,URL="./DOMA_NUM5.html"];
+  "DTEL-APS_CA_COMM_PROTOCOL" [shape=box,color=yellow,URL="./DTEL_APS_CA_COMM_PROTOCOL.html"];
+  "DOMA-APS_CA_COMM_PROTOCOL" [shape=box,color=yellow,URL="./DOMA_APS_CA_COMM_PROTOCOL.html"];
+  "DTEL-APS_COM_CSCN_PROTOCOL" [shape=box,color=yellow,URL="./DTEL_APS_COM_CSCN_PROTOCOL.html"];
+  "DOMA-APS_COM_CSCN_PROTOCOL" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_PROTOCOL.html"];
+  "DTEL-APS_CA_STATUS" [shape=box,color=yellow,URL="./DTEL_APS_CA_STATUS.html"];
+  "DOMA-APS_CA_STATUS" [shape=box,color=yellow,URL="./DOMA_APS_CA_STATUS.html"];
+  "INTF-IF_APS_CA_COMM_ARRGMNT_CONST" -> "DTEL-APS_CA_STATUS";
+  "INTF-IF_APS_CA_COMM_ARRGMNT_CONST" -> "DTEL-APS_COM_CSCN_PROTOCOL";
+  "INTF-IF_APS_CA_COMM_ARRGMNT_CONST" -> "DTEL-APS_CA_COMM_PROTOCOL";
+  "INTF-IF_APS_CA_COMM_ARRGMNT_CONST" -> "DTEL-NUMC5";
+  "INTF-IF_APS_CA_COMM_ARRGMNT_CONST" -> "DTEL-CHAR20";
+  "DTEL-CHAR20" -> "DOMA-CHAR20";
+  "DTEL-NUMC5" -> "DOMA-NUM5";
+  "DTEL-APS_CA_COMM_PROTOCOL" -> "DOMA-APS_CA_COMM_PROTOCOL";
+  "DTEL-APS_COM_CSCN_PROTOCOL" -> "DOMA-APS_COM_CSCN_PROTOCOL";
+  "DTEL-APS_CA_STATUS" -> "DOMA-APS_CA_STATUS";
+}

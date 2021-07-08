@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-USORG" [shape=box,color=yellow];
+  "DTEL-TPRORGVAR" [shape=box,color=yellow,URL="./DTEL_TPRORGVAR.html"];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "DTEL-XUFIELD" [shape=box,color=yellow,URL="./DTEL_XUFIELD.html"];
+  "DOMA-XUFIELD" [shape=box,color=yellow,URL="./DOMA_XUFIELD.html"];
+  "TABL-USORG" -> "DTEL-XUFIELD";
+  "TABL-USORG" -> "DTEL-TPRORGVAR";
+  "DTEL-TPRORGVAR" -> "DOMA-XUVALUE";
+  "DTEL-XUFIELD" -> "DOMA-XUFIELD";
+}

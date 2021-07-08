@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-MASS_PROC" [shape=box,color=yellow];
+  "DOMA-CHOICE" [shape=box,color=yellow,URL="./DOMA_CHOICE.html"];
+  "DTEL-MASS_PROC" -> "DOMA-CHOICE";
+}

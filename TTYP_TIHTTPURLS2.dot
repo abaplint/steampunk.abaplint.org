@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-TIHTTPURLS2" [shape=box,color=green];
+  "TABL-IHTTPURLS2" [shape=box,color=yellow,URL="./TABL_IHTTPURLS2.html"];
+  "TTYP-TIHTTPURLS2" -> "TABL-IHTTPURLS2";
+}

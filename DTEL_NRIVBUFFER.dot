@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-NRIVBUFFER" [shape=box,color=yellow];
+  "DOMA-NUM8" [shape=box,color=yellow,URL="./DOMA_NUM8.html"];
+  "DTEL-NRIVBUFFER" -> "DOMA-NUM8";
+}

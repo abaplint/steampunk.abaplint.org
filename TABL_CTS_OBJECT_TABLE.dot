@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-CTS_OBJECT_TABLE" [shape=box,color=yellow];
+  "DTEL-VIEWNAME" [shape=box,color=yellow,URL="./DTEL_VIEWNAME.html"];
+  "DOMA-VIEWNAME" [shape=box,color=yellow,URL="./DOMA_VIEWNAME.html"];
+  "DTEL-TABNAME" [shape=box,color=green,URL="./DTEL_TABNAME.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "TABL-CTS_OBJECT_TABLE" -> "DTEL-TABNAME";
+  "TABL-CTS_OBJECT_TABLE" -> "DTEL-VIEWNAME";
+  "DTEL-VIEWNAME" -> "DOMA-VIEWNAME";
+  "DTEL-TABNAME" -> "DOMA-AS4TAB";
+}

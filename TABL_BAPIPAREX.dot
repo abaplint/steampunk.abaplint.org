@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-BAPIPAREX" [shape=box,color=green];
+  "DTEL-VALUEPART" [shape=box,color=green,URL="./DTEL_VALUEPART.html"];
+  "DOMA-CHAR240" [shape=box,color=yellow,URL="./DOMA_CHAR240.html"];
+  "DTEL-TE_STRUC" [shape=box,color=green,URL="./DTEL_TE_STRUC.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "TABL-BAPIPAREX" -> "DTEL-TE_STRUC";
+  "TABL-BAPIPAREX" -> "DTEL-VALUEPART";
+  "DTEL-VALUEPART" -> "DOMA-CHAR240";
+  "DTEL-TE_STRUC" -> "DOMA-AS4TAB";
+}

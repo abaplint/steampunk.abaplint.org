@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CA_EDIT_STATUS" [shape=box,color=yellow];
+  "DOMA-APS_CA_EDIT_STATUS" [shape=box,color=yellow,URL="./DOMA_APS_CA_EDIT_STATUS.html"];
+  "DTEL-APS_CA_EDIT_STATUS" -> "DOMA-APS_CA_EDIT_STATUS";
+}

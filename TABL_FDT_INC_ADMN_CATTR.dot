@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-FDT_INC_ADMN_CATTR" [shape=box,color=yellow];
+  "DTEL-FDT_UUID" [shape=box,color=yellow,URL="./DTEL_FDT_UUID.html"];
+  "DOMA-SYSUUID_C" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C.html"];
+  "TABL-FDT_INC_ADMN_CATTR" -> "DTEL-FDT_UUID";
+  "DTEL-FDT_UUID" -> "DOMA-SYSUUID_C";
+}

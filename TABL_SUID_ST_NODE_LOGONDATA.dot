@@ -1,0 +1,38 @@
+digraph G {
+  "TABL-SUID_ST_NODE_LOGONDATA" [shape=box,color=yellow];
+  "DTEL-SECURITY_POLICY_NAME" [shape=box,color=yellow,URL="./DTEL_SECURITY_POLICY_NAME.html"];
+  "DOMA-SECURITY_POLICY_NAME" [shape=box,color=yellow,URL="./DOMA_SECURITY_POLICY_NAME.html"];
+  "DTEL-USALIAS" [shape=box,color=yellow,URL="./DTEL_USALIAS.html"];
+  "DOMA-USALIAS" [shape=box,color=yellow,URL="./DOMA_USALIAS.html"];
+  "DTEL-XUKOSTL" [shape=box,color=yellow,URL="./DTEL_XUKOSTL.html"];
+  "DOMA-CHAR8" [shape=box,color=yellow,URL="./DOMA_CHAR8.html"];
+  "DTEL-XUACCNT" [shape=box,color=yellow,URL="./DTEL_XUACCNT.html"];
+  "DOMA-XUACCNT" [shape=box,color=yellow,URL="./DOMA_XUACCNT.html"];
+  "DTEL-XUTEXT" [shape=box,color=yellow,URL="./DTEL_XUTEXT.html"];
+  "DOMA-XUTEXT" [shape=box,color=yellow,URL="./DOMA_XUTEXT.html"];
+  "DTEL-XUCLASS" [shape=box,color=yellow,URL="./DTEL_XUCLASS.html"];
+  "DOMA-XUCLASS" [shape=box,color=yellow,URL="./DOMA_XUCLASS.html"];
+  "DTEL-XUUSTYP" [shape=box,color=yellow,URL="./DTEL_XUUSTYP.html"];
+  "DOMA-XUUSTYP" [shape=box,color=yellow,URL="./DOMA_XUUSTYP.html"];
+  "DTEL-XUGLTGB" [shape=box,color=yellow,URL="./DTEL_XUGLTGB.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "DTEL-XUGLTGV" [shape=box,color=yellow,URL="./DTEL_XUGLTGV.html"];
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUGLTGV";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUGLTGB";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUUSTYP";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUCLASS";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUTEXT";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUACCNT";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-XUKOSTL";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-USALIAS";
+  "TABL-SUID_ST_NODE_LOGONDATA" -> "DTEL-SECURITY_POLICY_NAME";
+  "DTEL-SECURITY_POLICY_NAME" -> "DOMA-SECURITY_POLICY_NAME";
+  "DTEL-USALIAS" -> "DOMA-USALIAS";
+  "DTEL-XUKOSTL" -> "DOMA-CHAR8";
+  "DTEL-XUACCNT" -> "DOMA-XUACCNT";
+  "DTEL-XUTEXT" -> "DOMA-XUTEXT";
+  "DTEL-XUCLASS" -> "DOMA-XUCLASS";
+  "DTEL-XUUSTYP" -> "DOMA-XUUSTYP";
+  "DTEL-XUGLTGB" -> "DOMA-DATUM";
+  "DTEL-XUGLTGV" -> "DOMA-DATUM";
+}

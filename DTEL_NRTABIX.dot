@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-NRTABIX" [shape=box,color=yellow];
+  "DOMA-NRTABIX" [shape=box,color=yellow,URL="./DOMA_NRTABIX.html"];
+  "DTEL-NRTABIX" -> "DOMA-NRTABIX";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-MASTERLANG" [shape=box,color=yellow];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "DTEL-MASTERLANG" -> "DOMA-SPRAS";
+}

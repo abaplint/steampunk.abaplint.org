@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_WS_SERVER_CONTEXT" [shape=box,color=green];
+  "INTF-IF_WS_TRANSPORT_BINDING" [shape=box,color=green,URL="./INTF_IF_WS_TRANSPORT_BINDING.html"];
+  "INTF-IF_WSPROTOCOL" [shape=box,color=green,URL="./INTF_IF_WSPROTOCOL.html"];
+  "INTF-IF_WS_SERVER_CONTEXT" -> "INTF-IF_WSPROTOCOL";
+  "INTF-IF_WS_SERVER_CONTEXT" -> "INTF-IF_WS_TRANSPORT_BINDING";
+}

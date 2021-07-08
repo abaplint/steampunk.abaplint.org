@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PRESS_VAL" [shape=box,color=yellow];
+  "DOMA-TEMP_VALUE" [shape=box,color=yellow,URL="./DOMA_TEMP_VALUE.html"];
+  "DTEL-PRESS_VAL" -> "DOMA-TEMP_VALUE";
+}

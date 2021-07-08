@@ -1,0 +1,17 @@
+digraph G {
+  "TTYP-CDCHANGENR_RANGE_TAB" [shape=box,color=yellow];
+  "TABL-CDCHANGENR_RANGE" [shape=box,color=yellow,URL="./TABL_CDCHANGENR_RANGE.html"];
+  "DTEL-CDCHANGENR" [shape=box,color=yellow,URL="./DTEL_CDCHANGENR.html"];
+  "DOMA-CDCHANGENR" [shape=box,color=yellow,URL="./DOMA_CDCHANGENR.html"];
+  "DTEL-CHAR2" [shape=box,color=yellow,URL="./DTEL_CHAR2.html"];
+  "DOMA-CHAR2" [shape=box,color=yellow,URL="./DOMA_CHAR2.html"];
+  "DTEL-CHAR1" [shape=box,color=yellow,URL="./DTEL_CHAR1.html"];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "TTYP-CDCHANGENR_RANGE_TAB" -> "TABL-CDCHANGENR_RANGE";
+  "TABL-CDCHANGENR_RANGE" -> "DTEL-CHAR1";
+  "TABL-CDCHANGENR_RANGE" -> "DTEL-CHAR2";
+  "TABL-CDCHANGENR_RANGE" -> "DTEL-CDCHANGENR";
+  "DTEL-CDCHANGENR" -> "DOMA-CDCHANGENR";
+  "DTEL-CHAR2" -> "DOMA-CHAR2";
+  "DTEL-CHAR1" -> "DOMA-CHAR1";
+}

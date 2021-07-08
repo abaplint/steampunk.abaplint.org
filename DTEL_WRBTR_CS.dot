@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-WRBTR_CS" [shape=box,color=green];
+  "DOMA-WERT7" [shape=box,color=yellow,URL="./DOMA_WERT7.html"];
+  "DTEL-WRBTR_CS" -> "DOMA-WERT7";
+}

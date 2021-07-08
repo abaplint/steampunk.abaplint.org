@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AGR_URL" [shape=box,color=yellow];
+  "DOMA-AGR3_HTML" [shape=box,color=yellow,URL="./DOMA_AGR3_HTML.html"];
+  "DTEL-AGR_URL" -> "DOMA-AGR3_HTML";
+}

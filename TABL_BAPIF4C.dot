@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-BAPIF4C" [shape=box,color=green];
+  "DTEL-CHAR255" [shape=box,color=yellow,URL="./DTEL_CHAR255.html"];
+  "DOMA-CHAR255" [shape=box,color=yellow,URL="./DOMA_CHAR255.html"];
+  "TABL-BAPIF4C" -> "DTEL-CHAR255";
+  "DTEL-CHAR255" -> "DOMA-CHAR255";
+}

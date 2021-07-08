@@ -1,0 +1,5 @@
+digraph G {
+  "INTF-IF_XCO_CP_GEN_INTF_S_DELETE" [shape=box,color=green];
+  "DTEL-SXCO_AO_COMPONENT_NAME" [shape=box,color=green,URL="./DTEL_SXCO_AO_COMPONENT_NAME.html"];
+  "INTF-IF_XCO_CP_GEN_INTF_S_DELETE" -> "DTEL-SXCO_AO_COMPONENT_NAME";
+}

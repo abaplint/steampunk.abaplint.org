@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_UUID" [shape=box,color=yellow];
+  "DOMA-SYSUUID_C" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C.html"];
+  "DTEL-FDT_UUID" -> "DOMA-SYSUUID_C";
+}

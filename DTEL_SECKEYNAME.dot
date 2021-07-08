@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SECKEYNAME" [shape=box,color=yellow];
+  "DOMA-SECKEYNAME" [shape=box,color=yellow,URL="./DOMA_SECKEYNAME.html"];
+  "DTEL-SECKEYNAME" -> "DOMA-SECKEYNAME";
+}

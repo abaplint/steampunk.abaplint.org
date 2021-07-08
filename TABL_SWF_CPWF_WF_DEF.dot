@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-SWF_CPWF_WF_DEF" [shape=box,color=yellow];
+  "DTEL-SWF_CPWF_CREA_ON" [shape=box,color=yellow,URL="./DTEL_SWF_CPWF_CREA_ON.html"];
+  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
+  "DTEL-SWF_CPWF_EXTCREA_BY" [shape=box,color=yellow,URL="./DTEL_SWF_CPWF_EXTCREA_BY.html"];
+  "DTEL-SWF_CPWF_DEFVERSION" [shape=box,color=yellow,URL="./DTEL_SWF_CPWF_DEFVERSION.html"];
+  "DTEL-SWF_CPWF_DEFNAME" [shape=box,color=yellow,URL="./DTEL_SWF_CPWF_DEFNAME.html"];
+  "DTEL-SWF_CPWF_DEFID_STR" [shape=box,color=yellow,URL="./DTEL_SWF_CPWF_DEFID_STR.html"];
+  "TABL-SWF_CPWF_WF_DEF" -> "DTEL-SWF_CPWF_DEFID_STR";
+  "TABL-SWF_CPWF_WF_DEF" -> "DTEL-SWF_CPWF_DEFNAME";
+  "TABL-SWF_CPWF_WF_DEF" -> "DTEL-SWF_CPWF_DEFVERSION";
+  "TABL-SWF_CPWF_WF_DEF" -> "DTEL-SWF_CPWF_EXTCREA_BY";
+  "TABL-SWF_CPWF_WF_DEF" -> "DTEL-SWF_CPWF_CREA_ON";
+  "DTEL-SWF_CPWF_CREA_ON" -> "DOMA-TZNTSTMPL";
+}

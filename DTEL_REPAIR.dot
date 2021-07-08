@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-REPAIR" [shape=box,color=yellow];
+  "DOMA-SYSDEP" [shape=box,color=yellow,URL="./DOMA_SYSDEP.html"];
+  "DTEL-REPAIR" -> "DOMA-SYSDEP";
+}

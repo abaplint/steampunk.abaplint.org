@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_SXMLP_PACKAGE_READER" [shape=box,color=yellow];
+  "DTEL-ANYURI" [shape=box,color=yellow,URL="./DTEL_ANYURI.html"];
+  "DOMA-ANYURI" [shape=box,color=yellow,URL="./DOMA_ANYURI.html"];
+  "INTF-IF_SXMLP_PACKAGE_READER" -> "DTEL-ANYURI";
+  "DTEL-ANYURI" -> "DOMA-ANYURI";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-SRT_HEADER_ATTRIBUTE_TAB" [shape=box,color=yellow];
+  "TABL-SRT_HEADER_ATTRIBUTE" [shape=box,color=yellow,URL="./TABL_SRT_HEADER_ATTRIBUTE.html"];
+  "TTYP-SRT_HEADER_ATTRIBUTE_TAB" -> "TABL-SRT_HEADER_ATTRIBUTE";
+}

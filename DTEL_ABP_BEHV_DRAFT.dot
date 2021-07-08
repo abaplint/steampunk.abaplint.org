@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ABP_BEHV_DRAFT" [shape=box,color=green];
+  "DOMA-ABP_BEHV_DRAFT" [shape=box,color=yellow,URL="./DOMA_ABP_BEHV_DRAFT.html"];
+  "DTEL-ABP_BEHV_DRAFT" -> "DOMA-ABP_BEHV_DRAFT";
+}

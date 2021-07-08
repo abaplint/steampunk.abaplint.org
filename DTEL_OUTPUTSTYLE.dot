@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-OUTPUTSTYLE" [shape=box,color=green];
+  "DOMA-OUTPUTSTYLE" [shape=box,color=yellow,URL="./DOMA_OUTPUTSTYLE.html"];
+  "DTEL-OUTPUTSTYLE" -> "DOMA-OUTPUTSTYLE";
+}

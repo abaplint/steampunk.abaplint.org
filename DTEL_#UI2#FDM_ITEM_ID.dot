@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/UI2/FDM_ITEM_ID" [shape=box,color=yellow];
+  "DOMA-/UI2/FDM_ITEM_ID" [shape=box,color=yellow,URL="./DOMA_%23UI2%23FDM_ITEM_ID.html"];
+  "DTEL-/UI2/FDM_ITEM_ID" -> "DOMA-/UI2/FDM_ITEM_ID";
+}

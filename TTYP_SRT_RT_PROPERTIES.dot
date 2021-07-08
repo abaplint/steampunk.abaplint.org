@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-SRT_RT_PROPERTIES" [shape=box,color=yellow];
+  "TABL-SRT_RT_PROPERTY" [shape=box,color=yellow,URL="./TABL_SRT_RT_PROPERTY.html"];
+  "TTYP-SRT_RT_PROPERTIES" -> "TABL-SRT_RT_PROPERTY";
+}

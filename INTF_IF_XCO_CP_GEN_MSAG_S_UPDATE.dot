@@ -1,0 +1,20 @@
+digraph G {
+  "INTF-IF_XCO_CP_GEN_MSAG_S_UPDATE" [shape=box,color=green];
+  "INTF-IF_XCO_CP_GEN_MSAG_S_UP_MSG" [shape=box,color=green,URL="./INTF_IF_XCO_CP_GEN_MSAG_S_UP_MSG.html"];
+  "INTF-IF_XCO_CP_GEN_MSAG_S_FO_MSG" [shape=box,color=green,URL="./INTF_IF_XCO_CP_GEN_MSAG_S_FO_MSG.html"];
+  "DTEL-NATXT" [shape=box,color=yellow,URL="./DTEL_NATXT.html"];
+  "DOMA-NATXT" [shape=box,color=yellow,URL="./DOMA_NATXT.html"];
+  "DTEL-SYMSGNO" [shape=box,color=green,URL="./DTEL_SYMSGNO.html"];
+  "DOMA-SYMSGNO" [shape=box,color=yellow,URL="./DOMA_SYMSGNO.html"];
+  "DTEL-SXCO_AR_SHORT_DESCRIPTION" [shape=box,color=green,URL="./DTEL_SXCO_AR_SHORT_DESCRIPTION.html"];
+  "DOMA-AS4TEXT" [shape=box,color=yellow,URL="./DOMA_AS4TEXT.html"];
+  "INTF-IF_XCO_CP_GEN_MSAG_S_UPDATE" -> "DTEL-SXCO_AR_SHORT_DESCRIPTION";
+  "INTF-IF_XCO_CP_GEN_MSAG_S_UPDATE" -> "INTF-IF_XCO_CP_GEN_MSAG_S_FO_MSG";
+  "INTF-IF_XCO_CP_GEN_MSAG_S_UPDATE" -> "INTF-IF_XCO_CP_GEN_MSAG_S_UP_MSG";
+  "INTF-IF_XCO_CP_GEN_MSAG_S_UP_MSG" -> "INTF-IF_XCO_CP_GEN_MSAG_S_FO_MSG";
+  "INTF-IF_XCO_CP_GEN_MSAG_S_FO_MSG" -> "DTEL-SYMSGNO";
+  "INTF-IF_XCO_CP_GEN_MSAG_S_FO_MSG" -> "DTEL-NATXT";
+  "DTEL-NATXT" -> "DOMA-NATXT";
+  "DTEL-SYMSGNO" -> "DOMA-SYMSGNO";
+  "DTEL-SXCO_AR_SHORT_DESCRIPTION" -> "DOMA-AS4TEXT";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDTEXTART" [shape=box,color=yellow];
+  "DOMA-CDTEXTART" [shape=box,color=yellow,URL="./DOMA_CDTEXTART.html"];
+  "DTEL-CDTEXTART" -> "DOMA-CDTEXTART";
+}

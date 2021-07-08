@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TXDAT" [shape=box,color=green];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "DTEL-TXDAT" -> "DOMA-DATUM";
+}

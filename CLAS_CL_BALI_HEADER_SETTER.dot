@@ -1,0 +1,25 @@
+digraph G {
+  "CLAS-CL_BALI_HEADER_SETTER" [shape=box,color=green];
+  "INTF-IF_BALI_HEADER_SETTER" [shape=box,color=green,URL="./INTF_IF_BALI_HEADER_SETTER.html"];
+  "DTEL-DEL_BEFORE" [shape=box,color=yellow,URL="./DTEL_DEL_BEFORE.html"];
+  "DOMA-BALDELBEF" [shape=box,color=yellow,URL="./DOMA_BALDELBEF.html"];
+  "DTEL-ALDATE_DEL" [shape=box,color=yellow,URL="./DTEL_ALDATE_DEL.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "DTEL-BALNREXT" [shape=box,color=yellow,URL="./DTEL_BALNREXT.html"];
+  "DOMA-BALNREXT" [shape=box,color=yellow,URL="./DOMA_BALNREXT.html"];
+  "DTEL-BALSUBOBJ" [shape=box,color=green,URL="./DTEL_BALSUBOBJ.html"];
+  "DOMA-BALSUBOBJ" [shape=box,color=yellow,URL="./DOMA_BALSUBOBJ.html"];
+  "DTEL-BALOBJ_D" [shape=box,color=green,URL="./DTEL_BALOBJ_D.html"];
+  "DOMA-BALOBJ" [shape=box,color=yellow,URL="./DOMA_BALOBJ.html"];
+  "CLAS-CL_BALI_HEADER_SETTER" -> "INTF-IF_BALI_HEADER_SETTER";
+  "INTF-IF_BALI_HEADER_SETTER" -> "DTEL-BALOBJ_D";
+  "INTF-IF_BALI_HEADER_SETTER" -> "DTEL-BALSUBOBJ";
+  "INTF-IF_BALI_HEADER_SETTER" -> "DTEL-BALNREXT";
+  "INTF-IF_BALI_HEADER_SETTER" -> "DTEL-ALDATE_DEL";
+  "INTF-IF_BALI_HEADER_SETTER" -> "DTEL-DEL_BEFORE";
+  "DTEL-DEL_BEFORE" -> "DOMA-BALDELBEF";
+  "DTEL-ALDATE_DEL" -> "DOMA-DATUM";
+  "DTEL-BALNREXT" -> "DOMA-BALNREXT";
+  "DTEL-BALSUBOBJ" -> "DOMA-BALSUBOBJ";
+  "DTEL-BALOBJ_D" -> "DOMA-BALOBJ";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-REPL_RESULT_TAB" [shape=box,color=green];
+  "TABL-REPL_RESULT" [shape=box,color=green,URL="./TABL_REPL_RESULT.html"];
+  "TTYP-REPL_RESULT_TAB" -> "TABL-REPL_RESULT";
+}

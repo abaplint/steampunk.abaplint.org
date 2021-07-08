@@ -1,0 +1,7 @@
+digraph G {
+  "CLAS-CL_ABAP_FORMAT" [shape=box,color=green];
+  "DTEL-OUTPUTSTYLE" [shape=box,color=green,URL="./DTEL_OUTPUTSTYLE.html"];
+  "DOMA-OUTPUTSTYLE" [shape=box,color=yellow,URL="./DOMA_OUTPUTSTYLE.html"];
+  "CLAS-CL_ABAP_FORMAT" -> "DTEL-OUTPUTSTYLE";
+  "DTEL-OUTPUTSTYLE" -> "DOMA-OUTPUTSTYLE";
+}

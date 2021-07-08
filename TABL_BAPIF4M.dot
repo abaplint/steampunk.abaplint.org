@@ -1,0 +1,19 @@
+digraph G {
+  "TABL-BAPIF4M" [shape=box,color=green];
+  "DTEL-BAPIMAXROW" [shape=box,color=green,URL="./DTEL_BAPIMAXROW.html"];
+  "DOMA-SYST_LONG" [shape=box,color=yellow,URL="./DOMA_SYST_LONG.html"];
+  "DTEL-NAME_FELD" [shape=box,color=yellow,URL="./DTEL_NAME_FELD.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-MCID" [shape=box,color=yellow,URL="./DTEL_MCID.html"];
+  "DOMA-MCID" [shape=box,color=yellow,URL="./DOMA_MCID.html"];
+  "DTEL-MCONAME" [shape=box,color=yellow,URL="./DTEL_MCONAME.html"];
+  "DOMA-MCONAME" [shape=box,color=yellow,URL="./DOMA_MCONAME.html"];
+  "TABL-BAPIF4M" -> "DTEL-MCONAME";
+  "TABL-BAPIF4M" -> "DTEL-MCID";
+  "TABL-BAPIF4M" -> "DTEL-NAME_FELD";
+  "TABL-BAPIF4M" -> "DTEL-BAPIMAXROW";
+  "DTEL-BAPIMAXROW" -> "DOMA-SYST_LONG";
+  "DTEL-NAME_FELD" -> "DOMA-FDNAME";
+  "DTEL-MCID" -> "DOMA-MCID";
+  "DTEL-MCONAME" -> "DOMA-MCONAME";
+}

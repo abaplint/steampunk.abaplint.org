@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_USR" [shape=box,color=yellow];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "DTEL-APS_COM_CSCN_USR" -> "DOMA-XUBNAME";
+}

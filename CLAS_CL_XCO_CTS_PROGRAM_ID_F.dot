@@ -1,0 +1,12 @@
+digraph G {
+  "CLAS-CL_XCO_CTS_PROGRAM_ID_F" [shape=box,color=green];
+  "CLAS-CL_XCO_CTS_PROGRAM_ID" [shape=box,color=green,URL="./CLAS_CL_XCO_CTS_PROGRAM_ID.html"];
+  "CLAS-CL_XCO_CTS_PROGRAM_ID_F" [shape=box,color=green,URL="./CLAS_CL_XCO_CTS_PROGRAM_ID_F.html"];
+  "DTEL-PGMID" [shape=box,color=yellow,URL="./DTEL_PGMID.html"];
+  "DOMA-PGMID" [shape=box,color=yellow,URL="./DOMA_PGMID.html"];
+  "CLAS-CL_XCO_CTS_PROGRAM_ID_F" -> "CLAS-CL_XCO_CTS_PROGRAM_ID";
+  "CLAS-CL_XCO_CTS_PROGRAM_ID" -> "DTEL-PGMID";
+  "CLAS-CL_XCO_CTS_PROGRAM_ID" -> "CLAS-CL_XCO_CTS_PROGRAM_ID_F";
+  "CLAS-CL_XCO_CTS_PROGRAM_ID_F" -> "CLAS-CL_XCO_CTS_PROGRAM_ID";
+  "DTEL-PGMID" -> "DOMA-PGMID";
+}

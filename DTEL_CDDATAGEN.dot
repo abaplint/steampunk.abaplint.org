@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDDATAGEN" [shape=box,color=yellow];
+  "DOMA-CDDATAGEN" [shape=box,color=yellow,URL="./DOMA_CDDATAGEN.html"];
+  "DTEL-CDDATAGEN" -> "DOMA-CDDATAGEN";
+}

@@ -1,0 +1,31 @@
+digraph G {
+  "CLAS-CL_ABAP_CONTEXT_INFO" [shape=box,color=green];
+  "DTEL-XUBNAME" [shape=box,color=yellow,URL="./DTEL_XUBNAME.html"];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "DTEL-USALIAS" [shape=box,color=yellow,URL="./DTEL_USALIAS.html"];
+  "DOMA-USALIAS" [shape=box,color=yellow,URL="./DOMA_USALIAS.html"];
+  "DTEL-SYST_ZONLO" [shape=box,color=yellow,URL="./DTEL_SYST_ZONLO.html"];
+  "DOMA-SYCHAR06" [shape=box,color=yellow,URL="./DOMA_SYCHAR06.html"];
+  "DTEL-SYST_UZEIT" [shape=box,color=yellow,URL="./DTEL_SYST_UZEIT.html"];
+  "DOMA-SYTIME" [shape=box,color=yellow,URL="./DOMA_SYTIME.html"];
+  "DTEL-SYST_DATUM" [shape=box,color=yellow,URL="./DTEL_SYST_DATUM.html"];
+  "DOMA-SYDATS" [shape=box,color=yellow,URL="./DOMA_SYDATS.html"];
+  "DTEL-LAISO" [shape=box,color=yellow,URL="./DTEL_LAISO.html"];
+  "DOMA-LAISO" [shape=box,color=yellow,URL="./DOMA_LAISO.html"];
+  "DTEL-SYST_LANGU" [shape=box,color=yellow,URL="./DTEL_SYST_LANGU.html"];
+  "DOMA-SYLANGU" [shape=box,color=yellow,URL="./DOMA_SYLANGU.html"];
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-SYST_LANGU";
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-LAISO";
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-SYST_DATUM";
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-SYST_UZEIT";
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-SYST_ZONLO";
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-USALIAS";
+  "CLAS-CL_ABAP_CONTEXT_INFO" -> "DTEL-XUBNAME";
+  "DTEL-XUBNAME" -> "DOMA-XUBNAME";
+  "DTEL-USALIAS" -> "DOMA-USALIAS";
+  "DTEL-SYST_ZONLO" -> "DOMA-SYCHAR06";
+  "DTEL-SYST_UZEIT" -> "DOMA-SYTIME";
+  "DTEL-SYST_DATUM" -> "DOMA-SYDATS";
+  "DTEL-LAISO" -> "DOMA-LAISO";
+  "DTEL-SYST_LANGU" -> "DOMA-SYLANGU";
+}

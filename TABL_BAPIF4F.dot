@@ -1,0 +1,27 @@
+digraph G {
+  "TABL-BAPIF4F" [shape=box,color=green];
+  "DTEL-RETURN" [shape=box,color=yellow,URL="./DTEL_RETURN.html"];
+  "DOMA-SYST_FLAG" [shape=box,color=yellow,URL="./DOMA_SYST_FLAG.html"];
+  "DTEL-TABNAME" [shape=box,color=green,URL="./DTEL_TABNAME.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "DTEL-SHLPNAME" [shape=box,color=yellow,URL="./DTEL_SHLPNAME.html"];
+  "DOMA-SHLPNAME" [shape=box,color=yellow,URL="./DOMA_SHLPNAME.html"];
+  "DTEL-ROLLNAME" [shape=box,color=yellow,URL="./DTEL_ROLLNAME.html"];
+  "DOMA-ROLLNAME" [shape=box,color=yellow,URL="./DOMA_ROLLNAME.html"];
+  "DTEL-SWO_VERB" [shape=box,color=yellow,URL="./DTEL_SWO_VERB.html"];
+  "DOMA-SWC_ELEM" [shape=box,color=yellow,URL="./DOMA_SWC_ELEM.html"];
+  "DTEL-SWO_OBJTYP" [shape=box,color=yellow,URL="./DTEL_SWO_OBJTYP.html"];
+  "DOMA-OJ_NAME" [shape=box,color=yellow,URL="./DOMA_OJ_NAME.html"];
+  "TABL-BAPIF4F" -> "DTEL-SWO_OBJTYP";
+  "TABL-BAPIF4F" -> "DTEL-SWO_VERB";
+  "TABL-BAPIF4F" -> "DTEL-ROLLNAME";
+  "TABL-BAPIF4F" -> "DTEL-SHLPNAME";
+  "TABL-BAPIF4F" -> "DTEL-TABNAME";
+  "TABL-BAPIF4F" -> "DTEL-RETURN";
+  "DTEL-RETURN" -> "DOMA-SYST_FLAG";
+  "DTEL-TABNAME" -> "DOMA-AS4TAB";
+  "DTEL-SHLPNAME" -> "DOMA-SHLPNAME";
+  "DTEL-ROLLNAME" -> "DOMA-ROLLNAME";
+  "DTEL-SWO_VERB" -> "DOMA-SWC_ELEM";
+  "DTEL-SWO_OBJTYP" -> "DOMA-OJ_NAME";
+}

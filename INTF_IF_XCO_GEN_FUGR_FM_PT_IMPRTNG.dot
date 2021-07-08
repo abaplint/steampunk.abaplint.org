@@ -1,0 +1,5 @@
+digraph G {
+  "INTF-IF_XCO_GEN_FUGR_FM_PT_IMPRTNG" [shape=box,color=green];
+  "INTF-IF_XCO_GEN_FUGR_FM_PRM_TYP" [shape=box,color=yellow,URL="./INTF_IF_XCO_GEN_FUGR_FM_PRM_TYP.html"];
+  "INTF-IF_XCO_GEN_FUGR_FM_PT_IMPRTNG" -> "INTF-IF_XCO_GEN_FUGR_FM_PRM_TYP";
+}

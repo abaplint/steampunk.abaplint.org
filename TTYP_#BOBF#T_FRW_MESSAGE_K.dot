@@ -1,0 +1,23 @@
+digraph G {
+  "TTYP-/BOBF/T_FRW_MESSAGE_K" [shape=box,color=yellow];
+  "TABL-/BOBF/S_FRW_MESSAGE_K" [shape=box,color=yellow,URL="./TABL_%23BOBF%23S_FRW_MESSAGE_K.html"];
+  "TABL-/BOBF/S_FRW_MESSAGE_D" [shape=box,color=yellow,URL="./TABL_%23BOBF%23S_FRW_MESSAGE_D.html"];
+  "DTEL-BOOLE_D" [shape=box,color=yellow,URL="./DTEL_BOOLE_D.html"];
+  "DOMA-BOOLE" [shape=box,color=yellow,URL="./DOMA_BOOLE.html"];
+  "DTEL-/BOBF/VAL_KEY" [shape=box,color=yellow,URL="./DTEL_%23BOBF%23VAL_KEY.html"];
+  "DOMA-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23CONF_KEY.html"];
+  "DTEL-/BOBF/OBM_NODE_KEY" [shape=box,color=yellow,URL="./DTEL_%23BOBF%23OBM_NODE_KEY.html"];
+  "TABL-/BOBF/S_FRW_KEY_INCL" [shape=box,color=yellow,URL="./TABL_%23BOBF%23S_FRW_KEY_INCL.html"];
+  "DTEL-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DTEL_%23BOBF%23CONF_KEY.html"];
+  "TTYP-/BOBF/T_FRW_MESSAGE_K" -> "TABL-/BOBF/S_FRW_MESSAGE_K";
+  "TABL-/BOBF/S_FRW_MESSAGE_K" -> "TABL-/BOBF/S_FRW_KEY_INCL";
+  "TABL-/BOBF/S_FRW_MESSAGE_K" -> "TABL-/BOBF/S_FRW_MESSAGE_D";
+  "TABL-/BOBF/S_FRW_MESSAGE_D" -> "DTEL-/BOBF/OBM_NODE_KEY";
+  "TABL-/BOBF/S_FRW_MESSAGE_D" -> "DTEL-/BOBF/VAL_KEY";
+  "TABL-/BOBF/S_FRW_MESSAGE_D" -> "DTEL-BOOLE_D";
+  "DTEL-BOOLE_D" -> "DOMA-BOOLE";
+  "DTEL-/BOBF/VAL_KEY" -> "DOMA-/BOBF/CONF_KEY";
+  "DTEL-/BOBF/OBM_NODE_KEY" -> "DOMA-/BOBF/CONF_KEY";
+  "TABL-/BOBF/S_FRW_KEY_INCL" -> "DTEL-/BOBF/CONF_KEY";
+  "DTEL-/BOBF/CONF_KEY" -> "DOMA-/BOBF/CONF_KEY";
+}

@@ -1,0 +1,9 @@
+digraph G {
+  "TTYP-/BOBF/T_FRW_KEY" [shape=box,color=yellow];
+  "TABL-/BOBF/S_FRW_KEY" [shape=box,color=yellow,URL="./TABL_%23BOBF%23S_FRW_KEY.html"];
+  "DTEL-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DTEL_%23BOBF%23CONF_KEY.html"];
+  "DOMA-/BOBF/CONF_KEY" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23CONF_KEY.html"];
+  "TTYP-/BOBF/T_FRW_KEY" -> "TABL-/BOBF/S_FRW_KEY";
+  "TABL-/BOBF/S_FRW_KEY" -> "DTEL-/BOBF/CONF_KEY";
+  "DTEL-/BOBF/CONF_KEY" -> "DOMA-/BOBF/CONF_KEY";
+}

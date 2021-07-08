@@ -1,0 +1,32 @@
+digraph G {
+  "CLAS-CL_ABAP_LOCK_OBJECT_FACTORY" [shape=box,color=green];
+  "INTF-IF_ABAP_LOCK_OBJECT" [shape=box,color=green,URL="./INTF_IF_ABAP_LOCK_OBJECT.html"];
+  "DTEL-DDENQSYNC" [shape=box,color=yellow,URL="./DTEL_DDENQSYNC.html"];
+  "DOMA-DDFLAG" [shape=box,color=yellow,URL="./DOMA_DDFLAG.html"];
+  "DTEL-DDENQWAIT" [shape=box,color=yellow,URL="./DTEL_DDENQWAIT.html"];
+  "DTEL-DDENQSCOPE" [shape=box,color=yellow,URL="./DTEL_DDENQSCOPE.html"];
+  "DOMA-DDENQSCOPE" [shape=box,color=yellow,URL="./DOMA_DDENQSCOPE.html"];
+  "DTEL-ENQMODE" [shape=box,color=yellow,URL="./DTEL_ENQMODE.html"];
+  "DOMA-ENQMODE" [shape=box,color=yellow,URL="./DOMA_ENQMODE.html"];
+  "DTEL-FIELDNAME" [shape=box,color=yellow,URL="./DTEL_FIELDNAME.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-TABNAME" [shape=box,color=green,URL="./DTEL_TABNAME.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "DTEL-ENQU_NAME" [shape=box,color=yellow,URL="./DTEL_ENQU_NAME.html"];
+  "DOMA-VIEWNAME" [shape=box,color=yellow,URL="./DOMA_VIEWNAME.html"];
+  "CLAS-CL_ABAP_LOCK_OBJECT_FACTORY" -> "INTF-IF_ABAP_LOCK_OBJECT";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-ENQU_NAME";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-TABNAME";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-FIELDNAME";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-ENQMODE";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-DDENQSCOPE";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-DDENQWAIT";
+  "INTF-IF_ABAP_LOCK_OBJECT" -> "DTEL-DDENQSYNC";
+  "DTEL-DDENQSYNC" -> "DOMA-DDFLAG";
+  "DTEL-DDENQWAIT" -> "DOMA-DDFLAG";
+  "DTEL-DDENQSCOPE" -> "DOMA-DDENQSCOPE";
+  "DTEL-ENQMODE" -> "DOMA-ENQMODE";
+  "DTEL-FIELDNAME" -> "DOMA-FDNAME";
+  "DTEL-TABNAME" -> "DOMA-AS4TAB";
+  "DTEL-ENQU_NAME" -> "DOMA-VIEWNAME";
+}

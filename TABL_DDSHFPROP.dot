@@ -1,0 +1,28 @@
+digraph G {
+  "TABL-DDSHFPROP" [shape=box,color=yellow];
+  "DTEL-DDSHDEFVAL" [shape=box,color=yellow,URL="./DTEL_DDSHDEFVAL.html"];
+  "DOMA-DEFAULT__3" [shape=box,color=yellow,URL="./DOMA_DEFAULT__3.html"];
+  "DTEL-SHLPSELDIS" [shape=box,color=yellow,URL="./DTEL_SHLPSELDIS.html"];
+  "DOMA-AS4FLAG" [shape=box,color=yellow,URL="./DOMA_AS4FLAG.html"];
+  "DTEL-SHLPLISPOS" [shape=box,color=yellow,URL="./DTEL_SHLPLISPOS.html"];
+  "DOMA-SHLPPOS" [shape=box,color=yellow,URL="./DOMA_SHLPPOS.html"];
+  "DTEL-SHLPSELPOS" [shape=box,color=yellow,URL="./DTEL_SHLPSELPOS.html"];
+  "DTEL-SHLPOUTPUT" [shape=box,color=yellow,URL="./DTEL_SHLPOUTPUT.html"];
+  "DTEL-SHLPINPUT" [shape=box,color=yellow,URL="./DTEL_SHLPINPUT.html"];
+  "DTEL-SHLPFIELD" [shape=box,color=yellow,URL="./DTEL_SHLPFIELD.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "TABL-DDSHFPROP" -> "DTEL-SHLPFIELD";
+  "TABL-DDSHFPROP" -> "DTEL-SHLPINPUT";
+  "TABL-DDSHFPROP" -> "DTEL-SHLPOUTPUT";
+  "TABL-DDSHFPROP" -> "DTEL-SHLPSELPOS";
+  "TABL-DDSHFPROP" -> "DTEL-SHLPLISPOS";
+  "TABL-DDSHFPROP" -> "DTEL-SHLPSELDIS";
+  "TABL-DDSHFPROP" -> "DTEL-DDSHDEFVAL";
+  "DTEL-DDSHDEFVAL" -> "DOMA-DEFAULT__3";
+  "DTEL-SHLPSELDIS" -> "DOMA-AS4FLAG";
+  "DTEL-SHLPLISPOS" -> "DOMA-SHLPPOS";
+  "DTEL-SHLPSELPOS" -> "DOMA-SHLPPOS";
+  "DTEL-SHLPOUTPUT" -> "DOMA-AS4FLAG";
+  "DTEL-SHLPINPUT" -> "DOMA-AS4FLAG";
+  "DTEL-SHLPFIELD" -> "DOMA-FDNAME";
+}

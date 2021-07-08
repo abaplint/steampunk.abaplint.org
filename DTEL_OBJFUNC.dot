@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-OBJFUNC" [shape=box,color=yellow];
+  "DOMA-OBJFUNC" [shape=box,color=yellow,URL="./DOMA_OBJFUNC.html"];
+  "DTEL-OBJFUNC" -> "DOMA-OBJFUNC";
+}

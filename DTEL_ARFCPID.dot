@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ARFCPID" [shape=box,color=yellow];
+  "DOMA-ARFCPID" [shape=box,color=yellow,URL="./DOMA_ARFCPID.html"];
+  "DTEL-ARFCPID" -> "DOMA-ARFCPID";
+}

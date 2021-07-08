@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_HTTP_DESTINATION" [shape=box,color=green];
+}

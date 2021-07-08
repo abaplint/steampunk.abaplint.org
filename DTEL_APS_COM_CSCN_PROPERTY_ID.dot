@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_PROPERTY_ID" [shape=box,color=yellow];
+  "DOMA-NUMC4" [shape=box,color=yellow,URL="./DOMA_NUMC4.html"];
+  "DTEL-APS_COM_CSCN_PROPERTY_ID" -> "DOMA-NUMC4";
+}

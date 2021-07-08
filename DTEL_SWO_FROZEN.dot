@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SWO_FROZEN" [shape=box,color=yellow];
+  "DOMA-CHAR1_X" [shape=box,color=yellow,URL="./DOMA_CHAR1_X.html"];
+  "DTEL-SWO_FROZEN" -> "DOMA-CHAR1_X";
+}

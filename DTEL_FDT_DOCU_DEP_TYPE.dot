@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_DOCU_DEP_TYPE" [shape=box,color=yellow];
+  "DOMA-FDT_TEXTDOC_DEP_TYPE" [shape=box,color=yellow,URL="./DOMA_FDT_TEXTDOC_DEP_TYPE.html"];
+  "DTEL-FDT_DOCU_DEP_TYPE" -> "DOMA-FDT_TEXTDOC_DEP_TYPE";
+}

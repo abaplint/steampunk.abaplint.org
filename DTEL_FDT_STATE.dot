@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_STATE" [shape=box,color=yellow];
+  "DOMA-FDT_STATE" [shape=box,color=yellow,URL="./DOMA_FDT_STATE.html"];
+  "DTEL-FDT_STATE" -> "DOMA-FDT_STATE";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SDRAFT_OPERATION_CODE" [shape=box,color=yellow];
+  "DOMA-SDRAFT_OPERATION_CODE" [shape=box,color=yellow,URL="./DOMA_SDRAFT_OPERATION_CODE.html"];
+  "DTEL-SDRAFT_OPERATION_CODE" -> "DOMA-SDRAFT_OPERATION_CODE";
+}

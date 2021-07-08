@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DYNPROFLD" [shape=box,color=yellow];
+  "DOMA-AS4FLAG" [shape=box,color=yellow,URL="./DOMA_AS4FLAG.html"];
+  "DTEL-DYNPROFLD" -> "DOMA-AS4FLAG";
+}

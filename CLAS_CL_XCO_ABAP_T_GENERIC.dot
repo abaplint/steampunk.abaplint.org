@@ -1,0 +1,5 @@
+digraph G {
+  "CLAS-CL_XCO_ABAP_T_GENERIC" [shape=box,color=yellow];
+  "INTF-IF_XCO_ABAP_TOKEN" [shape=box,color=green,URL="./INTF_IF_XCO_ABAP_TOKEN.html"];
+  "CLAS-CL_XCO_ABAP_T_GENERIC" -> "INTF-IF_XCO_ABAP_TOKEN";
+}

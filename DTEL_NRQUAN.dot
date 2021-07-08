@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-NRQUAN" [shape=box,color=yellow];
+  "DOMA-NUMC20" [shape=box,color=yellow,URL="./DOMA_NUMC20.html"];
+  "DTEL-NRQUAN" -> "DOMA-NUMC20";
+}

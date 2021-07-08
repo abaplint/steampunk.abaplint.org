@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SC_DAY_TXT" [shape=box,color=yellow];
+  "DOMA-WEEKDAY" [shape=box,color=yellow,URL="./DOMA_WEEKDAY.html"];
+  "DTEL-SC_DAY_TXT" -> "DOMA-WEEKDAY";
+}

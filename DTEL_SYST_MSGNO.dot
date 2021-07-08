@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SYST_MSGNO" [shape=box,color=yellow];
+  "DOMA-SYMSGNO" [shape=box,color=yellow,URL="./DOMA_SYMSGNO.html"];
+  "DTEL-SYST_MSGNO" -> "DOMA-SYMSGNO";
+}

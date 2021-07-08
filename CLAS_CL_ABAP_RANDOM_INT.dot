@@ -1,0 +1,12 @@
+digraph G {
+  "CLAS-CL_ABAP_RANDOM_INT" [shape=box,color=green];
+  "CLAS-CL_ABAP_RANDOM" [shape=box,color=green,URL="./CLAS_CL_ABAP_RANDOM.html"];
+  "INTF-IF_SERIALIZABLE_OBJECT" [shape=box,color=green,URL="./INTF_IF_SERIALIZABLE_OBJECT.html"];
+  "DTEL-BOOLEAN" [shape=box,color=yellow,URL="./DTEL_BOOLEAN.html"];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "CLAS-CL_ABAP_RANDOM_INT" -> "DTEL-BOOLEAN";
+  "CLAS-CL_ABAP_RANDOM_INT" -> "INTF-IF_SERIALIZABLE_OBJECT";
+  "CLAS-CL_ABAP_RANDOM_INT" -> "CLAS-CL_ABAP_RANDOM";
+  "CLAS-CL_ABAP_RANDOM" -> "INTF-IF_SERIALIZABLE_OBJECT";
+  "DTEL-BOOLEAN" -> "DOMA-BOOLEAN";
+}

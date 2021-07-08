@@ -1,0 +1,23 @@
+digraph G {
+  "INTF-IF_ABAP_LANGUAGE_VERSION" [shape=box,color=yellow];
+  "DTEL-SYLANGU" [shape=box,color=yellow,URL="./DTEL_SYLANGU.html"];
+  "DOMA-SYLANGU" [shape=box,color=yellow,URL="./DOMA_SYLANGU.html"];
+  "DTEL-DEVCLASS" [shape=box,color=yellow,URL="./DTEL_DEVCLASS.html"];
+  "DOMA-DEVCLASS" [shape=box,color=yellow,URL="./DOMA_DEVCLASS.html"];
+  "DTEL-ACTIV_AUTH" [shape=box,color=green,URL="./DTEL_ACTIV_AUTH.html"];
+  "DOMA-ACTIV_AUTH" [shape=box,color=green,URL="./DOMA_ACTIV_AUTH.html"];
+  "DTEL-TROBJTYPE" [shape=box,color=yellow,URL="./DTEL_TROBJTYPE.html"];
+  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
+  "DTEL-VAL_TEXT" [shape=box,color=yellow,URL="./DTEL_VAL_TEXT.html"];
+  "DOMA-DDTEXT" [shape=box,color=yellow,URL="./DOMA_DDTEXT.html"];
+  "INTF-IF_ABAP_LANGUAGE_VERSION" -> "DTEL-VAL_TEXT";
+  "INTF-IF_ABAP_LANGUAGE_VERSION" -> "DTEL-TROBJTYPE";
+  "INTF-IF_ABAP_LANGUAGE_VERSION" -> "DTEL-ACTIV_AUTH";
+  "INTF-IF_ABAP_LANGUAGE_VERSION" -> "DTEL-DEVCLASS";
+  "INTF-IF_ABAP_LANGUAGE_VERSION" -> "DTEL-SYLANGU";
+  "DTEL-SYLANGU" -> "DOMA-SYLANGU";
+  "DTEL-DEVCLASS" -> "DOMA-DEVCLASS";
+  "DTEL-ACTIV_AUTH" -> "DOMA-ACTIV_AUTH";
+  "DTEL-TROBJTYPE" -> "DOMA-OBJECT";
+  "DTEL-VAL_TEXT" -> "DOMA-DDTEXT";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TRACTIVITY" [shape=box,color=yellow];
+  "DOMA-CUS_IMG_AC" [shape=box,color=yellow,URL="./DOMA_CUS_IMG_AC.html"];
+  "DTEL-TRACTIVITY" -> "DOMA-CUS_IMG_AC";
+}

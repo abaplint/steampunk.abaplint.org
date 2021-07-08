@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SXCO_BAL_LOG_HANDLE" [shape=box,color=green];
+  "DOMA-SYSUUID_22" [shape=box,color=yellow,URL="./DOMA_SYSUUID_22.html"];
+  "DTEL-SXCO_BAL_LOG_HANDLE" -> "DOMA-SYSUUID_22";
+}

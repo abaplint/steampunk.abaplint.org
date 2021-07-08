@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-APS_COM_W_IBST" [shape=box,color=yellow];
+  "DTEL-APS_COM_IBS_DESCRIPTION" [shape=box,color=yellow,URL="./DTEL_APS_COM_IBS_DESCRIPTION.html"];
+  "DOMA-APS_COM_CSCN_DESCRIPTION" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_DESCRIPTION.html"];
+  "DTEL-APS_COM_IBS_ID" [shape=box,color=yellow,URL="./DTEL_APS_COM_IBS_ID.html"];
+  "DOMA-APS_COM_IBS_ID" [shape=box,color=yellow,URL="./DOMA_APS_COM_IBS_ID.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-APS_COM_W_IBST" -> "DTEL-LANGU";
+  "TABL-APS_COM_W_IBST" -> "DTEL-APS_COM_IBS_ID";
+  "TABL-APS_COM_W_IBST" -> "DTEL-APS_COM_IBS_DESCRIPTION";
+  "DTEL-APS_COM_IBS_DESCRIPTION" -> "DOMA-APS_COM_CSCN_DESCRIPTION";
+  "DTEL-APS_COM_IBS_ID" -> "DOMA-APS_COM_IBS_ID";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BALEXCLS" [shape=box,color=yellow];
+  "DOMA-CLASSNAME" [shape=box,color=yellow,URL="./DOMA_CLASSNAME.html"];
+  "DTEL-BALEXCLS" -> "DOMA-CLASSNAME";
+}

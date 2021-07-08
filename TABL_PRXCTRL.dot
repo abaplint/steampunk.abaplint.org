@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-PRXCTRL" [shape=box,color=green];
+  "DTEL-PRX_CONTR" [shape=box,color=yellow,URL="./DTEL_PRX_CONTR.html"];
+  "DOMA-PRX_CONTR" [shape=box,color=yellow,URL="./DOMA_PRX_CONTR.html"];
+  "DTEL-FIELDNAME" [shape=box,color=yellow,URL="./DTEL_FIELDNAME.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "TABL-PRXCTRL" -> "DTEL-FIELDNAME";
+  "TABL-PRXCTRL" -> "DTEL-PRX_CONTR";
+  "DTEL-PRX_CONTR" -> "DOMA-PRX_CONTR";
+  "DTEL-FIELDNAME" -> "DOMA-FDNAME";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APJ_JOB_END_TYPE_C" [shape=box,color=yellow];
+  "DOMA-APJ_JOB_END_TYPE_C" [shape=box,color=yellow,URL="./DOMA_APJ_JOB_END_TYPE_C.html"];
+  "DTEL-APJ_JOB_END_TYPE_C" -> "DOMA-APJ_JOB_END_TYPE_C";
+}

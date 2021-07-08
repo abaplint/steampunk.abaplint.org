@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_IXML_STREAM_CORE" [shape=box,color=green];
+  "INTF-IF_IXML_ENCODING" [shape=box,color=green,URL="./INTF_IF_IXML_ENCODING.html"];
+  "INTF-IF_IXML_UNKNOWN" [shape=box,color=green,URL="./INTF_IF_IXML_UNKNOWN.html"];
+  "INTF-IF_IXML_STREAM_CORE" -> "INTF-IF_IXML_ENCODING";
+  "INTF-IF_IXML_ENCODING" -> "INTF-IF_IXML_UNKNOWN";
+}

@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-BAPIPAREX_HELP" [shape=box,color=green];
+  "DTEL-TE_STRUC" [shape=box,color=green,URL="./DTEL_TE_STRUC.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "TABL-BAPIPAREX_HELP" -> "DTEL-TE_STRUC";
+  "DTEL-TE_STRUC" -> "DOMA-AS4TAB";
+}

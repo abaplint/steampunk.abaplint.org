@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XSDCURRCODE" [shape=box,color=green];
+  "DOMA-XSDCURRCODE" [shape=box,color=green,URL="./DOMA_XSDCURRCODE.html"];
+  "DTEL-XSDCURRCODE" -> "DOMA-XSDCURRCODE";
+}

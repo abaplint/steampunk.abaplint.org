@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-INTLEN" [shape=box,color=yellow];
+  "DOMA-DDLENG" [shape=box,color=yellow,URL="./DOMA_DDLENG.html"];
+  "DTEL-INTLEN" -> "DOMA-DDLENG";
+}

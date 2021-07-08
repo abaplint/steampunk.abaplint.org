@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BAPIMAXROW" [shape=box,color=green];
+  "DOMA-SYST_LONG" [shape=box,color=yellow,URL="./DOMA_SYST_LONG.html"];
+  "DTEL-BAPIMAXROW" -> "DOMA-SYST_LONG";
+}

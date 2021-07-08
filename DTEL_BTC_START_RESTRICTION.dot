@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BTC_START_RESTRICTION" [shape=box,color=yellow];
+  "DOMA-DBTC_START_RESTRICTION" [shape=box,color=yellow,URL="./DOMA_DBTC_START_RESTRICTION.html"];
+  "DTEL-BTC_START_RESTRICTION" -> "DOMA-DBTC_START_RESTRICTION";
+}

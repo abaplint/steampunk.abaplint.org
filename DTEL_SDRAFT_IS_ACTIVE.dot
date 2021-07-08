@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SDRAFT_IS_ACTIVE" [shape=box,color=yellow];
+  "DOMA-BOOLE" [shape=box,color=yellow,URL="./DOMA_BOOLE.html"];
+  "DTEL-SDRAFT_IS_ACTIVE" -> "DOMA-BOOLE";
+}

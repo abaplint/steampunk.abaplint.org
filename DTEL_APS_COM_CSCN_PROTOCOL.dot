@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_PROTOCOL" [shape=box,color=yellow];
+  "DOMA-APS_COM_CSCN_PROTOCOL" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_PROTOCOL.html"];
+  "DTEL-APS_COM_CSCN_PROTOCOL" -> "DOMA-APS_COM_CSCN_PROTOCOL";
+}

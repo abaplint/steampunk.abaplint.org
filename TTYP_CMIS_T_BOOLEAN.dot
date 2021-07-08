@@ -1,0 +1,7 @@
+digraph G {
+  "TTYP-CMIS_T_BOOLEAN" [shape=box,color=green];
+  "DTEL-BOOLEAN" [shape=box,color=yellow,URL="./DTEL_BOOLEAN.html"];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "TTYP-CMIS_T_BOOLEAN" -> "DTEL-BOOLEAN";
+  "DTEL-BOOLEAN" -> "DOMA-BOOLEAN";
+}

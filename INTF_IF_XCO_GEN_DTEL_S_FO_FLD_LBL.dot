@@ -1,0 +1,11 @@
+digraph G {
+  "INTF-IF_XCO_GEN_DTEL_S_FO_FLD_LBL" [shape=box,color=green];
+  "DTEL-NUMC2" [shape=box,color=yellow,URL="./DTEL_NUMC2.html"];
+  "DOMA-NUMC2" [shape=box,color=yellow,URL="./DOMA_NUMC2.html"];
+  "DTEL-DDTEXT" [shape=box,color=yellow,URL="./DTEL_DDTEXT.html"];
+  "DOMA-DDTEXT" [shape=box,color=yellow,URL="./DOMA_DDTEXT.html"];
+  "INTF-IF_XCO_GEN_DTEL_S_FO_FLD_LBL" -> "DTEL-DDTEXT";
+  "INTF-IF_XCO_GEN_DTEL_S_FO_FLD_LBL" -> "DTEL-NUMC2";
+  "DTEL-NUMC2" -> "DOMA-NUMC2";
+  "DTEL-DDTEXT" -> "DOMA-DDTEXT";
+}

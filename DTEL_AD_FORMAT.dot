@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_FORMAT" [shape=box,color=yellow];
+  "DOMA-AD_NAMFORM" [shape=box,color=yellow,URL="./DOMA_AD_NAMFORM.html"];
+  "DTEL-AD_FORMAT" -> "DOMA-AD_NAMFORM";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDDOCUDEL_NOIF" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-CDDOCUDEL_NOIF" -> "DOMA-XFELD";
+}

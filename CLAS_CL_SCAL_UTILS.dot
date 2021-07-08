@@ -1,0 +1,23 @@
+digraph G {
+  "CLAS-CL_SCAL_UTILS" [shape=box,color=green];
+  "DTEL-FCLTX" [shape=box,color=yellow,URL="./DTEL_FCLTX.html"];
+  "DOMA-TEXT10" [shape=box,color=yellow,URL="./DOMA_TEXT10.html"];
+  "DTEL-FCKTX" [shape=box,color=yellow,URL="./DTEL_FCKTX.html"];
+  "DOMA-CHAR3" [shape=box,color=yellow,URL="./DOMA_CHAR3.html"];
+  "DTEL-FCMNR" [shape=box,color=yellow,URL="./DTEL_FCMNR.html"];
+  "DOMA-NUM2" [shape=box,color=yellow,URL="./DOMA_NUM2.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "DTEL-KWEEK" [shape=box,color=yellow,URL="./DTEL_KWEEK.html"];
+  "DOMA-KWEEK" [shape=box,color=yellow,URL="./DOMA_KWEEK.html"];
+  "CLAS-CL_SCAL_UTILS" -> "DTEL-KWEEK";
+  "CLAS-CL_SCAL_UTILS" -> "DTEL-SPRAS";
+  "CLAS-CL_SCAL_UTILS" -> "DTEL-FCMNR";
+  "CLAS-CL_SCAL_UTILS" -> "DTEL-FCKTX";
+  "CLAS-CL_SCAL_UTILS" -> "DTEL-FCLTX";
+  "DTEL-FCLTX" -> "DOMA-TEXT10";
+  "DTEL-FCKTX" -> "DOMA-CHAR3";
+  "DTEL-FCMNR" -> "DOMA-NUM2";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+  "DTEL-KWEEK" -> "DOMA-KWEEK";
+}

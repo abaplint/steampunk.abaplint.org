@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PRX_AUTOMATIC_RETRY" [shape=box,color=green];
+  "DOMA-PRX_BOOLEAN" [shape=box,color=yellow,URL="./DOMA_PRX_BOOLEAN.html"];
+  "DTEL-PRX_AUTOMATIC_RETRY" -> "DOMA-PRX_BOOLEAN";
+}

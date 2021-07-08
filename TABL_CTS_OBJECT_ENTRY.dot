@@ -1,0 +1,29 @@
+digraph G {
+  "TABL-CTS_OBJECT_ENTRY" [shape=box,color=yellow];
+  "TTYP-CTS_OBJECT_TABLES" [shape=box,color=yellow,URL="./TTYP_CTS_OBJECT_TABLES.html"];
+  "TABL-CTS_OBJECT_TABLE" [shape=box,color=yellow,URL="./TABL_CTS_OBJECT_TABLE.html"];
+  "DTEL-VIEWNAME" [shape=box,color=yellow,URL="./DTEL_VIEWNAME.html"];
+  "DOMA-VIEWNAME" [shape=box,color=yellow,URL="./DOMA_VIEWNAME.html"];
+  "DTEL-TABNAME" [shape=box,color=green,URL="./DTEL_TABNAME.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "TABL-CTS_OBJECT_KEY" [shape=box,color=yellow,URL="./TABL_CTS_OBJECT_KEY.html"];
+  "DTEL-TROBJ_NAME" [shape=box,color=yellow,URL="./DTEL_TROBJ_NAME.html"];
+  "DOMA-TROBJ_NAME" [shape=box,color=yellow,URL="./DOMA_TROBJ_NAME.html"];
+  "DTEL-TROBJTYPE" [shape=box,color=yellow,URL="./DTEL_TROBJTYPE.html"];
+  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
+  "DTEL-PGMID" [shape=box,color=yellow,URL="./DTEL_PGMID.html"];
+  "DOMA-PGMID" [shape=box,color=yellow,URL="./DOMA_PGMID.html"];
+  "TABL-CTS_OBJECT_ENTRY" -> "TABL-CTS_OBJECT_KEY";
+  "TABL-CTS_OBJECT_ENTRY" -> "TTYP-CTS_OBJECT_TABLES";
+  "TTYP-CTS_OBJECT_TABLES" -> "TABL-CTS_OBJECT_TABLE";
+  "TABL-CTS_OBJECT_TABLE" -> "DTEL-TABNAME";
+  "TABL-CTS_OBJECT_TABLE" -> "DTEL-VIEWNAME";
+  "DTEL-VIEWNAME" -> "DOMA-VIEWNAME";
+  "DTEL-TABNAME" -> "DOMA-AS4TAB";
+  "TABL-CTS_OBJECT_KEY" -> "DTEL-PGMID";
+  "TABL-CTS_OBJECT_KEY" -> "DTEL-TROBJTYPE";
+  "TABL-CTS_OBJECT_KEY" -> "DTEL-TROBJ_NAME";
+  "DTEL-TROBJ_NAME" -> "DOMA-TROBJ_NAME";
+  "DTEL-TROBJTYPE" -> "DOMA-OBJECT";
+  "DTEL-PGMID" -> "DOMA-PGMID";
+}

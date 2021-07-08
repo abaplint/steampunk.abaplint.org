@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BAPICUREXT" [shape=box,color=green];
+  "DOMA-BAPICUREXT" [shape=box,color=yellow,URL="./DOMA_BAPICUREXT.html"];
+  "DTEL-BAPICUREXT" -> "DOMA-BAPICUREXT";
+}

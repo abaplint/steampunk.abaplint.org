@@ -1,0 +1,13 @@
+digraph G {
+  "TABL-SCX_T100KEY" [shape=box,color=yellow];
+  "DTEL-SCX_ATTRNAME" [shape=box,color=green,URL="./DTEL_SCX_ATTRNAME.html"];
+  "DTEL-SYMSGNO" [shape=box,color=green,URL="./DTEL_SYMSGNO.html"];
+  "DOMA-SYMSGNO" [shape=box,color=yellow,URL="./DOMA_SYMSGNO.html"];
+  "DTEL-SYMSGID" [shape=box,color=green,URL="./DTEL_SYMSGID.html"];
+  "DOMA-ARBGB" [shape=box,color=yellow,URL="./DOMA_ARBGB.html"];
+  "TABL-SCX_T100KEY" -> "DTEL-SYMSGID";
+  "TABL-SCX_T100KEY" -> "DTEL-SYMSGNO";
+  "TABL-SCX_T100KEY" -> "DTEL-SCX_ATTRNAME";
+  "DTEL-SYMSGNO" -> "DOMA-SYMSGNO";
+  "DTEL-SYMSGID" -> "DOMA-ARBGB";
+}

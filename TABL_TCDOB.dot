@@ -1,0 +1,30 @@
+digraph G {
+  "TABL-TCDOB" [shape=box,color=yellow];
+  "DTEL-CDDOCUINS_IF" [shape=box,color=yellow,URL="./DTEL_CDDOCUINS_IF.html"];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-CDDOCUDEL_NOIF" [shape=box,color=yellow,URL="./DTEL_CDDOCUDEL_NOIF.html"];
+  "DTEL-CDARCHMULT" [shape=box,color=yellow,URL="./DTEL_CDARCHMULT.html"];
+  "DTEL-CDDOCUINS" [shape=box,color=yellow,URL="./DTEL_CDDOCUINS.html"];
+  "DTEL-CDDOCUDEL" [shape=box,color=yellow,URL="./DTEL_CDDOCUDEL.html"];
+  "DTEL-CDMULTCASE" [shape=box,color=yellow,URL="./DTEL_CDMULTCASE.html"];
+  "DTEL-CDTABNAME" [shape=box,color=yellow,URL="./DTEL_CDTABNAME.html"];
+  "DOMA-AS4TAB" [shape=box,color=yellow,URL="./DOMA_AS4TAB.html"];
+  "DTEL-CDOBJECTCL" [shape=box,color=yellow,URL="./DTEL_CDOBJECTCL.html"];
+  "DOMA-OBJECTCL" [shape=box,color=yellow,URL="./DOMA_OBJECTCL.html"];
+  "TABL-TCDOB" -> "DTEL-CDOBJECTCL";
+  "TABL-TCDOB" -> "DTEL-CDTABNAME";
+  "TABL-TCDOB" -> "DTEL-CDMULTCASE";
+  "TABL-TCDOB" -> "DTEL-CDDOCUDEL";
+  "TABL-TCDOB" -> "DTEL-CDDOCUINS";
+  "TABL-TCDOB" -> "DTEL-CDARCHMULT";
+  "TABL-TCDOB" -> "DTEL-CDDOCUDEL_NOIF";
+  "TABL-TCDOB" -> "DTEL-CDDOCUINS_IF";
+  "DTEL-CDDOCUINS_IF" -> "DOMA-XFELD";
+  "DTEL-CDDOCUDEL_NOIF" -> "DOMA-XFELD";
+  "DTEL-CDARCHMULT" -> "DOMA-XFELD";
+  "DTEL-CDDOCUINS" -> "DOMA-XFELD";
+  "DTEL-CDDOCUDEL" -> "DOMA-XFELD";
+  "DTEL-CDMULTCASE" -> "DOMA-XFELD";
+  "DTEL-CDTABNAME" -> "DOMA-AS4TAB";
+  "DTEL-CDOBJECTCL" -> "DOMA-OBJECTCL";
+}

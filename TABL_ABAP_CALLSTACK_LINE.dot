@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-ABAP_CALLSTACK_LINE" [shape=box,color=yellow];
+  "DTEL-INCLUDE" [shape=box,color=yellow,URL="./DTEL_INCLUDE.html"];
+  "DOMA-PROGNAME" [shape=box,color=yellow,URL="./DOMA_PROGNAME.html"];
+  "DTEL-SYREPID" [shape=box,color=green,URL="./DTEL_SYREPID.html"];
+  "DOMA-PROGRAMM" [shape=box,color=yellow,URL="./DOMA_PROGRAMM.html"];
+  "TABL-ABAP_CALLSTACK_LINE" -> "DTEL-SYREPID";
+  "TABL-ABAP_CALLSTACK_LINE" -> "DTEL-INCLUDE";
+  "DTEL-INCLUDE" -> "DOMA-PROGNAME";
+  "DTEL-SYREPID" -> "DOMA-PROGRAMM";
+}

@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-RSLINLTXT" [shape=box,color=yellow];
+  "DTEL-SYCHAR10" [shape=box,color=yellow,URL="./DTEL_SYCHAR10.html"];
+  "DOMA-SYCHAR10" [shape=box,color=yellow,URL="./DOMA_SYCHAR10.html"];
+  "DTEL-INT4" [shape=box,color=green,URL="./DTEL_INT4.html"];
+  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
+  "DTEL-SYCHAR01" [shape=box,color=green,URL="./DTEL_SYCHAR01.html"];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "TABL-RSLINLTXT" -> "DTEL-SYCHAR01";
+  "TABL-RSLINLTXT" -> "DTEL-INT4";
+  "TABL-RSLINLTXT" -> "DTEL-SYCHAR10";
+  "DTEL-SYCHAR10" -> "DOMA-SYCHAR10";
+  "DTEL-INT4" -> "DOMA-INT4";
+  "DTEL-SYCHAR01" -> "DOMA-SYCHAR01";
+}

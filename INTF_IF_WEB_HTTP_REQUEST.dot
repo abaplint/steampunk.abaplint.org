@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_WEB_HTTP_REQUEST" [shape=box,color=green];
+  "DTEL-INT4" [shape=box,color=green,URL="./DTEL_INT4.html"];
+  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
+  "INTF-IF_WEB_HTTP_REQUEST" -> "DTEL-INT4";
+  "DTEL-INT4" -> "DOMA-INT4";
+}

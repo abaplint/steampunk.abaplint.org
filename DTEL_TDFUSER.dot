@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TDFUSER" [shape=box,color=yellow];
+  "DOMA-TDUSER" [shape=box,color=yellow,URL="./DOMA_TDUSER.html"];
+  "DTEL-TDFUSER" -> "DOMA-TDUSER";
+}

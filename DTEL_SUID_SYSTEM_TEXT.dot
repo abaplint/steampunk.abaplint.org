@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SUID_SYSTEM_TEXT" [shape=box,color=yellow];
+  "DOMA-SUID_TEXT40" [shape=box,color=yellow,URL="./DOMA_SUID_TEXT40.html"];
+  "DTEL-SUID_SYSTEM_TEXT" -> "DOMA-SUID_TEXT40";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDTABKEY" [shape=box,color=yellow];
+  "DOMA-CHAR70" [shape=box,color=yellow,URL="./DOMA_CHAR70.html"];
+  "DTEL-CDTABKEY" -> "DOMA-CHAR70";
+}

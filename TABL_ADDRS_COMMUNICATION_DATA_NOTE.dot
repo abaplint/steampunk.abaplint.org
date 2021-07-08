@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-ADDRS_COMMUNICATION_DATA_NOTE" [shape=box,color=yellow];
+  "DTEL-AD_OP_CODE" [shape=box,color=yellow,URL="./DTEL_AD_OP_CODE.html"];
+  "DOMA-AD_OP_CODE" [shape=box,color=yellow,URL="./DOMA_AD_OP_CODE.html"];
+  "DTEL-AD_REMARK2" [shape=box,color=yellow,URL="./DTEL_AD_REMARK2.html"];
+  "DOMA-TEXT50" [shape=box,color=yellow,URL="./DOMA_TEXT50.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-ADDRS_COMMUNICATION_DATA_NOTE" -> "DTEL-SPRAS";
+  "TABL-ADDRS_COMMUNICATION_DATA_NOTE" -> "DTEL-AD_REMARK2";
+  "TABL-ADDRS_COMMUNICATION_DATA_NOTE" -> "DTEL-AD_OP_CODE";
+  "DTEL-AD_OP_CODE" -> "DOMA-AD_OP_CODE";
+  "DTEL-AD_REMARK2" -> "DOMA-TEXT50";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+}

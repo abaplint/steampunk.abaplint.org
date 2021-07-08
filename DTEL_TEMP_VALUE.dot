@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TEMP_VALUE" [shape=box,color=yellow];
+  "DOMA-TEMP_VALUE" [shape=box,color=yellow,URL="./DOMA_TEMP_VALUE.html"];
+  "DTEL-TEMP_VALUE" -> "DOMA-TEMP_VALUE";
+}

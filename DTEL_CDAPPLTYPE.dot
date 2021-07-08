@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CDAPPLTYPE" [shape=box,color=yellow];
+  "DOMA-USOBTYPE" [shape=box,color=yellow,URL="./DOMA_USOBTYPE.html"];
+  "DTEL-CDAPPLTYPE" -> "DOMA-USOBTYPE";
+}

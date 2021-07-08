@@ -1,0 +1,5 @@
+digraph G {
+  "INTF-IF_EX_BADI_MATN1" [shape=box,color=green];
+  "INTF-IF_BADI_INTERFACE" [shape=box,color=green,URL="./INTF_IF_BADI_INTERFACE.html"];
+  "INTF-IF_EX_BADI_MATN1" -> "INTF-IF_BADI_INTERFACE";
+}

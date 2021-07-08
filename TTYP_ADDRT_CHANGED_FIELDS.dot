@@ -1,0 +1,7 @@
+digraph G {
+  "TTYP-ADDRT_CHANGED_FIELDS" [shape=box,color=yellow];
+  "DTEL-ADDR_FIELDNAME" [shape=box,color=yellow,URL="./DTEL_ADDR_FIELDNAME.html"];
+  "DOMA-ADDR_FIELDNAME" [shape=box,color=yellow,URL="./DOMA_ADDR_FIELDNAME.html"];
+  "TTYP-ADDRT_CHANGED_FIELDS" -> "DTEL-ADDR_FIELDNAME";
+  "DTEL-ADDR_FIELDNAME" -> "DOMA-ADDR_FIELDNAME";
+}

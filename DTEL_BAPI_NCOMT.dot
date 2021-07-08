@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BAPI_NCOMT" [shape=box,color=green];
+  "DOMA-X" [shape=box,color=yellow,URL="./DOMA_X.html"];
+  "DTEL-BAPI_NCOMT" -> "DOMA-X";
+}

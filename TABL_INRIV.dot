@@ -1,0 +1,34 @@
+digraph G {
+  "TABL-INRIV" [shape=box,color=yellow];
+  "DTEL-PROCIND" [shape=box,color=yellow,URL="./DTEL_PROCIND.html"];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "DTEL-NRIND" [shape=box,color=yellow,URL="./DTEL_NRIND.html"];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-NRLEVEL" [shape=box,color=yellow,URL="./DTEL_NRLEVEL.html"];
+  "DOMA-NUMC20" [shape=box,color=yellow,URL="./DOMA_NUMC20.html"];
+  "DTEL-NRTO" [shape=box,color=yellow,URL="./DTEL_NRTO.html"];
+  "DOMA-CHAR20" [shape=box,color=yellow,URL="./DOMA_CHAR20.html"];
+  "DTEL-NRFROM" [shape=box,color=yellow,URL="./DTEL_NRFROM.html"];
+  "DTEL-NRYEAR" [shape=box,color=yellow,URL="./DTEL_NRYEAR.html"];
+  "DOMA-GJAHR" [shape=box,color=yellow,URL="./DOMA_GJAHR.html"];
+  "DTEL-NRNR" [shape=box,color=yellow,URL="./DTEL_NRNR.html"];
+  "DOMA-CHAR2" [shape=box,color=yellow,URL="./DOMA_CHAR2.html"];
+  "DTEL-NRSOBJ" [shape=box,color=yellow,URL="./DTEL_NRSOBJ.html"];
+  "DOMA-CHAR6" [shape=box,color=yellow,URL="./DOMA_CHAR6.html"];
+  "TABL-INRIV" -> "DTEL-NRSOBJ";
+  "TABL-INRIV" -> "DTEL-NRNR";
+  "TABL-INRIV" -> "DTEL-NRYEAR";
+  "TABL-INRIV" -> "DTEL-NRFROM";
+  "TABL-INRIV" -> "DTEL-NRTO";
+  "TABL-INRIV" -> "DTEL-NRLEVEL";
+  "TABL-INRIV" -> "DTEL-NRIND";
+  "TABL-INRIV" -> "DTEL-PROCIND";
+  "DTEL-PROCIND" -> "DOMA-CHAR1";
+  "DTEL-NRIND" -> "DOMA-XFELD";
+  "DTEL-NRLEVEL" -> "DOMA-NUMC20";
+  "DTEL-NRTO" -> "DOMA-CHAR20";
+  "DTEL-NRFROM" -> "DOMA-CHAR20";
+  "DTEL-NRYEAR" -> "DOMA-GJAHR";
+  "DTEL-NRNR" -> "DOMA-CHAR2";
+  "DTEL-NRSOBJ" -> "DOMA-CHAR6";
+}

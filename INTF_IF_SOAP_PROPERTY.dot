@@ -1,0 +1,9 @@
+digraph G {
+  "INTF-IF_SOAP_PROPERTY" [shape=box,color=yellow];
+  "TTYP-SOAP_VALUE_LIST" [shape=box,color=yellow,URL="./TTYP_SOAP_VALUE_LIST.html"];
+  "DTEL-BOOLEAN" [shape=box,color=yellow,URL="./DTEL_BOOLEAN.html"];
+  "DOMA-BOOLEAN" [shape=box,color=yellow,URL="./DOMA_BOOLEAN.html"];
+  "INTF-IF_SOAP_PROPERTY" -> "DTEL-BOOLEAN";
+  "INTF-IF_SOAP_PROPERTY" -> "TTYP-SOAP_VALUE_LIST";
+  "DTEL-BOOLEAN" -> "DOMA-BOOLEAN";
+}

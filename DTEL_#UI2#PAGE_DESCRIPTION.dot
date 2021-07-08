@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/UI2/PAGE_DESCRIPTION" [shape=box,color=yellow];
+  "DOMA-/UI2/PAGE_DESCRIPTION" [shape=box,color=yellow,URL="./DOMA_%23UI2%23PAGE_DESCRIPTION.html"];
+  "DTEL-/UI2/PAGE_DESCRIPTION" -> "DOMA-/UI2/PAGE_DESCRIPTION";
+}

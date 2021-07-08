@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_ABAP_UNIT_CONSTANT" [shape=box,color=green];
+  "DTEL-INT1" [shape=box,color=green,URL="./DTEL_INT1.html"];
+  "DOMA-INT1" [shape=box,color=yellow,URL="./DOMA_INT1.html"];
+  "INTF-IF_ABAP_UNIT_CONSTANT" -> "DTEL-INT1";
+  "DTEL-INT1" -> "DOMA-INT1";
+}

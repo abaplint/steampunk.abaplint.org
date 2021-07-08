@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TABART" [shape=box,color=yellow];
+  "DOMA-TABART" [shape=box,color=yellow,URL="./DOMA_TABART.html"];
+  "DTEL-TABART" -> "DOMA-TABART";
+}

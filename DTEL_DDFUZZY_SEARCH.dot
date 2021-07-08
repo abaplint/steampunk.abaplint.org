@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DDFUZZY_SEARCH" [shape=box,color=yellow];
+  "DOMA-DDFUZZY_SEARCH" [shape=box,color=yellow,URL="./DOMA_DDFUZZY_SEARCH.html"];
+  "DTEL-DDFUZZY_SEARCH" -> "DOMA-DDFUZZY_SEARCH";
+}

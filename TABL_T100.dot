@@ -1,0 +1,19 @@
+digraph G {
+  "TABL-T100" [shape=box,color=yellow];
+  "DTEL-NATXT" [shape=box,color=yellow,URL="./DTEL_NATXT.html"];
+  "DOMA-NATXT" [shape=box,color=yellow,URL="./DOMA_NATXT.html"];
+  "DTEL-MSGNR" [shape=box,color=yellow,URL="./DTEL_MSGNR.html"];
+  "DOMA-MSGNR" [shape=box,color=yellow,URL="./DOMA_MSGNR.html"];
+  "DTEL-ARBGB" [shape=box,color=yellow,URL="./DTEL_ARBGB.html"];
+  "DOMA-ARBGB" [shape=box,color=yellow,URL="./DOMA_ARBGB.html"];
+  "DTEL-SPRAS" [shape=box,color=green,URL="./DTEL_SPRAS.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-T100" -> "DTEL-SPRAS";
+  "TABL-T100" -> "DTEL-ARBGB";
+  "TABL-T100" -> "DTEL-MSGNR";
+  "TABL-T100" -> "DTEL-NATXT";
+  "DTEL-NATXT" -> "DOMA-NATXT";
+  "DTEL-MSGNR" -> "DOMA-MSGNR";
+  "DTEL-ARBGB" -> "DOMA-ARBGB";
+  "DTEL-SPRAS" -> "DOMA-SPRAS";
+}

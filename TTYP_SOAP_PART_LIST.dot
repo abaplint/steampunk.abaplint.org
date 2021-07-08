@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-SOAP_PART_LIST" [shape=box,color=yellow];
+  "INTF-IF_SXMLP_PART_ABSTRACT" [shape=box,color=yellow,URL="./INTF_IF_SXMLP_PART_ABSTRACT.html"];
+  "TTYP-SOAP_PART_LIST" -> "INTF-IF_SXMLP_PART_ABSTRACT";
+}

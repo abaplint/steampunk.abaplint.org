@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SYST_MSGID" [shape=box,color=yellow];
+  "DOMA-ARBGB" [shape=box,color=yellow,URL="./DOMA_ARBGB.html"];
+  "DTEL-SYST_MSGID" -> "DOMA-ARBGB";
+}

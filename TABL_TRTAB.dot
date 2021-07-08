@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-TRTAB" [shape=box,color=yellow];
+  "DTEL-LINE1024" [shape=box,color=yellow,URL="./DTEL_LINE1024.html"];
+  "DOMA-LINE1024" [shape=box,color=yellow,URL="./DOMA_LINE1024.html"];
+  "TABL-TRTAB" -> "DTEL-LINE1024";
+  "DTEL-LINE1024" -> "DOMA-LINE1024";
+}

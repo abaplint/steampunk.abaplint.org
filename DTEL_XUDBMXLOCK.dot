@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XUDBMXLOCK" [shape=box,color=yellow];
+  "DOMA-XUDBMXLOCK" [shape=box,color=yellow,URL="./DOMA_XUDBMXLOCK.html"];
+  "DTEL-XUDBMXLOCK" -> "DOMA-XUDBMXLOCK";
+}

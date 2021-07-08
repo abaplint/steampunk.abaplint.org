@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-BADI_CONTEXT_MODE" [shape=box,color=green];
+  "DOMA-BADI_CONTEXT_MODE" [shape=box,color=yellow,URL="./DOMA_BADI_CONTEXT_MODE.html"];
+  "DTEL-BADI_CONTEXT_MODE" -> "DOMA-BADI_CONTEXT_MODE";
+}

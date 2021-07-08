@@ -1,0 +1,25 @@
+digraph G {
+  "TABL-BDWFAP_PAR" [shape=box,color=green];
+  "DTEL-APPL_VAR" [shape=box,color=green,URL="./DTEL_APPL_VAR.html"];
+  "DOMA-SWC_VALUE" [shape=box,color=yellow,URL="./DOMA_SWC_VALUE.html"];
+  "DTEL-WF_RESULT" [shape=box,color=green,URL="./DTEL_WF_RESULT.html"];
+  "DOMA-CHAR5" [shape=box,color=yellow,URL="./DOMA_CHAR5.html"];
+  "DTEL-CALLTRANS2" [shape=box,color=green,URL="./DTEL_CALLTRANS2.html"];
+  "DOMA-CHOICE" [shape=box,color=yellow,URL="./DOMA_CHOICE.html"];
+  "DTEL-UPDATETASK" [shape=box,color=yellow,URL="./DTEL_UPDATETASK.html"];
+  "DTEL-MASS_PROC" [shape=box,color=yellow,URL="./DTEL_MASS_PROC.html"];
+  "DTEL-INPUTMETHD" [shape=box,color=yellow,URL="./DTEL_INPUTMETHD.html"];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "TABL-BDWFAP_PAR" -> "DTEL-INPUTMETHD";
+  "TABL-BDWFAP_PAR" -> "DTEL-MASS_PROC";
+  "TABL-BDWFAP_PAR" -> "DTEL-UPDATETASK";
+  "TABL-BDWFAP_PAR" -> "DTEL-CALLTRANS2";
+  "TABL-BDWFAP_PAR" -> "DTEL-WF_RESULT";
+  "TABL-BDWFAP_PAR" -> "DTEL-APPL_VAR";
+  "DTEL-APPL_VAR" -> "DOMA-SWC_VALUE";
+  "DTEL-WF_RESULT" -> "DOMA-CHAR5";
+  "DTEL-CALLTRANS2" -> "DOMA-CHOICE";
+  "DTEL-UPDATETASK" -> "DOMA-CHOICE";
+  "DTEL-MASS_PROC" -> "DOMA-CHOICE";
+  "DTEL-INPUTMETHD" -> "DOMA-CHAR1";
+}

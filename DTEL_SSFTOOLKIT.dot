@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SSFTOOLKIT" [shape=box,color=yellow];
+  "DOMA-SSFTOOLKIT" [shape=box,color=yellow,URL="./DOMA_SSFTOOLKIT.html"];
+  "DTEL-SSFTOOLKIT" -> "DOMA-SSFTOOLKIT";
+}

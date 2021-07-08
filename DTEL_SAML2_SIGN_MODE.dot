@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SAML2_SIGN_MODE" [shape=box,color=yellow];
+  "DOMA-SAML2_SIGN_MODE" [shape=box,color=yellow,URL="./DOMA_SAML2_SIGN_MODE.html"];
+  "DTEL-SAML2_SIGN_MODE" -> "DOMA-SAML2_SIGN_MODE";
+}

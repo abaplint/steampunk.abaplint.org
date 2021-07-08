@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_SERIALIZABLE_OBJECT" [shape=box,color=green];
+}

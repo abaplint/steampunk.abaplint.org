@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CO_RESSOURCE" [shape=box,color=green];
+  "DOMA-CO_RESSOURCE" [shape=box,color=yellow,URL="./DOMA_CO_RESSOURCE.html"];
+  "DTEL-CO_RESSOURCE" -> "DOMA-CO_RESSOURCE";
+}

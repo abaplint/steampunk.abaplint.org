@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-WAERS_CURC" [shape=box,color=green];
+  "DOMA-WAERS" [shape=box,color=green,URL="./DOMA_WAERS.html"];
+  "DTEL-WAERS_CURC" -> "DOMA-WAERS";
+}

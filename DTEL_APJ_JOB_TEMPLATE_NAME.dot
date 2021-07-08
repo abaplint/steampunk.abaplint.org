@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APJ_JOB_TEMPLATE_NAME" [shape=box,color=yellow];
+  "DOMA-APJ_OBJECT_KEY" [shape=box,color=yellow,URL="./DOMA_APJ_OBJECT_KEY.html"];
+  "DTEL-APJ_JOB_TEMPLATE_NAME" -> "DOMA-APJ_OBJECT_KEY";
+}

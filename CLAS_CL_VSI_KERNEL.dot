@@ -1,0 +1,7 @@
+digraph G {
+  "CLAS-CL_VSI_KERNEL" [shape=box,color=yellow];
+  "DTEL-VSCAN_PROFILE" [shape=box,color=yellow,URL="./DTEL_VSCAN_PROFILE.html"];
+  "DOMA-VSCAN_PROFILE" [shape=box,color=yellow,URL="./DOMA_VSCAN_PROFILE.html"];
+  "CLAS-CL_VSI_KERNEL" -> "DTEL-VSCAN_PROFILE";
+  "DTEL-VSCAN_PROFILE" -> "DOMA-VSCAN_PROFILE";
+}

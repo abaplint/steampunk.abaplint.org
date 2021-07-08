@@ -1,0 +1,32 @@
+digraph G {
+  "TABL-BAPI1093_0" [shape=box,color=yellow];
+  "DTEL-UKURSM" [shape=box,color=yellow,URL="./DTEL_UKURSM.html"];
+  "DOMA-PKURS" [shape=box,color=yellow,URL="./DOMA_PKURS.html"];
+  "DTEL-TFACT_CURR" [shape=box,color=green,URL="./DTEL_TFACT_CURR.html"];
+  "DOMA-DEC9" [shape=box,color=yellow,URL="./DOMA_DEC9.html"];
+  "DTEL-FFACT_CURR" [shape=box,color=green,URL="./DTEL_FFACT_CURR.html"];
+  "DTEL-UKURSP" [shape=box,color=yellow,URL="./DTEL_UKURSP.html"];
+  "DTEL-GDATU_CUR" [shape=box,color=yellow,URL="./DTEL_GDATU_CUR.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "DTEL-TCURR_CURR" [shape=box,color=green,URL="./DTEL_TCURR_CURR.html"];
+  "DOMA-WAERS" [shape=box,color=green,URL="./DOMA_WAERS.html"];
+  "DTEL-FCURR_CURR" [shape=box,color=green,URL="./DTEL_FCURR_CURR.html"];
+  "DTEL-KURST_CURR" [shape=box,color=green,URL="./DTEL_KURST_CURR.html"];
+  "DOMA-KURST" [shape=box,color=yellow,URL="./DOMA_KURST.html"];
+  "TABL-BAPI1093_0" -> "DTEL-KURST_CURR";
+  "TABL-BAPI1093_0" -> "DTEL-FCURR_CURR";
+  "TABL-BAPI1093_0" -> "DTEL-TCURR_CURR";
+  "TABL-BAPI1093_0" -> "DTEL-GDATU_CUR";
+  "TABL-BAPI1093_0" -> "DTEL-UKURSP";
+  "TABL-BAPI1093_0" -> "DTEL-FFACT_CURR";
+  "TABL-BAPI1093_0" -> "DTEL-TFACT_CURR";
+  "TABL-BAPI1093_0" -> "DTEL-UKURSM";
+  "DTEL-UKURSM" -> "DOMA-PKURS";
+  "DTEL-TFACT_CURR" -> "DOMA-DEC9";
+  "DTEL-FFACT_CURR" -> "DOMA-DEC9";
+  "DTEL-UKURSP" -> "DOMA-PKURS";
+  "DTEL-GDATU_CUR" -> "DOMA-DATUM";
+  "DTEL-TCURR_CURR" -> "DOMA-WAERS";
+  "DTEL-FCURR_CURR" -> "DOMA-WAERS";
+  "DTEL-KURST_CURR" -> "DOMA-KURST";
+}

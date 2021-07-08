@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-DECAN" [shape=box,color=yellow];
+  "DOMA-DECAN" [shape=box,color=yellow,URL="./DOMA_DECAN.html"];
+  "DTEL-DECAN" -> "DOMA-DECAN";
+}

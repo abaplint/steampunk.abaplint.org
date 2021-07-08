@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-CMIS_T_ENUM" [shape=box,color=green];
+  "DTEL-CMIS_ENUM" [shape=box,color=green,URL="./DTEL_CMIS_ENUM.html"];
+  "TTYP-CMIS_T_ENUM" -> "DTEL-CMIS_ENUM";
+}

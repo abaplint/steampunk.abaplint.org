@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SRVB_BND_CATEGORY" [shape=box,color=yellow];
+  "DOMA-SRVB_BND_CATEGORY" [shape=box,color=yellow,URL="./DOMA_SRVB_BND_CATEGORY.html"];
+  "DTEL-SRVB_BND_CATEGORY" -> "DOMA-SRVB_BND_CATEGORY";
+}

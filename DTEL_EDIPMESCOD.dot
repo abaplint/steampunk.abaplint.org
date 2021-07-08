@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-EDIPMESCOD" [shape=box,color=yellow];
+  "DOMA-EDI_MESCOD" [shape=box,color=yellow,URL="./DOMA_EDI_MESCOD.html"];
+  "DTEL-EDIPMESCOD" -> "DOMA-EDI_MESCOD";
+}

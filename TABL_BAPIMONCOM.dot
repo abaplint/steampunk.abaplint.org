@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-BAPIMONCOM" [shape=box,color=green];
+  "DTEL-UFPS_POSID" [shape=box,color=yellow,URL="./DTEL_UFPS_POSID.html"];
+  "DOMA-UFPS_POSID" [shape=box,color=yellow,URL="./DOMA_UFPS_POSID.html"];
+  "TABL-BAPIMONCOM" -> "DTEL-UFPS_POSID";
+  "DTEL-UFPS_POSID" -> "DOMA-UFPS_POSID";
+}

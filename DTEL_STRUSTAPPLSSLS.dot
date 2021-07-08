@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-STRUSTAPPLSSLS" [shape=box,color=yellow];
+  "DOMA-STRUSTAPPL" [shape=box,color=yellow,URL="./DOMA_STRUSTAPPL.html"];
+  "DTEL-STRUSTAPPLSSLS" -> "DOMA-STRUSTAPPL";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-MENU_ICON" [shape=box,color=yellow];
+  "DOMA-CHAR128_CASE" [shape=box,color=yellow,URL="./DOMA_CHAR128_CASE.html"];
+  "DTEL-MENU_ICON" -> "DOMA-CHAR128_CASE";
+}

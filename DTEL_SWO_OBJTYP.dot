@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SWO_OBJTYP" [shape=box,color=yellow];
+  "DOMA-OJ_NAME" [shape=box,color=yellow,URL="./DOMA_OJ_NAME.html"];
+  "DTEL-SWO_OBJTYP" -> "DOMA-OJ_NAME";
+}

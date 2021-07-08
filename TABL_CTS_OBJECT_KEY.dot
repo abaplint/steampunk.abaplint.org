@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-CTS_OBJECT_KEY" [shape=box,color=yellow];
+  "DTEL-TROBJ_NAME" [shape=box,color=yellow,URL="./DTEL_TROBJ_NAME.html"];
+  "DOMA-TROBJ_NAME" [shape=box,color=yellow,URL="./DOMA_TROBJ_NAME.html"];
+  "DTEL-TROBJTYPE" [shape=box,color=yellow,URL="./DTEL_TROBJTYPE.html"];
+  "DOMA-OBJECT" [shape=box,color=yellow,URL="./DOMA_OBJECT.html"];
+  "DTEL-PGMID" [shape=box,color=yellow,URL="./DTEL_PGMID.html"];
+  "DOMA-PGMID" [shape=box,color=yellow,URL="./DOMA_PGMID.html"];
+  "TABL-CTS_OBJECT_KEY" -> "DTEL-PGMID";
+  "TABL-CTS_OBJECT_KEY" -> "DTEL-TROBJTYPE";
+  "TABL-CTS_OBJECT_KEY" -> "DTEL-TROBJ_NAME";
+  "DTEL-TROBJ_NAME" -> "DOMA-TROBJ_NAME";
+  "DTEL-TROBJTYPE" -> "DOMA-OBJECT";
+  "DTEL-PGMID" -> "DOMA-PGMID";
+}

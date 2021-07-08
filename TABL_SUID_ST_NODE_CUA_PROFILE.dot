@@ -1,0 +1,25 @@
+digraph G {
+  "TABL-SUID_ST_NODE_CUA_PROFILE" [shape=box,color=yellow];
+  "DTEL-SUID_NODE_KEY_HANDLE" [shape=box,color=yellow,URL="./DTEL_SUID_NODE_KEY_HANDLE.html"];
+  "DTEL-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DTEL_SUID_CHANGE_MODE.html"];
+  "DOMA-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DOMA_SUID_CHANGE_MODE.html"];
+  "DTEL-XUTYP" [shape=box,color=yellow,URL="./DTEL_XUTYP.html"];
+  "DOMA-XUTYP" [shape=box,color=yellow,URL="./DOMA_XUTYP.html"];
+  "DTEL-XUTEXT" [shape=box,color=yellow,URL="./DTEL_XUTEXT.html"];
+  "DOMA-XUTEXT" [shape=box,color=yellow,URL="./DOMA_XUTEXT.html"];
+  "DTEL-XUPROFILE" [shape=box,color=yellow,URL="./DTEL_XUPROFILE.html"];
+  "DOMA-XUPROFILE" [shape=box,color=yellow,URL="./DOMA_XUPROFILE.html"];
+  "DTEL-RFCRCVSYS" [shape=box,color=yellow,URL="./DTEL_RFCRCVSYS.html"];
+  "DOMA-LOGSYS" [shape=box,color=yellow,URL="./DOMA_LOGSYS.html"];
+  "TABL-SUID_ST_NODE_CUA_PROFILE" -> "DTEL-RFCRCVSYS";
+  "TABL-SUID_ST_NODE_CUA_PROFILE" -> "DTEL-XUPROFILE";
+  "TABL-SUID_ST_NODE_CUA_PROFILE" -> "DTEL-XUTEXT";
+  "TABL-SUID_ST_NODE_CUA_PROFILE" -> "DTEL-XUTYP";
+  "TABL-SUID_ST_NODE_CUA_PROFILE" -> "DTEL-SUID_CHANGE_MODE";
+  "TABL-SUID_ST_NODE_CUA_PROFILE" -> "DTEL-SUID_NODE_KEY_HANDLE";
+  "DTEL-SUID_CHANGE_MODE" -> "DOMA-SUID_CHANGE_MODE";
+  "DTEL-XUTYP" -> "DOMA-XUTYP";
+  "DTEL-XUTEXT" -> "DOMA-XUTEXT";
+  "DTEL-XUPROFILE" -> "DOMA-XUPROFILE";
+  "DTEL-RFCRCVSYS" -> "DOMA-LOGSYS";
+}

@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-APS_COM_W_SCNAUO" [shape=box,color=yellow];
+  "DTEL-APS_IAM_AUTH_OBJ_STATUS" [shape=box,color=yellow,URL="./DTEL_APS_IAM_AUTH_OBJ_STATUS.html"];
+  "DOMA-APS_IAM_AUTH_OBJ_STATUS" [shape=box,color=yellow,URL="./DOMA_APS_IAM_AUTH_OBJ_STATUS.html"];
+  "DTEL-AGOBJECT" [shape=box,color=yellow,URL="./DTEL_AGOBJECT.html"];
+  "DOMA-XUOBJECT" [shape=box,color=yellow,URL="./DOMA_XUOBJECT.html"];
+  "DTEL-APS_COM_CSCN_ID" [shape=box,color=yellow,URL="./DTEL_APS_COM_CSCN_ID.html"];
+  "DOMA-APS_COM_CSCN_ID" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_ID.html"];
+  "TABL-APS_COM_W_SCNAUO" -> "DTEL-APS_COM_CSCN_ID";
+  "TABL-APS_COM_W_SCNAUO" -> "DTEL-AGOBJECT";
+  "TABL-APS_COM_W_SCNAUO" -> "DTEL-APS_IAM_AUTH_OBJ_STATUS";
+  "DTEL-APS_IAM_AUTH_OBJ_STATUS" -> "DOMA-APS_IAM_AUTH_OBJ_STATUS";
+  "DTEL-AGOBJECT" -> "DOMA-XUOBJECT";
+  "DTEL-APS_COM_CSCN_ID" -> "DOMA-APS_COM_CSCN_ID";
+}

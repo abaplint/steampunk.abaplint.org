@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_TIMEPOINT_TYPE" [shape=box,color=yellow];
+  "DOMA-FDT_TIMEPOINT_TYPE" [shape=box,color=yellow,URL="./DOMA_FDT_TIMEPOINT_TYPE.html"];
+  "DTEL-FDT_TIMEPOINT_TYPE" -> "DOMA-FDT_TIMEPOINT_TYPE";
+}

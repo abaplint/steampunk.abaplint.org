@@ -1,0 +1,9 @@
+digraph G {
+  "TTYP-PRX_METHOD_PROPS" [shape=box,color=yellow];
+  "TABL-PRX_METHOD_PROP" [shape=box,color=yellow,URL="./TABL_PRX_METHOD_PROP.html"];
+  "DTEL-PRX_R3NAME" [shape=box,color=yellow,URL="./DTEL_PRX_R3NAME.html"];
+  "DOMA-PRX_R3NAME" [shape=box,color=yellow,URL="./DOMA_PRX_R3NAME.html"];
+  "TTYP-PRX_METHOD_PROPS" -> "TABL-PRX_METHOD_PROP";
+  "TABL-PRX_METHOD_PROP" -> "DTEL-PRX_R3NAME";
+  "DTEL-PRX_R3NAME" -> "DOMA-PRX_R3NAME";
+}

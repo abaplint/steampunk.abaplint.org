@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-CMIS_T_LONG" [shape=box,color=green];
+  "DTEL-CMIS_LONG" [shape=box,color=green,URL="./DTEL_CMIS_LONG.html"];
+  "TTYP-CMIS_T_LONG" -> "DTEL-CMIS_LONG";
+}

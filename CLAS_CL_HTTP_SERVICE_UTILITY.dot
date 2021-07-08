@@ -1,0 +1,12 @@
+digraph G {
+  "CLAS-CL_HTTP_SERVICE_UTILITY" [shape=box,color=green];
+  "INTF-IF_WEB_HTTP_RESPONSE" [shape=box,color=green,URL="./INTF_IF_WEB_HTTP_RESPONSE.html"];
+  "INTF-IF_WEB_HTTP_REQUEST" [shape=box,color=green,URL="./INTF_IF_WEB_HTTP_REQUEST.html"];
+  "DTEL-INT4" [shape=box,color=green,URL="./DTEL_INT4.html"];
+  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
+  "CLAS-CL_HTTP_SERVICE_UTILITY" -> "INTF-IF_WEB_HTTP_REQUEST";
+  "CLAS-CL_HTTP_SERVICE_UTILITY" -> "INTF-IF_WEB_HTTP_RESPONSE";
+  "INTF-IF_WEB_HTTP_RESPONSE" -> "INTF-IF_WEB_HTTP_REQUEST";
+  "INTF-IF_WEB_HTTP_REQUEST" -> "DTEL-INT4";
+  "DTEL-INT4" -> "DOMA-INT4";
+}

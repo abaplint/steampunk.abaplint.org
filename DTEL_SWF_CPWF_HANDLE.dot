@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SWF_CPWF_HANDLE" [shape=box,color=green];
+  "DOMA-SYSUUID_C32" [shape=box,color=yellow,URL="./DOMA_SYSUUID_C32.html"];
+  "DTEL-SWF_CPWF_HANDLE" -> "DOMA-SYSUUID_C32";
+}

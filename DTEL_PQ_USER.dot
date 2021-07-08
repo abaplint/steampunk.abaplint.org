@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PQ_USER" [shape=box,color=yellow];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "DTEL-PQ_USER" -> "DOMA-XUBNAME";
+}

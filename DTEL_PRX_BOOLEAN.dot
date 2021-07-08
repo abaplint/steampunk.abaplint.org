@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PRX_BOOLEAN" [shape=box,color=yellow];
+  "DOMA-PRX_BOOLEAN" [shape=box,color=yellow,URL="./DOMA_PRX_BOOLEAN.html"];
+  "DTEL-PRX_BOOLEAN" -> "DOMA-PRX_BOOLEAN";
+}

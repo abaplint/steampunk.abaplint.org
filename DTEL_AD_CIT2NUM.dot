@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AD_CIT2NUM" [shape=box,color=yellow];
+  "DOMA-CITY_CODE" [shape=box,color=yellow,URL="./DOMA_CITY_CODE.html"];
+  "DTEL-AD_CIT2NUM" -> "DOMA-CITY_CODE";
+}

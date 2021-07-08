@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/UI2/TILE_DISPLAY_FORMAT" [shape=box,color=yellow];
+  "DOMA-/UI2/TILE_DISPLAY_FORMAT" [shape=box,color=yellow,URL="./DOMA_%23UI2%23TILE_DISPLAY_FORMAT.html"];
+  "DTEL-/UI2/TILE_DISPLAY_FORMAT" -> "DOMA-/UI2/TILE_DISPLAY_FORMAT";
+}

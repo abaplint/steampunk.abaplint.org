@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-BAPIALD" [shape=box,color=green];
+  "DTEL-BALPVAL" [shape=box,color=yellow,URL="./DTEL_BALPVAL.html"];
+  "DOMA-TEXT75" [shape=box,color=yellow,URL="./DOMA_TEXT75.html"];
+  "DTEL-BALPAR" [shape=box,color=yellow,URL="./DTEL_BALPAR.html"];
+  "DOMA-CHAR10" [shape=box,color=yellow,URL="./DOMA_CHAR10.html"];
+  "DTEL-BALPNR" [shape=box,color=yellow,URL="./DTEL_BALPNR.html"];
+  "DOMA-NUM6" [shape=box,color=yellow,URL="./DOMA_NUM6.html"];
+  "TABL-BAPIALD" -> "DTEL-BALPNR";
+  "TABL-BAPIALD" -> "DTEL-BALPAR";
+  "TABL-BAPIALD" -> "DTEL-BALPVAL";
+  "DTEL-BALPVAL" -> "DOMA-TEXT75";
+  "DTEL-BALPAR" -> "DOMA-CHAR10";
+  "DTEL-BALPNR" -> "DOMA-NUM6";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-WERKS_D" [shape=box,color=green];
+  "DOMA-WERKS" [shape=box,color=yellow,URL="./DOMA_WERKS.html"];
+  "DTEL-WERKS_D" -> "DOMA-WERKS";
+}

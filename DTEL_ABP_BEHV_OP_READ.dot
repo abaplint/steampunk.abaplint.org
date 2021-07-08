@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ABP_BEHV_OP_READ" [shape=box,color=green];
+  "DOMA-ABP_BEHV_OP_READ" [shape=box,color=yellow,URL="./DOMA_ABP_BEHV_OP_READ.html"];
+  "DTEL-ABP_BEHV_OP_READ" -> "DOMA-ABP_BEHV_OP_READ";
+}

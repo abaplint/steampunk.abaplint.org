@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-FDT_MSG_SEVERITY" [shape=box,color=yellow];
+  "DOMA-FDT_MSG_SEVERITY" [shape=box,color=yellow,URL="./DOMA_FDT_MSG_SEVERITY.html"];
+  "DTEL-FDT_MSG_SEVERITY" -> "DOMA-FDT_MSG_SEVERITY";
+}

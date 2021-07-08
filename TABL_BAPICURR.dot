@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-BAPICURR" [shape=box,color=green];
+  "DTEL-BAPICURR_D" [shape=box,color=green,URL="./DTEL_BAPICURR_D.html"];
+  "DOMA-BAPICURR" [shape=box,color=yellow,URL="./DOMA_BAPICURR.html"];
+  "TABL-BAPICURR" -> "DTEL-BAPICURR_D";
+  "DTEL-BAPICURR_D" -> "DOMA-BAPICURR";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-AS4TIME" [shape=box,color=yellow];
+  "DOMA-AS4TIME" [shape=box,color=yellow,URL="./DOMA_AS4TIME.html"];
+  "DTEL-AS4TIME" -> "DOMA-AS4TIME";
+}

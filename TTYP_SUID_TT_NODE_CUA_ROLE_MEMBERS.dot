@@ -1,0 +1,13 @@
+digraph G {
+  "TTYP-SUID_TT_NODE_CUA_ROLE_MEMBERS" [shape=box,color=yellow];
+  "TABL-SUID_ST_NODE_CUA_ROLE_MEMBER" [shape=box,color=yellow,URL="./TABL_SUID_ST_NODE_CUA_ROLE_MEMBER.html"];
+  "DTEL-F_AGR_NAME" [shape=box,color=yellow,URL="./DTEL_F_AGR_NAME.html"];
+  "DOMA-F_AGR_NAME" [shape=box,color=yellow,URL="./DOMA_F_AGR_NAME.html"];
+  "DTEL-RFCRCVSYS" [shape=box,color=yellow,URL="./DTEL_RFCRCVSYS.html"];
+  "DOMA-LOGSYS" [shape=box,color=yellow,URL="./DOMA_LOGSYS.html"];
+  "TTYP-SUID_TT_NODE_CUA_ROLE_MEMBERS" -> "TABL-SUID_ST_NODE_CUA_ROLE_MEMBER";
+  "TABL-SUID_ST_NODE_CUA_ROLE_MEMBER" -> "DTEL-RFCRCVSYS";
+  "TABL-SUID_ST_NODE_CUA_ROLE_MEMBER" -> "DTEL-F_AGR_NAME";
+  "DTEL-F_AGR_NAME" -> "DOMA-F_AGR_NAME";
+  "DTEL-RFCRCVSYS" -> "DOMA-LOGSYS";
+}

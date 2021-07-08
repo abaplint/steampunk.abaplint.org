@@ -1,0 +1,19 @@
+digraph G {
+  "TTYP-SUID_TT_NODE_GROUPS" [shape=box,color=yellow];
+  "TABL-SUID_ST_NODE_GROUP" [shape=box,color=yellow,URL="./TABL_SUID_ST_NODE_GROUP.html"];
+  "DTEL-SUID_NODE_KEY_HANDLE" [shape=box,color=yellow,URL="./DTEL_SUID_NODE_KEY_HANDLE.html"];
+  "DTEL-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DTEL_SUID_CHANGE_MODE.html"];
+  "DOMA-SUID_CHANGE_MODE" [shape=box,color=yellow,URL="./DOMA_SUID_CHANGE_MODE.html"];
+  "DTEL-SUID_GROUP_TEXT" [shape=box,color=yellow,URL="./DTEL_SUID_GROUP_TEXT.html"];
+  "DOMA-XUTEXT" [shape=box,color=yellow,URL="./DOMA_XUTEXT.html"];
+  "DTEL-XUCLASS" [shape=box,color=yellow,URL="./DTEL_XUCLASS.html"];
+  "DOMA-XUCLASS" [shape=box,color=yellow,URL="./DOMA_XUCLASS.html"];
+  "TTYP-SUID_TT_NODE_GROUPS" -> "TABL-SUID_ST_NODE_GROUP";
+  "TABL-SUID_ST_NODE_GROUP" -> "DTEL-XUCLASS";
+  "TABL-SUID_ST_NODE_GROUP" -> "DTEL-SUID_GROUP_TEXT";
+  "TABL-SUID_ST_NODE_GROUP" -> "DTEL-SUID_CHANGE_MODE";
+  "TABL-SUID_ST_NODE_GROUP" -> "DTEL-SUID_NODE_KEY_HANDLE";
+  "DTEL-SUID_CHANGE_MODE" -> "DOMA-SUID_CHANGE_MODE";
+  "DTEL-SUID_GROUP_TEXT" -> "DOMA-XUTEXT";
+  "DTEL-XUCLASS" -> "DOMA-XUCLASS";
+}

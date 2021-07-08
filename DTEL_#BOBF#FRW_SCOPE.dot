@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/BOBF/FRW_SCOPE" [shape=box,color=yellow];
+  "DOMA-/BOBF/FRW_SCOPE" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23FRW_SCOPE.html"];
+  "DTEL-/BOBF/FRW_SCOPE" -> "DOMA-/BOBF/FRW_SCOPE";
+}

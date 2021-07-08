@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_IAM_BU_CATALOG_APP_CHANGEG" [shape=box,color=yellow];
+  "DOMA-APS_IAM_BU_CATALOG_CHANGE" [shape=box,color=yellow,URL="./DOMA_APS_IAM_BU_CATALOG_CHANGE.html"];
+  "DTEL-APS_IAM_BU_CATALOG_APP_CHANGEG" -> "DOMA-APS_IAM_BU_CATALOG_CHANGE";
+}

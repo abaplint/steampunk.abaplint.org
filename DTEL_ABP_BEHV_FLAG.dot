@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ABP_BEHV_FLAG" [shape=box,color=green];
+  "DOMA-ABP_BEHV_FLAG" [shape=box,color=yellow,URL="./DOMA_ABP_BEHV_FLAG.html"];
+  "DTEL-ABP_BEHV_FLAG" -> "DOMA-ABP_BEHV_FLAG";
+}

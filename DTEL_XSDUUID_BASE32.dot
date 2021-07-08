@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XSDUUID_BASE32" [shape=box,color=green];
+  "DOMA-XSDUUID_BASE32" [shape=box,color=green,URL="./DOMA_XSDUUID_BASE32.html"];
+  "DTEL-XSDUUID_BASE32" -> "DOMA-XSDUUID_BASE32";
+}

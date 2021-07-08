@@ -1,0 +1,27 @@
+digraph G {
+  "TABL-BAPIEXT" [shape=box,color=green];
+  "DTEL-DDLENG" [shape=box,color=yellow,URL="./DTEL_DDLENG.html"];
+  "DOMA-DDLENG" [shape=box,color=yellow,URL="./DOMA_DDLENG.html"];
+  "DTEL-DATATYPE_D" [shape=box,color=yellow,URL="./DTEL_DATATYPE_D.html"];
+  "DOMA-DATATYPE" [shape=box,color=yellow,URL="./DOMA_DATATYPE.html"];
+  "DTEL-CHAR255" [shape=box,color=yellow,URL="./DTEL_CHAR255.html"];
+  "DOMA-CHAR255" [shape=box,color=yellow,URL="./DOMA_CHAR255.html"];
+  "DTEL-NAME_FELD" [shape=box,color=yellow,URL="./DTEL_NAME_FELD.html"];
+  "DOMA-FDNAME" [shape=box,color=yellow,URL="./DOMA_FDNAME.html"];
+  "DTEL-BAPI_LINE" [shape=box,color=green,URL="./DTEL_BAPI_LINE.html"];
+  "DOMA-INT4" [shape=box,color=yellow,URL="./DOMA_INT4.html"];
+  "DTEL-SWC_ELEM" [shape=box,color=yellow,URL="./DTEL_SWC_ELEM.html"];
+  "DOMA-SWC_ELEM" [shape=box,color=yellow,URL="./DOMA_SWC_ELEM.html"];
+  "TABL-BAPIEXT" -> "DTEL-SWC_ELEM";
+  "TABL-BAPIEXT" -> "DTEL-BAPI_LINE";
+  "TABL-BAPIEXT" -> "DTEL-NAME_FELD";
+  "TABL-BAPIEXT" -> "DTEL-CHAR255";
+  "TABL-BAPIEXT" -> "DTEL-DATATYPE_D";
+  "TABL-BAPIEXT" -> "DTEL-DDLENG";
+  "DTEL-DDLENG" -> "DOMA-DDLENG";
+  "DTEL-DATATYPE_D" -> "DOMA-DATATYPE";
+  "DTEL-CHAR255" -> "DOMA-CHAR255";
+  "DTEL-NAME_FELD" -> "DOMA-FDNAME";
+  "DTEL-BAPI_LINE" -> "DOMA-INT4";
+  "DTEL-SWC_ELEM" -> "DOMA-SWC_ELEM";
+}

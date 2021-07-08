@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-/BOBF/CONF_CHANGE_MODE" [shape=box,color=yellow];
+  "DOMA-/BOBF/CONF_CHANGE_MODE" [shape=box,color=yellow,URL="./DOMA_%23BOBF%23CONF_CHANGE_MODE.html"];
+  "DTEL-/BOBF/CONF_CHANGE_MODE" -> "DOMA-/BOBF/CONF_CHANGE_MODE";
+}

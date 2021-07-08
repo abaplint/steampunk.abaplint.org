@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-XSDDATE_ISO" [shape=box,color=green];
+  "DOMA-XSDDATE_ISO" [shape=box,color=green,URL="./DOMA_XSDDATE_ISO.html"];
+  "DTEL-XSDDATE_ISO" -> "DOMA-XSDDATE_ISO";
+}

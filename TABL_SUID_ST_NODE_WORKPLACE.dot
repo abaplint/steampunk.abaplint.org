@@ -1,0 +1,30 @@
+digraph G {
+  "TABL-SUID_ST_NODE_WORKPLACE" [shape=box,color=yellow];
+  "DTEL-AD_COMM" [shape=box,color=yellow,URL="./DTEL_AD_COMM.html"];
+  "DOMA-AD_COMM" [shape=box,color=yellow,URL="./DOMA_AD_COMM.html"];
+  "DTEL-AD_IH_MAIL" [shape=box,color=yellow,URL="./DTEL_AD_IH_MAIL.html"];
+  "DOMA-TEXT10" [shape=box,color=yellow,URL="./DOMA_TEXT10.html"];
+  "DTEL-AD_ID_CODE" [shape=box,color=yellow,URL="./DTEL_AD_ID_CODE.html"];
+  "DTEL-AD_ROOMNUM" [shape=box,color=yellow,URL="./DTEL_AD_ROOMNUM.html"];
+  "DTEL-AD_FLOOR" [shape=box,color=yellow,URL="./DTEL_AD_FLOOR.html"];
+  "DTEL-AD_BLDNG_P" [shape=box,color=yellow,URL="./DTEL_AD_BLDNG_P.html"];
+  "DTEL-AD_FNCTN" [shape=box,color=yellow,URL="./DTEL_AD_FNCTN.html"];
+  "DOMA-TEXT40" [shape=box,color=green,URL="./DOMA_TEXT40.html"];
+  "DTEL-AD_DPRTMNT" [shape=box,color=yellow,URL="./DTEL_AD_DPRTMNT.html"];
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_DPRTMNT";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_FNCTN";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_BLDNG_P";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_FLOOR";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_ROOMNUM";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_ID_CODE";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_IH_MAIL";
+  "TABL-SUID_ST_NODE_WORKPLACE" -> "DTEL-AD_COMM";
+  "DTEL-AD_COMM" -> "DOMA-AD_COMM";
+  "DTEL-AD_IH_MAIL" -> "DOMA-TEXT10";
+  "DTEL-AD_ID_CODE" -> "DOMA-TEXT10";
+  "DTEL-AD_ROOMNUM" -> "DOMA-TEXT10";
+  "DTEL-AD_FLOOR" -> "DOMA-TEXT10";
+  "DTEL-AD_BLDNG_P" -> "DOMA-TEXT10";
+  "DTEL-AD_FNCTN" -> "DOMA-TEXT40";
+  "DTEL-AD_DPRTMNT" -> "DOMA-TEXT40";
+}

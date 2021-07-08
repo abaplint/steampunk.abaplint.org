@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_WS_TRANSPORT_BINDING" [shape=box,color=green];
+}

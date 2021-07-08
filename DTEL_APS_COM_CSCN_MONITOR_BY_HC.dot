@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_CSCN_MONITOR_BY_HC" [shape=box,color=yellow];
+  "DOMA-XFELD" [shape=box,color=yellow,URL="./DOMA_XFELD.html"];
+  "DTEL-APS_COM_CSCN_MONITOR_BY_HC" -> "DOMA-XFELD";
+}

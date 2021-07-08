@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-APS_COM_W_CSCNT" [shape=box,color=yellow];
+  "DTEL-APS_COM_CSCN_DESCRIPTION" [shape=box,color=yellow,URL="./DTEL_APS_COM_CSCN_DESCRIPTION.html"];
+  "DOMA-APS_COM_CSCN_DESCRIPTION" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_DESCRIPTION.html"];
+  "DTEL-APS_COM_CSCN_ID" [shape=box,color=yellow,URL="./DTEL_APS_COM_CSCN_ID.html"];
+  "DOMA-APS_COM_CSCN_ID" [shape=box,color=yellow,URL="./DOMA_APS_COM_CSCN_ID.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-APS_COM_W_CSCNT" -> "DTEL-LANGU";
+  "TABL-APS_COM_W_CSCNT" -> "DTEL-APS_COM_CSCN_ID";
+  "TABL-APS_COM_W_CSCNT" -> "DTEL-APS_COM_CSCN_DESCRIPTION";
+  "DTEL-APS_COM_CSCN_DESCRIPTION" -> "DOMA-APS_COM_CSCN_DESCRIPTION";
+  "DTEL-APS_COM_CSCN_ID" -> "DOMA-APS_COM_CSCN_ID";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+}

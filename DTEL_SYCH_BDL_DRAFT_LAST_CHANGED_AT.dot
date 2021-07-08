@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SYCH_BDL_DRAFT_LAST_CHANGED_AT" [shape=box,color=yellow];
+  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
+  "DTEL-SYCH_BDL_DRAFT_LAST_CHANGED_AT" -> "DOMA-TZNTSTMPL";
+}

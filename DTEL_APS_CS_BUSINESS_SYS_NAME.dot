@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_CS_BUSINESS_SYS_NAME" [shape=box,color=yellow];
+  "DOMA-SLD_BSKEY" [shape=box,color=yellow,URL="./DOMA_SLD_BSKEY.html"];
+  "DTEL-APS_CS_BUSINESS_SYS_NAME" -> "DOMA-SLD_BSKEY";
+}

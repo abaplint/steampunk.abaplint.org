@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SEOCLSNAME" [shape=box,color=yellow];
+  "DOMA-SEOCLSNAME" [shape=box,color=yellow,URL="./DOMA_SEOCLSNAME.html"];
+  "DTEL-SEOCLSNAME" -> "DOMA-SEOCLSNAME";
+}

@@ -1,0 +1,7 @@
+digraph G {
+  "TABL-SUID_ST_NODE_ROLE_MEMBER" [shape=box,color=yellow];
+  "DTEL-AGR_NAME" [shape=box,color=yellow,URL="./DTEL_AGR_NAME.html"];
+  "DOMA-AGR_NAME" [shape=box,color=yellow,URL="./DOMA_AGR_NAME.html"];
+  "TABL-SUID_ST_NODE_ROLE_MEMBER" -> "DTEL-AGR_NAME";
+  "DTEL-AGR_NAME" -> "DOMA-AGR_NAME";
+}

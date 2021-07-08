@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-CTS_BOOLEAN" [shape=box,color=yellow];
+  "DOMA-CTS_BOOLEAN" [shape=box,color=yellow,URL="./DOMA_CTS_BOOLEAN.html"];
+  "DTEL-CTS_BOOLEAN" -> "DOMA-CTS_BOOLEAN";
+}

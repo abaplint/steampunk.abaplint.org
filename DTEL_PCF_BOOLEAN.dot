@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PCF_BOOLEAN" [shape=box,color=green];
+  "DOMA-PCF_BOOLEAN" [shape=box,color=yellow,URL="./DOMA_PCF_BOOLEAN.html"];
+  "DTEL-PCF_BOOLEAN" -> "DOMA-PCF_BOOLEAN";
+}

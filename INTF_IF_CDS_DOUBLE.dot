@@ -1,0 +1,7 @@
+digraph G {
+  "INTF-IF_CDS_DOUBLE" [shape=box,color=yellow];
+  "DTEL-TABTYPE" [shape=box,color=yellow,URL="./DTEL_TABTYPE.html"];
+  "DOMA-TABTYPE" [shape=box,color=yellow,URL="./DOMA_TABTYPE.html"];
+  "INTF-IF_CDS_DOUBLE" -> "DTEL-TABTYPE";
+  "DTEL-TABTYPE" -> "DOMA-TABTYPE";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-VIEWNAME" [shape=box,color=yellow];
+  "DOMA-VIEWNAME" [shape=box,color=yellow,URL="./DOMA_VIEWNAME.html"];
+  "DTEL-VIEWNAME" -> "DOMA-VIEWNAME";
+}

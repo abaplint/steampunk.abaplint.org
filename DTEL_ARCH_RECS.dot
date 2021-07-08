@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ARCH_RECS" [shape=box,color=yellow];
+  "DOMA-U_INT_4" [shape=box,color=yellow,URL="./DOMA_U_INT_4.html"];
+  "DTEL-ARCH_RECS" -> "DOMA-U_INT_4";
+}

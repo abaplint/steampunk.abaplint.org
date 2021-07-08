@@ -1,0 +1,11 @@
+digraph G {
+  "TABL-BAL_S_DTTM" [shape=box,color=yellow];
+  "DTEL-ALTIME" [shape=box,color=yellow,URL="./DTEL_ALTIME.html"];
+  "DOMA-TIME" [shape=box,color=yellow,URL="./DOMA_TIME.html"];
+  "DTEL-ALDATE" [shape=box,color=yellow,URL="./DTEL_ALDATE.html"];
+  "DOMA-DATUM" [shape=box,color=yellow,URL="./DOMA_DATUM.html"];
+  "TABL-BAL_S_DTTM" -> "DTEL-ALDATE";
+  "TABL-BAL_S_DTTM" -> "DTEL-ALTIME";
+  "DTEL-ALTIME" -> "DOMA-TIME";
+  "DTEL-ALDATE" -> "DOMA-DATUM";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RALDB_INCL" [shape=box,color=yellow];
+  "DOMA-RALDB_BUTT" [shape=box,color=yellow,URL="./DOMA_RALDB_BUTT.html"];
+  "DTEL-RALDB_INCL" -> "DOMA-RALDB_BUTT";
+}

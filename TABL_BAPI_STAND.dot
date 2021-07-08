@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-BAPI_STAND" [shape=box,color=green];
+  "DTEL-BAPI_LINESIZE" [shape=box,color=green,URL="./DTEL_BAPI_LINESIZE.html"];
+  "DOMA-NUMC3" [shape=box,color=yellow,URL="./DOMA_NUMC3.html"];
+  "DTEL-LAISO" [shape=box,color=yellow,URL="./DTEL_LAISO.html"];
+  "DOMA-LAISO" [shape=box,color=yellow,URL="./DOMA_LAISO.html"];
+  "DTEL-BAPI_NCOMT" [shape=box,color=green,URL="./DTEL_BAPI_NCOMT.html"];
+  "DOMA-X" [shape=box,color=yellow,URL="./DOMA_X.html"];
+  "TABL-BAPI_STAND" -> "DTEL-BAPI_NCOMT";
+  "TABL-BAPI_STAND" -> "DTEL-LAISO";
+  "TABL-BAPI_STAND" -> "DTEL-BAPI_LINESIZE";
+  "DTEL-BAPI_LINESIZE" -> "DOMA-NUMC3";
+  "DTEL-LAISO" -> "DOMA-LAISO";
+  "DTEL-BAPI_NCOMT" -> "DOMA-X";
+}

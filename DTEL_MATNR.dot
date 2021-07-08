@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-MATNR" [shape=box,color=green];
+  "DOMA-MATNR" [shape=box,color=yellow,URL="./DOMA_MATNR.html"];
+  "DTEL-MATNR" -> "DOMA-MATNR";
+}

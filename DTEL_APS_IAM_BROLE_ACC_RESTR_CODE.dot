@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_IAM_BROLE_ACC_RESTR_CODE" [shape=box,color=yellow];
+  "DOMA-APS_IAM_BROLE_ACC_RESTR_CODE" [shape=box,color=yellow,URL="./DOMA_APS_IAM_BROLE_ACC_RESTR_CODE.html"];
+  "DTEL-APS_IAM_BROLE_ACC_RESTR_CODE" -> "DOMA-APS_IAM_BROLE_ACC_RESTR_CODE";
+}

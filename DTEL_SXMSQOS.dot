@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SXMSQOS" [shape=box,color=yellow];
+  "DOMA-SXMSQOS" [shape=box,color=yellow,URL="./DOMA_SXMSQOS.html"];
+  "DTEL-SXMSQOS" -> "DOMA-SXMSQOS";
+}

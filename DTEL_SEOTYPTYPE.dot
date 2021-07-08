@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SEOTYPTYPE" [shape=box,color=yellow];
+  "DOMA-SEOTYPTYPE" [shape=box,color=yellow,URL="./DOMA_SEOTYPTYPE.html"];
+  "DTEL-SEOTYPTYPE" -> "DOMA-SEOTYPTYPE";
+}

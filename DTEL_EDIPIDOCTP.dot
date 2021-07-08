@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-EDIPIDOCTP" [shape=box,color=yellow];
+  "DOMA-EDI_IDOCTP" [shape=box,color=yellow,URL="./DOMA_EDI_IDOCTP.html"];
+  "DTEL-EDIPIDOCTP" -> "DOMA-EDI_IDOCTP";
+}

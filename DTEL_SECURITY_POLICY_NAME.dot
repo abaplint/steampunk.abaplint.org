@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SECURITY_POLICY_NAME" [shape=box,color=yellow];
+  "DOMA-SECURITY_POLICY_NAME" [shape=box,color=yellow,URL="./DOMA_SECURITY_POLICY_NAME.html"];
+  "DTEL-SECURITY_POLICY_NAME" -> "DOMA-SECURITY_POLICY_NAME";
+}

@@ -1,0 +1,17 @@
+digraph G {
+  "TTYP-SUID_TT_NODE_SNC_EQUI_NAMES" [shape=box,color=yellow];
+  "TABL-SUID_ST_NODE_SNC_EQUI_NAME" [shape=box,color=yellow,URL="./TABL_SUID_ST_NODE_SNC_EQUI_NAME.html"];
+  "DTEL-SNC_PNAME" [shape=box,color=yellow,URL="./DTEL_SNC_PNAME.html"];
+  "DOMA-SNC_PNAME" [shape=box,color=yellow,URL="./DOMA_SNC_PNAME.html"];
+  "DTEL-XUBNAME" [shape=box,color=yellow,URL="./DTEL_XUBNAME.html"];
+  "DOMA-XUBNAME" [shape=box,color=yellow,URL="./DOMA_XUBNAME.html"];
+  "DTEL-MANDT" [shape=box,color=green,URL="./DTEL_MANDT.html"];
+  "DOMA-MANDT" [shape=box,color=yellow,URL="./DOMA_MANDT.html"];
+  "TTYP-SUID_TT_NODE_SNC_EQUI_NAMES" -> "TABL-SUID_ST_NODE_SNC_EQUI_NAME";
+  "TABL-SUID_ST_NODE_SNC_EQUI_NAME" -> "DTEL-MANDT";
+  "TABL-SUID_ST_NODE_SNC_EQUI_NAME" -> "DTEL-XUBNAME";
+  "TABL-SUID_ST_NODE_SNC_EQUI_NAME" -> "DTEL-SNC_PNAME";
+  "DTEL-SNC_PNAME" -> "DOMA-SNC_PNAME";
+  "DTEL-XUBNAME" -> "DOMA-XUBNAME";
+  "DTEL-MANDT" -> "DOMA-MANDT";
+}

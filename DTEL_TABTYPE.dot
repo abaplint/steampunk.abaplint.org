@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TABTYPE" [shape=box,color=yellow];
+  "DOMA-TABTYPE" [shape=box,color=yellow,URL="./DOMA_TABTYPE.html"];
+  "DTEL-TABTYPE" -> "DOMA-TABTYPE";
+}

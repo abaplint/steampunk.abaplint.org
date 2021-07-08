@@ -1,0 +1,11 @@
+digraph G {
+  "INTF-IF_BALI_OBJECT_HANDLER" [shape=box,color=green];
+  "DTEL-TRKORR" [shape=box,color=yellow,URL="./DTEL_TRKORR.html"];
+  "DOMA-TRKORR" [shape=box,color=yellow,URL="./DOMA_TRKORR.html"];
+  "DTEL-DEVCLASS" [shape=box,color=yellow,URL="./DTEL_DEVCLASS.html"];
+  "DOMA-DEVCLASS" [shape=box,color=yellow,URL="./DOMA_DEVCLASS.html"];
+  "INTF-IF_BALI_OBJECT_HANDLER" -> "DTEL-DEVCLASS";
+  "INTF-IF_BALI_OBJECT_HANDLER" -> "DTEL-TRKORR";
+  "DTEL-TRKORR" -> "DOMA-TRKORR";
+  "DTEL-DEVCLASS" -> "DOMA-DEVCLASS";
+}

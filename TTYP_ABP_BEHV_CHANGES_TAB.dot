@@ -1,0 +1,13 @@
+digraph G {
+  "TTYP-ABP_BEHV_CHANGES_TAB" [shape=box,color=green];
+  "TABL-ABP_BEHV_CHANGES" [shape=box,color=green,URL="./TABL_ABP_BEHV_CHANGES.html"];
+  "DTEL-ABP_ENTITY_NAME" [shape=box,color=green,URL="./DTEL_ABP_ENTITY_NAME.html"];
+  "DOMA-ABP_ENTITY_NAME" [shape=box,color=yellow,URL="./DOMA_ABP_ENTITY_NAME.html"];
+  "DTEL-ABP_BEHV_OP_MODIFY" [shape=box,color=green,URL="./DTEL_ABP_BEHV_OP_MODIFY.html"];
+  "DOMA-ABP_BEHV_OP_MODIFY" [shape=box,color=yellow,URL="./DOMA_ABP_BEHV_OP_MODIFY.html"];
+  "TTYP-ABP_BEHV_CHANGES_TAB" -> "TABL-ABP_BEHV_CHANGES";
+  "TABL-ABP_BEHV_CHANGES" -> "DTEL-ABP_BEHV_OP_MODIFY";
+  "TABL-ABP_BEHV_CHANGES" -> "DTEL-ABP_ENTITY_NAME";
+  "DTEL-ABP_ENTITY_NAME" -> "DOMA-ABP_ENTITY_NAME";
+  "DTEL-ABP_BEHV_OP_MODIFY" -> "DOMA-ABP_BEHV_OP_MODIFY";
+}

@@ -1,0 +1,27 @@
+digraph G {
+  "TABL-BAPIMONIT" [shape=box,color=green];
+  "DTEL-FUNCREL" [shape=box,color=yellow,URL="./DTEL_FUNCREL.html"];
+  "DOMA-FUNCREL" [shape=box,color=yellow,URL="./DOMA_FUNCREL.html"];
+  "DTEL-UFPS_POSID" [shape=box,color=yellow,URL="./DTEL_UFPS_POSID.html"];
+  "DOMA-UFPS_POSID" [shape=box,color=yellow,URL="./DOMA_UFPS_POSID.html"];
+  "DTEL-SYSYSID" [shape=box,color=yellow,URL="./DTEL_SYSYSID.html"];
+  "DOMA-SYCHAR08" [shape=box,color=yellow,URL="./DOMA_SYCHAR08.html"];
+  "DTEL-SWO_CREARE" [shape=box,color=yellow,URL="./DTEL_SWO_CREARE.html"];
+  "DOMA-CHAR4" [shape=box,color=yellow,URL="./DOMA_CHAR4.html"];
+  "DTEL-OPTSEL" [shape=box,color=yellow,URL="./DTEL_OPTSEL.html"];
+  "DOMA-SWC_BOOL" [shape=box,color=yellow,URL="./DOMA_SWC_BOOL.html"];
+  "DTEL-SWO_OBJTYP" [shape=box,color=yellow,URL="./DTEL_SWO_OBJTYP.html"];
+  "DOMA-OJ_NAME" [shape=box,color=yellow,URL="./DOMA_OJ_NAME.html"];
+  "TABL-BAPIMONIT" -> "DTEL-SWO_OBJTYP";
+  "TABL-BAPIMONIT" -> "DTEL-OPTSEL";
+  "TABL-BAPIMONIT" -> "DTEL-SWO_CREARE";
+  "TABL-BAPIMONIT" -> "DTEL-SYSYSID";
+  "TABL-BAPIMONIT" -> "DTEL-UFPS_POSID";
+  "TABL-BAPIMONIT" -> "DTEL-FUNCREL";
+  "DTEL-FUNCREL" -> "DOMA-FUNCREL";
+  "DTEL-UFPS_POSID" -> "DOMA-UFPS_POSID";
+  "DTEL-SYSYSID" -> "DOMA-SYCHAR08";
+  "DTEL-SWO_CREARE" -> "DOMA-CHAR4";
+  "DTEL-OPTSEL" -> "DOMA-SWC_BOOL";
+  "DTEL-SWO_OBJTYP" -> "DOMA-OJ_NAME";
+}

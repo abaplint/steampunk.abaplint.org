@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SADT_OBJ_VERSION" [shape=box,color=yellow];
+  "DOMA-SADT_OBJ_VERSION" [shape=box,color=yellow,URL="./DOMA_SADT_OBJ_VERSION.html"];
+  "DTEL-SADT_OBJ_VERSION" -> "DOMA-SADT_OBJ_VERSION";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-APS_COM_OBS_URL_PATH" [shape=box,color=yellow];
+  "DOMA-APS_COM_OBS_URL_PATH" [shape=box,color=yellow,URL="./DOMA_APS_COM_OBS_URL_PATH.html"];
+  "DTEL-APS_COM_OBS_URL_PATH" -> "DOMA-APS_COM_OBS_URL_PATH";
+}

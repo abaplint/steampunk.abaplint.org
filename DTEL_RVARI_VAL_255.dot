@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-RVARI_VAL_255" [shape=box,color=yellow];
+  "DOMA-RSDSSELOPT_255" [shape=box,color=yellow,URL="./DOMA_RSDSSELOPT_255.html"];
+  "DTEL-RVARI_VAL_255" -> "DOMA-RSDSSELOPT_255";
+}

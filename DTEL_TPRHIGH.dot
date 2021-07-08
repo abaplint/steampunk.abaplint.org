@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TPRHIGH" [shape=box,color=yellow];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "DTEL-TPRHIGH" -> "DOMA-XUVALUE";
+}

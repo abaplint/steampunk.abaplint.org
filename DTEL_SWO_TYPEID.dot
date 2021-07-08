@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SWO_TYPEID" [shape=box,color=yellow];
+  "DOMA-SWO_TYPEID" [shape=box,color=yellow,URL="./DOMA_SWO_TYPEID.html"];
+  "DTEL-SWO_TYPEID" -> "DOMA-SWO_TYPEID";
+}

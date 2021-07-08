@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-BAL_S_LOGN" [shape=box,color=yellow];
+  "DTEL-BALOGNR" [shape=box,color=green,URL="./DTEL_BALOGNR.html"];
+  "DOMA-BALOGNR" [shape=box,color=yellow,URL="./DOMA_BALOGNR.html"];
+  "DTEL-TVARV_OPTI" [shape=box,color=yellow,URL="./DTEL_TVARV_OPTI.html"];
+  "DOMA-SYCHAR02" [shape=box,color=yellow,URL="./DOMA_SYCHAR02.html"];
+  "DTEL-TVARV_SIGN" [shape=box,color=yellow,URL="./DTEL_TVARV_SIGN.html"];
+  "DOMA-SYCHAR01" [shape=box,color=yellow,URL="./DOMA_SYCHAR01.html"];
+  "TABL-BAL_S_LOGN" -> "DTEL-TVARV_SIGN";
+  "TABL-BAL_S_LOGN" -> "DTEL-TVARV_OPTI";
+  "TABL-BAL_S_LOGN" -> "DTEL-BALOGNR";
+  "DTEL-BALOGNR" -> "DOMA-BALOGNR";
+  "DTEL-TVARV_OPTI" -> "DOMA-SYCHAR02";
+  "DTEL-TVARV_SIGN" -> "DOMA-SYCHAR01";
+}

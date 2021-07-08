@@ -1,0 +1,15 @@
+digraph G {
+  "TABL-AUTHFIELD_VALS" [shape=box,color=green];
+  "TTYP-AUTHVALINTERVAL_TAB" [shape=box,color=green,URL="./TTYP_AUTHVALINTERVAL_TAB.html"];
+  "TABL-AUTHVALINTERVAL" [shape=box,color=green,URL="./TABL_AUTHVALINTERVAL.html"];
+  "DTEL-XUVAL" [shape=box,color=yellow,URL="./DTEL_XUVAL.html"];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "DTEL-XUFIELD" [shape=box,color=yellow,URL="./DTEL_XUFIELD.html"];
+  "DOMA-XUFIELD" [shape=box,color=yellow,URL="./DOMA_XUFIELD.html"];
+  "TABL-AUTHFIELD_VALS" -> "DTEL-XUFIELD";
+  "TABL-AUTHFIELD_VALS" -> "TTYP-AUTHVALINTERVAL_TAB";
+  "TTYP-AUTHVALINTERVAL_TAB" -> "TABL-AUTHVALINTERVAL";
+  "TABL-AUTHVALINTERVAL" -> "DTEL-XUVAL";
+  "DTEL-XUVAL" -> "DOMA-XUVALUE";
+  "DTEL-XUFIELD" -> "DOMA-XUFIELD";
+}

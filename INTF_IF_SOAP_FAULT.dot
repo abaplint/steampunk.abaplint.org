@@ -1,0 +1,15 @@
+digraph G {
+  "INTF-IF_SOAP_FAULT" [shape=box,color=yellow];
+  "INTF-IF_SXMLP_PART_ABSTRACT" [shape=box,color=yellow,URL="./INTF_IF_SXMLP_PART_ABSTRACT.html"];
+  "DTEL-LANGU" [shape=box,color=yellow,URL="./DTEL_LANGU.html"];
+  "DOMA-SPRAS" [shape=box,color=green,URL="./DOMA_SPRAS.html"];
+  "TABL-QNAME" [shape=box,color=green,URL="./TABL_QNAME.html"];
+  "DTEL-ANYURI" [shape=box,color=yellow,URL="./DTEL_ANYURI.html"];
+  "DOMA-ANYURI" [shape=box,color=yellow,URL="./DOMA_ANYURI.html"];
+  "INTF-IF_SOAP_FAULT" -> "DTEL-ANYURI";
+  "INTF-IF_SOAP_FAULT" -> "TABL-QNAME";
+  "INTF-IF_SOAP_FAULT" -> "DTEL-LANGU";
+  "INTF-IF_SOAP_FAULT" -> "INTF-IF_SXMLP_PART_ABSTRACT";
+  "DTEL-LANGU" -> "DOMA-SPRAS";
+  "DTEL-ANYURI" -> "DOMA-ANYURI";
+}

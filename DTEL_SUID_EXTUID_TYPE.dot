@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SUID_EXTUID_TYPE" [shape=box,color=yellow];
+  "DOMA-SUID_EXTUID_TYPE" [shape=box,color=yellow,URL="./DOMA_SUID_EXTUID_TYPE.html"];
+  "DTEL-SUID_EXTUID_TYPE" -> "DOMA-SUID_EXTUID_TYPE";
+}

@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-PRX_LOGICAL_PORT_NAME" [shape=box,color=green];
+  "DOMA-SRT_LP_CHAR60" [shape=box,color=yellow,URL="./DOMA_SRT_LP_CHAR60.html"];
+  "DTEL-PRX_LOGICAL_PORT_NAME" -> "DOMA-SRT_LP_CHAR60";
+}

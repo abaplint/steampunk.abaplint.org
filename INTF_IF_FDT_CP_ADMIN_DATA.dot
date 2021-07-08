@@ -1,0 +1,12 @@
+digraph G {
+  "INTF-IF_FDT_CP_ADMIN_DATA" [shape=box,color=green];
+  "INTF-IF_FDT_CP_EXTERNAL_TYPES" [shape=box,color=green,URL="./INTF_IF_FDT_CP_EXTERNAL_TYPES.html"];
+  "INTF-IF_FDT_CP_AST_NODE" [shape=box,color=green,URL="./INTF_IF_FDT_CP_AST_NODE.html"];
+  "DTEL-CHAR1" [shape=box,color=yellow,URL="./DTEL_CHAR1.html"];
+  "DOMA-CHAR1" [shape=box,color=green,URL="./DOMA_CHAR1.html"];
+  "INTF-IF_FDT_CP_ADMIN_DATA" -> "INTF-IF_FDT_CP_EXTERNAL_TYPES";
+  "INTF-IF_FDT_CP_EXTERNAL_TYPES" -> "DTEL-CHAR1";
+  "INTF-IF_FDT_CP_EXTERNAL_TYPES" -> "INTF-IF_FDT_CP_AST_NODE";
+  "INTF-IF_FDT_CP_AST_NODE" -> "INTF-IF_FDT_CP_EXTERNAL_TYPES";
+  "DTEL-CHAR1" -> "DOMA-CHAR1";
+}

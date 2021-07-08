@@ -1,0 +1,5 @@
+digraph G {
+  "TTYP-SXSLTEPARS" [shape=box,color=green];
+  "TABL-SXSLTEPAR" [shape=box,color=green,URL="./TABL_SXSLTEPAR.html"];
+  "TTYP-SXSLTEPARS" -> "TABL-SXSLTEPAR";
+}

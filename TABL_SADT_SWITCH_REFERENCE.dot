@@ -1,0 +1,9 @@
+digraph G {
+  "TABL-SADT_SWITCH_REFERENCE" [shape=box,color=yellow];
+  "DTEL-SFW_SWITCHPOS" [shape=box,color=yellow,URL="./DTEL_SFW_SWITCHPOS.html"];
+  "DOMA-SFW_SETTING" [shape=box,color=yellow,URL="./DOMA_SFW_SETTING.html"];
+  "TABL-SADT_OBJECT_REFERENCE" [shape=box,color=yellow,URL="./TABL_SADT_OBJECT_REFERENCE.html"];
+  "TABL-SADT_SWITCH_REFERENCE" -> "TABL-SADT_OBJECT_REFERENCE";
+  "TABL-SADT_SWITCH_REFERENCE" -> "DTEL-SFW_SWITCHPOS";
+  "DTEL-SFW_SWITCHPOS" -> "DOMA-SFW_SETTING";
+}

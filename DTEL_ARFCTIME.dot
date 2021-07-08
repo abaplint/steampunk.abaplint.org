@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-ARFCTIME" [shape=box,color=yellow];
+  "DOMA-ARFCTIME" [shape=box,color=yellow,URL="./DOMA_ARFCTIME.html"];
+  "DTEL-ARFCTIME" -> "DOMA-ARFCTIME";
+}

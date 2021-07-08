@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-TPRLOW" [shape=box,color=yellow];
+  "DOMA-XUVALUE" [shape=box,color=yellow,URL="./DOMA_XUVALUE.html"];
+  "DTEL-TPRLOW" -> "DOMA-XUVALUE";
+}

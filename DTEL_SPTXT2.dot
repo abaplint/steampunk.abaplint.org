@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SPTXT2" [shape=box,color=yellow];
+  "DOMA-SPTXT72" [shape=box,color=yellow,URL="./DOMA_SPTXT72.html"];
+  "DTEL-SPTXT2" -> "DOMA-SPTXT72";
+}

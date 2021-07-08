@@ -1,0 +1,3 @@
+digraph G {
+  "INTF-IF_WSPROTOCOL" [shape=box,color=green];
+}

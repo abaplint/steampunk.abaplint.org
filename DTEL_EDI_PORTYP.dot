@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-EDI_PORTYP" [shape=box,color=yellow];
+  "DOMA-EDI_PORTYP" [shape=box,color=yellow,URL="./DOMA_EDI_PORTYP.html"];
+  "DTEL-EDI_PORTYP" -> "DOMA-EDI_PORTYP";
+}

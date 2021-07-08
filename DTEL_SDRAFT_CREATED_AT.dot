@@ -1,0 +1,5 @@
+digraph G {
+  "DTEL-SDRAFT_CREATED_AT" [shape=box,color=yellow];
+  "DOMA-TZNTSTMPL" [shape=box,color=yellow,URL="./DOMA_TZNTSTMPL.html"];
+  "DTEL-SDRAFT_CREATED_AT" -> "DOMA-TZNTSTMPL";
+}
